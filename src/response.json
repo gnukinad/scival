@@ -1,0 +1,999 @@
+{
+  "link": {
+    "@ref": "self",
+    "@href": "https://api.elsevier.com/metrics/?apiKey=e53785aedfc1c54942ba237f8ec0f891&httpAccept=application%2Fjson&metrics=Collaboration%2CCitationCount%2CCitationsPerPublication%2CCollaborationImpact%2CCitedPublications%2CFieldWeightedCitationImpact%2CScholarlyOutput%2CPublicationsInTopJournalPercentiles%2COutputsInTopCitationPercentiles&institutions=508175%2C508076&yearRange=5yrs&includeSelfCitations=true&byYear=true&includedDocs=AllPublicationTypes&journalImpactType=CiteScore&showAsFieldWeighted=false&indexType=hIndex",
+    "@type": "text/xml; charset=utf-8"
+  },
+  "dataSource": {
+    "sourceName": "Scopus",
+    "lastUpdated": "2017-11-17"
+  },
+  "results": [
+    {
+      "links": [
+        {
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/metrics/CollaborationImpact/institution/508076?apiKey=e53785aedfc1c54942ba237f8ec0f891&httpAccept=application/json&institutions=508175,508076&yearRange=5yrs&includeSelfCitations=true&byYear=true&includedDocs=AllPublicationTypes&journalImpactType=CiteScore&showAsFieldWeighted=false&indexType=hIndex",
+          "@type": "application/json"
+        }
+      ],
+      "metric": {
+        "values": [
+          {
+            "collabType": "Institutional collaboration",
+            "valueByYear": {
+              "2012": 19.13006,
+              "2013": 16.805964,
+              "2014": 11.189373,
+              "2015": 6.7510676,
+              "2016": 3.2260494
+            }
+          },
+          {
+            "collabType": "International collaboration",
+            "valueByYear": {
+              "2012": 45.09416,
+              "2013": 32.683636,
+              "2014": 23.803581,
+              "2015": 16.051792,
+              "2016": 7.4387927
+            }
+          },
+          {
+            "collabType": "National collaboration",
+            "valueByYear": {
+              "2012": 30.833256,
+              "2013": 25.398485,
+              "2014": 19.323214,
+              "2015": 10.839453,
+              "2016": 5.0253468
+            }
+          },
+          {
+            "collabType": "Single authorship",
+            "valueByYear": {
+              "2012": 8.767726,
+              "2013": 7.462607,
+              "2014": 4.719694,
+              "2015": 3.0746562,
+              "2016": 1.3834755
+            }
+          }
+        ],
+        "metricType": "CollaborationImpact"
+      },
+      "institution": {
+        "link": {
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/metrics/institution/508076",
+          "@type": "application/json"
+        },
+        "name": "Harvard University",
+        "id": 508076,
+        "uri": "Institution/508076"
+      }
+    },
+    {
+      "links": [
+        {
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/metrics/CollaborationImpact/institution/508175?apiKey=e53785aedfc1c54942ba237f8ec0f891&httpAccept=application/json&institutions=508175,508076&yearRange=5yrs&includeSelfCitations=true&byYear=true&includedDocs=AllPublicationTypes&journalImpactType=CiteScore&showAsFieldWeighted=false&indexType=hIndex",
+          "@type": "application/json"
+        }
+      ],
+      "metric": {
+        "values": [
+          {
+            "collabType": "Institutional collaboration",
+            "valueByYear": {
+              "2012": 19.911333,
+              "2013": 15.770983,
+              "2014": 12.227301,
+              "2015": 7.6524777,
+              "2016": 3.2435374
+            }
+          },
+          {
+            "collabType": "International collaboration",
+            "valueByYear": {
+              "2012": 49.990005,
+              "2013": 27.126976,
+              "2014": 21.964602,
+              "2015": 15.878627,
+              "2016": 8.692989
+            }
+          },
+          {
+            "collabType": "National collaboration",
+            "valueByYear": {
+              "2012": 25.37539,
+              "2013": 19.881178,
+              "2014": 13.549079,
+              "2015": 8.834735,
+              "2016": 3.77699
+            }
+          },
+          {
+            "collabType": "Single authorship",
+            "valueByYear": {
+              "2012": 6.7540984,
+              "2013": 5.5462613,
+              "2014": 2.781466,
+              "2015": 2.377095,
+              "2016": 0.96202534
+            }
+          }
+        ],
+        "metricType": "CollaborationImpact"
+      },
+      "institution": {
+        "link": {
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/metrics/institution/508175",
+          "@type": "application/json"
+        },
+        "name": "Northwestern University",
+        "id": 508175,
+        "uri": "Institution/508175"
+      }
+    },
+    {
+      "links": [
+        {
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/metrics/FieldWeightedCitationImpact/institution/508076?apiKey=e53785aedfc1c54942ba237f8ec0f891&httpAccept=application/json&institutions=508175,508076&yearRange=5yrs&includeSelfCitations=true&byYear=true&includedDocs=AllPublicationTypes&journalImpactType=CiteScore&showAsFieldWeighted=false&indexType=hIndex",
+          "@type": "application/json"
+        }
+      ],
+      "metric": {
+        "valueByYear": {
+          "2012": 2.4378939,
+          "2013": 2.3988602,
+          "2014": 2.3800368,
+          "2015": 2.4095442,
+          "2016": 2.3805416
+        },
+        "metricType": "FieldWeightedCitationImpact"
+      },
+      "institution": {
+        "link": {
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/metrics/institution/508076",
+          "@type": "application/json"
+        },
+        "name": "Harvard University",
+        "id": 508076,
+        "uri": "Institution/508076"
+      }
+    },
+    {
+      "links": [
+        {
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/metrics/FieldWeightedCitationImpact/institution/508175?apiKey=e53785aedfc1c54942ba237f8ec0f891&httpAccept=application/json&institutions=508175,508076&yearRange=5yrs&includeSelfCitations=true&byYear=true&includedDocs=AllPublicationTypes&journalImpactType=CiteScore&showAsFieldWeighted=false&indexType=hIndex",
+          "@type": "application/json"
+        }
+      ],
+      "metric": {
+        "valueByYear": {
+          "2012": 2.3104157,
+          "2013": 2.068062,
+          "2014": 2.0108137,
+          "2015": 2.1706994,
+          "2016": 2.2246892
+        },
+        "metricType": "FieldWeightedCitationImpact"
+      },
+      "institution": {
+        "link": {
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/metrics/institution/508175",
+          "@type": "application/json"
+        },
+        "name": "Northwestern University",
+        "id": 508175,
+        "uri": "Institution/508175"
+      }
+    },
+    {
+      "links": [
+        {
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/metrics/OutputsInTopCitationPercentiles/institution/508076?apiKey=e53785aedfc1c54942ba237f8ec0f891&httpAccept=application/json&institutions=508175,508076&yearRange=5yrs&includeSelfCitations=true&byYear=true&includedDocs=AllPublicationTypes&journalImpactType=CiteScore&showAsFieldWeighted=false&indexType=hIndex",
+          "@type": "application/json"
+        }
+      ],
+      "metric": {
+        "values": [
+          {
+            "threshold": 1,
+            "percentageByYear": {
+              "2012": 6.5042458,
+              "2013": 6.453286,
+              "2014": 6.50782,
+              "2015": 6.003746,
+              "2016": 6.153323
+            },
+            "valueByYear": {
+              "2012": 1754,
+              "2013": 1742,
+              "2014": 1860,
+              "2015": 1731,
+              "2016": 1810
+            }
+          },
+          {
+            "threshold": 5,
+            "percentageByYear": {
+              "2012": 20.402714,
+              "2013": 19.904423,
+              "2014": 20.156748,
+              "2015": 18.725721,
+              "2016": 17.963623
+            },
+            "valueByYear": {
+              "2012": 5502,
+              "2013": 5373,
+              "2014": 5761,
+              "2015": 5399,
+              "2016": 5284
+            }
+          },
+          {
+            "threshold": 10,
+            "percentageByYear": {
+              "2012": 31.790707,
+              "2013": 32.551678,
+              "2014": 31.356495,
+              "2015": 30.643038,
+              "2016": 29.760324
+            },
+            "valueByYear": {
+              "2012": 8573,
+              "2013": 8787,
+              "2014": 8962,
+              "2015": 8835,
+              "2016": 8754
+            }
+          },
+          {
+            "threshold": 25,
+            "percentageByYear": {
+              "2012": 56.06482,
+              "2013": 57.568348,
+              "2014": 57.40527,
+              "2015": 57.12056,
+              "2016": 56.54598
+            },
+            "valueByYear": {
+              "2012": 15119,
+              "2013": 15540,
+              "2014": 16407,
+              "2015": 16469,
+              "2016": 16633
+            }
+          }
+        ],
+        "metricType": "OutputsInTopCitationPercentiles"
+      },
+      "institution": {
+        "link": {
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/metrics/institution/508076",
+          "@type": "application/json"
+        },
+        "name": "Harvard University",
+        "id": 508076,
+        "uri": "Institution/508076"
+      }
+    },
+    {
+      "links": [
+        {
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/metrics/OutputsInTopCitationPercentiles/institution/508175?apiKey=e53785aedfc1c54942ba237f8ec0f891&httpAccept=application/json&institutions=508175,508076&yearRange=5yrs&includeSelfCitations=true&byYear=true&includedDocs=AllPublicationTypes&journalImpactType=CiteScore&showAsFieldWeighted=false&indexType=hIndex",
+          "@type": "application/json"
+        }
+      ],
+      "metric": {
+        "values": [
+          {
+            "threshold": 1,
+            "percentageByYear": {
+              "2012": 4.898976,
+              "2013": 4.579427,
+              "2014": 4.5341043,
+              "2015": 5.147528,
+              "2016": 4.592169
+            },
+            "valueByYear": {
+              "2012": 354,
+              "2013": 337,
+              "2014": 345,
+              "2015": 403,
+              "2016": 353
+            }
+          },
+          {
+            "threshold": 5,
+            "percentageByYear": {
+              "2012": 16.620537,
+              "2013": 16.415274,
+              "2014": 15.757656,
+              "2015": 16.170649,
+              "2016": 15.805906
+            },
+            "valueByYear": {
+              "2012": 1201,
+              "2013": 1208,
+              "2014": 1199,
+              "2015": 1266,
+              "2016": 1215
+            }
+          },
+          {
+            "threshold": 10,
+            "percentageByYear": {
+              "2012": 27.318018,
+              "2013": 28.060877,
+              "2014": 26.54751,
+              "2015": 27.193768,
+              "2016": 26.629374
+            },
+            "valueByYear": {
+              "2012": 1974,
+              "2013": 2065,
+              "2014": 2020,
+              "2015": 2129,
+              "2016": 2047
+            }
+          },
+          {
+            "threshold": 25,
+            "percentageByYear": {
+              "2012": 51.508446,
+              "2013": 53.077866,
+              "2014": 53.54186,
+              "2015": 54.02989,
+              "2016": 53.219723
+            },
+            "valueByYear": {
+              "2012": 3722,
+              "2013": 3906,
+              "2014": 4074,
+              "2015": 4230,
+              "2016": 4091
+            }
+          }
+        ],
+        "metricType": "OutputsInTopCitationPercentiles"
+      },
+      "institution": {
+        "link": {
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/metrics/institution/508175",
+          "@type": "application/json"
+        },
+        "name": "Northwestern University",
+        "id": 508175,
+        "uri": "Institution/508175"
+      }
+    },
+    {
+      "links": [
+        {
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/metrics/Collaboration/institution/508076?apiKey=e53785aedfc1c54942ba237f8ec0f891&httpAccept=application/json&institutions=508175,508076&yearRange=5yrs&includeSelfCitations=true&byYear=true&includedDocs=AllPublicationTypes&journalImpactType=CiteScore&showAsFieldWeighted=false&indexType=hIndex",
+          "@type": "application/json"
+        }
+      ],
+      "metric": {
+        "values": [
+          {
+            "collabType": "Institutional collaboration",
+            "percentageByYear": {
+              "2012": 19.331034,
+              "2013": 18.385567,
+              "2014": 17.976978,
+              "2015": 17.053968,
+              "2016": 15.791263
+            },
+            "valueByYear": {
+              "2012": 5213,
+              "2013": 4963,
+              "2014": 5138,
+              "2015": 4917,
+              "2016": 4645
+            }
+          },
+          {
+            "collabType": "International collaboration",
+            "percentageByYear": {
+              "2012": 38.161457,
+              "2013": 38.934578,
+              "2014": 40.257515,
+              "2015": 42.189236,
+              "2016": 44.045555
+            },
+            "valueByYear": {
+              "2012": 10291,
+              "2013": 10510,
+              "2014": 11506,
+              "2015": 12164,
+              "2016": 12956
+            }
+          },
+          {
+            "collabType": "National collaboration",
+            "percentageByYear": {
+              "2012": 31.890831,
+              "2013": 32.277542,
+              "2014": 32.616074,
+              "2015": 31.9298,
+              "2016": 32.592216
+            },
+            "valueByYear": {
+              "2012": 8600,
+              "2013": 8713,
+              "2014": 9322,
+              "2015": 9206,
+              "2016": 9587
+            }
+          },
+          {
+            "collabType": "Single authorship",
+            "percentageByYear": {
+              "2012": 10.616679,
+              "2013": 10.402311,
+              "2014": 9.149435,
+              "2015": 8.826998,
+              "2016": 7.570967
+            },
+            "valueByYear": {
+              "2012": 2863,
+              "2013": 2808,
+              "2014": 2615,
+              "2015": 2545,
+              "2016": 2227
+            }
+          }
+        ],
+        "metricType": "Collaboration"
+      },
+      "institution": {
+        "link": {
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/metrics/institution/508076",
+          "@type": "application/json"
+        },
+        "name": "Harvard University",
+        "id": 508076,
+        "uri": "Institution/508076"
+      }
+    },
+    {
+      "links": [
+        {
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/metrics/Collaboration/institution/508175?apiKey=e53785aedfc1c54942ba237f8ec0f891&httpAccept=application/json&institutions=508175,508076&yearRange=5yrs&includeSelfCitations=true&byYear=true&includedDocs=AllPublicationTypes&journalImpactType=CiteScore&showAsFieldWeighted=false&indexType=hIndex",
+          "@type": "application/json"
+        }
+      ],
+      "metric": {
+        "values": [
+          {
+            "collabType": "Institutional collaboration",
+            "percentageByYear": {
+              "2012": 23.567673,
+              "2013": 22.666124,
+              "2014": 21.566565,
+              "2015": 20.104738,
+              "2016": 19.123196
+            },
+            "valueByYear": {
+              "2012": 1703,
+              "2013": 1668,
+              "2014": 1641,
+              "2015": 1574,
+              "2016": 1470
+            }
+          },
+          {
+            "collabType": "International collaboration",
+            "percentageByYear": {
+              "2012": 29.07556,
+              "2013": 29.215925,
+              "2014": 29.701668,
+              "2015": 31.255589,
+              "2016": 32.28828
+            },
+            "valueByYear": {
+              "2012": 2101,
+              "2013": 2150,
+              "2014": 2260,
+              "2015": 2447,
+              "2016": 2482
+            }
+          },
+          {
+            "collabType": "National collaboration",
+            "percentageByYear": {
+              "2012": 35.538334,
+              "2013": 37.396385,
+              "2014": 39.22986,
+              "2015": 39.49419,
+              "2016": 40.36685
+            },
+            "valueByYear": {
+              "2012": 2568,
+              "2013": 2752,
+              "2014": 2985,
+              "2015": 3092,
+              "2016": 3103
+            }
+          },
+          {
+            "collabType": "Single authorship",
+            "percentageByYear": {
+              "2012": 11.818434,
+              "2013": 10.721566,
+              "2014": 9.501905,
+              "2015": 9.145485,
+              "2016": 8.221673
+            },
+            "valueByYear": {
+              "2012": 854,
+              "2013": 789,
+              "2014": 723,
+              "2015": 716,
+              "2016": 632
+            }
+          }
+        ],
+        "metricType": "Collaboration"
+      },
+      "institution": {
+        "link": {
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/metrics/institution/508175",
+          "@type": "application/json"
+        },
+        "name": "Northwestern University",
+        "id": 508175,
+        "uri": "Institution/508175"
+      }
+    },
+    {
+      "links": [
+        {
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/metrics/CitedPublications/institution/508076?apiKey=e53785aedfc1c54942ba237f8ec0f891&httpAccept=application/json&institutions=508175,508076&yearRange=5yrs&includeSelfCitations=true&byYear=true&includedDocs=AllPublicationTypes&journalImpactType=CiteScore&showAsFieldWeighted=false&indexType=hIndex",
+          "@type": "application/json"
+        }
+      ],
+      "metric": {
+        "valueByYear": {
+          "2012": 23253,
+          "2013": 23606,
+          "2014": 24332,
+          "2015": 23581,
+          "2016": 21333
+        },
+        "percentageByYear": {
+          "2012": 86.227615,
+          "2013": 87.44906,
+          "2014": 85.133484,
+          "2015": 81.7876,
+          "2016": 72.52422
+        },
+        "metricType": "CitedPublications"
+      },
+      "institution": {
+        "link": {
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/metrics/institution/508076",
+          "@type": "application/json"
+        },
+        "name": "Harvard University",
+        "id": 508076,
+        "uri": "Institution/508076"
+      }
+    },
+    {
+      "links": [
+        {
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/metrics/CitedPublications/institution/508175?apiKey=e53785aedfc1c54942ba237f8ec0f891&httpAccept=application/json&institutions=508175,508076&yearRange=5yrs&includeSelfCitations=true&byYear=true&includedDocs=AllPublicationTypes&journalImpactType=CiteScore&showAsFieldWeighted=false&indexType=hIndex",
+          "@type": "application/json"
+        }
+      ],
+      "metric": {
+        "valueByYear": {
+          "2012": 6179,
+          "2013": 6265,
+          "2014": 6382,
+          "2015": 6364,
+          "2016": 5381
+        },
+        "percentageByYear": {
+          "2012": 85.51065,
+          "2013": 85.13385,
+          "2014": 83.87436,
+          "2015": 81.28752,
+          "2016": 70.0013
+        },
+        "metricType": "CitedPublications"
+      },
+      "institution": {
+        "link": {
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/metrics/institution/508175",
+          "@type": "application/json"
+        },
+        "name": "Northwestern University",
+        "id": 508175,
+        "uri": "Institution/508175"
+      }
+    },
+    {
+      "links": [
+        {
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/metrics/PublicationsInTopJournalPercentiles/institution/508076?apiKey=e53785aedfc1c54942ba237f8ec0f891&httpAccept=application/json&institutions=508175,508076&yearRange=5yrs&includeSelfCitations=true&byYear=true&includedDocs=AllPublicationTypes&journalImpactType=CiteScore&showAsFieldWeighted=false&indexType=hIndex",
+          "@type": "application/json"
+        }
+      ],
+      "metric": {
+        "values": [
+          {
+            "threshold": 1,
+            "percentageByYear": {
+              "2012": 8.025158,
+              "2013": 7.4010954,
+              "2014": 7.9955645,
+              "2015": 8.313153,
+              "2016": 9.013882
+            },
+            "valueByYear": {
+              "2012": 1914,
+              "2013": 1824,
+              "2014": 2091,
+              "2015": 2197,
+              "2016": 2500
+            }
+          },
+          {
+            "threshold": 5,
+            "percentageByYear": {
+              "2012": 34.80503,
+              "2013": 34.37208,
+              "2014": 31.684002,
+              "2015": 32.17421,
+              "2016": 33.315308
+            },
+            "valueByYear": {
+              "2012": 8301,
+              "2013": 8471,
+              "2014": 8286,
+              "2015": 8503,
+              "2016": 9240
+            }
+          },
+          {
+            "threshold": 10,
+            "percentageByYear": {
+              "2012": 53.761005,
+              "2013": 51.09353,
+              "2014": 50,
+              "2015": 50.404877,
+              "2016": 50.142418
+            },
+            "valueByYear": {
+              "2012": 12822,
+              "2013": 12592,
+              "2014": 13076,
+              "2015": 13321,
+              "2016": 13907
+            }
+          },
+          {
+            "threshold": 25,
+            "percentageByYear": {
+              "2012": 76.721176,
+              "2013": 75.84094,
+              "2014": 76.850716,
+              "2015": 76.47571,
+              "2016": 75.44619
+            },
+            "valueByYear": {
+              "2012": 18298,
+              "2013": 18691,
+              "2014": 20098,
+              "2015": 20211,
+              "2016": 20925
+            }
+          }
+        ],
+        "impactType": "CiteScore",
+        "metricType": "PublicationsInTopJournalPercentiles"
+      },
+      "institution": {
+        "link": {
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/metrics/institution/508076",
+          "@type": "application/json"
+        },
+        "name": "Harvard University",
+        "id": 508076,
+        "uri": "Institution/508076"
+      }
+    },
+    {
+      "links": [
+        {
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/metrics/PublicationsInTopJournalPercentiles/institution/508175?apiKey=e53785aedfc1c54942ba237f8ec0f891&httpAccept=application/json&institutions=508175,508076&yearRange=5yrs&includeSelfCitations=true&byYear=true&includedDocs=AllPublicationTypes&journalImpactType=CiteScore&showAsFieldWeighted=false&indexType=hIndex",
+          "@type": "application/json"
+        }
+      ],
+      "metric": {
+        "values": [
+          {
+            "threshold": 1,
+            "percentageByYear": {
+              "2012": 7.7257366,
+              "2013": 6.86061,
+              "2014": 7.385952,
+              "2015": 7.7721663,
+              "2016": 8.780761
+            },
+            "valueByYear": {
+              "2012": 480,
+              "2013": 441,
+              "2014": 510,
+              "2015": 554,
+              "2016": 628
+            }
+          },
+          {
+            "threshold": 5,
+            "percentageByYear": {
+              "2012": 32.59295,
+              "2013": 31.34723,
+              "2014": 30.296886,
+              "2015": 29.9523,
+              "2016": 32.10291
+            },
+            "valueByYear": {
+              "2012": 2025,
+              "2013": 2015,
+              "2014": 2092,
+              "2015": 2135,
+              "2016": 2296
+            }
+          },
+          {
+            "threshold": 10,
+            "percentageByYear": {
+              "2012": 51.022053,
+              "2013": 50.388927,
+              "2014": 48.443157,
+              "2015": 48.83558,
+              "2016": 49.776287
+            },
+            "valueByYear": {
+              "2012": 3170,
+              "2013": 3239,
+              "2014": 3345,
+              "2015": 3481,
+              "2016": 3560
+            }
+          },
+          {
+            "threshold": 25,
+            "percentageByYear": {
+              "2012": 74.070496,
+              "2013": 72.61979,
+              "2014": 74.12021,
+              "2015": 74.49495,
+              "2016": 73.92338
+            },
+            "valueByYear": {
+              "2012": 4602,
+              "2013": 4668,
+              "2014": 5118,
+              "2015": 5310,
+              "2016": 5287
+            }
+          }
+        ],
+        "impactType": "CiteScore",
+        "metricType": "PublicationsInTopJournalPercentiles"
+      },
+      "institution": {
+        "link": {
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/metrics/institution/508175",
+          "@type": "application/json"
+        },
+        "name": "Northwestern University",
+        "id": 508175,
+        "uri": "Institution/508175"
+      }
+    },
+    {
+      "links": [
+        {
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/metrics/CitationsPerPublication/institution/508076?apiKey=e53785aedfc1c54942ba237f8ec0f891&httpAccept=application/json&institutions=508175,508076&yearRange=5yrs&includeSelfCitations=true&byYear=true&includedDocs=AllPublicationTypes&journalImpactType=CiteScore&showAsFieldWeighted=false&indexType=hIndex",
+          "@type": "application/json"
+        }
+      ],
+      "metric": {
+        "valueByYear": {
+          "2012": 31.670448,
+          "2013": 24.789398,
+          "2014": 18.32854,
+          "2015": 11.655869,
+          "2016": 5.528506
+        },
+        "metricType": "CitationsPerPublication"
+      },
+      "institution": {
+        "link": {
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/metrics/institution/508076",
+          "@type": "application/json"
+        },
+        "name": "Harvard University",
+        "id": 508076,
+        "uri": "Institution/508076"
+      }
+    },
+    {
+      "links": [
+        {
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/metrics/CitationsPerPublication/institution/508175?apiKey=e53785aedfc1c54942ba237f8ec0f891&httpAccept=application/json&institutions=508175,508076&yearRange=5yrs&includeSelfCitations=true&byYear=true&includedDocs=AllPublicationTypes&journalImpactType=CiteScore&showAsFieldWeighted=false&indexType=hIndex",
+          "@type": "application/json"
+        }
+      ],
+      "metric": {
+        "valueByYear": {
+          "2012": 29.043732,
+          "2013": 19.529556,
+          "2014": 14.740439,
+          "2015": 10.208073,
+          "2016": 5.0308313
+        },
+        "metricType": "CitationsPerPublication"
+      },
+      "institution": {
+        "link": {
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/metrics/institution/508175",
+          "@type": "application/json"
+        },
+        "name": "Northwestern University",
+        "id": 508175,
+        "uri": "Institution/508175"
+      }
+    },
+    {
+      "links": [
+        {
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/metrics/ScholarlyOutput/institution/508076?apiKey=e53785aedfc1c54942ba237f8ec0f891&httpAccept=application/json&institutions=508175,508076&yearRange=5yrs&includeSelfCitations=true&byYear=true&includedDocs=AllPublicationTypes&journalImpactType=CiteScore&showAsFieldWeighted=false&indexType=hIndex",
+          "@type": "application/json"
+        }
+      ],
+      "metric": {
+        "valueByYear": {
+          "2012": 26967,
+          "2013": 26994,
+          "2014": 28581,
+          "2015": 28832,
+          "2016": 29415
+        },
+        "metricType": "ScholarlyOutput"
+      },
+      "institution": {
+        "link": {
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/metrics/institution/508076",
+          "@type": "application/json"
+        },
+        "name": "Harvard University",
+        "id": 508076,
+        "uri": "Institution/508076"
+      }
+    },
+    {
+      "links": [
+        {
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/metrics/ScholarlyOutput/institution/508175?apiKey=e53785aedfc1c54942ba237f8ec0f891&httpAccept=application/json&institutions=508175,508076&yearRange=5yrs&includeSelfCitations=true&byYear=true&includedDocs=AllPublicationTypes&journalImpactType=CiteScore&showAsFieldWeighted=false&indexType=hIndex",
+          "@type": "application/json"
+        }
+      ],
+      "metric": {
+        "valueByYear": {
+          "2012": 7226,
+          "2013": 7359,
+          "2014": 7609,
+          "2015": 7829,
+          "2016": 7687
+        },
+        "metricType": "ScholarlyOutput"
+      },
+      "institution": {
+        "link": {
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/metrics/institution/508175",
+          "@type": "application/json"
+        },
+        "name": "Northwestern University",
+        "id": 508175,
+        "uri": "Institution/508175"
+      }
+    },
+    {
+      "links": [
+        {
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/metrics/CitationCount/institution/508076?apiKey=e53785aedfc1c54942ba237f8ec0f891&httpAccept=application/json&institutions=508175,508076&yearRange=5yrs&includeSelfCitations=true&byYear=true&includedDocs=AllPublicationTypes&journalImpactType=CiteScore&showAsFieldWeighted=false&indexType=hIndex",
+          "@type": "application/json"
+        }
+      ],
+      "metric": {
+        "valueByYear": {
+          "2012": 854057,
+          "2013": 669165,
+          "2014": 523848,
+          "2015": 336062,
+          "2016": 162621
+        },
+        "metricType": "CitationCount"
+      },
+      "institution": {
+        "link": {
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/metrics/institution/508076",
+          "@type": "application/json"
+        },
+        "name": "Harvard University",
+        "id": 508076,
+        "uri": "Institution/508076"
+      }
+    },
+    {
+      "links": [
+        {
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/metrics/CitationCount/institution/508175?apiKey=e53785aedfc1c54942ba237f8ec0f891&httpAccept=application/json&institutions=508175,508076&yearRange=5yrs&includeSelfCitations=true&byYear=true&includedDocs=AllPublicationTypes&journalImpactType=CiteScore&showAsFieldWeighted=false&indexType=hIndex",
+          "@type": "application/json"
+        }
+      ],
+      "metric": {
+        "valueByYear": {
+          "2012": 209870,
+          "2013": 143718,
+          "2014": 112160,
+          "2015": 79919,
+          "2016": 38672
+        },
+        "metricType": "CitationCount"
+      },
+      "institution": {
+        "link": {
+          "@ref": "self",
+          "@href": "https://api.elsevier.com/metrics/institution/508175",
+          "@type": "application/json"
+        },
+        "name": "Northwestern University",
+        "id": 508175,
+        "uri": "Institution/508175"
+      }
+    }
+  ]
+}

@@ -38,15 +38,29 @@ logger.addHandler(ch)
 if __name__=="__main__":
 
     MY_API_KEY = "e53785aedfc1c54942ba237f8ec0f891"
+    # MY_API_KEY = None
 
-    apiKey = "e53785aedfc1c54942ba237f8ec0f891"
+    # apiKey = "e53785aedfc1c54942ba237f8ec0f891"
 
-    logger.debug("creating a class")
-    a = InstitutionSearch(["Harvard University"], MY_API_KEY)
+    # logger.debug("creating a class")
+    # a = InstitutionSearch(["Harvard University"], MY_API_KEY)
 
-    logger.debug("sending the request")
-    res = a.encode()
+    aff_id = [508175, 508076]
 
-    aff_id = 508175
+
     logger.debug("creating a metrics class")
-    m = MetricSearch(MY_API_KEY, aff_id)
+    m = MetricSearch(aff_id=aff_id, apiKey = MY_API_KEY)
+
+    logger.debug("encoding the metrics")
+    m.encode()
+    print("request is ")
+    print(m.parsed_url)
+    m.send_request()
+
+
+    all_metrics = ["Collaboration", "CitationCount", "CitationPerPublication", "CollaborationImpact", "CitedPublications", "FieldWeightedCitationImpact", "hIndices", "ScholarlyOutput", "PublicationsInTopJournalPercentiles", "OutputsInTopCitationPercentiles"]
+
+    ma = ",".join(all_metrics)
+
+
+

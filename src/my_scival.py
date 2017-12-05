@@ -29,8 +29,8 @@ class InstitutionSearch:
 
         if apiKey is None:
             warnings.warn("apiKey is not defined")
-            # apiKey = "7f59af901d2d86f78a1fd60c1bf9426a"
-            apiKey = "e53785aedfc1c54942ba237f8ec0f891"
+            apiKey = "7f59af901d2d86f78a1fd60c1bf9426a"
+            # apiKey = "e53785aedfc1c54942ba237f8ec0f891"
 
 
         if httpAccept is None:
@@ -131,7 +131,7 @@ class InstitutionSearch:
 
         try:
             self.logger.debug("sending the request")
-            response = request.urlopen(self.parsed_url)
+            response = request.urlretrieve(self.parsed_url)
 
             self.logger.debug("request retrieved sucessully")
         except Exception as e:
@@ -158,9 +158,23 @@ class InstitutionSearch:
 
 class MetricSearch:
 
-    # def __init__(self, aff_id):
-    def __init__(self, apiKey=None, aff_id=None, metrics=None, httpAccept=None, fname_log=None, indexType=None):
+    def __init__(self, apiKey=None, aff_id=None, metrics=None, fname_log=None, path_to_save=None):
 
+        """
+        class to retrieve the metrics data for the unviersity from the scival
+
+        inputs:
+        apiKey - api key to get an access to the scival
+        aff_id - affiliation id, the numieric id of the university or organization
+        metrics - a string or a list of strings indicating which metrics will be downloaded from the scival, leaving it empty retrieves all of the metrics
+        httpAccept - output data response, i.e. xml or json, Default is json
+        fname_log - log filename
+
+
+        """
+
+        # for more infomration, please, have a look here
+        # https://dev.elsevier.com/scival.html#!/SciVal_Metrics/getQueryMetrics
 
 
         # creating a logger
@@ -188,37 +202,49 @@ class MetricSearch:
 
         self.logger.debug("class was initialized")
 
+        self.__all_httpAccept = ["application/json", "application/xml", "text/xml"]
+
+        self.__all_metrics = ["Collaboration", "CitationCount", "CitationsPerPublication", "CollaborationImpact", "CitedPublications", "FieldWeightedCitationImpact", "hIndices", "ScholarlyOutput", "PublicationsInTopJournalPercentiles", "OutputsInTopCitationPercentiles"]
+
+        self.__all_indexType = ["hIndex", "gIndex", "mIndex"] # not applicable to all metrics
+
+        self.__url = "https://api.elsevier.com/metrics"
+
+        self.__all_includedDocs = ["AllPublicationTypes", "ArticlesOnly", "ArticlesReviews", "ArticlesReviewsConferencePapers", "ArticlesReviewsEditorials", "ArticlesReviewsEditorialsShortSurveys", "ConferencePapersOnly", "ArticlesConferencePapers"]
+
+        self.__all_yearRange = ["3yrs", "3yrsAndCurrent", "3yrsAndCurrentAndFuture", "5yrs", "5yrsAndCurrent", "5yrsAndCurrentAndFuture"]
+
+        self.__all_journalImpactType = ["CiteScore", "SNIP", "SJR"]
+
         # default values for variables
+
+        # a list of strings
         if aff_id is None:
-            aff_id = 508175
+            aff_id = ["508175"]
+        else:
+            if isinstance(aff_id, list):
+                aff_id = [str(x) for x in aff_id]
+            else:
+                aff_id = [str(aff_id)]
 
         if apiKey is None:
             self.logger.warn("apiKey is not defined")
-            # apiKey = "7f59af901d2d86f78a1fd60c1bf9426a"
-            apiKey = "e53785aedfc1c54942ba237f8ec0f891"
-
-        if httpAccept is None:
-            httpAccept = 'application/json'
+            apiKey = "7f59af901d2d86f78a1fd60c1bf9426a"
+            # apiKey = "e53785aedfc1c54942ba237f8ec0f891"
 
         if fname_log is None:
             fname_log = os.path.join("logs", "my_scival.txt")
 
         if metrics is None:
-            metrics = ["Collaboration", "CitationCount", "CitationPerPublication", "CollaborationImpact", "CitedPublications", "FieldWeightedCitationImpact", "hIndices", "ScholarlyOutput", "PublicationsInTopJournalPercentiles", "OutputsInTopCitationPercentiles"]
+            self.metrics = self.__all_metrics.copy()
+            self.metrics.pop(self.metrics.index('hIndices'))   # this item cannot be used on several unviersities
 
-        if indexType is None:
+        if path_to_save is None:
+            path_to_save = os.path.join("data", "urlretrieve")
 
-            # https://api.elsevier.com/metrics/?apiKey=7f59af901d2d86f78a1fd60c1bf9426a&httpAccept=application%2Fjson&metrics=Collaboration%2CCitationCount%2CCitationPerPublication%2CCollaborationImpact%2CCitedPublications%2CFieldWeightedCitationImpact%2CHIndices%2CScholarlyOutput%2CPublicationsInTopJournalPercentiles%2COutputsInTopCitationPercentiles&institutions=508175%2C508076&yearRange=5yrs&includeSelfCitations=true&byYear=true&includedDocs=AllPublicationTypes&journalImpactType=CiteScore&showAsFieldWeighted=false&indexType=hIndex
-
-        self.__url = "https://api.elsevier.com/metrics"
 
         self.aff_id = aff_id
         self.apiKey = apiKey
-        self.httpAccept = httpAccept
-
-        self.__all_httpAccepts = ["application/json", "application/xml", "text/xml"]
-
-        self.__all_metrics = ["Collaboration", "CitationCount", "CitationPerPublication", "CollaborationImpact", "CitedPublications", "FieldWeightedCitationImpact", "hIndices", "ScholarlyOutput", "PublicationsInTopJournalPercentiles", "OutputsInTopCitationPercentiles"]
 
         self.parsed_data = ''
         self.parsed_url = ''
@@ -228,21 +254,47 @@ class MetricSearch:
         self.api_response = ''
         self.api_text = ''
 
+        self.__yearRange = self.__all_yearRange[3]
+        self.__httpAccept = self.__all_httpAccept[0]
+        self.__indexType = self.__all_indexType[0]
+        self.__includedDocs = self.__all_includedDocs[0]
+        self.__journalImpactType = self.__all_journalImpactType[0]
+
+
+        self.__all_string_bool = ["true", "false"]
+
+        self.__includeSelfCitations = self.__all_string_bool[0]
+        self.__byYear = self.__all_string_bool[0]
+        self.__showAsFieldWeighted = self.__all_string_bool[1]
+
+
 
     def get_url(self):
         return self.__url
 
     def set_url(self, url):
         self.__url = url
+        
+
+    def check_index(self, a=None):
+
+        if a is None:
+            a = self.indexType
+
+        if a in self.__all_index:
+            self.indexType = a
 
 
-    def check_httpAccept(self, a):
+    def check_httpAccept(self, a=None):
         """
         check whether new httpAccept is in the list of possible httpAccepts
 
         :param a: new httpAccept
         :return: nothing, but httpAccept is set to an accepted httpAccept
         """
+
+        if a is None:
+            a = self.httpAccept
 
         if a in self.__all_httpAccepts:
             self.httpAccept = a
@@ -277,25 +329,50 @@ class MetricSearch:
         if metrics is not None:
             self.check_metrics(metrics)
 
-        # https://api.elsevier.com/metrics/?apiKey=7f59af901d2d86f78a1fd60c1bf9426a&httpAccept=application%2Fjson&metrics=Collaboration%2CCitationCount%2CCitationPerPublication%2CCollaborationImpact%2CCitedPublications%2CFieldWeightedCitationImpact%2CHIndices%2CScholarlyOutput%2CPublicationsInTopJournalPercentiles%2COutputsInTopCitationPercentiles&institutions=508175%2C508076&yearRange=5yrs&includeSelfCitations=true&byYear=true&includedDocs=AllPublicationTypes&journalImpactType=CiteScore&showAsFieldWeighted=false&indexType=hIndex
+ 
+        # xml
+        # https://api.elsevier.com/metrics/?apiKey=e53785aedfc1c54942ba237f8ec0f891&httpAccept=application%2Fxml&metrics=Collaboration%2CCitationCount%2CCitationsPerPublication%2CCollaborationImpact%2CCitedPublications%2CFieldWeightedCitationImpact%2CScholarlyOutput%2CPublicationsInTopJournalPercentiles%2COutputsInTopCitationPercentiles&institutions=508175%2C508076&yearRange=5yrs&includeSelfCitations=true&byYear=true&includedDocs=AllPublicationTypes&journalImpactType=CiteScore&showAsFieldWeighted=false&indexType=hIndex
+
+        # json
+        # https://api.elsevier.com/metrics/?apiKey=e53785aedfc1c54942ba237f8ec0f891&httpAccept=application%2Fjson&metrics=Collaboration%2CCitationCount%2CCitationsPerPublication%2CCollaborationImpact%2CCitedPublications%2CFieldWeightedCitationImpact%2CScholarlyOutput%2CPublicationsInTopJournalPercentiles%2COutputsInTopCitationPercentiles&institutions=508175%2C508076&yearRange=5yrs&includeSelfCitations=true&byYear=true&includedDocs=AllPublicationTypes&journalImpactType=CiteScore&showAsFieldWeighted=false&indexType=hIndex
+
+        # https://api.elsevier.com/metrics/?apiKey=7f59af901d2d86f78a1fd60c1bf9426a&httpAccept=application%2Fjson&metrics=Collaboration%2CCitationCount%2CCitationsPerPublication%2CCollaborationImpact%2CCitedPublications%2CFieldWeightedCitationImpact%2CScholarlyOutput%2CPublicationsInTopJournalPercentiles%2COutputsInTopCitationPercentiles&institutions=508175%2C508076&yearRange=5yrs&includeSelfCitations=true&byYear=true&includedDocs=AllPublicationTypes&journalImpactType=CiteScore&showAsFieldWeighted=false&indexType=hIndex
+
         query_metrics = ",".join(self.metrics)
-        query_metrics = "metrics=" + parse.quote(query_metrics)
+        query_metrics = parse.quote(query_metrics)
 
-        parsed_request = parse.urlencode({
+        query_dict = {
                             'apiKey': self.apiKey,
-                            'httpAccept': self.httpAccept})
+                            'httpAccept': parse.quote_plus(self.__httpAccept),
+                            'metrics': query_metrics,
+                            'institutions': parse.quote(",".join(self.aff_id)),
+                            'yearRange': self.__yearRange,
+                            'includeSelfCitations': self.__includeSelfCitations,
+                            'byYear': self.__byYear,
+                            'includedDocs': self.__includedDocs,
+                            'journalImpactType': self.__journalImpactType,
+                            'showAsFieldWeighted': self.__showAsFieldWeighted,
+                            'indexType': self.__indexType
+                            }
 
-        self.parsed_data = "&".join(parsed_request, query_metrics)
-        self.parsed_url = "{}{}".format(self.__url, self.parsed_data.decode())
+        parsed_request = "&".join(["=".join([str(key), str(query_dict[key])]) for key in query_dict])
+
+        print("query_metrics + parsed_request {}{}".format(query_metrics, parsed_request))
+
+        # self.parsed_data = "{}&{}".format(parsed_request, query_metrics)
+        self.parsed_data = parsed_request
+        self.parsed_url = "{}/?{}".format(self.__url, self.parsed_data)
         self.logger.debug("encoding the request")
+
         return self
 
 
     def send_request(self):
 
+
         try:
             self.logger.debug("sending the request")
-            response = request.urlopen(self.__url, self.parsed_data)
+            response = request.urlretrieve(self.parsed_url)
 
             self.logger.debug("request retrieved sucessully")
         except Exception as e:
@@ -306,4 +383,14 @@ class MetricSearch:
 
         self.response = response
 
-        return response
+        return self
+
+
+    def retrieve_json(response):
+        """
+        this function retrieves the json from the html response
+        """
+        
+        output = json.loads(response.read())
+        
+        return output
