@@ -6,17 +6,6 @@ import os
 import json
 
 
-class Scival:
-
-    def __init__(self):
-        self.id = 0
-
-
-    def req(self):
-
-        pprint("i am in req, my id is ".format(self.id))
-
-
 class InstitutionSearch:
 
     def __init__(self, query_type=None, universityName=None, apiKey=None, httpAccept=None, fname_log=None):
@@ -56,6 +45,7 @@ class InstitutionSearch:
 
         self.api_response = ''
         self.api_text = ''
+        self.jres = ''
 
 
         # creating a logger
@@ -145,14 +135,28 @@ class InstitutionSearch:
         return self
 
 
-    def retrieve_json(response):
+    def retrieve_json(self):
         """
-        this function retrieves the json from the html response
+        this function retrieves the json from the html response as a ready text for further analysis
         """
         
-        output = json.loads(response.read())
+        output = json.loads(self.response.read())
+        self.jres = output
         
-        return output
+        return self
+
+    
+    def get_jres(self):
+        """
+        this function gathers the whole pipline of getting the aff_id as json response
+        """
+
+        self.encode()
+        self.send_request()
+        self.retrieve_json()
+        return self.jres
+
+
 
 
 

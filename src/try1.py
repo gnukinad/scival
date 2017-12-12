@@ -8,9 +8,10 @@ from my_scival import InstitutionSearch, MetricSearch
 
 from urllib import parse, request
 from urllib.error import HTTPError
+from func import get_aff_id
 
-BASE_DIR = os.chdir("..")
-
+BASE_DIR = os.path.join(os.getenv('HOME'), "projects", "scival")
+os.chdir(BASE_DIR)
 
 logger = logging.getLogger(__name__ + "InstitutionSearch")
 logger.setLevel(logging.DEBUG)
@@ -35,7 +36,8 @@ logger.addHandler(fh)
 logger.addHandler(ch)
 
 
-if __name__=="__main__":
+# if __name__=="__main__":
+def main1():
 
     MY_API_KEY = "e53785aedfc1c54942ba237f8ec0f891"
     # MY_API_KEY = None
@@ -63,4 +65,37 @@ if __name__=="__main__":
     ma = ",".join(all_metrics)
 
 
+# trying to retrieve the id of the university
+if __name__=="__main__":
 
+    # read the name
+    # send the request
+    # get the id
+
+    logger.debug('loading university names')
+    fname_aff_names = os.path.join(BASE_DIR, "universities_table.csv")
+
+    df = pd.read_csv(fname_aff_names)
+    key_aff = 'Institution'
+    key_acc = 'downloaded'
+
+    a = df.loc[:, key_acc] == 0
+    all_aff_names = df.loc[a, key_aff].tolist()
+
+    n = 1
+
+    logger.debug('starting to load institution_id')
+    for i in range(n):
+
+        aff_name = all_aff_names[i]
+        logger.debug('aff_name is {}'.format(aff_name))
+
+        MY_API_KEY = "e53785aedfc1c54942ba237f8ec0f891"
+
+        res = get_aff_id(aff_name, MY_API_KEY)
+
+
+# def get_aff_id(aff_name, api_key):
+
+
+        # a = InstitutionSearch(["Harvard University"], MY_API_KEY)
