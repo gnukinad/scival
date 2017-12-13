@@ -8,7 +8,9 @@ from my_scival import InstitutionSearch, MetricSearch
 
 from urllib import parse, request
 from urllib.error import HTTPError
-from func import get_aff_id
+from func import get_InstitutionSearch, get_aff_id
+
+import pickle as pk
 
 BASE_DIR = os.path.join(os.getenv('HOME'), "projects", "scival")
 os.chdir(BASE_DIR)
@@ -66,7 +68,8 @@ def main1():
 
 
 # trying to retrieve the id of the university
-if __name__=="__main__":
+# if __name__=="__main__":
+def main2():
 
     # read the name
     # send the request
@@ -82,7 +85,9 @@ if __name__=="__main__":
     a = df.loc[:, key_acc] == 0
     all_aff_names = df.loc[a, key_aff].tolist()
 
-    n = 1
+    n = 2
+    responses = []
+    jsons = []
 
     logger.debug('starting to load institution_id')
     for i in range(n):
@@ -91,11 +96,43 @@ if __name__=="__main__":
         logger.debug('aff_name is {}'.format(aff_name))
 
         MY_API_KEY = "e53785aedfc1c54942ba237f8ec0f891"
+        # MY_API_KEY = "7f59af901d2d86f78a1fd60c1bf9426a"
 
-        res = get_aff_id(aff_name, MY_API_KEY)
+        res = get_InstitutionSearch(aff_name, MY_API_KEY)
+        dict_res, json_res = get_aff_id(res)
+        responses.append(dict_res)
+        jsons.append(json_res)
 
 
-# def get_aff_id(aff_name, api_key):
+def pd_write_data(df, d):
+    """
+    write data from dict d to pandas.dataframe df
+    data will be written to columns of df by using keys
+    """
+
+    for key, value in d.items():
+        df.at[d['name'], key] = value
+
+    return df
 
 
-        # a = InstitutionSearch(["Harvard University"], MY_API_KEY)
+if __name__=="__main__":
+# def main3():
+
+    fname_aff_names = os.path.join(BASE_DIR, "universities_table.csv")
+    df = pd.read_csv(fname_aff_names)
+    key_aff = 'Institution'
+    key_acc = 'downloaded'
+
+    a = df.loc[:, key_acc] == 0
+    all_aff_names = df.loc[a, key_aff].tolist()
+    
+    aaa = pk.load(open("aaa.pickle", 'rb'))
+    dff = df.replace(0, '')
+
+    if isinstance(aaa, list):
+        for x in aaa:
+            dfff = pd_write_data(dff, d)
+    elif isinstance(aaa, dict):
+        for key, value in aaa.items():
+

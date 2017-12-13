@@ -8,6 +8,9 @@ import json
 
 class InstitutionSearch:
 
+    def __str__(self):
+        print("url is {}\nresponse is{}".format(self.parsed_url, self.jres))
+
     def __init__(self, query_type=None, universityName=None, apiKey=None, httpAccept=None, fname_log=None):
 
         if query_type is None:
@@ -27,6 +30,9 @@ class InstitutionSearch:
 
         if fname_log is None:
             fname_log = os.path.join("logs", "my_scival.txt")
+
+        if isinstance(universityName, str):
+            universityName = [universityName]
 
 
         self.__url = "https://api.elsevier.com/metrics/institution/search"
@@ -121,7 +127,7 @@ class InstitutionSearch:
 
         try:
             self.logger.debug("sending the request")
-            response = request.urlretrieve(self.parsed_url)
+            response = request.urlopen(self.parsed_url)
 
             self.logger.debug("request retrieved sucessully")
         except Exception as e:
@@ -154,7 +160,7 @@ class InstitutionSearch:
         self.encode()
         self.send_request()
         self.retrieve_json()
-        return self.jres
+        return self
 
 
 
