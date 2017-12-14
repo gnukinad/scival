@@ -226,6 +226,7 @@ class MetricSearch:
 
         self.__all_journalImpactType = ["CiteScore", "SNIP", "SJR"]
 
+
         # default values for variables
 
         # a list of strings
@@ -263,6 +264,7 @@ class MetricSearch:
 
         self.api_response = ''
         self.api_text = ''
+        self.jres = ''
 
         self.__yearRange = self.__all_yearRange[3]
         self.__httpAccept = self.__all_httpAccept[0]
@@ -382,7 +384,7 @@ class MetricSearch:
 
         try:
             self.logger.debug("sending the request")
-            response = request.urlretrieve(self.parsed_url)
+            response = request.urlopen(self.parsed_url)
 
             self.logger.debug("request retrieved sucessully")
         except Exception as e:
@@ -396,11 +398,27 @@ class MetricSearch:
         return self
 
 
-    def retrieve_json(response):
+    def retrieve_json(self):
         """
-        this function retrieves the json from the html response
+        this function retrieves the json from the html response as a ready text for further analysis
         """
         
-        output = json.loads(response.read())
+        try:
+            output = json.loads(self.response.read())
+        except:
+            output = self.response
+
+        self.jres = output
         
-        return output
+        return self
+
+
+    def get_jres(self):
+        """
+        this function gathers the whole pipline of getting the aff_id as json response
+        """
+
+        self.encode()
+        self.send_request()
+        self.retrieve_json()
+        return self
