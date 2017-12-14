@@ -14,7 +14,7 @@ from func import *
 import pickle as pk
 from pprint import pprint as pp
 
-BASE_DIR = os.path.join(os.getenv('HOME'), "projects", "scival")
+BASE_DIR = os.path.join(os.getenv('HOME'), "gdrive", "projects", "academic", "scival")
 os.chdir(BASE_DIR)
 
 FOLNAME_AFF_SEARCH = os.path.join(BASE_DIR, 'data', 'aff_search')
@@ -175,16 +175,11 @@ if __name__ == "__main__":
 
     for i in range(n):
         aff_id = aff_ids[i]
+        aff_ind = df_aff[df_aff[key_id] == aff_id].index.item()
 
-        # aff_ind = df_aff.reset_index().set_index(key_id).index[aff_id]
+        logger.debug('getting the response for id and name {} and {}'.format(aff_id, aff_ind))
 
-        a = df_aff.reset_index().set_index(key_id).at[aff_id, key_aff]
-        print(a)
-        # aff_ind = df_aff.reset_index().set_index(key_id).index[aff_id]
-
-        # logger.debug('getting the response for id and name {} and {}'.format(aff_id, df_aff.at[aff_id,key_aff]))
-
-        # logger.debug('starting to load institution_id')
+        logger.debug('starting to load institution_id')
 
         """
         m = MetricSearch(aff_id=aff_id, apiKey = MY_API_KEY)

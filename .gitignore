@@ -1,5 +1,4 @@
-logs
-logs*
+logs/*
 src/__pycache__
 src/*~
 foo.log
