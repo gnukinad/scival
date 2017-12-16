@@ -127,6 +127,7 @@ class InstitutionSearch:
 
         try:
             self.logger.debug("sending the request")
+            print("i am in send_request, InstitutionSearch")
             response = request.urlopen(self.parsed_url)
 
             self.logger.debug("request retrieved sucessully")
@@ -384,6 +385,7 @@ class MetricSearch:
 
         try:
             self.logger.debug("sending the request")
+            print("i am in send_request, metric")
             response = request.urlopen(self.parsed_url)
 
             self.logger.debug("request retrieved sucessully")

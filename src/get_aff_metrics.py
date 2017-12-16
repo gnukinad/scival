@@ -27,12 +27,12 @@ key_acc = 'id_downloaded'
 key_id  = 'id'
 key_met = 'metrics'
 
-logger = logging.getLogger(__name__ + "InstitutionSearch")
+logger = logging.getLogger(__name__)
 logger.setLevel(logging.DEBUG)
 
 # create file handler which logs info messages
 fh = logging.FileHandler(os.path.join(BASE_DIR, 'logs', 'logs.txt'), 'w', 'utf-8')
-fh.setLevel(logging.INFO)
+fh.setLevel(logging.DEBUG)
 
 # create console handler with a debug log level
 ch = logging.StreamHandler()
@@ -145,7 +145,7 @@ if __name__ == "__main__":
     
     all_inds = df_aff.index.tolist()
 
-    n = 2
+    n = 17
     responses = []
     jsons = []
 

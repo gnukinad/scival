@@ -140,7 +140,6 @@ def get_aff_metrics(res):
 
     df_list = []
     for x in res:
-        pprint(x)
 
         mtyp = x['metric']['metricType']
         # mval = x['metric']['values']

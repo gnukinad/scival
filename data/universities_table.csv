@@ -1,106 +1,106 @@
 Institution,metrics,id_downloaded,link,type,name,uri,countryCode,region,sector,id,country
-Harvard University,,1,https://api.elsevier.com/metrics/institution/508076,application/json,Harvard University,Institution/508076,usa,NAM,academic,508076,United States
-Institute of Geographical Sciences and Natural Resources Research Chinese Academy of Sciences,,1,https://api.elsevier.com/metrics/institution/700734,application/json,Institute of Geographical Sciences and Natural Resources Research Chinese Academy of Sciences,Institution/700734,chn,APAC,academic,700734,China
-Institute of Computing Technology Chinese Academy of Sciences,,1,https://api.elsevier.com/metrics/institution/700731,application/json,Institute of Computing Technology Chinese Academy of Sciences,Institution/700731,chn,APAC,academic,700731,China
-Kunming Institute of Botany Chinese Academy of Sciences,,1,https://api.elsevier.com/metrics/institution/700713,application/json,Kunming Institute of Botany Chinese Academy of Sciences,Institution/700713,chn,APAC,academic,700713,China
-Institute of Genetics and Developmental Biology Chinese Academy of Sciences,,1,https://api.elsevier.com/metrics/institution/700706,application/json,Institute of Genetics and Developmental Biology Chinese Academy of Sciences,Institution/700706,chn,APAC,academic,700706,China
-Xi'an Institute of Optics and Precision Mechanics Chinese Academy of Sciences,,1,https://api.elsevier.com/metrics/institution/700721,application/json,Xi'an Institute of Optics and Precision Mechanics Chinese Academy of Sciences,Institution/700721,chn,APAC,academic,700721,China
-"Institute of Hydrobiology, Chinese Academy of Sciences",,1,https://api.elsevier.com/metrics/institution/700718,application/json,"Institute of Hydrobiology, Chinese Academy of Sciences",Institution/700718,chn,APAC,academic,700718,China
-Wuhan Institute of Physics and Mathematics Chinese Academy of Sciences,,1,https://api.elsevier.com/metrics/institution/700715,application/json,Wuhan Institute of Physics and Mathematics Chinese Academy of Sciences,Institution/700715,chn,APAC,academic,700715,China
-Shenyang Institute of Automation Chinese Academy of Sciences,,1,https://api.elsevier.com/metrics/institution/700717,application/json,Shenyang Institute of Automation Chinese Academy of Sciences,Institution/700717,chn,APAC,academic,700717,China
-Nanjing Institute of Geology and Palaeontology Chinese Academy of Sciences,,1,https://api.elsevier.com/metrics/institution/700703,application/json,Nanjing Institute of Geology and Palaeontology Chinese Academy of Sciences,Institution/700703,chn,APAC,academic,700703,China
-Hefei Institutes of Physical Sciences Chinese Academy of Sciences,,1,https://api.elsevier.com/metrics/institution/700695,application/json,Hefei Institutes of Physical Sciences Chinese Academy of Sciences,Institution/700695,chn,APAC,academic,700695,China
-Wuhan Institute of Virology Chinese Academy of Sciences,,1,https://api.elsevier.com/metrics/institution/700727,application/json,Wuhan Institute of Virology Chinese Academy of Sciences,Institution/700727,chn,APAC,academic,700727,China
-"Institut Pasteur of Shanghai, Chinese Academy of Sciences",,1,https://api.elsevier.com/metrics/institution/703326,application/json,"Institut Pasteur of Shanghai, Chinese Academy of Sciences",Institution/703326,chn,APAC,academic,703326,China
-Chengdu Institute of Organic Chemistry Chinese Academy of Sciences,,1,https://api.elsevier.com/metrics/institution/700730,application/json,Chengdu Institute of Organic Chemistry Chinese Academy of Sciences,Institution/700730,chn,APAC,academic,700730,China
-Center for Space Science and Applied Research Chinese Academy of Sciences,,1,https://api.elsevier.com/metrics/institution/700720,application/json,Center for Space Science and Applied Research Chinese Academy of Sciences,Institution/700720,chn,APAC,academic,700720,China
-Qinghai Institute of Salt Lakes Chinese Academy of Sciences,,1,https://api.elsevier.com/metrics/institution/700691,application/json,Qinghai Institute of Salt Lakes Chinese Academy of Sciences,Institution/700691,chn,APAC,academic,700691,China
-"International Center for Material Physics, Chinese Academy of Sciences",-1,-1,https://api.elsevier.com/metrics/institution/700740,application/json,"International Center for Material Physics, Chinese Academy of Sciences",Institution/700740,chn,APAC,academic,700740,China
-Institute of Soil Sciences Chinese Academy of Sciences,,1,https://api.elsevier.com/metrics/institution/700708,application/json,Institute of Soil Sciences Chinese Academy of Sciences,Institution/700708,chn,APAC,academic,700708,China
-Shenyang Institute of Computing Technology Chinese Academy of Sciences,,1,https://api.elsevier.com/metrics/institution/700699,application/json,Shenyang Institute of Computing Technology Chinese Academy of Sciences,Institution/700699,chn,APAC,academic,700699,China
-"Institute of Subtropical Agriculture, Chinese Academy of Sciences",-1,-1,https://api.elsevier.com/metrics/institution/703693,application/json,"Institute of Subtropical Agriculture, Chinese Academy of Sciences",Institution/703693,chn,APAC,academic,703693,China
-"Wuhan Institute of Rock and Soil Mechanics, Chinese Academy of Sciences",,1,https://api.elsevier.com/metrics/institution/703694,application/json,"Wuhan Institute of Rock and Soil Mechanics, Chinese Academy of Sciences",Institution/703694,chn,APAC,academic,703694,China
-Chinese Academy of Sciences,,1,,,,,,,,,
-CNRS,,,,,,,,,,,
-Ministry of Education China,,,,,,,,,,,
-Stanford University,,,,,,,,,,,
-University of Toronto,,,,,,,,,,,
-University of Oxford,,,,,,,,,,,
-University College London,,,,,,,,,,,
-Johns Hopkins University,,,,,,,,,,,
-University of Washington,,,,,,,,,,,
-University of Michigan,,,,,,,,,,,
-Universite Paris Saclay,,,,,,,,,,,
-National Institutes of Health,,,,,,,,,,,
-University of Pennsylvania,,,,,,,,,,,
-University of California at Los Angeles,,,,,,,,,,,
-University of Cambridge,,,,,,,,,,,
-Columbia University,,,,,,,,,,,
-Imperial College London,,,,,,,,,,,
-Massachusetts Institute of Technology,,,,,,,,,,,
-INSERM,,,,,,,,,,,
-University of California at Berkeley,,,,,,,,,,,
-University of California at San Diego,,,,,,,,,,,
-CSIC,,,,,,,,,,,
-University of British Columbia,,,,,,,,,,,
-University of Copenhagen,,,,,,,,,,,
-Duke University,,,,,,,,,,,
-Yale University,,,,,,,,,,,
-Cornell University,,,,,,,,,,,
-University of California at San Francisco,,,,,,,,,,,
-University of Melbourne,,,,,,,,,,,
-University of Texas at Austin,,,,,,,,,,,
-University of Sydney,,,,,,,,,,,
-University of Pittsburgh,,,,,,,,,,,
-Tsinghua University,,,,,,,,,,,
-University of Wisconsin,,,,,,,,,,,
-Universite Pierre et Marie Curie,,,,,,,,,,,
-University of Minnesota,,,,,,,,,,,
-VA Medical Center,,,,,,,,,,,
-University of Tokyo,,,,,,,,,,,
-Northwestern University,,,,,,,,,,,
-KU Leuven,,,,,,,,,,,
-Peking University,,,,,,,,,,,
-National University of Singapore,,,,,,,,,,,
-University of North Carolina,,,,,,,,,,,
-The Ohio State University,,,,,,,,,,,
-University of Queensland,,,,,,,,,,,
-University of Amsterdam,,,,,,,,,,,
-New York University,,,,,,,,,,,
-ETH Zurich,,,,,,,,,,,
-University of Edinburgh,,,,,,,,,,,
-Shanghai Jiao Tong University,,,,,,,,,,,
-McGill University,,,,,,,,,,,
-Utrecht University,,,,,,,,,,,
-Monash University,,,,,,,,,,,
-King's College London,,,,,,,,,,,
-University of Manchester,,,,,,,,,,,
-CNR,,,,,,,,,,,
-University of Southern California,,,,,,,,,,,
-University of New South Wales,,,,,,,,,,,
-University of Illinois at Urbana-Champaign,,,,,,,,,,,
-University of Chicago,,,,,,,,,,,
-Pennsylvania State University,,,,,,,,,,,
-Universidade de Sao Paulo,,,,,,,,,,,
-Zhejiang University,,,,,,,,,,,
-Karolinska Institutet,,,,,,,,,,,
-Washington University St. Louis,,,,,,,,,,,
-University of Heidelberg,,,,,,,,,,,
-Nanyang Technological University,,,,,,,,,,,
-University of California at Davis,,,,,,,,,,,
-University of Florida,,,,,,,,,,,
-Seoul National University,,,,,,,,,,,
-University of Rome La Sapienza,,,,,,,,,,,
-Ghent University,,,,,,,,,,,
-University of Maryland,,,,,,,,,,,
-Mayo Clinic Rochester MN,,,,,,,,,,,
-Emory University,,,,,,,,,,,
-University of Zurich,,,,,,,,,,,
-Universite Paris-Sud,,,,,,,,,,,
-Vanderbilt University,,,,,,,,,,,
-Ludwig-Maximilians-University Munchen,,,,,,,,,,,
-Technische Universitat Munchen,,,,,,,,,,,
-Universitat de Barcelona,,,,,,,,,,,
+Harvard University,1.0,1.0,https://api.elsevier.com/metrics/institution/508076,application/json,Harvard University,Institution/508076,usa,NAM,academic,508076.0,United States
+Institute of Geographical Sciences and Natural Resources Research Chinese Academy of Sciences,,1.0,https://api.elsevier.com/metrics/institution/700734,application/json,Institute of Geographical Sciences and Natural Resources Research Chinese Academy of Sciences,Institution/700734,chn,APAC,academic,700734.0,China
+Institute of Computing Technology Chinese Academy of Sciences,,1.0,https://api.elsevier.com/metrics/institution/700731,application/json,Institute of Computing Technology Chinese Academy of Sciences,Institution/700731,chn,APAC,academic,700731.0,China
+Kunming Institute of Botany Chinese Academy of Sciences,1.0,1.0,https://api.elsevier.com/metrics/institution/700713,application/json,Kunming Institute of Botany Chinese Academy of Sciences,Institution/700713,chn,APAC,academic,700713.0,China
+Institute of Genetics and Developmental Biology Chinese Academy of Sciences,1.0,1.0,https://api.elsevier.com/metrics/institution/700706,application/json,Institute of Genetics and Developmental Biology Chinese Academy of Sciences,Institution/700706,chn,APAC,academic,700706.0,China
+Xi'an Institute of Optics and Precision Mechanics Chinese Academy of Sciences,1.0,1.0,https://api.elsevier.com/metrics/institution/700721,application/json,Xi'an Institute of Optics and Precision Mechanics Chinese Academy of Sciences,Institution/700721,chn,APAC,academic,700721.0,China
+"Institute of Hydrobiology, Chinese Academy of Sciences",1.0,1.0,https://api.elsevier.com/metrics/institution/700718,application/json,"Institute of Hydrobiology, Chinese Academy of Sciences",Institution/700718,chn,APAC,academic,700718.0,China
+Wuhan Institute of Physics and Mathematics Chinese Academy of Sciences,1.0,1.0,https://api.elsevier.com/metrics/institution/700715,application/json,Wuhan Institute of Physics and Mathematics Chinese Academy of Sciences,Institution/700715,chn,APAC,academic,700715.0,China
+Shenyang Institute of Automation Chinese Academy of Sciences,1.0,1.0,https://api.elsevier.com/metrics/institution/700717,application/json,Shenyang Institute of Automation Chinese Academy of Sciences,Institution/700717,chn,APAC,academic,700717.0,China
+Nanjing Institute of Geology and Palaeontology Chinese Academy of Sciences,1.0,1.0,https://api.elsevier.com/metrics/institution/700703,application/json,Nanjing Institute of Geology and Palaeontology Chinese Academy of Sciences,Institution/700703,chn,APAC,academic,700703.0,China
+Hefei Institutes of Physical Sciences Chinese Academy of Sciences,1.0,1.0,https://api.elsevier.com/metrics/institution/700695,application/json,Hefei Institutes of Physical Sciences Chinese Academy of Sciences,Institution/700695,chn,APAC,academic,700695.0,China
+Wuhan Institute of Virology Chinese Academy of Sciences,,1.0,https://api.elsevier.com/metrics/institution/700727,application/json,Wuhan Institute of Virology Chinese Academy of Sciences,Institution/700727,chn,APAC,academic,700727.0,China
+"Institut Pasteur of Shanghai, Chinese Academy of Sciences",,1.0,https://api.elsevier.com/metrics/institution/703326,application/json,"Institut Pasteur of Shanghai, Chinese Academy of Sciences",Institution/703326,chn,APAC,academic,703326.0,China
+Chengdu Institute of Organic Chemistry Chinese Academy of Sciences,,1.0,https://api.elsevier.com/metrics/institution/700730,application/json,Chengdu Institute of Organic Chemistry Chinese Academy of Sciences,Institution/700730,chn,APAC,academic,700730.0,China
+Center for Space Science and Applied Research Chinese Academy of Sciences,1.0,1.0,https://api.elsevier.com/metrics/institution/700720,application/json,Center for Space Science and Applied Research Chinese Academy of Sciences,Institution/700720,chn,APAC,academic,700720.0,China
+Qinghai Institute of Salt Lakes Chinese Academy of Sciences,1.0,1.0,https://api.elsevier.com/metrics/institution/700691,application/json,Qinghai Institute of Salt Lakes Chinese Academy of Sciences,Institution/700691,chn,APAC,academic,700691.0,China
+"International Center for Material Physics, Chinese Academy of Sciences",-1.0,-1.0,https://api.elsevier.com/metrics/institution/700740,application/json,"International Center for Material Physics, Chinese Academy of Sciences",Institution/700740,chn,APAC,academic,700740.0,China
+Institute of Soil Sciences Chinese Academy of Sciences,1.0,1.0,https://api.elsevier.com/metrics/institution/700708,application/json,Institute of Soil Sciences Chinese Academy of Sciences,Institution/700708,chn,APAC,academic,700708.0,China
+Shenyang Institute of Computing Technology Chinese Academy of Sciences,1.0,1.0,https://api.elsevier.com/metrics/institution/700699,application/json,Shenyang Institute of Computing Technology Chinese Academy of Sciences,Institution/700699,chn,APAC,academic,700699.0,China
+"Institute of Subtropical Agriculture, Chinese Academy of Sciences",-1.0,-1.0,https://api.elsevier.com/metrics/institution/703693,application/json,"Institute of Subtropical Agriculture, Chinese Academy of Sciences",Institution/703693,chn,APAC,academic,703693.0,China
+"Wuhan Institute of Rock and Soil Mechanics, Chinese Academy of Sciences",1.0,1.0,https://api.elsevier.com/metrics/institution/703694,application/json,"Wuhan Institute of Rock and Soil Mechanics, Chinese Academy of Sciences",Institution/703694,chn,APAC,academic,703694.0,China
+Chinese Academy of Sciences,,1.0,,,,,,,,,
+CNRS,1.0,1.0,https://api.elsevier.com/metrics/institution/314004,application/json,CNRS,Institution/314004,fra,EUR,government,314004.0,France
+Ministry of Education China,,1.0,https://api.elsevier.com/metrics/institution/203123,application/json,Ministry of Education China,Institution/203123,chn,APAC,government,203123.0,China
+Stanford University,,1.0,https://api.elsevier.com/metrics/institution/508219,application/json,Stanford University,Institution/508219,usa,NAM,academic,508219.0,United States
+University of Toronto,,1.0,https://api.elsevier.com/metrics/institution/501048,application/json,University of Toronto,Institution/501048,can,NAM,academic,501048.0,Canada
+University of Oxford,1.0,1.0,https://api.elsevier.com/metrics/institution/315091,application/json,University of Oxford,Institution/315091,gbr,EUR,academic,315091.0,United Kingdom
+University College London,1.0,1.0,https://api.elsevier.com/metrics/institution/315061,application/json,University College London,Institution/315061,gbr,EUR,academic,315061.0,United Kingdom
+Johns Hopkins University,1.0,1.0,https://api.elsevier.com/metrics/institution/508094,application/json,Johns Hopkins University,Institution/508094,usa,NAM,academic,508094.0,United States
+University of Washington,,1.0,https://api.elsevier.com/metrics/institution/508358,application/json,University of Washington,Institution/508358,usa,NAM,academic,508358.0,United States
+University of Michigan,1.0,1.0,https://api.elsevier.com/metrics/institution/508303,application/json,University of Michigan,Institution/508303,usa,NAM,academic,508303.0,United States
+Universite Paris Saclay,,1.0,https://api.elsevier.com/metrics/institution/706362,application/json,Universite Paris Saclay,Institution/706362,fra,EUR,academic,706362.0,France
+National Institutes of Health,,1.0,https://api.elsevier.com/metrics/institution/508156,application/json,National Institutes of Health,Institution/508156,usa,NAM,government,508156.0,United States
+University of Pennsylvania,1.0,1.0,https://api.elsevier.com/metrics/institution/508331,application/json,University of Pennsylvania,Institution/508331,usa,NAM,academic,508331.0,United States
+University of California at Los Angeles,,1.0,https://api.elsevier.com/metrics/institution/508262,application/json,University of California at Los Angeles,Institution/508262,usa,NAM,academic,508262.0,United States
+University of Cambridge,1.0,1.0,https://api.elsevier.com/metrics/institution/315068,application/json,University of Cambridge,Institution/315068,gbr,EUR,academic,315068.0,United Kingdom
+Columbia University,1.0,1.0,https://api.elsevier.com/metrics/institution/508046,application/json,Columbia University,Institution/508046,usa,NAM,academic,508046.0,United States
+Imperial College London,1.0,1.0,https://api.elsevier.com/metrics/institution/315018,application/json,Imperial College London,Institution/315018,gbr,EUR,academic,315018.0,United Kingdom
+Massachusetts Institute of Technology,1.0,1.0,https://api.elsevier.com/metrics/institution/508111,application/json,Massachusetts Institute of Technology,Institution/508111,usa,NAM,academic,508111.0,United States
+INSERM,1.0,1.0,https://api.elsevier.com/metrics/institution/314027,application/json,INSERM,Institution/314027,fra,EUR,government,314027.0,France
+University of California at Berkeley,,1.0,https://api.elsevier.com/metrics/institution/508259,application/json,University of California at Berkeley,Institution/508259,usa,NAM,academic,508259.0,United States
+University of California at San Diego,,1.0,https://api.elsevier.com/metrics/institution/508264,application/json,University of California at San Diego,Institution/508264,usa,NAM,academic,508264.0,United States
+CSIC,1.0,1.0,https://api.elsevier.com/metrics/institution/312004,application/json,CSIC,Institution/312004,esp,EUR,academic,312004.0,Spain
+University of British Columbia,1.0,1.0,https://api.elsevier.com/metrics/institution/501036,application/json,University of British Columbia,Institution/501036,can,NAM,academic,501036.0,Canada
+University of Copenhagen,,1.0,https://api.elsevier.com/metrics/institution/310011,application/json,University of Copenhagen,Institution/310011,dnk,EUR,academic,310011.0,Denmark
+Duke University,1.0,1.0,https://api.elsevier.com/metrics/institution/508053,application/json,Duke University,Institution/508053,usa,NAM,academic,508053.0,United States
+Yale University,,1.0,https://api.elsevier.com/metrics/institution/508383,application/json,Yale University,Institution/508383,usa,NAM,academic,508383.0,United States
+Cornell University,1.0,1.0,https://api.elsevier.com/metrics/institution/508047,application/json,Cornell University,Institution/508047,usa,NAM,academic,508047.0,United States
+University of California at San Francisco,,1.0,https://api.elsevier.com/metrics/institution/508265,application/json,University of California at San Francisco,Institution/508265,usa,NAM,academic,508265.0,United States
+University of Melbourne,,1.0,https://api.elsevier.com/metrics/institution/201025,application/json,University of Melbourne,Institution/201025,aus,APAC,academic,201025.0,Australia
+University of Texas at Austin,,1.0,https://api.elsevier.com/metrics/institution/508345,application/json,University of Texas at Austin,Institution/508345,usa,NAM,academic,508345.0,United States
+University of Sydney,,1.0,https://api.elsevier.com/metrics/institution/201032,application/json,University of Sydney,Institution/201032,aus,APAC,academic,201032.0,Australia
+University of Pittsburgh,1.0,1.0,https://api.elsevier.com/metrics/institution/508332,application/json,University of Pittsburgh,Institution/508332,usa,NAM,academic,508332.0,United States
+Tsinghua University,,1.0,https://api.elsevier.com/metrics/institution/203209,application/json,Tsinghua University,Institution/203209,chn,APAC,academic,203209.0,China
+University of Wisconsin,,1.0,https://api.elsevier.com/metrics/institution/508359,application/json,University of Wisconsin,Institution/508359,usa,NAM,academic,508359.0,United States
+Universite Pierre et Marie Curie,,1.0,https://api.elsevier.com/metrics/institution/314089,application/json,Universite Pierre et Marie Curie,Institution/314089,fra,EUR,academic,314089.0,France
+University of Minnesota,1.0,1.0,https://api.elsevier.com/metrics/institution/508305,application/json,University of Minnesota,Institution/508305,usa,NAM,academic,508305.0,United States
+VA Medical Center,,1.0,https://api.elsevier.com/metrics/institution/508762,application/json,VA Medical Center,Institution/508762,usa,NAM,medical,508762.0,United States
+University of Tokyo,1.0,1.0,https://api.elsevier.com/metrics/institution/208180,application/json,University of Tokyo,Institution/208180,jpn,APAC,academic,208180.0,Japan
+Northwestern University,1.0,1.0,https://api.elsevier.com/metrics/institution/508175,application/json,Northwestern University,Institution/508175,usa,NAM,academic,508175.0,United States
+KU Leuven,1.0,1.0,https://api.elsevier.com/metrics/institution/303008,application/json,KU Leuven,Institution/303008,bel,EUR,academic,303008.0,Belgium
+Peking University,1.0,1.0,https://api.elsevier.com/metrics/institution/203152,application/json,Peking University,Institution/203152,chn,APAC,academic,203152.0,China
+National University of Singapore,,1.0,https://api.elsevier.com/metrics/institution/215004,application/json,National University of Singapore,Institution/215004,sgp,APAC,academic,215004.0,Singapore
+University of North Carolina,1.0,1.0,https://api.elsevier.com/metrics/institution/508320,application/json,University of North Carolina,Institution/508320,usa,NAM,academic,508320.0,United States
+The Ohio State University,1.0,1.0,https://api.elsevier.com/metrics/institution/508179,application/json,The Ohio State University,Institution/508179,usa,NAM,academic,508179.0,United States
+University of Queensland,,1.0,https://api.elsevier.com/metrics/institution/201029,application/json,University of Queensland,Institution/201029,aus,APAC,academic,201029.0,Australia
+University of Amsterdam,1.0,1.0,https://api.elsevier.com/metrics/institution/325012,application/json,University of Amsterdam,Institution/325012,nld,EUR,academic,325012.0,Netherlands
+New York University,1.0,1.0,https://api.elsevier.com/metrics/institution/508166,application/json,New York University,Institution/508166,usa,NAM,academic,508166.0,United States
+ETH Zurich,,1.0,https://api.elsevier.com/metrics/institution/306003,application/json,ETH Zurich,Institution/306003,che,EUR,academic,306003.0,Switzerland
+University of Edinburgh,,1.0,https://api.elsevier.com/metrics/institution/315074,application/json,University of Edinburgh,Institution/315074,gbr,EUR,academic,315074.0,United Kingdom
+Shanghai Jiao Tong University,1.0,1.0,https://api.elsevier.com/metrics/institution/203168,application/json,Shanghai Jiao Tong University,Institution/203168,chn,APAC,academic,203168.0,China
+McGill University,1.0,1.0,https://api.elsevier.com/metrics/institution/501016,application/json,McGill University,Institution/501016,can,NAM,academic,501016.0,Canada
+Utrecht University,1.0,1.0,https://api.elsevier.com/metrics/institution/325015,application/json,Utrecht University,Institution/325015,nld,EUR,academic,325015.0,Netherlands
+Monash University,,1.0,https://api.elsevier.com/metrics/institution/201015,application/json,Monash University,Institution/201015,aus,APAC,academic,201015.0,Australia
+King's College London,1.0,1.0,https://api.elsevier.com/metrics/institution/315026,application/json,King's College London,Institution/315026,gbr,EUR,academic,315026.0,United Kingdom
+University of Manchester,,1.0,https://api.elsevier.com/metrics/institution/315088,application/json,University of Manchester,Institution/315088,gbr,EUR,academic,315088.0,United Kingdom
+CNR,,1.0,https://api.elsevier.com/metrics/institution/321003,application/json,CNR,Institution/321003,ita,EUR,government,321003.0,Italy
+University of Southern California,1.0,1.0,https://api.elsevier.com/metrics/institution/508341,application/json,University of Southern California,Institution/508341,usa,NAM,academic,508341.0,United States
+University of New South Wales,,1.0,https://api.elsevier.com/metrics/institution/201027,application/json,University of New South Wales,Institution/201027,aus,APAC,academic,201027.0,Australia
+University of Illinois at Urbana-Champaign,,1.0,https://api.elsevier.com/metrics/institution/508285,application/json,University of Illinois at Urbana-Champaign,Institution/508285,usa,NAM,academic,508285.0,United States
+University of Chicago,,1.0,https://api.elsevier.com/metrics/institution/508270,application/json,University of Chicago,Institution/508270,usa,NAM,academic,508270.0,United States
+Pennsylvania State University,1.0,1.0,https://api.elsevier.com/metrics/institution/508186,application/json,Pennsylvania State University,Institution/508186,usa,NAM,academic,508186.0,United States
+Universidade de Sao Paulo,,1.0,https://api.elsevier.com/metrics/institution/602049,application/json,Universidade de Sao Paulo,Institution/602049,bra,SAM,academic,602049.0,Brazil
+Zhejiang University,,1.0,https://api.elsevier.com/metrics/institution/203243,application/json,Zhejiang University,Institution/203243,chn,APAC,academic,203243.0,China
+Karolinska Institutet,,1.0,https://api.elsevier.com/metrics/institution/332004,application/json,Karolinska Institutet,Institution/332004,swe,EUR,academic,332004.0,Sweden
+Washington University St. Louis,,1.0,https://api.elsevier.com/metrics/institution/508370,application/json,Washington University St. Louis,Institution/508370,usa,NAM,academic,508370.0,United States
+University of Heidelberg,,1.0,https://api.elsevier.com/metrics/institution/309076,application/json,University of Heidelberg,Institution/309076,deu,EUR,academic,309076.0,Germany
+Nanyang Technological University,,1.0,https://api.elsevier.com/metrics/institution/215003,application/json,Nanyang Technological University,Institution/215003,sgp,APAC,academic,215003.0,Singapore
+University of California at Davis,,1.0,https://api.elsevier.com/metrics/institution/508260,application/json,University of California at Davis,Institution/508260,usa,NAM,academic,508260.0,United States
+University of Florida,,1.0,https://api.elsevier.com/metrics/institution/508279,application/json,University of Florida,Institution/508279,usa,NAM,academic,508279.0,United States
+Seoul National University,1.0,1.0,https://api.elsevier.com/metrics/institution/209063,application/json,Seoul National University,Institution/209063,kor,APAC,academic,209063.0,South Korea
+University of Rome La Sapienza,1.0,1.0,https://api.elsevier.com/metrics/institution/321063,application/json,University of Rome La Sapienza,Institution/321063,ita,EUR,academic,321063.0,Italy
+Ghent University,1.0,1.0,https://api.elsevier.com/metrics/institution/303004,application/json,Ghent University,Institution/303004,bel,EUR,academic,303004.0,Belgium
+University of Maryland,1.0,1.0,https://api.elsevier.com/metrics/institution/508292,application/json,University of Maryland,Institution/508292,usa,NAM,academic,508292.0,United States
+Mayo Clinic Rochester MN,,1.0,https://api.elsevier.com/metrics/institution/508113,application/json,Mayo Clinic Rochester MN,Institution/508113,usa,NAM,other,508113.0,United States
+Emory University,1.0,1.0,https://api.elsevier.com/metrics/institution/508059,application/json,Emory University,Institution/508059,usa,NAM,academic,508059.0,United States
+University of Zurich,,1.0,https://api.elsevier.com/metrics/institution/306016,application/json,University of Zurich,Institution/306016,che,EUR,academic,306016.0,Switzerland
+Universite Paris-Sud,,1.0,https://api.elsevier.com/metrics/institution/314094,application/json,Universite Paris-Sud,Institution/314094,fra,EUR,academic,314094.0,France
+Vanderbilt University,,1.0,https://api.elsevier.com/metrics/institution/508363,application/json,Vanderbilt University,Institution/508363,usa,NAM,academic,508363.0,United States
+Ludwig-Maximilians-University Munchen,,1.0,https://api.elsevier.com/metrics/institution/309086,application/json,Ludwig-Maximilians-University Munchen,Institution/309086,deu,EUR,academic,309086.0,Germany
+Technische Universitat Munchen,,1.0,https://api.elsevier.com/metrics/institution/309054,application/json,Technische Universitat Munchen,Institution/309054,deu,EUR,academic,309054.0,Germany
+Universitat de Barcelona,,1.0,https://api.elsevier.com/metrics/institution/312046,application/json,Universitat de Barcelona,Institution/312046,esp,EUR,academic,312046.0,Spain
 Boston University,,,,,,,,,,,
 CEA,,,,,,,,,,,
 PSL Research University,,,,,,,,,,,
@@ -283,7 +283,7 @@ CONICET,,,,,,,,,,,
 South China University of Technology,,,,,,,,,,,
 Argonne National Laboratory,,,,,,,,,,,
 University of Duisburg-Essen,,,,,,,,,,,
-University of Maryland-Baltimore,,,,,,,,,,,
+University of Maryland-Baltimore,1.0,1.0,https://api.elsevier.com/metrics/institution/508294,application/json,University of Maryland-Baltimore,Institution/508294,usa,NAM,academic,508294.0,United States
 Tianjin University,,,,,,,,,,,
 SUNY Stony Brook,,,,,,,,,,,
 University of Mainz,,,,,,,,,,,
@@ -712,7 +712,7 @@ San Diego State University,,,,,,,,,,,
 Technische Universitat Braunschweig,,,,,,,,,,,
 University of Kent,,,,,,,,,,,
 Open University Milton Keynes,,,,,,,,,,,
-University of Wisconsin-Milwaukee,,,,,,,,,,,
+University of Wisconsin-Milwaukee,,1.0,https://api.elsevier.com/metrics/institution/508360,application/json,University of Wisconsin-Milwaukee,Institution/508360,usa,NAM,academic,508360.0,United States
 University of Patras,,,,,,,,,,,
 St. George's University of London,,,,,,,,,,,
 Swinburne University of Technology,,,,,,,,,,,
@@ -858,7 +858,7 @@ North China Electric Power University,,,,,,,,,,,
 Universidade de Brasilia,,,,,,,,,,,
 Tilburg University,,,,,,,,,,,
 Universite Paris XII,,,,,,,,,,,
-University of North Carolina at Charlotte,,,,,,,,,,,
+University of North Carolina at Charlotte,1.0,1.0,https://api.elsevier.com/metrics/institution/508321,application/json,University of North Carolina at Charlotte,Institution/508321,usa,NAM,academic,508321.0,United States
 CAS - Dalian Institute of Chemical Physics,,,,,,,,,,,
 Universidad Nacional de La Plata,,,,,,,,,,,
 Tianjin Medical University,,,,,,,,,,,
@@ -956,7 +956,7 @@ Universidade do Estado do Rio de Janeiro,,,,,,,,,,,
 Hospices Civils de Lyon,,,,,,,,,,,
 University of Chieti,,,,,,,,,,,
 Hohai University,,,,,,,,,,,
-Zhejiang University of Technology,,,,,,,,,,,
+Zhejiang University of Technology,,1.0,https://api.elsevier.com/metrics/institution/203244,application/json,Zhejiang University of Technology,Institution/203244,chn,APAC,academic,203244.0,China
 Ajou University,,,,,,,,,,,
 North Shore-Long Island Jewish Health System,,,,,,,,,,,
 King Fahd University of Petroleum and Minerals,,,,,,,,,,,
@@ -1035,7 +1035,7 @@ University of Wuppertal,,,,,,,,,,,
 CAS - Shanghai Institute of Organic Chemistry,,,,,,,,,,,
 H. Niewodniczanski Institute of Nuclear Physics of the Polish Academy of Sciences,,,,,,,,,,,
 Missouri University of Science and Technology,,,,,,,,,,,
-University of Maryland Baltimore County,,,,,,,,,,,
+University of Maryland Baltimore County,1.0,1.0,https://api.elsevier.com/metrics/institution/508293,application/json,University of Maryland Baltimore County,Institution/508293,usa,NAM,academic,508293.0,United States
 Tomsk State University,,,,,,,,,,,
 National Center for Nanoscience and Technology,,,,,,,,,,,
 University of Portsmouth,,,,,,,,,,,
@@ -1405,7 +1405,7 @@ Middlesex University,,,,,,,,,,,
 Royal Marsden Hospital London,,,,,,,,,,,
 Bambino Gesu Children's Hospital,,,,,,,,,,,
 Slovak University of Technology,,,,,,,,,,,
-University of North Carolina at Greensboro,,,,,,,,,,,
+University of North Carolina at Greensboro,1.0,1.0,https://api.elsevier.com/metrics/institution/508322,application/json,University of North Carolina at Greensboro,Institution/508322,usa,NAM,academic,508322.0,United States
 Max-Planck-Institut fur Astrophysik,,,,,,,,,,,
 Auckland City Hospital,,,,,,,,,,,
 Whitehead Institute for Biomedical Research,,,,,,,,,,,
@@ -2143,7 +2143,7 @@ Jawaharlal Nehru Centre for Advanced Scientific Research,,,,,,,,,,,
 Food and Agriculture Organization of the United Nations,,,,,,,,,,,
 Translational Genomics Research Institute,,,,,,,,,,,
 Nanjing Forestry University,,,,,,,,,,,
-Seoul National University of Science and Technology (SNUST),,,,,,,,,,,
+Seoul National University of Science and Technology (SNUST),1.0,1.0,https://api.elsevier.com/metrics/institution/209064,application/json,Seoul National University of Science and Technology (SNUST),Institution/209064,kor,APAC,academic,209064.0,South Korea
 "Beaumont Hospital, Dublin",,,,,,,,,,,
 Instituto Universitario de Lisboa,,,,,,,,,,,
 University of Lethbridge,,,,,,,,,,,
@@ -2569,7 +2569,7 @@ Leibniz Institute of Polymer Research Dresden (IPF),,,,,,,,,,,
 Ecole Nationale Superieure d'Ingenieurs de Caen,,,,,,,,,,,
 Norwegian Institute for Nature Research,,,,,,,,,,,
 Doshisha University,,,,,,,,,,,
-University of North Carolina at Wilmington,,,,,,,,,,,
+University of North Carolina at Wilmington,1.0,1.0,https://api.elsevier.com/metrics/institution/508323,application/json,University of North Carolina at Wilmington,Institution/508323,usa,NAM,academic,508323.0,United States
 University of the West Indies Kingston,,,,,,,,,,,
 Singapore-MIT Alliance,,,,,,,,,,,
 Universitatea de Medicina si Farmacie Grigore T. Popa din Iasi,,,,,,,,,,,
@@ -2677,7 +2677,7 @@ Baskent University,,,,,,,,,,,
 Shahid Chamran University of Ahvaz,,,,,,,,,,,
 University of Zimbabwe,,,,,,,,,,,
 Alstom,,,,,,,,,,,
-University of Michigan-Dearborn,,,,,,,,,,,
+University of Michigan-Dearborn,1.0,1.0,https://api.elsevier.com/metrics/institution/508304,application/json,University of Michigan-Dearborn,Institution/508304,usa,NAM,academic,508304.0,United States
 Walter and Eliza Hall Institute of Medical Research,,,,,,,,,,,
 Shivaji University,,,,,,,,,,,
 Institute of Engineering of Porto,,,,,,,,,,,
@@ -2767,7 +2767,7 @@ Sam Houston State University,,,,,,,,,,,
 Universite de Valenciennes et du Hainaut Cambresis,,,,,,,,,,,
 Westchester Medical Center,,,,,,,,,,,
 Centre Antoine Lacassagne,,,,,,,,,,,
-IT University of Copenhagen,,,,,,,,,,,
+IT University of Copenhagen,1.0,1.0,https://api.elsevier.com/metrics/institution/310021,application/json,IT University of Copenhagen,Institution/310021,dnk,EUR,academic,310021.0,Denmark
 Israel Ministry of Health,,,,,,,,,,,
 UNIVERSIDAD DEL DESARROLLO,,,,,,,,,,,
 American University in Cairo,,,,,,,,,,,
@@ -2811,7 +2811,7 @@ Tarbiat Moallem University,,,,,,,,,,,
 University of Teesside,,,,,,,,,,,
 Carleton College,,,,,,,,,,,
 Union Memorial Hospital,,,,,,,,,,,
-CNRM Centre National de Recherches Meteorologiques,,,,,,,,,,,
+CNRM Centre National de Recherches Meteorologiques,1.0,1.0,https://api.elsevier.com/metrics/institution/314148,application/json,CNRM Centre National de Recherches Meteorologiques,Institution/314148,fra,EUR,government,314148.0,France
 Pace University,,,,,,,,,,,
 Leicester Royal Infirmary,,,,,,,,,,,
 Alfred I. duPont Hospital for Children,,,,,,,,,,,
@@ -3289,7 +3289,7 @@ L.V. Prasad Eye Institute India,,,,,,,,,,,
 University of the Pacific,,,,,,,,,,,
 Taiyuan University of Science and Technology,,,,,,,,,,,
 Hung Kuang University Taiwan,,,,,,,,,,,
-Portland VA Medical Center,,,,,,,,,,,
+Portland VA Medical Center,,1.0,https://api.elsevier.com/metrics/institution/508642,application/json,Portland VA Medical Center,Institution/508642,usa,NAM,medical,508642.0,United States
 National Institute of Health Sciences Tokyo,,,,,,,,,,,
 Zhejiang Academy of Agricultural Sciences,,,,,,,,,,,
 Universite d'Artois,,,,,,,,,,,
@@ -4184,7 +4184,7 @@ Onassis Cardiac Surgery Center,,,,,,,,,,,
 Shijiazhuang Railway Institute,,,,,,,,,,,
 Xi'an Institute of Posts and Telecommunications,,,,,,,,,,,
 Seattle Biomedical Research Institute,,,,,,,,,,,
-Zhejiang University of Finance and Economics,,,,,,,,,,,
+Zhejiang University of Finance and Economics,,1.0,https://api.elsevier.com/metrics/institution/703988,application/json,Zhejiang University of Finance and Economics,Institution/703988,chn,APAC,academic,703988.0,China
 Instituto Valenciano de Oncologia,,,,,,,,,,,
 University of Social Welfare and Rehabilitation Sciences,,,,,,,,,,,
 UGC-DAE Consortium for Scientific Research,,,,,,,,,,,
@@ -4284,11 +4284,11 @@ Louisiana State University in Shreveport,,,,,,,,,,,
 Polytechnic Institute of Set?bal,,,,,,,,,,,
 Chang Jung Christian University,,,,,,,,,,,
 Fairview Health Service,,,,,,,,,,,
-University of Wisconsin La Crosse,,,,,,,,,,,
+University of Wisconsin La Crosse,,1.0,https://api.elsevier.com/metrics/institution/508754,application/json,University of Wisconsin La Crosse,Institution/508754,usa,NAM,academic,508754.0,United States
 Royal Ontario Museum,,,,,,,,,,,
 Renault,,,,,,,,,,,
 National Institute of Public Health Japan,,,,,,,,,,,
-University of Wisconsin Eau Claire,,,,,,,,,,,
+University of Wisconsin Eau Claire,,1.0,https://api.elsevier.com/metrics/institution/508753,application/json,University of Wisconsin Eau Claire,Institution/508753,usa,NAM,academic,508753.0,United States
 Universidad Nacional de San Luis,,,,,,,,,,,
 Shandong University of Traditional Chinese Medicine,,,,,,,,,,,
 Chengdu University of Information Technology,,,,,,,,,,,
@@ -4377,7 +4377,7 @@ Quinnipiac University,,,,,,,,,,,
 Indian Institute of Technology Mandi,,,,,,,,,,,
 Royal Preston Hospital,,,,,,,,,,,
 Madigan Army Medical Center,,,,,,,,,,,
-Indiana University of Pennsylvania,,,,,,,,,,,
+Indiana University of Pennsylvania,1.0,1.0,https://api.elsevier.com/metrics/institution/508529,application/json,Indiana University of Pennsylvania,Institution/508529,usa,NAM,academic,508529.0,United States
 Korea Institute of Ceramic Engineering And Technology,,,,,,,,,,,
 Barts and The London NHS Trust,,,,,,,,,,,
 Taishan Medical College,,,,,,,,,,,
@@ -4457,7 +4457,7 @@ Giresun Universitesi,,,,,,,,,,,
 National Museum of Nature and Science,,,,,,,,,,,
 Universidade Nove de Julho,,,,,,,,,,,
 Wuyi University,,,,,,,,,,,
-Zhejiang University of Science and Technology,,,,,,,,,,,
+Zhejiang University of Science and Technology,,1.0,https://api.elsevier.com/metrics/institution/707792,application/json,Zhejiang University of Science and Technology,Institution/707792,chn,APAC,academic,707792.0,China
 Central Washington University,,,,,,,,,,,
 National Institute of Biology Ljubljana,,,,,,,,,,,
 Ming Hsin University of Science and Technology Taiwan,,,,,,,,,,,
@@ -4597,7 +4597,7 @@ Universidad de Cuenca,,,,,,,,,,,
 Jishou University,,,,,,,,,,,
 University of Lucerne,,,,,,,,,,,
 University of Mosul,,,,,,,,,,,
-University of Wisconsin Oshkosh,,,,,,,,,,,
+University of Wisconsin Oshkosh,,1.0,https://api.elsevier.com/metrics/institution/508755,application/json,University of Wisconsin Oshkosh,Institution/508755,usa,NAM,academic,508755.0,United States
 Xi'an Shiyou University,,,,,,,,,,,
 National Veterinary Research Institute,,,,,,,,,,,
 G.B. Pant University of Agriculture and Technology,,,,,,,,,,,
@@ -4857,7 +4857,7 @@ Pakistan Institute of Development Economics,,,,,,,,,,,
 Skaraborg Hospital,,,,,,,,,,,
 Universitas Hasanuddin,,,,,,,,,,,
 University of Calabar,,,,,,,,,,,
-New York University Shanghai,,,,,,,,,,,
+New York University Shanghai,1.0,1.0,https://api.elsevier.com/metrics/institution/707593,application/json,New York University Shanghai,Institution/707593,chn,APAC,academic,707593.0,China
 Coastal Carolina University,,,,,,,,,,,
 North-Eastern Federal University,,,,,,,,,,,
 Indian Institute of Space Science and Technology,,,,,,,,,,,
@@ -4961,7 +4961,7 @@ Salisbury District Hospital,,,,,,,,,,,
 Xavier University of Louisiana,,,,,,,,,,,
 Hebei North University,,,,,,,,,,,
 Southeastern Louisiana University,,,,,,,,,,,
-Utrecht University of Applied Sciences,,,,,,,,,,,
+Utrecht University of Applied Sciences,,1.0,https://api.elsevier.com/metrics/institution/707032,application/json,Utrecht University of Applied Sciences,Institution/707032,nld,EUR,academic,707032.0,Netherlands
 Kilimanjaro Christian Medical Centre,,,,,,,,,,,
 Instituto Militar de Engenharia,,,,,,,,,,,
 Gloucestershire Royal Hospital,,,,,,,,,,,
@@ -6577,7 +6577,7 @@ Hutt Hospital,,,,,,,,,,,
 Beit Berl Academic College,,,,,,,,,,,
 California State University Channel Islands,,,,,,,,,,,
 "Centocor, Inc.",,,,,,,,,,,
-Bloomsburg University of Pennsylvania,,,,,,,,,,,
+Bloomsburg University of Pennsylvania,1.0,1.0,https://api.elsevier.com/metrics/institution/706736,application/json,Bloomsburg University of Pennsylvania,Institution/706736,usa,NAM,academic,706736.0,United States
 Food and Drug Administration of Korea,,,,,,,,,,,
 RWE Power AG,,,,,,,,,,,
 Tohoku Institute of Technology,,,,,,,,,,,
@@ -7404,7 +7404,7 @@ Cumberland Infirmary,,,,,,,,,,,
 "Nasarawa State University, Keffi",,,,,,,,,,,
 Nektar,,,,,,,,,,,
 Outotec Oyj,,,,,,,,,,,
-Saint Mary's University of Minnesota,,,,,,,,,,,
+Saint Mary's University of Minnesota,1.0,1.0,https://api.elsevier.com/metrics/institution/702176,application/json,Saint Mary's University of Minnesota,Institution/702176,usa,NAM,academic,702176.0,United States
 ADCO,,,,,,,,,,,
 Central Bank of Ireland,,,,,,,,,,,
 Derbyshire Royal Infirmary,,,,,,,,,,,
