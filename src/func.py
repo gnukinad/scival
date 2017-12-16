@@ -11,13 +11,13 @@ from urllib.error import HTTPError
 
 from pprint import pprint
 
-
-BASE_DIR = os.chdir("..")
+BASE_DIR = os.path.abspath(os.path.realpath(os.path.dirname(__file__)))
+BASE_DIR = os.path.join(BASE_DIR, "..")
 
 logger = logging.getLogger(__name__ + "InstitutionSearch")
 logger.setLevel(logging.DEBUG)
 
-fname_log = os.path.join('logs','logs.txt')
+fname_log = os.path.join(BASE_DIR, 'logs', 'logs.txt')
 
 # create file handler which logs info messages
 fh = logging.FileHandler(fname_log, 'w', 'utf-8')
