@@ -14,7 +14,9 @@ from func import *
 import pickle as pk
 from pprint import pprint as pp
 
-BASE_DIR = os.path.join(os.getenv('HOME'), "projects", "scival")
+# BASE_DIR = os.path.join(os.getenv('HOME'), "projects", "scival")
+BASE_DIR = os.path.abspath(os.path.realpath(__file__))
+BASE_DIR = os.path.join(os.path.dirname(BASE_DIR), '..')
 os.chdir(BASE_DIR)
 
 FOLNAME_AFF_SEARCH = os.path.join(BASE_DIR, 'data', 'aff_search')
