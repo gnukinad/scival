@@ -39,7 +39,7 @@ logger.addHandler(fh)
 logger.addHandler(ch)
 
 
-def get_InstitutionSearch(aff_name, api_key):
+def get_InstitutionSearch(aff_name=None, api_key=None):
 
     if api_key is None:
         raise NameError("api_key is not found")
@@ -52,13 +52,13 @@ def get_InstitutionSearch(aff_name, api_key):
     return a
 
 
-def get_InstitutionMetric(aff_id, api_key):
+def get_InstitutionMetric(aff_id=None, api_key=None):
 
     if api_key is None:
         raise NameError("api_key is not found")
 
-    if aff_name is None:
-        raise NameError("affiliation name is not found")
+    if aff_id is None:
+        raise NameError("affiliation id is not found")
 
     a = MetricSearch(aff_id=aff_id, apiKey=api_key)
     a.get_jres()
@@ -158,13 +158,13 @@ def get_aff_metrics(res):
             tmp.index.name = 'year'
 
             if mtyp == 'PublicationsInTopJournalPercentiles':
-                tmp.assign(impactType=l['metric']['impactType'])
+                tmp.assign(impactType=x['metric']['impactType'])
 
-        tmp = tmp.assign(link= x['links'][0]['@href'])
-        tmp = tmp.assign(type= x['links'][0]['@type'])
-        tmp = tmp.assign(id  = x['institution']['id'])
-        tmp = tmp.assign(name= x['institution']['name'])
-        tmp = tmp.assign(uri = x['institution']['uri'])
+        tmp = tmp.assign(link=x['links'][0]['@href'])
+        tmp = tmp.assign(type=x['links'][0]['@type'])
+        tmp = tmp.assign(id  =x['institution']['id'])
+        tmp = tmp.assign(name=x['institution']['name'])
+        tmp = tmp.assign(uri =x['institution']['uri'])
 
         df_list.append(tmp)
 

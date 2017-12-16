@@ -14,7 +14,7 @@ from func import *
 import pickle as pk
 from pprint import pprint as pp
 
-BASE_DIR = os.path.join(os.getenv('HOME'), "gdrive", "projects", "academic", "scival")
+BASE_DIR = os.path.join(os.getenv('HOME'), "projects", "scival")
 os.chdir(BASE_DIR)
 
 FOLNAME_AFF_SEARCH = os.path.join(BASE_DIR, 'data', 'aff_search')
@@ -62,32 +62,6 @@ def pd_write_data(df, d, aux_key=None, aux_val=None):
 
     return df
 
-
-
-# if __name__=="__main__":
-def main1():
-
-    MY_API_KEY = "e53785aedfc1c54942ba237f8ec0f891"
-    # MY_API_KEY = None
-
-    # apiKey = "e53785aedfc1c54942ba237f8ec0f891"
-
-    # logger.debug("creating a class")
-    # a = InstitutionSearch(["Harvard University"], MY_API_KEY)
-
-    # aff_id = [508175, 508076]
-    aff_id = [508175]
-
-
-    logger.debug("creating a metrics class")
-    m = MetricSearch(aff_id=aff_id, apiKey = MY_API_KEY)
-
-    m.get_jres()
-
-
-    all_metrics = ["Collaboration", "CitationCount", "CitationPerPublication", "CollaborationImpact", "CitedPublications", "FieldWeightedCitationImpact", "hIndices", "ScholarlyOutput", "PublicationsInTopJournalPercentiles", "OutputsInTopCitationPercentiles"]
-
-    ma = ",".join(all_metrics)
 
 
 # trying to retrieve the id of the university
@@ -181,7 +155,6 @@ if __name__ == "__main__":
 
         logger.debug('starting to load institution_id')
 
-        """
         m = MetricSearch(aff_id=aff_id, apiKey = MY_API_KEY)
 
         m.get_jres()
@@ -194,7 +167,7 @@ if __name__ == "__main__":
             logger.debug('metrics dataframe was created successfully')
 
             logger.debug('saving metrics dataframe for id {}'.format(aff_id))
-            fname_metrics = os.path.join(FOLNAME_METRIC_RESPONSE, "id{}".format(aff_id))
+            fname_metrics = os.path.join(FOLNAME_METRIC_RESPONSE, "id{}.csv".format(aff_id))
             logger.debug('saving metrics for id {} dataframe'.format(aff_id))
             df.to_csv(fname_metrics)
             logger.debug('metrics dataframe for id {} was saved sucessfully'.format(aff_id))
@@ -206,4 +179,3 @@ if __name__ == "__main__":
 
         df_aff.to_csv(fname_aff_names)
         logger.debug('{} was updated successfully'.format(fname_aff_names))
-        """
