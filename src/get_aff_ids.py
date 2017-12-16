@@ -30,7 +30,7 @@ logger = logging.getLogger(__name__ + "InstitutionSearch")
 logger.setLevel(logging.DEBUG)
 
 # create file handler which logs info messages
-fh = logging.FileHandler(os.path.join('logs', 'logs.txt'), 'w', 'utf-8')
+fh = logging.FileHandler(os.path.join(BASE_DIR, 'logs', 'logs.txt'), 'w', 'utf-8')
 fh.setLevel(logging.INFO)
 
 # create console handler with a debug log level
