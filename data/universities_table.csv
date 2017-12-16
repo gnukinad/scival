@@ -68,13 +68,13 @@ University of Queensland,,1.0,https://api.elsevier.com/metrics/institution/20102
 University of Amsterdam,1.0,1.0,https://api.elsevier.com/metrics/institution/325012,application/json,University of Amsterdam,Institution/325012,nld,EUR,academic,325012.0,Netherlands
 New York University,1.0,1.0,https://api.elsevier.com/metrics/institution/508166,application/json,New York University,Institution/508166,usa,NAM,academic,508166.0,United States
 ETH Zurich,,1.0,https://api.elsevier.com/metrics/institution/306003,application/json,ETH Zurich,Institution/306003,che,EUR,academic,306003.0,Switzerland
-University of Edinburgh,,1.0,https://api.elsevier.com/metrics/institution/315074,application/json,University of Edinburgh,Institution/315074,gbr,EUR,academic,315074.0,United Kingdom
+University of Edinburgh,1.0,1.0,https://api.elsevier.com/metrics/institution/315074,application/json,University of Edinburgh,Institution/315074,gbr,EUR,academic,315074.0,United Kingdom
 Shanghai Jiao Tong University,1.0,1.0,https://api.elsevier.com/metrics/institution/203168,application/json,Shanghai Jiao Tong University,Institution/203168,chn,APAC,academic,203168.0,China
 McGill University,1.0,1.0,https://api.elsevier.com/metrics/institution/501016,application/json,McGill University,Institution/501016,can,NAM,academic,501016.0,Canada
 Utrecht University,1.0,1.0,https://api.elsevier.com/metrics/institution/325015,application/json,Utrecht University,Institution/325015,nld,EUR,academic,325015.0,Netherlands
 Monash University,,1.0,https://api.elsevier.com/metrics/institution/201015,application/json,Monash University,Institution/201015,aus,APAC,academic,201015.0,Australia
 King's College London,1.0,1.0,https://api.elsevier.com/metrics/institution/315026,application/json,King's College London,Institution/315026,gbr,EUR,academic,315026.0,United Kingdom
-University of Manchester,,1.0,https://api.elsevier.com/metrics/institution/315088,application/json,University of Manchester,Institution/315088,gbr,EUR,academic,315088.0,United Kingdom
+University of Manchester,1.0,1.0,https://api.elsevier.com/metrics/institution/315088,application/json,University of Manchester,Institution/315088,gbr,EUR,academic,315088.0,United Kingdom
 CNR,,1.0,https://api.elsevier.com/metrics/institution/321003,application/json,CNR,Institution/321003,ita,EUR,government,321003.0,Italy
 University of Southern California,1.0,1.0,https://api.elsevier.com/metrics/institution/508341,application/json,University of Southern California,Institution/508341,usa,NAM,academic,508341.0,United States
 University of New South Wales,,1.0,https://api.elsevier.com/metrics/institution/201027,application/json,University of New South Wales,Institution/201027,aus,APAC,academic,201027.0,Australia
@@ -83,7 +83,7 @@ University of Chicago,,1.0,https://api.elsevier.com/metrics/institution/508270,a
 Pennsylvania State University,1.0,1.0,https://api.elsevier.com/metrics/institution/508186,application/json,Pennsylvania State University,Institution/508186,usa,NAM,academic,508186.0,United States
 Universidade de Sao Paulo,,1.0,https://api.elsevier.com/metrics/institution/602049,application/json,Universidade de Sao Paulo,Institution/602049,bra,SAM,academic,602049.0,Brazil
 Zhejiang University,,1.0,https://api.elsevier.com/metrics/institution/203243,application/json,Zhejiang University,Institution/203243,chn,APAC,academic,203243.0,China
-Karolinska Institutet,,1.0,https://api.elsevier.com/metrics/institution/332004,application/json,Karolinska Institutet,Institution/332004,swe,EUR,academic,332004.0,Sweden
+Karolinska Institutet,1.0,1.0,https://api.elsevier.com/metrics/institution/332004,application/json,Karolinska Institutet,Institution/332004,swe,EUR,academic,332004.0,Sweden
 Washington University St. Louis,,1.0,https://api.elsevier.com/metrics/institution/508370,application/json,Washington University St. Louis,Institution/508370,usa,NAM,academic,508370.0,United States
 University of Heidelberg,,1.0,https://api.elsevier.com/metrics/institution/309076,application/json,University of Heidelberg,Institution/309076,deu,EUR,academic,309076.0,Germany
 Nanyang Technological University,,1.0,https://api.elsevier.com/metrics/institution/215003,application/json,Nanyang Technological University,Institution/215003,sgp,APAC,academic,215003.0,Singapore
@@ -93,7 +93,7 @@ Seoul National University,1.0,1.0,https://api.elsevier.com/metrics/institution/2
 University of Rome La Sapienza,1.0,1.0,https://api.elsevier.com/metrics/institution/321063,application/json,University of Rome La Sapienza,Institution/321063,ita,EUR,academic,321063.0,Italy
 Ghent University,1.0,1.0,https://api.elsevier.com/metrics/institution/303004,application/json,Ghent University,Institution/303004,bel,EUR,academic,303004.0,Belgium
 University of Maryland,1.0,1.0,https://api.elsevier.com/metrics/institution/508292,application/json,University of Maryland,Institution/508292,usa,NAM,academic,508292.0,United States
-Mayo Clinic Rochester MN,,1.0,https://api.elsevier.com/metrics/institution/508113,application/json,Mayo Clinic Rochester MN,Institution/508113,usa,NAM,other,508113.0,United States
+Mayo Clinic Rochester MN,1.0,1.0,https://api.elsevier.com/metrics/institution/508113,application/json,Mayo Clinic Rochester MN,Institution/508113,usa,NAM,other,508113.0,United States
 Emory University,1.0,1.0,https://api.elsevier.com/metrics/institution/508059,application/json,Emory University,Institution/508059,usa,NAM,academic,508059.0,United States
 University of Zurich,,1.0,https://api.elsevier.com/metrics/institution/306016,application/json,University of Zurich,Institution/306016,che,EUR,academic,306016.0,Switzerland
 Universite Paris-Sud,,1.0,https://api.elsevier.com/metrics/institution/314094,application/json,Universite Paris-Sud,Institution/314094,fra,EUR,academic,314094.0,France
@@ -101,38 +101,38 @@ Vanderbilt University,,1.0,https://api.elsevier.com/metrics/institution/508363,a
 Ludwig-Maximilians-University Munchen,,1.0,https://api.elsevier.com/metrics/institution/309086,application/json,Ludwig-Maximilians-University Munchen,Institution/309086,deu,EUR,academic,309086.0,Germany
 Technische Universitat Munchen,,1.0,https://api.elsevier.com/metrics/institution/309054,application/json,Technische Universitat Munchen,Institution/309054,deu,EUR,academic,309054.0,Germany
 Universitat de Barcelona,,1.0,https://api.elsevier.com/metrics/institution/312046,application/json,Universitat de Barcelona,Institution/312046,esp,EUR,academic,312046.0,Spain
-Boston University,,,,,,,,,,,
-CEA,,,,,,,,,,,
-PSL Research University,,,,,,,,,,,
-University of Alberta,,,,,,,,,,,
-Erasmus University Rotterdam,,,,,,,,,,,
-Vrije Universiteit,,,,,,,,,,,
+Boston University,1.0,1.0,https://api.elsevier.com/metrics/institution/508013,application/json,Boston University,Institution/508013,usa,NAM,academic,508013.0,United States
+CEA,1.0,1.0,https://api.elsevier.com/metrics/institution/314003,application/json,CEA,Institution/314003,fra,EUR,government,314003.0,France
+PSL Research University,1.0,1.0,https://api.elsevier.com/metrics/institution/707274,application/json,PSL Research University,Institution/707274,fra,EUR,academic,707274.0,France
+University of Alberta,,1.0,https://api.elsevier.com/metrics/institution/501035,application/json,University of Alberta,Institution/501035,can,NAM,academic,501035.0,Canada
+Erasmus University Rotterdam,,1.0,https://api.elsevier.com/metrics/institution/325003,application/json,Erasmus University Rotterdam,Institution/325003,nld,EUR,academic,325003.0,Netherlands
+Vrije Universiteit,,1.0,https://api.elsevier.com/metrics/institution/325016,application/json,Vrije Universiteit,Institution/325016,nld,EUR,academic,325016.0,Netherlands
 RAS,,,,,,,,,,,
-Lund University,,,,,,,,,,,
-Texas A and M University,,,,,,,,,,,
-Georgia Institute of Technology,,,,,,,,,,,
-Universitat Autonoma de Barcelona,,,,,,,,,,,
-University of Helsinki,,,,,,,,,,,
-University of Groningen,,,,,,,,,,,
-Aarhus University,,,,,,,,,,,
-University of Oslo,,,,,,,,,,,
-Radboud University Nijmegen,,,,,,,,,,,
-University of Bologna,,,,,,,,,,,
-University of Bristol,,,,,,,,,,,
-Kyoto University,,,,,,,,,,,
-Universite Paris 7,,,,,,,,,,,
-University of Arizona,,,,,,,,,,,
-Princeton University,,,,,,,,,,,
-Purdue University,,,,,,,,,,,
-Howard Hughes Medical Institute,,,,,,,,,,,
-University of Padova,,,,,,,,,,,
-Uppsala University,,,,,,,,,,,
-Fudan University,,,,,,,,,,,
-University of Colorado Boulder,,,,,,,,,,,
-University of Southampton,,,,,,,,,,,
-Universite de Montreal,,,,,,,,,,,
-University of Milan,,,,,,,,,,,
-California Institute of Technology,,,,,,,,,,,
+Lund University,1.0,1.0,https://api.elsevier.com/metrics/institution/332007,application/json,Lund University,Institution/332007,swe,EUR,academic,332007.0,Sweden
+Texas A and M University,,1.0,https://api.elsevier.com/metrics/institution/508230,application/json,Texas A and M University,Institution/508230,usa,NAM,academic,508230.0,United States
+Georgia Institute of Technology,1.0,1.0,https://api.elsevier.com/metrics/institution/508072,application/json,Georgia Institute of Technology,Institution/508072,usa,NAM,academic,508072.0,United States
+Universitat Autonoma de Barcelona,,1.0,https://api.elsevier.com/metrics/institution/312045,application/json,Universitat Autonoma de Barcelona,Institution/312045,esp,EUR,academic,312045.0,Spain
+University of Helsinki,1.0,1.0,https://api.elsevier.com/metrics/institution/313007,application/json,University of Helsinki,Institution/313007,fin,EUR,academic,313007.0,Finland
+University of Groningen,,1.0,https://api.elsevier.com/metrics/institution/325013,application/json,University of Groningen,Institution/325013,nld,EUR,academic,325013.0,Netherlands
+Aarhus University,,1.0,https://api.elsevier.com/metrics/institution/310010,application/json,Aarhus University,Institution/310010,dnk,EUR,academic,310010.0,Denmark
+University of Oslo,,1.0,https://api.elsevier.com/metrics/institution/326007,application/json,University of Oslo,Institution/326007,nor,EUR,academic,326007.0,Norway
+Radboud University Nijmegen,,1.0,https://api.elsevier.com/metrics/institution/325010,application/json,Radboud University Nijmegen,Institution/325010,nld,EUR,academic,325010.0,Netherlands
+University of Bologna,1.0,1.0,https://api.elsevier.com/metrics/institution/321040,application/json,University of Bologna,Institution/321040,ita,EUR,academic,321040.0,Italy
+University of Bristol,1.0,1.0,https://api.elsevier.com/metrics/institution/315067,application/json,University of Bristol,Institution/315067,gbr,EUR,academic,315067.0,United Kingdom
+Kyoto University,1.0,1.0,https://api.elsevier.com/metrics/institution/208081,application/json,Kyoto University,Institution/208081,jpn,APAC,academic,208081.0,Japan
+Universite Paris 7,,1.0,https://api.elsevier.com/metrics/institution/314090,application/json,Universite Paris 7,Institution/314090,fra,EUR,academic,314090.0,France
+University of Arizona,,1.0,https://api.elsevier.com/metrics/institution/508256,application/json,University of Arizona,Institution/508256,usa,NAM,academic,508256.0,United States
+Princeton University,,1.0,https://api.elsevier.com/metrics/institution/508191,application/json,Princeton University,Institution/508191,usa,NAM,academic,508191.0,United States
+Purdue University,,1.0,https://api.elsevier.com/metrics/institution/508192,application/json,Purdue University,Institution/508192,usa,NAM,academic,508192.0,United States
+Howard Hughes Medical Institute,1.0,1.0,https://api.elsevier.com/metrics/institution/508078,application/json,Howard Hughes Medical Institute,Institution/508078,usa,NAM,other,508078.0,United States
+University of Padova,1.0,1.0,https://api.elsevier.com/metrics/institution/321058,application/json,University of Padova,Institution/321058,ita,EUR,academic,321058.0,Italy
+Uppsala University,,1.0,https://api.elsevier.com/metrics/institution/332018,application/json,Uppsala University,Institution/332018,swe,EUR,academic,332018.0,Sweden
+Fudan University,,1.0,https://api.elsevier.com/metrics/institution/203060,application/json,Fudan University,Institution/203060,chn,APAC,academic,203060.0,China
+University of Colorado Boulder,,1.0,https://api.elsevier.com/metrics/institution/508272,application/json,University of Colorado Boulder,Institution/508272,usa,NAM,academic,508272.0,United States
+University of Southampton,1.0,1.0,https://api.elsevier.com/metrics/institution/315097,application/json,University of Southampton,Institution/315097,gbr,EUR,academic,315097.0,United Kingdom
+Universite de Montreal,,1.0,https://api.elsevier.com/metrics/institution/501028,application/json,Universite de Montreal,Institution/501028,can,NAM,academic,501028.0,Canada
+University of Milan,1.0,1.0,https://api.elsevier.com/metrics/institution/321055,application/json,University of Milan,Institution/321055,ita,EUR,academic,321055.0,Italy
+California Institute of Technology,1.0,1.0,https://api.elsevier.com/metrics/institution/508021,application/json,California Institute of Technology,Institution/508021,usa,NAM,academic,508021.0,United States
 Ecole Polytechnique Federale de Lausanne (EPFL),,,,,,,,,,,
 Leiden University,,,,,,,,,,,
 Michigan State University,,,,,,,,,,,
@@ -313,7 +313,7 @@ University of Kentucky,,,,,,,,,,,
 Hong Kong University of Science and Technology,,,,,,,,,,,
 Aalto University,,,,,,,,,,,
 Universite Libre de Bruxelles,,,,,,,,,,,
-University of Nebraska,,,,,,,,,,,
+University of Nebraska,,1.0,https://api.elsevier.com/metrics/institution/508313,application/json,University of Nebraska,Institution/508313,usa,NAM,academic,508313.0,United States
 University of Georgia,,,,,,,,,,,
 Soochow University,,,,,,,,,,,
 University of Oklahoma,,,,,,,,,,,
@@ -406,7 +406,7 @@ UTS University of Technology Sydney,,,,,,,,,,,
 University of Ljubljana,,,,,,,,,,,
 University of Texas at Dallas,,,,,,,,,,,
 Universita Cattolica del Sacro Cuore,,,,,,,,,,,
-Vrije Universiteit Brussel,,,,,,,,,,,
+Vrije Universiteit Brussel,,1.0,https://api.elsevier.com/metrics/institution/303014,application/json,Vrije Universiteit Brussel,Institution/303014,bel,EUR,academic,303014.0,Belgium
 Universitat Pompeu Fabra,,,,,,,,,,,
 Lancaster University,,,,,,,,,,,
 Chalmers University of Technology,,,,,,,,,,,
@@ -442,7 +442,7 @@ University of Missouri,,,,,,,,,,,
 Universite de Rennes 1,,,,,,,,,,,
 Kyung Hee University,,,,,,,,,,,
 Capital University of Medical Sciences,,,,,,,,,,,
-"Jet Propulsion Laboratory, California Institute of Technology",,,,,,,,,,,
+"Jet Propulsion Laboratory, California Institute of Technology",1.0,1.0,https://api.elsevier.com/metrics/institution/508092,application/json,"Jet Propulsion Laboratory, California Institute of Technology",Institution/508092,usa,NAM,government,508092.0,United States
 University of Houston,,,,,,,,,,,
 University of Turku,,,,,,,,,,,
 CERN,,,,,,,,,,,
@@ -451,7 +451,7 @@ Cincinnati Children's Hospital Medical Center,,,,,,,,,,,
 Medical University of South Carolina,,,,,,,,,,,
 Weizmann Institute of Science,,,,,,,,,,,
 Research Centre Julich (FZJ),,,,,,,,,,,
-University of Milan - Bicocca,,,,,,,,,,,
+University of Milan - Bicocca,1.0,1.0,https://api.elsevier.com/metrics/institution/321150,application/json,University of Milan - Bicocca,Institution/321150,ita,EUR,academic,321150.0,Italy
 University of Tsukuba,,,,,,,,,,,
 Washington State University Pullman,,,,,,,,,,,
 Freie Universitat Berlin,,,,,,,,,,,
@@ -799,7 +799,7 @@ Victoria University of Wellington,,,,,,,,,,,
 Universite des Sciences et Technologies de Lille,,,,,,,,,,,
 Taipei Medical University,,,,,,,,,,,
 Samsung Advanced Institute of Technology,,,,,,,,,,,
-University of Nebraska Medical Center,,,,,,,,,,,
+University of Nebraska Medical Center,,1.0,https://api.elsevier.com/metrics/institution/508314,application/json,University of Nebraska Medical Center,Institution/508314,usa,NAM,academic,508314.0,United States
 Palacky University,,,,,,,,,,,
 Huazhong Agricultural University,,,,,,,,,,,
 Chung-Ang University,,,,,,,,,,,
@@ -816,19 +816,19 @@ AstraZeneca,,,,,,,,,,,
 Inha University,,,,,,,,,,,
 Universidad de Murcia,,,,,,,,,,,
 University of New Hampshire,,,,,,,,,,,
-"Indian Institute of Technology, Madras",,,,,,,,,,,
+"Indian Institute of Technology, Madras",1.0,1.0,https://api.elsevier.com/metrics/institution/207035,application/json,"Indian Institute of Technology, Madras",Institution/207035,ind,APAC,academic,207035.0,India
 IMEC,,,,,,,,,,,
 Southern Medical University,,,,,,,,,,,
-Woods Hole Oceanographic Institution,,,,,,,,,,,
+Woods Hole Oceanographic Institution,,1.0,https://api.elsevier.com/metrics/institution/508379,application/json,Woods Hole Oceanographic Institution,Institution/508379,usa,NAM,government,508379.0,United States
 Carnegie Institution of Washington,,,,,,,,,,,
 University of L'Aquila,,,,,,,,,,,
 South African Medical Research Council,,,,,,,,,,,
 INSA Rennes,,,,,,,,,,,
 Fuzhou University,,,,,,,,,,,
 Peter Maccallum Cancer Centre,,,,,,,,,,,
-Banaras Hindu University,,,,,,,,,,,
+Banaras Hindu University,1.0,1.0,https://api.elsevier.com/metrics/institution/207006,application/json,Banaras Hindu University,Institution/207006,ind,APAC,academic,207006.0,India
 Royal Melbourne Hospital,,,,,,,,,,,
-Ocean University of China,,,,,,,,,,,
+Ocean University of China,,1.0,https://api.elsevier.com/metrics/institution/203149,application/json,Ocean University of China,Institution/203149,chn,APAC,academic,203149.0,China
 Tokyo Medical and Dental University,,,,,,,,,,,
 Beijing University of Technology,,,,,,,,,,,
 Comenius University,,,,,,,,,,,
@@ -855,14 +855,14 @@ Hong Kong Baptist University,,,,,,,,,,,
 Universiti Teknologi MARA,,,,,,,,,,,
 Universidad de Vigo,,,,,,,,,,,
 North China Electric Power University,,,,,,,,,,,
-Universidade de Brasilia,,,,,,,,,,,
+Universidade de Brasilia,,1.0,https://api.elsevier.com/metrics/institution/602012,application/json,Universidade de Brasilia,Institution/602012,bra,SAM,academic,602012.0,Brazil
 Tilburg University,,,,,,,,,,,
 Universite Paris XII,,,,,,,,,,,
 University of North Carolina at Charlotte,1.0,1.0,https://api.elsevier.com/metrics/institution/508321,application/json,University of North Carolina at Charlotte,Institution/508321,usa,NAM,academic,508321.0,United States
 CAS - Dalian Institute of Chemical Physics,,,,,,,,,,,
 Universidad Nacional de La Plata,,,,,,,,,,,
 Tianjin Medical University,,,,,,,,,,,
-RAS - Pn Lebedev Physics Institute,,,,,,,,,,,
+RAS - Pn Lebedev Physics Institute,,1.0,https://api.elsevier.com/metrics/institution/331082,application/json,RAS - Pn Lebedev Physics Institute,Institution/331082,rus,EUR,academic,331082.0,Russian Federation
 Universitat Bayreuth,,,,,,,,,,,
 Universite de Savoie,,,,,,,,,,,
 Iran University of Science and Technology,,,,,,,,,,,
@@ -1091,7 +1091,7 @@ The George Institute for Global Health,,,,,,,,,,,
 Ferdowsi University of Mashhad,,,,,,,,,,,
 Universite de Poitiers,,,,,,,,,,,
 Alfred Wegener Institute Helmholtz Centre for Polar and Marine Research (AWI),,,,,,,,,,,
-Universidade Federal do Ceara,,,,,,,,,,,
+Universidade Federal do Ceara,,1.0,https://api.elsevier.com/metrics/institution/602037,application/json,Universidade Federal do Ceara,Institution/602037,bra,SAM,academic,602037.0,Brazil
 Alexandria University,,,,,,,,,,,
 SUNY Binghamton,,,,,,,,,,,
 Scuola Normale Superiore di Pisa,,,,,,,,,,,
@@ -1329,7 +1329,7 @@ Northern Arizona University,,,,,,,,,,,
 Fondazione Santa Lucia,,,,,,,,,,,
 Ecole Normale Superieure de Cachan,,,,,,,,,,,
 Tabriz University of Medical Sciences,,,,,,,,,,,
-RAS - Institute for Nuclear Research,,,,,,,,,,,
+RAS - Institute for Nuclear Research,,1.0,https://api.elsevier.com/metrics/institution/331052,application/json,RAS - Institute for Nuclear Research,Institution/331052,rus,EUR,academic,331052.0,Russian Federation
 Medical University of Gdansk,,,,,,,,,,,
 Japan National Institute of Information and Communications Technology,,,,,,,,,,,
 Hofstra University,,,,,,,,,,,
@@ -1358,7 +1358,7 @@ Khon Kaen University,,,,,,,,,,,
 Perimeter Institute for Theoretical Physics,,,,,,,,,,,
 Ural Federal University,,,,,,,,,,,
 Etablissement Francais du Sang,,,,,,,,,,,
-GEOMAR - Helmholtz Centre for Ocean Research Kiel,,,,,,,,,,,
+GEOMAR - Helmholtz Centre for Ocean Research Kiel,,1.0,https://api.elsevier.com/metrics/institution/703378,application/json,GEOMAR - Helmholtz Centre for Ocean Research Kiel,Institution/703378,deu,EUR,government,703378.0,Germany
 Met Office,,,,,,,,,,,
 Nicolaus Copernicus University,,,,,,,,,,,
 Tbilisi State University,,,,,,,,,,,
@@ -1378,9 +1378,9 @@ Abo Akademi University,,,,,,,,,,,
 Ludwig Institute for Cancer Research,,,,,,,,,,,
 Group Health Cooperative,,,,,,,,,,,
 Swiss Federal Institute of Aquatic Science and Technology (Eawag),,,,,,,,,,,
-Texas A and M University at Qatar,,,,,,,,,,,
+Texas A and M University at Qatar,,1.0,https://api.elsevier.com/metrics/institution/702874,application/json,Texas A and M University at Qatar,Institution/702874,qat,MEA,academic,702874.0,Qatar
 Copenhagen Business School,,,,,,,,,,,
-National Oceanography Centre,,,,,,,,,,,
+National Oceanography Centre,1.0,1.0,https://api.elsevier.com/metrics/institution/701650,application/json,National Oceanography Centre,Institution/701650,gbr,EUR,academic,701650.0,United Kingdom
 Royal Perth Hospital,,,,,,,,,,,
 Pukyong National University,,,,,,,,,,,
 Japan Aerospace Exploration Agency,,,,,,,,,,,
@@ -1805,7 +1805,7 @@ University of South Alabama,,,,,,,,,,,
 Hamad Medical Corporation,,,,,,,,,,,
 Laboratori Negri Bergamo,,,,,,,,,,,
 Dong-A University,,,,,,,,,,,
-Fisheries and Oceans Canada,,,,,,,,,,,
+Fisheries and Oceans Canada,,1.0,https://api.elsevier.com/metrics/institution/501074,application/json,Fisheries and Oceans Canada,Institution/501074,can,NAM,academic,501074.0,Canada
 Xi'an University of Technology,,,,,,,,,,,
 Royal Observatory,,,,,,,,,,,
 Rhodes University,,,,,,,,,,,
@@ -1829,7 +1829,7 @@ University of the Sunshine Coast,,,,,,,,,,,
 University of Gdansk,,,,,,,,,,,
 Fujian Medical University,,,,,,,,,,,
 Ecole des Hautes Etudes en Sciences Sociales,,,,,,,,,,,
-State Oceanic Administration China,,,,,,,,,,,
+State Oceanic Administration China,1.0,1.0,https://api.elsevier.com/metrics/institution/203439,application/json,State Oceanic Administration China,Institution/203439,chn,APAC,government,203439.0,China
 Max Planck Institute for Biophysical Chemistry (Karl Friedrich Bonhoeffer Institute),,,,,,,,,,,
 Birla Institute of Technology and Science Pilani,,,,,,,,,,,
 Qualcomm Incorporated,,,,,,,,,,,
@@ -1899,7 +1899,7 @@ CAS - Academy of Mathematics and System Sciences,,,,,,,,,,,
 Universidade Federal de Lavras,,,,,,,,,,,
 Tianjin University of Technology,,,,,,,,,,,
 Fritz Haber Institute of the Max Planck Society,,,,,,,,,,,
-National Taiwan Ocean University,,,,,,,,,,,
+National Taiwan Ocean University,,1.0,https://api.elsevier.com/metrics/institution/217044,application/json,National Taiwan Ocean University,Institution/217044,twn,APAC,academic,217044.0,Taiwan
 Brandenburg University of Technology,,,,,,,,,,,
 British Geological Survey,,,,,,,,,,,
 Firat University,,,,,,,,,,,
@@ -1931,7 +1931,7 @@ Indian Association for the Cultivation of Science,,,,,,,,,,,
 Electricite de France,,,,,,,,,,,
 Mekelle University,,,,,,,,,,,
 Universidade Tecnologica Federal do Parana,,,,,,,,,,,
-Kyiv National Taras Shevchenko University,,,,,,,,,,,
+Kyiv National Taras Shevchenko University,1.0,1.0,https://api.elsevier.com/metrics/institution/335004,application/json,Kyiv National Taras Shevchenko University,Institution/335004,ukr,EUR,academic,335004.0,Ukraine
 PetroChina,,,,,,,,,,,
 INIA,,,,,,,,,,,
 NIWA,,,,,,,,,,,
@@ -2015,7 +2015,7 @@ Southmead Hospital,,,,,,,,,,,
 Max Planck Institut fur Biogeochemie Jena,,,,,,,,,,,
 Universidad de Leon,,,,,,,,,,,
 Sanford Burnham Prebys Medical Discovery Institute,,,,,,,,,,,
-Shanghai Ocean University,,,,,,,,,,,
+Shanghai Ocean University,,1.0,https://api.elsevier.com/metrics/institution/700296,application/json,Shanghai Ocean University,Institution/700296,chn,APAC,academic,700296.0,China
 Southern Federal University,,,,,,,,,,,
 Statoil ASA,,,,,,,,,,,
 Shandong University of Science and Technology,,,,,,,,,,,
@@ -2043,7 +2043,7 @@ China Jiliang University,,,,,,,,,,,
 University of Massachusetts Dartmouth,,,,,,,,,,,
 Hospital Universitario Reina Sofia,,,,,,,,,,,
 Universite europeenne de Bretagne,,,,,,,,,,,
-CAS - Institute of Oceanology,,,,,,,,,,,
+CAS - Institute of Oceanology,1.0,1.0,https://api.elsevier.com/metrics/institution/203282,application/json,CAS - Institute of Oceanology,Institution/203282,chn,APAC,academic,203282.0,China
 Wellcome Trust Research Laboratories Nairobi,,,,,,,,,,,
 Manhattan College,,,,,,,,,,,
 Al. I. Cuza University,,,,,,,,,,,
@@ -2238,7 +2238,7 @@ Royal London Hospital,,,,,,,,,,,
 Niguarda Hospital,,,,,,,,,,,
 Finnish Environment Institute,,,,,,,,,,,
 Lincoln University,,,,,,,,,,,
-Kyoto University of Education,,,,,,,,,,,
+Kyoto University of Education,,1.0,https://api.elsevier.com/metrics/institution/706009,application/json,Kyoto University of Education,Institution/706009,jpn,APAC,academic,706009.0,Japan
 Instituto Nacional de Tecnologia Agropecuaria,,,,,,,,,,,
 Universidad de Santiago de Chile,,,,,,,,,,,
 CAS - Institute of Coal Chemistry,,,,,,,,,,,
@@ -2784,7 +2784,7 @@ Forschungsinstitut Senckenberg,,,,,,,,,,,
 Cumhuriyet University,,,,,,,,,,,
 Korea National Institute of Health,,,,,,,,,,,
 Southern University and A&M College,,,,,,,,,,,
-Korea Institute Of Ocean Science & Technology,,,,,,,,,,,
+Korea Institute Of Ocean Science & Technology,1.0,1.0,https://api.elsevier.com/metrics/institution/209045,application/json,Korea Institute Of Ocean Science & Technology,Institution/209045,kor,APAC,government,209045.0,South Korea
 Max-Planck-Institut fur molekulare Physiologie,,,,,,,,,,,
 Chapman University,,,,,,,,,,,
 Children's Hospital of Wisconsin Wauwatosa,,,,,,,,,,,
@@ -2954,7 +2954,7 @@ St Bartholomew's Hospital,,,,,,,,,,,
 Thermo Fisher Scientific,,,,,,,,,,,
 International Centre for Genetic Engineering and Biotechnology,,,,,,,,,,,
 Max F. Perutz Laboratories (MFPL),,,,,,,,,,,
-Instituto Espanol de Oceanografia,,,,,,,,,,,
+Instituto Espanol de Oceanografia,,1.0,https://api.elsevier.com/metrics/institution/312147,application/json,Instituto Espanol de Oceanografia,Institution/312147,esp,EUR,government,312147.0,Spain
 Naval University of Engineering Wuhan,,,,,,,,,,,
 General Atomics,,,,,,,,,,,
 Asahikawa Medical University,,,,,,,,,,,
@@ -3093,7 +3093,7 @@ Syngenta,,,,,,,,,,,
 Bezmialem Vakif Universitesi,,,,,,,,,,,
 Universidad Catolica del Norte,,,,,,,,,,,
 Veterans General Hospital-Kaohsiung Taiwan,,,,,,,,,,,
-"RAS - Institute of Mineralogy and Petrography, SB",,,,,,,,,,,
+"RAS - Institute of Mineralogy and Petrography, SB",1.0,1.0,https://api.elsevier.com/metrics/institution/331063,application/json,"RAS - Institute of Mineralogy and Petrography, SB",Institution/331063,rus,EUR,academic,331063.0,Russian Federation
 Staffordshire University,,,,,,,,,,,
 Atilim University,,,,,,,,,,,
 National University of Kaohsiung,,,,,,,,,,,
@@ -3289,7 +3289,7 @@ L.V. Prasad Eye Institute India,,,,,,,,,,,
 University of the Pacific,,,,,,,,,,,
 Taiyuan University of Science and Technology,,,,,,,,,,,
 Hung Kuang University Taiwan,,,,,,,,,,,
-Portland VA Medical Center,,1.0,https://api.elsevier.com/metrics/institution/508642,application/json,Portland VA Medical Center,Institution/508642,usa,NAM,medical,508642.0,United States
+Portland VA Medical Center,1.0,1.0,https://api.elsevier.com/metrics/institution/508642,application/json,Portland VA Medical Center,Institution/508642,usa,NAM,medical,508642.0,United States
 National Institute of Health Sciences Tokyo,,,,,,,,,,,
 Zhejiang Academy of Agricultural Sciences,,,,,,,,,,,
 Universite d'Artois,,,,,,,,,,,
@@ -3318,7 +3318,7 @@ Lebanese American University,,,,,,,,,,,
 Malek Ashtar University of Technology,,,,,,,,,,,
 Osservatorio Astronomico di Capodimonte,,,,,,,,,,,
 National United University Taiwan,,,,,,,,,,,
-Weierstrass Institute for Applied Analysis and Stochastics,,,,,,,,,,,
+Weierstrass Institute for Applied Analysis and Stochastics,,1.0,https://api.elsevier.com/metrics/institution/309215,application/json,Weierstrass Institute for Applied Analysis and Stochastics,Institution/309215,deu,EUR,government,309215.0,Germany
 Procter and Gamble,,,,,,,,,,,
 Chapel Allerton Hospital,,,,,,,,,,,
 Schneider Childrens Medical Center Israel,,,,,,,,,,,
@@ -3424,7 +3424,7 @@ Edge Hill University,,,,,,,,,,,
 Reinier de Graaf Groep,,,,,,,,,,,
 "Instituto de Ecologia, A.C.",,,,,,,,,,,
 Universidad Simon Bolivar,,,,,,,,,,,
-Petrobras,,,,,,,,,,,
+Petrobras,,1.0,https://api.elsevier.com/metrics/institution/602068,application/json,Petrobras,Institution/602068,bra,SAM,corporate,602068.0,Brazil
 Norwegian Polar Institute,,,,,,,,,,,
 "South Valley University, Egypt",,,,,,,,,,,
 Kwansei Gakuin University,,,,,,,,,,,
@@ -3552,7 +3552,7 @@ Aintree University Hospitals NHS Foundation Trust,,,,,,,,,,,
 Westat,,,,,,,,,,,
 Medical University of Varna,,,,,,,,,,,
 National Applied Research Laboratories Taiwan,,,,,,,,,,,
-Universidade Estadual do Ceara,,,,,,,,,,,
+Universidade Estadual do Ceara,,1.0,https://api.elsevier.com/metrics/institution/602085,application/json,Universidade Estadual do Ceara,Institution/602085,bra,SAM,academic,602085.0,Brazil
 East China Institute of Technology,,,,,,,,,,,
 Pirogov Russian National Research Medical University,,,,,,,,,,,
 Qilu University of Technology,,,,,,,,,,,
@@ -3635,7 +3635,7 @@ Universite de Moncton,,,,,,,,,,,
 Meharry Medical College,,,,,,,,,,,
 Institute of Oncology Ljubljana,,,,,,,,,,,
 IAPCM,,,,,,,,,,,
-RAS - Nikolaev Institute of Inorganic Chemistry of SB,,,,,,,,,,,
+RAS - Nikolaev Institute of Inorganic Chemistry of SB,,1.0,https://api.elsevier.com/metrics/institution/331079,application/json,RAS - Nikolaev Institute of Inorganic Chemistry of SB,Institution/331079,rus,EUR,academic,331079.0,Russian Federation
 Agricultural Biotechnology Center Godollo,,,,,,,,,,,
 Constantine the Philosopher University,,,,,,,,,,,
 University of Botswana,,,,,,,,,,,
@@ -3667,7 +3667,7 @@ German Primate Center,,,,,,,,,,,
 RAS - Institute for Atmospheric Optics SB,,,,,,,,,,,
 Australian Museum,,,,,,,,,,,
 Instituto Butantan,,,,,,,,,,,
-Kahramanmaras Sutcu Imam University,,,,,,,,,,,
+Kahramanmaras Sutcu Imam University,,1.0,https://api.elsevier.com/metrics/institution/410033,application/json,Kahramanmaras Sutcu Imam University,Institution/410033,tur,MEA,academic,410033.0,Turkey
 DSMZ - Deutsche Sammlung von Mikroorganismen und Zellkulturen GmbH,,,,,,,,,,,
 Xishuangbanna Tropical Botanical Garden Chinese Academy of Sciences,,,,,,,,,,,
 WHU - Otto Beisheim School of Management,,,,,,,,,,,
@@ -3922,7 +3922,7 @@ Mahasarakham University,,,,,,,,,,,
 Plekhanov Russian University of Economics,,,,,,,,,,,
 McNeese State University,,,,,,,,,,,
 "Ministry of Water Resources, P.R. China",,,,,,,,,,,
-RAS - P.P.Shirshov Institute of Oceanology,,,,,,,,,,,
+RAS - P.P.Shirshov Institute of Oceanology,,1.0,https://api.elsevier.com/metrics/institution/331080,application/json,RAS - P.P.Shirshov Institute of Oceanology,Institution/331080,rus,EUR,academic,331080.0,Russian Federation
 Gandhi Institute of Technology and Management,,,,,,,,,,,
 Universidade do Vale do Rio dos Sinos,,,,,,,,,,,
 Swiss Institute for Experimental Cancer Research (ISREC),,,,,,,,,,,
@@ -3958,7 +3958,7 @@ CEMES Centre d'Elaboration de Materiaux et d'Etudes Structurales,,,,,,,,,,,
 Netaji Subhas Institute of Technology,,,,,,,,,,,
 ESR,,,,,,,,,,,
 National Institute of Technology Calicut,,,,,,,,,,,
-Bigelow Laboratory for Ocean Sciences,,,,,,,,,,,
+Bigelow Laboratory for Ocean Sciences,,1.0,https://api.elsevier.com/metrics/institution/704750,application/json,Bigelow Laboratory for Ocean Sciences,Institution/704750,usa,NAM,academic,704750.0,United States
 Castle Hill Hospital,,,,,,,,,,,
 Instituto Venezolano de Investigaciones Cientificas,,,,,,,,,,,
 University of Gloucestershire,,,,,,,,,,,
@@ -3994,7 +3994,7 @@ Edith Wolfson Medical Center Israel,,,,,,,,,,,
 S N Bose National Centre for Basic Science,,,,,,,,,,,
 Naval Medical Research Center,,,,,,,,,,,
 Universidade Estadual de Santa Cruz,,,,,,,,,,,
-Guangdong Ocean University,,,,,,,,,,,
+Guangdong Ocean University,1.0,1.0,https://api.elsevier.com/metrics/institution/203351,application/json,Guangdong Ocean University,Institution/203351,chn,APAC,academic,203351.0,China
 Population Council,,,,,,,,,,,
 Liaoning Medical University,,,,,,,,,,,
 University of Ruhuna,,,,,,,,,,,
@@ -4242,7 +4242,7 @@ Qiqihar University,,,,,,,,,,,
 ArcelorMittal,,,,,,,,,,,
 University of Miskolc,,,,,,,,,,,
 Leicester General Hospital,,,,,,,,,,,
-L.N. Gumilyov Eurasian National University,,,,,,,,,,,
+L.N. Gumilyov Eurasian National University,1.0,1.0,https://api.elsevier.com/metrics/institution/702065,application/json,L.N. Gumilyov Eurasian National University,Institution/702065,kaz,APAC,academic,702065.0,Kazakhstan
 Acibadem Universitesi,,,,,,,,,,,
 Suez University,,,,,,,,,,,
 "Leibniz Institute for Agricultural Engineering (ATB), Potsdam",,,,,,,,,,,
@@ -4345,7 +4345,7 @@ Universiti Kuala Lumpur,,,,,,,,,,,
 Konan University,,,,,,,,,,,
 Mentor Graphics Corporation,,,,,,,,,,,
 Glyndwr University,,,,,,,,,,,
-Israel Oceanographic & Limnological Research Ltd.,,,,,,,,,,,
+Israel Oceanographic & Limnological Research Ltd.,1.0,1.0,https://api.elsevier.com/metrics/institution/403017,application/json,Israel Oceanographic & Limnological Research Ltd.,Institution/403017,isr,MEA,corporate,403017.0,Israel
 Institute of Molecular Physics of the Polish Academy of Sciences,,,,,,,,,,,
 Computer Technology Institute Patra,,,,,,,,,,,
 Veterinary and Agrochemical Research Centre,,,,,,,,,,,
@@ -4457,7 +4457,7 @@ Giresun Universitesi,,,,,,,,,,,
 National Museum of Nature and Science,,,,,,,,,,,
 Universidade Nove de Julho,,,,,,,,,,,
 Wuyi University,,,,,,,,,,,
-Zhejiang University of Science and Technology,,1.0,https://api.elsevier.com/metrics/institution/707792,application/json,Zhejiang University of Science and Technology,Institution/707792,chn,APAC,academic,707792.0,China
+Zhejiang University of Science and Technology,1.0,1.0,https://api.elsevier.com/metrics/institution/707792,application/json,Zhejiang University of Science and Technology,Institution/707792,chn,APAC,academic,707792.0,China
 Central Washington University,,,,,,,,,,,
 National Institute of Biology Ljubljana,,,,,,,,,,,
 Ming Hsin University of Science and Technology Taiwan,,,,,,,,,,,
@@ -4573,7 +4573,7 @@ Hospital A.C. Camargo,,,,,,,,,,,
 St. Elizabeth's Medical Center,,,,,,,,,,,
 University of Benin,,,,,,,,,,,
 Atomic Weapons Establishment,,,,,,,,,,,
-RAS - Institute of Molecular Genetics,,,,,,,,,,,
+RAS - Institute of Molecular Genetics,,1.0,https://api.elsevier.com/metrics/institution/331064,application/json,RAS - Institute of Molecular Genetics,Institution/331064,rus,EUR,academic,331064.0,Russian Federation
 South Australian Museum,,,,,,,,,,,
 Sant Gadge Baba Amravati University,,,,,,,,,,,
 Tyumen State University,,,,,,,,,,,
@@ -4792,7 +4792,7 @@ IHI Corporation,,,,,,,,,,,
 International Water Management Institute,,,,,,,,,,,
 National Institute of Technology Agartala,,,,,,,,,,,
 Laboratoire CRISMAT,,,,,,,,,,,
-RAS - Saint Petersburg Department of Steklov Institute of Mathematics,,,,,,,,,,,
+RAS - Saint Petersburg Department of Steklov Institute of Mathematics,,1.0,https://api.elsevier.com/metrics/institution/331085,application/json,RAS - Saint Petersburg Department of Steklov Institute of Mathematics,Institution/331085,rus,EUR,academic,331085.0,Russian Federation
 University for Development Studies Ghana,,,,,,,,,,,
 Institute of Radiophysics and Electronics of National Academy of Sciences of Ukraine,,,,,,,,,,,
 College of Veterinary Science India,,,,,,,,,,,
@@ -5723,7 +5723,7 @@ Danaher,,,,,,,,,,,
 R.Y. Alekseev Nizhny Novgorod State Technical University,,,,,,,,,,,
 Universidad Torcuato Di Tella,,,,,,,,,,,
 Universidad del Cauca,,,,,,,,,,,
-RAS - Institute of Marine Biology,,,,,,,,,,,
+RAS - Institute of Marine Biology,,1.0,https://api.elsevier.com/metrics/institution/331061,application/json,RAS - Institute of Marine Biology,Institution/331061,rus,EUR,academic,331061.0,Russian Federation
 Indian Institute of Geomagnetism,,,,,,,,,,,
 University Hospital Lewisham,,,,,,,,,,,
 Royal Wolverhampton Hospitals NHS Trust,,,,,,,,,,,
@@ -6226,7 +6226,7 @@ North China Institute of Science and Technology,,,,,,,,,,,
 Natick Soldier Center,,,,,,,,,,,
 Instituto Biologico - Sao Paulo,,,,,,,,,,,
 AU Optronics Taiwan,,,,,,,,,,,
-National Institute of Oceanography and Fisheries,,,,,,,,,,,
+National Institute of Oceanography and Fisheries,1.0,1.0,https://api.elsevier.com/metrics/institution/701022,application/json,National Institute of Oceanography and Fisheries,Institution/701022,egy,AFR,government,701022.0,Egypt
 Assuta Medical Center,,,,,,,,,,,
 Maebashi Institute of Technology,,,,,,,,,,,
 Symantec Corporation,,,,,,,,,,,
@@ -6296,7 +6296,7 @@ Central University of Gujarat,,,,,,,,,,,
 Caterpillar Inc.,,,,,,,,,,,
 Lithuanian University of Health Sciences,,,,,,,,,,,
 Universidad Nacional de San Antonio Abad del Cusco,,,,,,,,,,,
-RAS - Institute of Gene Biology,,,,,,,,,,,
+RAS - Institute of Gene Biology,,1.0,https://api.elsevier.com/metrics/institution/331059,application/json,RAS - Institute of Gene Biology,Institution/331059,rus,EUR,academic,331059.0,Russian Federation
 Empresa de Pesquisa Agropecuaria de Minas Gerais,,,,,,,,,,,
 Universidade de Mogi das Cruzes,,,,,,,,,,,
 Instituto del Mar del Peru,,,,,,,,,,,
@@ -7242,7 +7242,7 @@ University of Rousse,,,,,,,,,,,
 Exempla Saint Joseph Hospital,,,,,,,,,,,
 Institute of Macromolecular Chemistry of the National Academy of Sciences of Ukraine,,,,,,,,,,,
 DIU - Dresden International University,,,,,,,,,,,
-Japan National Institute for Land and Infrastructure Management,,,,,,,,,,,
+Japan National Institute for Land and Infrastructure Management,,1.0,https://api.elsevier.com/metrics/institution/701383,application/json,Japan National Institute for Land and Infrastructure Management,Institution/701383,jpn,APAC,government,701383.0,Japan
 "Imo State University, Owerri",,,,,,,,,,,
 Open University of Sri Lanka,,,,,,,,,,,
 Hanscom AFB,,,,,,,,,,,
@@ -8589,7 +8589,7 @@ HFH Hamburger Fern-Hochschule,,,,,,,,,,,
 "Shamakhy Astrophysical Observatory, Azerbaijan",,,,,,,,,,,
 Azerbaijan State Advanced Training Institute for Doctors,,,,,,,,,,,
 Zhuzhou Institute of Technology,,,,,,,,,,,
-"Danube Delta National Institute for Research and Development, Tulcea",,,,,,,,,,,
+"Danube Delta National Institute for Research and Development, Tulcea",,1.0,https://api.elsevier.com/metrics/institution/704764,application/json,"Danube Delta National Institute for Research and Development, Tulcea",Institution/704764,rou,EUR,academic,704764.0,Romania
 Supernova Ltd.,,,,,,,,,,,
 "Biodiversity Research Center, Academia Sinica",,,,,,,,,,,
 "National Telecommunication Regulatory Authority, Egypt",,,,,,,,,,,
@@ -8711,7 +8711,7 @@ Toros Universitesi,,,,,,,,,,,
 Fisher Brothers Institute for Air and Space Strategic Studies Israel,,,,,,,,,,,
 Universidad de las Artes Ciencias y Comunicacion,,,,,,,,,,,
 Sarnoff Corporation,,,,,,,,,,,
-Tilak Maharashtra Vidyapeeth???,,,,,,,,,,,
+Tilak Maharashtra Vidyapeeth???,,1.0,https://api.elsevier.com/metrics/institution/706297,application/json,Tilak Maharashtra Vidyapeeth???,Institution/706297,ind,APAC,academic,706297.0,India
 BiTS Business and Information Technology School,,,,,,,,,,,
 National Academy of Fine Arts,,,,,,,,,,,
 Chandigarh College of Architecture,,,,,,,,,,,
