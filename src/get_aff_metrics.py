@@ -83,7 +83,7 @@ def main2():
     a = df.loc[:, key_acc] == 0     # which universities are not downloaded
     all_aff_names = df.loc[a, key_aff].tolist()
 
-    n = 2
+    n = 10 
     responses = []
     jsons = []
 
