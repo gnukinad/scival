@@ -65,7 +65,7 @@ def get_InstitutionMetric(aff_id=None, api_key=None):
     return a
 
 
-def get_aff_id(a):
+def get_aff_id(jres):
 
     """
     get the id and json response from InsitutionSearch object
@@ -78,7 +78,6 @@ def get_aff_id(a):
     jres - json response
     """
 
-    jres = a.jres
     if isinstance(jres['results'], list):
         logger.debug('retrieving all keys from a lsit of dicts')
         l = []

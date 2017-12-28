@@ -98,7 +98,7 @@ if __name__=="__main__":
 
         res = get_InstitutionSearch(aff_name, MY_API_KEY)
 
-	if res is not None:
+        if res.jres is not None:
             dict_res, json_res = get_aff_id(res)
             responses.append(dict_res)
             jsons.append(json_res)
@@ -114,10 +114,10 @@ if __name__=="__main__":
             pk.dump(json_res, open(fname_save_json, 'wb'))
 
             for x in dict_res:
-            	dff = pd_write_data(dff, x, key_acc, 1)
+                dff = pd_write_data(dff, x, key_acc, 1)
 
-	elif res is None:
-	    dff.at[aff_name,key_acc] = -1
+        elif res.jres is None:
+            dff.at[aff_name, key_acc] = -1
 
         logger.debug('updating csv file {}'.format(fname_aff_names))
         dff.to_csv(fname_aff_names)
