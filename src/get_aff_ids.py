@@ -97,22 +97,27 @@ if __name__=="__main__":
         logger.debug('aff_name is {}'.format(aff_name))
 
         res = get_InstitutionSearch(aff_name, MY_API_KEY)
-        dict_res, json_res = get_aff_id(res)
-        responses.append(dict_res)
-        jsons.append(json_res)
 
-        fname_save_responses = 'responses_{}.pickle'.format(aff_name)
-        fname_save_json = 'json{}.pickle'.format(aff_name)
+	if res is not None:
+            dict_res, json_res = get_aff_id(res)
+            responses.append(dict_res)
+            jsons.append(json_res)
 
-        fname_save_responses = os.path.join(FOLNAME_AFF_SEARCH, fname_save_responses)
-        fname_save_json = os.path.join(FOLNAME_AFF_SEARCH, fname_save_json)
+            fname_save_responses = 'responses_{}.pickle'.format(aff_name)
+            fname_save_json = 'json{}.pickle'.format(aff_name)
 
-        logger.debug('saving responses and json response to {} and {} respectively'.format(fname_save_responses, fname_save_json))
-        pk.dump(dict_res, open(fname_save_responses, 'wb'))
-        pk.dump(json_res, open(fname_save_json, 'wb'))
+            fname_save_responses = os.path.join(FOLNAME_AFF_SEARCH, fname_save_responses)
+            fname_save_json = os.path.join(FOLNAME_AFF_SEARCH, fname_save_json)
 
-        for x in dict_res:
-            dff = pd_write_data(dff, x, key_acc, 1)
+            logger.debug('saving responses and json response to {} and {} respectively'.format(fname_save_responses, fname_save_json))
+            pk.dump(dict_res, open(fname_save_responses, 'wb'))
+            pk.dump(json_res, open(fname_save_json, 'wb'))
+
+            for x in dict_res:
+            	dff = pd_write_data(dff, x, key_acc, 1)
+
+	elif res is None:
+	    dff.at[aff_name,key_acc] = -1
 
         logger.debug('updating csv file {}'.format(fname_aff_names))
         dff.to_csv(fname_aff_names)

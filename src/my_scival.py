@@ -133,7 +133,7 @@ class InstitutionSearch:
             self.logger.debug("request retrieved sucessully")
         except Exception as e:
 
-            response = e
+            response = None
             self.logger.warning("request retrieved with error, the error code is {}".format(e.code))
             self.logger.warning("error is {}".format(e))
 
@@ -147,8 +147,11 @@ class InstitutionSearch:
         this function retrieves the json from the html response as a ready text for further analysis
         """
         
-        output = json.loads(self.response.read())
-        self.jres = output
+        if self.response is not None:
+            output = json.loads(self.response.read())
+            self.jres = output
+        elif self.response is None:
+            self.jres = None
         
         return self
 

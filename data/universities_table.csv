@@ -107,7 +107,7 @@ PSL Research University,1.0,1.0,https://api.elsevier.com/metrics/institution/707
 University of Alberta,,1.0,https://api.elsevier.com/metrics/institution/501035,application/json,University of Alberta,Institution/501035,can,NAM,academic,501035.0,Canada
 Erasmus University Rotterdam,,1.0,https://api.elsevier.com/metrics/institution/325003,application/json,Erasmus University Rotterdam,Institution/325003,nld,EUR,academic,325003.0,Netherlands
 Vrije Universiteit,,1.0,https://api.elsevier.com/metrics/institution/325016,application/json,Vrije Universiteit,Institution/325016,nld,EUR,academic,325016.0,Netherlands
-RAS,,,,,,,,,,,
+RAS,1.0,1.0,,,,,,,,,
 Lund University,1.0,1.0,https://api.elsevier.com/metrics/institution/332007,application/json,Lund University,Institution/332007,swe,EUR,academic,332007.0,Sweden
 Texas A and M University,,1.0,https://api.elsevier.com/metrics/institution/508230,application/json,Texas A and M University,Institution/508230,usa,NAM,academic,508230.0,United States
 Georgia Institute of Technology,1.0,1.0,https://api.elsevier.com/metrics/institution/508072,application/json,Georgia Institute of Technology,Institution/508072,usa,NAM,academic,508072.0,United States
@@ -133,19 +133,19 @@ University of Southampton,1.0,1.0,https://api.elsevier.com/metrics/institution/3
 Universite de Montreal,,1.0,https://api.elsevier.com/metrics/institution/501028,application/json,Universite de Montreal,Institution/501028,can,NAM,academic,501028.0,Canada
 University of Milan,1.0,1.0,https://api.elsevier.com/metrics/institution/321055,application/json,University of Milan,Institution/321055,ita,EUR,academic,321055.0,Italy
 California Institute of Technology,1.0,1.0,https://api.elsevier.com/metrics/institution/508021,application/json,California Institute of Technology,Institution/508021,usa,NAM,academic,508021.0,United States
-Ecole Polytechnique Federale de Lausanne (EPFL),,,,,,,,,,,
-Leiden University,,,,,,,,,,,
-Michigan State University,,,,,,,,,,,
-Centers for Disease Control and Prevention,,,,,,,,,,,
-University of Birmingham,,,,,,,,,,,
-University of Texas M. D. Anderson Cancer Center,,,,,,,,,,,
-Aix Marseille Universite,,,,,,,,,,,
-University of California at Irvine,,,,,,,,,,,
-U.S. Department of Agriculture,,,,,,,,,,,
-University of Utah,,,,,,,,,,,
-University of Western Australia,,,,,,,,,,,
-Carnegie Mellon University,,,,,,,,,,,
-Memorial Sloan-Kettering Cancer Center,,,,,,,,,,,
+Ecole Polytechnique Federale de Lausanne (EPFL),-1.0,-1.0,,,,,,,,,
+Leiden University,,1.0,https://api.elsevier.com/metrics/institution/325005,application/json,Leiden University,Institution/325005,nld,EUR,academic,325005.0,Netherlands
+Michigan State University,,1.0,https://api.elsevier.com/metrics/institution/508122,application/json,Michigan State University,Institution/508122,usa,NAM,academic,508122.0,United States
+Centers for Disease Control and Prevention,,1.0,https://api.elsevier.com/metrics/institution/508034,application/json,Centers for Disease Control and Prevention,Institution/508034,usa,NAM,government,508034.0,United States
+University of Birmingham,,1.0,https://api.elsevier.com/metrics/institution/315064,application/json,University of Birmingham,Institution/315064,gbr,EUR,academic,315064.0,United Kingdom
+University of Texas M. D. Anderson Cancer Center,,1.0,https://api.elsevier.com/metrics/institution/508805,application/json,University of Texas M. D. Anderson Cancer Center,Institution/508805,usa,NAM,academic,508805.0,United States
+Aix Marseille Universite,,1.0,https://api.elsevier.com/metrics/institution/700232,application/json,Aix Marseille Universite,Institution/700232,fra,EUR,academic,700232.0,France
+University of California at Irvine,,1.0,https://api.elsevier.com/metrics/institution/508261,application/json,University of California at Irvine,Institution/508261,usa,NAM,academic,508261.0,United States
+U.S. Department of Agriculture,,1.0,https://api.elsevier.com/metrics/institution/508243,application/json,U.S. Department of Agriculture,Institution/508243,usa,NAM,government,508243.0,United States
+University of Utah,,1.0,https://api.elsevier.com/metrics/institution/508355,application/json,University of Utah,Institution/508355,usa,NAM,academic,508355.0,United States
+University of Western Australia,,1.0,https://api.elsevier.com/metrics/institution/201035,application/json,University of Western Australia,Institution/201035,aus,APAC,academic,201035.0,Australia
+Carnegie Mellon University,,1.0,https://api.elsevier.com/metrics/institution/508031,application/json,Carnegie Mellon University,Institution/508031,usa,NAM,academic,508031.0,United States
+Memorial Sloan-Kettering Cancer Center,,1.0,https://api.elsevier.com/metrics/institution/508119,application/json,Memorial Sloan-Kettering Cancer Center,Institution/508119,usa,NAM,other,508119.0,United States
 Icahn School of Medicine at Mount Sinai (ISMMS),,,,,,,,,,,
 National Taiwan University,,,,,,,,,,,
 University of Naples Federico II,,,,,,,,,,,
