@@ -99,7 +99,7 @@ if __name__=="__main__":
         res = get_InstitutionSearch(aff_name, MY_API_KEY)
 
         if res.jres is not None:
-            dict_res, json_res = get_aff_id(res)
+            dict_res, json_res = get_aff_id(res.jres)
             responses.append(dict_res)
             jsons.append(json_res)
 
