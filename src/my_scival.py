@@ -4,6 +4,8 @@ from urllib import parse, request
 import logging
 import os
 import json
+import urllib.error
+import urllib
 
 
 class InstitutionSearch:
@@ -56,29 +58,8 @@ class InstitutionSearch:
 
         # creating a logger
         self.logger = logging.getLogger(__name__)
-        self.logger.setLevel(logging.DEBUG)
-
-
-        # create file handler which logs info messages
-        fh = logging.FileHandler('foo.log', 'w', 'utf-8')
-        fh.setLevel(logging.INFO)
-
-        # create console handler with a debug log level
-        ch = logging.StreamHandler()
-        ch.setLevel(logging.DEBUG)
-
-        # creating a formatter
-        formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)-8s: %(message)s')
-
-        # setting handler format
-        fh.setFormatter(formatter)
-        ch.setFormatter(formatter)
-
-        # add the handlers to the logger
-        self.logger.addHandler(fh)
-        self.logger.addHandler(ch)
-
         self.logger.debug("class was initialized")
+        self.http_error = None
 
 
     def get_url(self):
@@ -125,12 +106,33 @@ class InstitutionSearch:
 
     def send_request(self):
 
+        response = None
+
         try:
             self.logger.debug("sending the request")
-            print("i am in send_request, InstitutionSearch")
             response = request.urlopen(self.parsed_url)
 
             self.logger.debug("request retrieved sucessully")
+
+        except urllib.error.HTTPError as e:
+
+            if e.code == 404:
+                self.logger.warning("page does not exist, error code is {}".format(e.code))
+                self.logger.warning("error is {}".format(e))
+            elif e.code == 400:
+                self.logger.warning("invalid request, try again, error code is {}".format(e.code))
+                self.logger.warning("error is {}".format(e))
+            elif e.code == 401:
+                self.logger.warning("cannot be authentified due to missing/invalid credentials")
+                self.logger.warning("error is {}".format(e))
+            elif e.code == 429:
+                self.logger.warning("quota exceeded")
+                self.logger.warning("error is {}".format(e))
+            else:
+                self.logger.warning("error code is {}, error is {}".format(e.code, e))
+
+            self.http_error = e
+
         except Exception as e:
 
             response = None
@@ -140,6 +142,7 @@ class InstitutionSearch:
         self.response = response
 
         return self
+
 
 
     def retrieve_json(self):
@@ -170,7 +173,7 @@ class InstitutionSearch:
 
 
 
-class MetricSearch:
+class MetricSearch():
 
     def __init__(self, apiKey=None, aff_id=None, metrics=None, fname_log=None, path_to_save=None):
 
@@ -193,26 +196,6 @@ class MetricSearch:
 
         # creating a logger
         self.logger = logging.getLogger(__name__)
-        self.logger.setLevel(logging.DEBUG)
-
-        # create file handler which logs info messages
-        fh = logging.FileHandler('logs.txt', 'w', 'utf-8')
-        fh.setLevel(logging.INFO)
-
-        # create console handler with a debug log level
-        ch = logging.StreamHandler()
-        ch.setLevel(logging.DEBUG)
-
-        # creating a formatter
-        formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)-8s: %(message)s')
-
-        # setting handler format
-        fh.setFormatter(formatter)
-        ch.setFormatter(formatter)
-
-        # add the handlers to the logger
-        self.logger.addHandler(fh)
-        self.logger.addHandler(ch)
 
         self.logger.debug("class was initialized")
 
@@ -252,7 +235,7 @@ class MetricSearch:
 
         if metrics is None:
             self.metrics = self.__all_metrics.copy()
-            self.metrics.pop(self.metrics.index('hIndices'))   # this item cannot be used on several unviersities
+            self.metrics.pop(self.metrics.index('hIndices'))   # this item cannot be used on several universities
 
         if path_to_save is None:
             path_to_save = os.path.join("data", "urlretrieve")
@@ -269,12 +252,13 @@ class MetricSearch:
         self.api_response = ''
         self.api_text = ''
         self.jres = ''
+        self.http_error = None
 
         self.__yearRange = self.__all_yearRange[3]
         self.__httpAccept = self.__all_httpAccept[0]
         self.__indexType = self.__all_indexType[0]
         self.__includedDocs = self.__all_includedDocs[0]
-        self.__journalImpactType = self.__all_journalImpactType[0]
+        self.__journalImpactType = self.__all_journalImpactType[1]
 
 
         self.__all_string_bool = ["true", "false"]
@@ -373,8 +357,6 @@ class MetricSearch:
 
         parsed_request = "&".join(["=".join([str(key), str(query_dict[key])]) for key in query_dict])
 
-        print("query_metrics + parsed_request {}{}".format(query_metrics, parsed_request))
-
         # self.parsed_data = "{}&{}".format(parsed_request, query_metrics)
         self.parsed_data = parsed_request
         self.parsed_url = "{}/?{}".format(self.__url, self.parsed_data)
@@ -388,10 +370,30 @@ class MetricSearch:
 
         try:
             self.logger.debug("sending the request")
-            print("i am in send_request, metric")
             response = request.urlopen(self.parsed_url)
 
             self.logger.debug("request retrieved sucessully")
+
+
+        except urllib.error.HTTPError as e:
+
+            if e.code == 404:
+                self.logger.warning("page does not exist, error code is {}".format(e.code))
+                self.logger.warning("error is {}".format(e))
+            elif e.code == 400:
+                self.logger.warning("invalid request, try again, error code is {}".format(e.code))
+                self.logger.warning("error is {}".format(e))
+            elif e.code == 401:
+                self.logger.warning("cannot be authentified due to missing/invalid credentials")
+                self.logger.warning("error is {}".format(e))
+            elif e.code == 429:
+                self.logger.warning("quota exceeded")
+                self.logger.warning("error is {}".format(e))
+            else:
+                self.logger.warning("error code is {}, error is {}".format(e.code, e))
+
+            self.http_error = e
+
         except Exception as e:
 
             response = e

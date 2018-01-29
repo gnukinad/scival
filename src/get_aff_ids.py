@@ -7,12 +7,14 @@ import logging
 from my_scival import InstitutionSearch, MetricSearch
 
 from urllib import parse, request
-from urllib.error import HTTPError
+# from urllib.error import HTTPError
 from func import get_InstitutionSearch, get_aff_id
 from func import *
 
 import pickle as pk
 from pprint import pprint as pp
+import urllib.error
+
 
 BASE_DIR = os.path.abspath(os.path.realpath(__file__))
 BASE_DIR = os.path.join(os.path.dirname(BASE_DIR), '..')
@@ -49,13 +51,67 @@ logger.addHandler(fh)
 logger.addHandler(ch)
 
 
+class my_df_id():
+
+    def __init__(self, df):
+
+        self.i = 0
+        self.df = df.replace(np.nan, 0).copy()
+        self.n_inds = len(self.df.index.tolist())
+        self.inds = self.df.index.tolist()
+
+
+    def next_row(self):
+
+        if self.i < self.n_inds:
+
+            ind = self.inds[self.i]
+            row = df.loc[ind, :]
+
+            return row
+
+        else:
+            return -1
+
+
+    def next_aff_name(self):
+
+
+        while(True):
+
+            row = self.next_row()
+
+            if isinstance(row, int) is False:
+
+                if row['is_downloaded'] == 0:
+                    name = row.name
+                    break
+
+            elif isinstance(row, int):
+
+                if row == -1:
+                    name = '-1'
+                    raise("sorry, the end of DataFrame was reached")
+                    break
+
+        return name
+
+
+
+
 def pd_write_data(df, d, aux_key=None, aux_val=None):
     """
     write data from dict d to pandas.dataframe df
     data will be written to columns of df by using keys
     """
 
+    # if the university not in the table
+    if not (d['name'] in df.index.tolist()):
+        index_name = df.index.name
+        df = df.reset_index().append({index_name: d['name']}, ignore_index=True).set_index(index_name)
+
     for key, value in d.items():
+
         df.at[d['name'], key] = value
 
         if aux_key is not None and aux_val is not None:
@@ -64,8 +120,6 @@ def pd_write_data(df, d, aux_key=None, aux_val=None):
     return df
 
 
-
-# trying to retrieve the id of the university
 if __name__=="__main__":
 
     """
@@ -83,7 +137,7 @@ if __name__=="__main__":
     a = df[key_acc].replace(np.nan,0) == 0     # which universities are not downloaded
     all_aff_names = df.index[a].tolist()
 
-    n = 20
+    n = 2
     responses = []
     jsons = []
 
@@ -113,11 +167,20 @@ if __name__=="__main__":
             pk.dump(dict_res, open(fname_save_responses, 'wb'))
             pk.dump(json_res, open(fname_save_json, 'wb'))
 
+            # pp(res.jres)
+
+            dff.at[aff_name, key_acc] = 1
+
             for x in dict_res:
                 dff = pd_write_data(dff, x, key_acc, 1)
 
         elif res.jres is None:
-            dff.at[aff_name, key_acc] = -1
+            if res.http_error in [401, 429]:
+                logger.debug("error retrieved, error is {}".format(res.http_error))
+            else:
+                logger.debug("error retrieved, error is {}".format(res.http_error))
+                dff.at[aff_name, key_acc] = -1
+
 
         logger.debug('updating csv file {}'.format(fname_aff_names))
         dff.to_csv(fname_aff_names)

@@ -14,7 +14,6 @@ from func import *
 import pickle as pk
 from pprint import pprint as pp
 
-# BASE_DIR = os.path.join(os.getenv('HOME'), "projects", "scival")
 BASE_DIR = os.path.abspath(os.path.realpath(__file__))
 BASE_DIR = os.path.join(os.path.dirname(BASE_DIR), '..')
 os.chdir(BASE_DIR)
@@ -49,6 +48,54 @@ ch.setFormatter(formatter)
 logger.addHandler(fh)
 logger.addHandler(ch)
 
+class my_df():
+
+    def __init__(self, df):
+
+        self.df = df.copy()
+        self.i = 0
+        self.inds = self.df.index.tolist()
+        self.n_inds = len(self.inds)
+
+
+    def get_iterrow(self):
+        """iterate through df to get next row"""
+
+        if self.i < self.n_inds:
+            ind = self.inds[self.i]
+            row = self.df.loc[ind, :]
+
+            self.i = self.i + 1
+
+            return row
+
+        else:
+            print("sorry, reached the end of DataFrame")
+            return -1
+
+
+    def get_next_id(self):
+        """get next id that needs a metrics to be downloaded"""
+
+        while(True):
+
+            row = self.get_iterrow()
+
+            if isinstance(row, int) is False:
+                if row.id_downloaded == 1 and (np.isnan(row.metrics) == True or row.metrics == 0):
+                    id = row.id
+                    name = row.name
+                    break
+            elif isinstance(row, int):
+                if row == -1:
+                    id = -1
+                    name = -1
+                    raise("End of DataFrame")
+
+                break
+
+        return id, name
+
 
 def pd_write_data(df, d, aux_key=None, aux_val=None):
     """
@@ -67,59 +114,6 @@ def pd_write_data(df, d, aux_key=None, aux_val=None):
 
 
 # trying to retrieve the id of the university
-# if __name__=="__main__":
-def main2():
-
-    """
-    get the InstitutionSearch output for every affiliation that was not already downloaded
-    """
-
-    MY_API_KEY = "e53785aedfc1c54942ba237f8ec0f891"
-    # MY_API_KEY = "7f59af901d2d86f78a1fd60c1bf9426a"
-
-    logger.debug('loading university names')
-    fname_aff_names = os.path.join(BASE_DIR, 'data', "universities_table.csv")
-
-    df = pd.read_csv(fname_aff_names)
-
-    a = df.loc[:, key_acc] == 0     # which universities are not downloaded
-    all_aff_names = df.loc[a, key_aff].tolist()
-
-    n = 10 
-    responses = []
-    jsons = []
-
-    dff = df.copy()
-    dff = dff.set_index(key_aff).replace(0, '')
-
-    logger.debug('starting to load institution_id')
-    for i in range(n):
-
-        aff_name = all_aff_names[i]
-        logger.debug('aff_name is {}'.format(aff_name))
-
-        res = get_InstitutionSearch(aff_name, MY_API_KEY)
-        dict_res, json_res = get_aff_id(res)
-        responses.append(dict_res)
-        jsons.append(json_res)
-
-        fname_save_responses = 'responses_{}.pickle'.format(aff_name)
-        fname_save_json = 'json{}.pickle'.format(aff_name)
-
-        fname_save_responses = os.path.join(AFF_FNAME_SEARCH, fname_save_responses)
-        fname_save_json = os.path.join(AFF_FNAME_SEARCH, fname_save_json)
-
-        logger.debug('saving responses and json response to {} and {} respectively'.format(fname_save_responses, fname_save_json))
-        pk.dump(dict_res, open(fname_save_responses, 'wb'))
-        pk.dump(json_res, open(fname_save_json, 'wb'))
-
-        for x in dict_res:
-            dff = pd_write_data(dff, x, key_acc, 1)
-
-        logger.debug('updating csv file {}'.format(fname_aff_names))
-        dff.to_csv(fname_aff_names)
-
-
 if __name__ == "__main__":
 
     """
@@ -127,10 +121,6 @@ if __name__ == "__main__":
     """
 
     MY_API_KEY = "e53785aedfc1c54942ba237f8ec0f891"
-
-    logger.debug("getting the affilitation id")
-
-
     # MY_API_KEY = "7f59af901d2d86f78a1fd60c1bf9426a"
 
     logger.debug('loading university names')
@@ -138,46 +128,48 @@ if __name__ == "__main__":
 
     df_aff = pd.read_csv(fname_aff_names).set_index(key_aff)
 
-    aff_with_aff_id = df_aff.loc[df_aff.loc[:, key_acc] == 1, key_id].dropna().tolist()   # which universities have ids
-    aff_with_metric = df_aff.loc[df_aff.loc[:, key_met] == 1, key_id].dropna().tolist()   # which universities have metrics
+    n = 20
 
-    aff_ids = [int(x) for x in list(set(aff_with_aff_id) - set(aff_with_metric))]
-    
-    all_inds = df_aff.index.tolist()
-
-    n = 17
-    responses = []
-    jsons = []
+    df_iter = my_df(df_aff)
 
     for i in range(n):
-        aff_id = aff_ids[i]
-        aff_ind = df_aff[df_aff[key_id] == aff_id].index.item()
-
-        logger.debug('getting the response for id and name {} and {}'.format(aff_id, aff_ind))
-
-        logger.debug('starting to load institution_id')
-
-        m = MetricSearch(aff_id=aff_id, apiKey = MY_API_KEY)
-
-        m.get_jres()
-
-        res = m.jres
 
         try:
-            logger.debug('getting the data frame of the results')
-            df = get_aff_metrics(res['results'])
-            logger.debug('metrics dataframe was created successfully')
+            aff_id, aff_name = df_iter.get_next_id()
 
-            logger.debug('saving metrics dataframe for id {}'.format(aff_id))
-            fname_metrics = os.path.join(FOLNAME_METRIC_RESPONSE, "id{}.csv".format(aff_id))
-            logger.debug('saving metrics for id {} dataframe'.format(aff_id))
-            df.to_csv(fname_metrics)
-            logger.debug('metrics dataframe for id {} was saved sucessfully'.format(aff_id))
+            aff_id = np.int(aff_id)
 
-            df_aff.at[aff_ind, key_met] = 1
-        except:
-            df_aff.at[aff_ind, key_met] = -1
-            df_aff.at[aff_ind, key_acc] = -1
+            aff_ind = aff_name
 
-        df_aff.to_csv(fname_aff_names)
-        logger.debug('{} was updated successfully'.format(fname_aff_names))
+            logger.debug('starting to load institution metrics, id is {}\tname is {}'.format(aff_id, aff_name))
+            m = []
+            m = MetricSearch(aff_id=aff_id, apiKey=MY_API_KEY)
+
+            m.get_jres()
+            res = m.jres
+
+            try:
+                logger.debug('getting the data frame of the results')
+                df = get_aff_metrics(res['results'])
+                logger.debug('metrics dataframe was created successfully')
+
+                logger.debug('saving metrics dataframe for id {}'.format(aff_id))
+                fname_metrics = os.path.join(FOLNAME_METRIC_RESPONSE, "id{}.csv".format(aff_id))
+                logger.debug('saving metrics for id {} dataframe'.format(aff_id))
+                df.to_csv(fname_metrics)
+                logger.debug('metrics dataframe for id {} was saved sucessfully'.format(aff_id))
+
+                df_aff.at[aff_ind, key_met] = 1
+            except:
+
+                if res.http_error in [401, 429]:
+                    logger.debug("error retrieved, error is {}".format(res.http_error))
+                else:
+                    logger.debug("error retrieved, error is {}".format(res.http_error))
+                    dff.at[aff_name, key_acc] = -1
+
+            df_aff.to_csv(fname_aff_names)
+            logger.debug('{} was updated successfully'.format(fname_aff_names))
+
+        except Exception as err:
+            print(err)
