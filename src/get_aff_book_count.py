@@ -9,7 +9,6 @@ import json
 from pprint import pprint as pp
 
 
-
 BASE_DIR = os.path.abspath(os.path.realpath(__file__))
 BASE_DIR = os.path.join(os.path.dirname(BASE_DIR), '..')
 os.chdir(BASE_DIR)
@@ -224,7 +223,6 @@ class scopus_query:
 
         self.query = " AND ".join([self.q[key] for key in self.q.keys()])
         self.query.encode()
-        print(self.query.encode())
 
         return self
 
@@ -236,7 +234,7 @@ class scopus_query:
 if __name__ == "__main__":
 
     # where to save the results
-    dname_book_count = os.path.join(BASE_DIR, "data", "aff_book_count")
+    dname_book_count = os.path.join(BASE_DIR, "data", "aff_book_2016")
 
     aff_fname = "universities_table.csv"
     fname_aff_book_count = os.path.join(BASE_DIR, "data", aff_fname)
@@ -247,9 +245,9 @@ if __name__ == "__main__":
 
     MY_API_KEY = "e53785aedfc1c54942ba237f8ec0f891"
 
-    n = 300
+    n = 1000
 
-    year = 2012
+    year = 2016
     doctype = "bk"
 
     col_dict = {2012: "book_downloaded_2012",
@@ -275,7 +273,8 @@ if __name__ == "__main__":
         fname_jres = os.path.join(dname_book_count, "{}_year_{}.json".format(aff_name.title().replace(" ", ""), year))
 
         try:
-            s = my_scopus_search(query=query, apiKey=MY_API_KEY).get_search_object()
+            res = my_scopus_search(query=query, apiKey=MY_API_KEY)
+            s = res.get_search_object()
             logger.debug("respond received sucessfuly")
 
             logger.debug('saving the response to {}'.format(fname_jres))
@@ -290,10 +289,13 @@ if __name__ == "__main__":
 
         except Exception as e:
 
-            if s.http_error in [401, 429]:
-                logger.debug("error retrieved, error is {}".format(s.http_error))
+            if res.http_error == 401:
+                logger.debug("error retrieved, error is {}".format(res.http_error))
+            elif res.http_error == 429:
+                logger.info("quota is exceeded, terminating the program")
+                break
             else:
-                logger.debug("error retrieved, error is {}".format(s.http_error))
+                logger.debug("error retrieved, error is {}".format(res.http_error))
                 df_af.at[aff_name, col_dict[year]] = -1
 
             logger.warn('respond has failed, error is ', e)

@@ -8,6 +8,86 @@ import urllib.error
 import urllib
 
 
+class BaseSearch:
+
+    def __init__(self):
+
+        self.http_error = None
+
+        self.logger = logging.getLogger(__name__)
+        self.logger.debug("class was initialized")
+        self.http_error = None
+        self.response = None
+        self.jres
+
+    def encode(self):
+        return self
+
+    def send_request(self):
+
+        response = None
+
+        try:
+            self.logger.debug("sending the request")
+            response = request.urlopen(self.parsed_url)
+
+            self.logger.debug("request retrieved sucessully")
+
+        except urllib.error.HTTPError as e:
+
+            if e.code == 404:
+                self.logger.warning("page does not exist, error code is {}".format(e.code))
+                self.logger.warning("error is {}".format(e))
+            elif e.code == 400:
+                self.logger.warning("invalid request, try again, error code is {}".format(e.code))
+                self.logger.warning("error is {}".format(e))
+            elif e.code == 401:
+                self.logger.warning("cannot be authentified due to missing/invalid credentials")
+                self.logger.warning("error is {}".format(e))
+            elif e.code == 429:
+                self.logger.warning("quota exceeded")
+                self.logger.warning("error is {}".format(e))
+            else:
+                self.logger.warning("error code is {}, error is {}".format(e.code, e))
+
+            self.http_error = e
+
+        except Exception as e:
+
+            response = None
+            self.logger.warning("request retrieved with error, the error code is {}".format(e.code))
+            self.logger.warning("error is {}".format(e))
+
+        self.response = response
+
+        return self
+
+
+    def retrieve_json(self):
+        """
+        this function retrieves the json from the html response as a ready text for further analysis
+        """
+        
+        if self.response is not None:
+            output = json.loads(self.response.read())
+            self.jres = output
+        elif self.response is None:
+            self.jres = None
+        
+        return self
+
+    
+    def get_jres(self):
+        """
+        this function gathers the whole pipline of getting the aff_id as json response
+        """
+
+        self.encode()
+        self.send_request()
+        self.retrieve_json()
+        return self
+
+
 class InstitutionSearch:
 
     def __str__(self):

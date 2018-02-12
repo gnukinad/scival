@@ -4,7 +4,7 @@ import pymongo
 import os
 import errno
 import logging
-from my_scival import InstitutionSearch, MetricSearch
+from my_scival2 import InstitutionSearch, MetricSearch
 
 from urllib import parse, request
 # from urllib.error import HTTPError
@@ -137,7 +137,7 @@ if __name__=="__main__":
     a = df[key_acc].replace(np.nan,0) == 0     # which universities are not downloaded
     all_aff_names = df.index[a].tolist()
 
-    n = 2
+    n = 1
     responses = []
     jsons = []
 

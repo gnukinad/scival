@@ -146,7 +146,7 @@ def get_aff_metrics(res):
 
         cols_nested = ['CollaborationImpact', 'OutputsInTopCitationPercentiles', 'Collaboration', 'PublicationsInTopJournalPercentiles']
         cols_normal = ['FieldWeightedCitationImpact', 'CitedPublications', 'CitationsPerPublication', 'ScholarlyOutput', 'CitationCount']
-        
+
 
         if mtyp in cols_nested:
             tmp = pd_dict_list(mval['values'])
