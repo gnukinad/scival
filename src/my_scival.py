@@ -18,10 +18,10 @@ class BaseSearch:
         self.logger.debug("class was initialized")
         self.http_error = None
         self.response = None
-        self.jres
+        self.jres = None
 
     def encode(self):
-        return self
+        pass
 
     def send_request(self):
 
@@ -54,7 +54,7 @@ class BaseSearch:
 
         except Exception as e:
 
-            response = None
+            response = e
             self.logger.warning("request retrieved with error, the error code is {}".format(e.code))
             self.logger.warning("error is {}".format(e))
 
@@ -68,13 +68,15 @@ class BaseSearch:
         this function retrieves the json from the html response as a ready text for further analysis
         """
         
-        if self.response is not None:
+        try:
             output = json.loads(self.response.read())
-            self.jres = output
-        elif self.response is None:
-            self.jres = None
+        except:
+            output = self.response
+
+        self.jres = output
         
         return self
+
 
     
     def get_jres(self):
@@ -88,12 +90,14 @@ class BaseSearch:
         return self
 
 
-class InstitutionSearch:
+class InstitutionSearch(BaseSearch):
 
     def __str__(self):
         print("url is {}\nresponse is{}".format(self.parsed_url, self.jres))
 
-    def __init__(self, query_type=None, universityName=None, apiKey=None, httpAccept=None, fname_log=None):
+    def __init__(self, query_type=None, universityName=None, apiKey=None, httpAccept=None, logger=None):
+
+        super().__init__()
 
         if query_type is None:
             query_type="name"
@@ -106,12 +110,8 @@ class InstitutionSearch:
             apiKey = "7f59af901d2d86f78a1fd60c1bf9426a"
             # apiKey = "e53785aedfc1c54942ba237f8ec0f891"
 
-
         if httpAccept is None:
             httpAccept = 'application/json'
-
-        if fname_log is None:
-            fname_log = os.path.join("logs", "my_scival.txt")
 
         if isinstance(universityName, str):
             universityName = [universityName]
@@ -129,7 +129,6 @@ class InstitutionSearch:
         self.parsed_data = ''
         self.parsed_url = ''
 
-        self.fname_log = fname_log
 
         self.api_response = ''
         self.api_text = ''
@@ -137,16 +136,9 @@ class InstitutionSearch:
 
 
         # creating a logger
-        self.logger = logging.getLogger(__name__)
+        self.logger = logger or logging.getLogger(__name__)
         self.logger.debug("class was initialized")
         self.http_error = None
-
-
-    def get_url(self):
-        return self.__url
-
-    def set_url(self, url):
-        self.__url = url
 
 
     def check_httpAccept(self, a):
@@ -163,6 +155,7 @@ class InstitutionSearch:
 
     def encode(self, universityName=None, apiKey=None, httpAccept=None):
 
+
         if universityName is not None:
             self.query = universityName
 
@@ -172,7 +165,7 @@ class InstitutionSearch:
         if httpAccept is not None:
             self.check_httpAccept(httpAccept)
 
-        parse_query = "?query=" + "or".join("{}({})".format(self.query_type, parse.quote(x)) for x in self.query) + "&"
+        parse_query = "?query=" + parse.quote(" or ").join("{}({})".format(self.query_type, parse.quote(x)) for x in self.query) + "&"
 
         parsed_request = parse.urlencode({
                             'apiKey': self.apiKey,
@@ -184,76 +177,7 @@ class InstitutionSearch:
         return self
 
 
-    def send_request(self):
-
-        response = None
-
-        try:
-            self.logger.debug("sending the request")
-            response = request.urlopen(self.parsed_url)
-
-            self.logger.debug("request retrieved sucessully")
-
-        except urllib.error.HTTPError as e:
-
-            if e.code == 404:
-                self.logger.warning("page does not exist, error code is {}".format(e.code))
-                self.logger.warning("error is {}".format(e))
-            elif e.code == 400:
-                self.logger.warning("invalid request, try again, error code is {}".format(e.code))
-                self.logger.warning("error is {}".format(e))
-            elif e.code == 401:
-                self.logger.warning("cannot be authentified due to missing/invalid credentials")
-                self.logger.warning("error is {}".format(e))
-            elif e.code == 429:
-                self.logger.warning("quota exceeded")
-                self.logger.warning("error is {}".format(e))
-            else:
-                self.logger.warning("error code is {}, error is {}".format(e.code, e))
-
-            self.http_error = e
-
-        except Exception as e:
-
-            response = None
-            self.logger.warning("request retrieved with error, the error code is {}".format(e.code))
-            self.logger.warning("error is {}".format(e))
-
-        self.response = response
-
-        return self
-
-
-
-    def retrieve_json(self):
-        """
-        this function retrieves the json from the html response as a ready text for further analysis
-        """
-        
-        if self.response is not None:
-            output = json.loads(self.response.read())
-            self.jres = output
-        elif self.response is None:
-            self.jres = None
-        
-        return self
-
-    
-    def get_jres(self):
-        """
-        this function gathers the whole pipline of getting the aff_id as json response
-        """
-
-        self.encode()
-        self.send_request()
-        self.retrieve_json()
-        return self
-
-
-
-
-
-class MetricSearch():
+class MetricSearch(BaseSearch):
 
     def __init__(self, apiKey=None, aff_id=None, metrics=None, fname_log=None, path_to_save=None):
 
@@ -266,8 +190,6 @@ class MetricSearch():
         metrics - a string or a list of strings indicating which metrics will be downloaded from the scival, leaving it empty retrieves all of the metrics
         httpAccept - output data response, i.e. xml or json, Default is json
         fname_log - log filename
-
-
         """
 
         # for more infomration, please, have a look here
@@ -275,6 +197,7 @@ class MetricSearch():
 
 
         # creating a logger
+        super().__init__()
         self.logger = logging.getLogger(__name__)
 
         self.logger.debug("class was initialized")
@@ -348,14 +271,6 @@ class MetricSearch():
         self.__showAsFieldWeighted = self.__all_string_bool[1]
 
 
-
-    def get_url(self):
-        return self.__url
-
-    def set_url(self, url):
-        self.__url = url
-        
-
     def check_index(self, a=None):
 
         if a is None:
@@ -409,14 +324,8 @@ class MetricSearch():
         if metrics is not None:
             self.check_metrics(metrics)
 
- 
-        # xml
-        # https://api.elsevier.com/metrics/?apiKey=e53785aedfc1c54942ba237f8ec0f891&httpAccept=application%2Fxml&metrics=Collaboration%2CCitationCount%2CCitationsPerPublication%2CCollaborationImpact%2CCitedPublications%2CFieldWeightedCitationImpact%2CScholarlyOutput%2CPublicationsInTopJournalPercentiles%2COutputsInTopCitationPercentiles&institutions=508175%2C508076&yearRange=5yrs&includeSelfCitations=true&byYear=true&includedDocs=AllPublicationTypes&journalImpactType=CiteScore&showAsFieldWeighted=false&indexType=hIndex
+        # https://api.elsevier.com/metrics/?apiKey=e53785aedfc1c54942ba237f8ec0f891&httpAccept=application%2Fjson&metrics=ScholarlyOutput%2CCitedPublications&institutions=508175%2C508076&yearRange=5yrs&includeSelfCitations=true&byYear=true&includedDocs=AllPublicationTypes&journalImpactType=CiteScore&showAsFieldWeighted=false&indexType=hIndex
 
-        # json
-        # https://api.elsevier.com/metrics/?apiKey=e53785aedfc1c54942ba237f8ec0f891&httpAccept=application%2Fjson&metrics=Collaboration%2CCitationCount%2CCitationsPerPublication%2CCollaborationImpact%2CCitedPublications%2CFieldWeightedCitationImpact%2CScholarlyOutput%2CPublicationsInTopJournalPercentiles%2COutputsInTopCitationPercentiles&institutions=508175%2C508076&yearRange=5yrs&includeSelfCitations=true&byYear=true&includedDocs=AllPublicationTypes&journalImpactType=CiteScore&showAsFieldWeighted=false&indexType=hIndex
-
-        # https://api.elsevier.com/metrics/?apiKey=7f59af901d2d86f78a1fd60c1bf9426a&httpAccept=application%2Fjson&metrics=Collaboration%2CCitationCount%2CCitationsPerPublication%2CCollaborationImpact%2CCitedPublications%2CFieldWeightedCitationImpact%2CScholarlyOutput%2CPublicationsInTopJournalPercentiles%2COutputsInTopCitationPercentiles&institutions=508175%2C508076&yearRange=5yrs&includeSelfCitations=true&byYear=true&includedDocs=AllPublicationTypes&journalImpactType=CiteScore&showAsFieldWeighted=false&indexType=hIndex
 
         query_metrics = ",".join(self.metrics)
         query_metrics = parse.quote(query_metrics)
@@ -442,70 +351,4 @@ class MetricSearch():
         self.parsed_url = "{}/?{}".format(self.__url, self.parsed_data)
         self.logger.debug("encoding the request")
 
-        return self
-
-
-    def send_request(self):
-
-
-        try:
-            self.logger.debug("sending the request")
-            response = request.urlopen(self.parsed_url)
-
-            self.logger.debug("request retrieved sucessully")
-
-
-        except urllib.error.HTTPError as e:
-
-            if e.code == 404:
-                self.logger.warning("page does not exist, error code is {}".format(e.code))
-                self.logger.warning("error is {}".format(e))
-            elif e.code == 400:
-                self.logger.warning("invalid request, try again, error code is {}".format(e.code))
-                self.logger.warning("error is {}".format(e))
-            elif e.code == 401:
-                self.logger.warning("cannot be authentified due to missing/invalid credentials")
-                self.logger.warning("error is {}".format(e))
-            elif e.code == 429:
-                self.logger.warning("quota exceeded")
-                self.logger.warning("error is {}".format(e))
-            else:
-                self.logger.warning("error code is {}, error is {}".format(e.code, e))
-
-            self.http_error = e
-
-        except Exception as e:
-
-            response = e
-            self.logger.warning("request retrieved with error, the error code is {}".format(e.code))
-            self.logger.warning("error is {}".format(e))
-
-        self.response = response
-
-        return self
-
-
-    def retrieve_json(self):
-        """
-        this function retrieves the json from the html response as a ready text for further analysis
-        """
-        
-        try:
-            output = json.loads(self.response.read())
-        except:
-            output = self.response
-
-        self.jres = output
-        
-        return self
-
-
-    def get_jres(self):
-        """
-        this function gathers the whole pipline of getting the aff_id as json response
-        """
-
-        self.encode()
-        self.send_request()
-        self.retrieve_json()
         return self
