@@ -4,12 +4,11 @@ import pymongo
 import os
 import errno
 import logging
-from my_scival2 import InstitutionSearch, MetricSearch
 
 from urllib import parse, request
 # from urllib.error import HTTPError
 from func import get_InstitutionSearch, get_aff_id
-from func import *
+from my_scival2 import InstitutionSearch, MetricSearch
 
 import pickle as pk
 from pprint import pprint as pp
@@ -137,21 +136,71 @@ if __name__=="__main__":
     a = df[key_acc].replace(np.nan,0) == 0     # which universities are not downloaded
     all_aff_names = df.index[a].tolist()
 
-    n = 1
+    n = 15
     responses = []
     jsons = []
 
     dff = df.copy()
     dff = dff.replace(0, '')
 
-    logger.debug('starting to load institution_id')
+    logger.debug('finalizing affiliation ids to get')
+    aff_name = []
     for i in range(n):
 
-        aff_name = all_aff_names[i]
-        logger.debug('aff_name is {}'.format(aff_name))
+        aff_name.append(all_aff_names[i])
+        logger.debug('aff_name is {}'.format(aff_name[i]))
 
-        res = get_InstitutionSearch(aff_name, MY_API_KEY)
+        # res = get_InstitutionSearch(aff_name, MY_API_KEY)
 
+    try:
+        logger.debug('retrieving aff ids')
+        res = InstitutionSearch(query_type="name", universityName=aff_name, apiKey=MY_API_KEY, logger=logger).get_jres()
+
+        dict_res, json_res = get_aff_id(res.jres)
+        logger.debug('aff ids retrieval is successful')
+
+        responses.append(dict_res)
+        jsons.append(json_res)
+
+        fname_save_responses = 'responses_{}_{}.pickle'.format(aff_name[0], n)
+        fname_save_responses = os.path.join(FOLNAME_AFF_SEARCH, fname_save_responses)
+        pk.dump(dict_res, open(fname_save_responses, 'wb'))
+
+        """
+        fname_save_json = 'json{}.pickle'.format(aff_name)
+
+        fname_save_responses = os.path.join(FOLNAME_AFF_SEARCH, fname_save_responses)
+        fname_save_json = os.path.join(FOLNAME_AFF_SEARCH, fname_save_json)
+
+        logger.debug('saving responses and json response to {} and {} respectively'.format(fname_save_responses, fname_save_json))
+        pk.dump(dict_res, open(fname_save_responses, 'wb'))
+        pk.dump(json_res, open(fname_save_json, 'wb'))
+        """
+
+        # pp(res.jres)
+
+        for x in aff_name:
+            dff.at[x, key_acc] = 1
+
+        for x in dict_res:
+            logger.debug('updating acknowledgement in the table for affiliation {}'.format(x))
+            dff = pd_write_data(dff, x, key_acc, 1)
+
+    except Exception as e:
+
+        if res.http_error in [401, 429]:
+            logger.debug("error retrieved, error is {}".format(res.http_error))
+        else:
+            logger.debug("error retrieved, error is {}".format(res.http_error))
+            dff.at[aff_name, key_acc] = -1
+        
+    logger.debug('updating csv file {}'.format(fname_aff_names))
+    dff.to_csv(fname_aff_names)
+
+
+
+
+    """
         if res.jres is not None:
             dict_res, json_res = get_aff_id(res.jres)
             responses.append(dict_res)
@@ -184,3 +233,4 @@ if __name__=="__main__":
 
         logger.debug('updating csv file {}'.format(fname_aff_names))
         dff.to_csv(fname_aff_names)
+    """

@@ -4,12 +4,12 @@ import pymongo
 import os
 import errno
 import logging
-from my_scival import InstitutionSearch, MetricSearch
+from my_scival2 import InstitutionSearch, MetricSearch
 
 from urllib import parse, request
 from urllib.error import HTTPError
-from func import get_InstitutionSearch, get_aff_id
-from func import *
+from func import get_InstitutionSearch, get_aff_id, get_aff_metrics
+# from func import *
 
 import pickle as pk
 from pprint import pprint as pp
@@ -112,6 +112,28 @@ def pd_write_data(df, d, aux_key=None, aux_val=None):
     return df
 
 
+def get_valid_aff_names(df_iter, n):
+
+    for i in range(n):
+
+        # get university names
+        try:
+            aff_id, aff_name = df_iter.get_next_id()
+            
+            aff_id = np.int(aff_id)
+            
+            aff_ids.append(aff_id)
+            aff_names.append(aff_name)
+        except:
+            logger.debug("error at retrieving university id, aff_name is {}".format(aff_name))
+            logger.debug("updating the table")
+            df_aff.at[aff_name, key_met] = -1
+
+        affs = dict(zip(aff_ids, aff_names))
+
+    return affs
+
+
 
 # trying to retrieve the id of the university
 if __name__ == "__main__":
@@ -128,48 +150,46 @@ if __name__ == "__main__":
 
     df_aff = pd.read_csv(fname_aff_names).set_index(key_aff)
 
-    n = 20
+    n = 15
 
     df_iter = my_df(df_aff)
 
-    for i in range(n):
+    aff_ids = []
+    aff_names = []
 
-        try:
-            aff_id, aff_name = df_iter.get_next_id()
+    affs = get_valid_aff_names(df_iter, n)
 
-            aff_id = np.int(aff_id)
+    aff_id = list(affs.keys())
 
-            aff_ind = aff_name
+    m = MetricSearch(aff_id=aff_id, apiKey=MY_API_KEY)
 
-            logger.debug('starting to load institution metrics, id is {}\tname is {}'.format(aff_id, aff_name))
-            m = []
-            m = MetricSearch(aff_id=aff_id, apiKey=MY_API_KEY)
+    logger.debug('starting to load institution metrics')
 
-            m.get_jres()
-            res = m.jres
+    m.get_jres()
+    res = m.jres
 
-            try:
-                logger.debug('getting the data frame of the results')
-                df = get_aff_metrics(res['results'])
-                logger.debug('metrics dataframe was created successfully')
+    try:
+        logger.debug('getting the data frame of the results')
+        df = get_aff_metrics(res['results'])
+        logger.debug('metrics dataframe was created successfully')
 
-                logger.debug('saving metrics dataframe for id {}'.format(aff_id))
-                fname_metrics = os.path.join(FOLNAME_METRIC_RESPONSE, "id{}.csv".format(aff_id))
-                logger.debug('saving metrics for id {} dataframe'.format(aff_id))
-                df.to_csv(fname_metrics)
-                logger.debug('metrics dataframe for id {} was saved sucessfully'.format(aff_id))
+        logger.debug('saving metrics dataframe for id {}'.format(aff_id))
+        fname_metrics = os.path.join(FOLNAME_METRIC_RESPONSE, "id{}.csv".format(aff_id))
+        logger.debug('saving metrics for id {} dataframe'.format(aff_id))
+        df.to_csv(fname_metrics)
+        logger.debug('metrics dataframe for id {} was saved sucessfully'.format(aff_id))
 
-                df_aff.at[aff_ind, key_met] = 1
-            except:
+        for x in df.reset_index().name.unique():
+            logger.debug('updating the acknowledgement key in table for {}'.format(x))
+            df_aff.at[x, key_met] = 1
 
-                if res.http_error in [401, 429]:
-                    logger.debug("error retrieved, error is {}".format(res.http_error))
-                else:
-                    logger.debug("error retrieved, error is {}".format(res.http_error))
-                    dff.at[aff_name, key_acc] = -1
+    except:
 
-            df_aff.to_csv(fname_aff_names)
-            logger.debug('{} was updated successfully'.format(fname_aff_names))
+        if res.http_error in [401, 429]:
+            logger.debug("error retrieved, error is {}".format(res.http_error))
+        else:
+            logger.debug("error retrieved, error is {}".format(res.http_error))
+            df_aff.at[aff_name, key_acc] = -1
 
-        except Exception as err:
-            print(err)
+    df_aff.to_csv(fname_aff_names)
+    logger.debug('{} was updated successfully'.format(fname_aff_names))
