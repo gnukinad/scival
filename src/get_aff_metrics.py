@@ -9,7 +9,6 @@ from my_scival2 import InstitutionSearch, MetricSearch
 from urllib import parse, request
 from urllib.error import HTTPError
 from func import get_InstitutionSearch, get_aff_id, get_aff_metrics
-# from func import *
 
 import pickle as pk
 from pprint import pprint as pp

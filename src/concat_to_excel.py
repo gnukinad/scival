@@ -50,9 +50,11 @@ mcit = "CitationCount"
 mscholar_output = "ScholarlyOutput"
 mtjp = "PublicationsInTopJournalPercentiles"   # tjp - top journal percentiles
 mocp = "OutputsInTopCitationPercentiles"       # ocp - outputs in citation percentiles
+mbc = "BookCount"
+mpc = "PatentCount"
 
 
-metrics = [mfwci, mcol, mcol_impact, mcit, mcit_pubs, mcit_per_pub, mscholar_output, mtjp, mocp]
+metrics = [mfwci, mcol, mcol_impact, mcit, mcit_pubs, mcit_per_pub, mscholar_output, mtjp, mocp, mbc, mpc]
 
 
 cname = 'name'
@@ -82,48 +84,99 @@ def transform_pd(df):
     for x in inds:
 
         row = df.loc[x, :]
-    
+
         m = row[cmetric]
         y = row[cyear]
-        
+
         if m in [mcol_impact, mcol]:
             col_type = row[ccol_type]
             val = row[cval]
-            
+
             t = "{}_{}_{}".format(m, col_type.title().replace(" ", ""), y)
-            
+
             a[t] = val
-            
+
         elif m in [mocp, mtjp]:
-            
+
             threshold = row[cthresh]
             val = row[cval]
             pval = row[cpcent]
-            
+
             tval = "{}_{}_{}_{}".format(m, int(threshold), y, "value")
             tpcent = "{}_{}_{}_{}".format(m, int(threshold), y, "percentage")
-            
+
             a[tval] = val
             a[tpcent] = pval
-            
-        elif m in [mfwci, mscholar_output, mcit, mcit_pubs, mcit_per_pub]:
-            
+
+        elif m in [mfwci, mscholar_output, mcit, mcit_pubs, mcit_per_pub, mbc, mpc]:
+
             val = row[cval]
-            
+
             t = "{}_{}".format(m, y)
-            
+
             a[t] = val
 
     return a
 
 
+def transform_pd2(a):
+
+    aff_names = a['name'].unique()
+
+    df = pd.DataFrame({'name': aff_names}).set_index('name')
+
+    for index, row in a.iterrows():
+
+        d = {}
+
+        for sindex, svalue in row.iteritems():
+
+            m = row[cmetric]
+            y = row[cyear]
+
+
+            if m in [mcol_impact, mcol]:
+                col_type = row[ccol_type]
+                val = row[cval]
+
+                t = "{}_{}_{}".format(m, col_type.title().replace(" ", ""), y)
+
+                d[t] = val
+
+            elif m in [mocp, mtjp]:
+
+                threshold = row[cthresh]
+                val = row[cval]
+                pval = row[cpcent]
+
+                tval = "{}_{}_{}_{}".format(m, int(threshold), y, "value")
+                tpcent = "{}_{}_{}_{}".format(m, int(threshold), y, "percentage")
+
+                d[tval] = val
+                d[tpcent] = pval
+                
+            elif m in [mfwci, mscholar_output, mcit, mcit_pubs, mcit_per_pub, mbc, mpc]:
+                
+                val = row[cval]
+                
+                t = "{}_{}".format(m, y)
+                
+                d[t] = val
+
+        for key, value in d.items():
+
+            df.at[index, key] = value
+
+
+'''
+# concatenate into wide_table
 if __name__ == "__main__":
 
     # where all data is stored
     dname = os.path.join(BASE_DIR, "data", "metric_response")
 
     drop_cols = ['uri', 'type', 'link']
-    excel_fname = "all_affiliations.xlsx"
+    excel_fname = "all_affiliations.xlsx" # soon be renamed into all_metrics.xlsx
 
     all_fnames = glob.glob(os.path.join(dname, "*.csv"))
 
@@ -132,3 +185,76 @@ if __name__ == "__main__":
     df.set_index('name')
     df.to_excel(excel_fname)
 
+'''
+
+if __name__ == "__main__":
+
+    # where all data is stored
+
+    drop_cols = ['uri', 'type', 'link']
+    excel_fname = "all_affiliations.xlsx"    # soon be renamed into all_metrics.xlsx
+
+    '''
+    all_fnames = glob.glob(os.path.join(dname, "*.csv"))
+
+    df_list = [pd.DataFrame(transform_pd(pd.read_csv(x))) for x in all_fnames]
+    df = pd.concat(df_list)
+    df.set_index('name')
+    df.to_excel(excel_fname)
+    '''
+
+    # if all data are concatenated into a single one
+    df = pd.read_csv('data/long_all_metrics.csv')
+    # a = transform_pd(df)
+
+    a = df.copy().set_index('name')
+
+    aff_names = np.unique(a.index.tolist())
+
+    df2 = pd.DataFrame({'name': aff_names}).set_index('name')
+
+    # for index, row in a.iloc[:2000, :].iterrows():
+    for index, row in a.iterrows():
+        # print(index)
+
+        d = {'name': index}
+
+        for sindex, svalue in row.iteritems():
+
+            m = row[cmetric]
+            y = row[cyear]
+
+            if m in [mcol_impact, mcol]:
+                col_type = row[ccol_type]
+                val = row[cval]
+
+                t = "{}_{}_{}".format(m, col_type.title().replace(" ", ""), y)
+
+                d[t] = val
+
+            elif m in [mocp, mtjp]:
+
+                threshold = row[cthresh]
+                val = row[cval]
+                pval = row[cpcent]
+
+                tval = "{}_{}_{}_{}".format(m, int(threshold), y, "value")
+                tpcent = "{}_{}_{}_{}".format(m, int(threshold), y, "percentage")
+
+                d[tval] = val
+                d[tpcent] = pval
+                
+            elif m in [mfwci, mscholar_output, mcit, mcit_pubs, mcit_per_pub, mbc, mpc]:
+                
+                val = row[cval]
+                
+                t = "{}_{}".format(m, y)
+                
+                d[t] = val
+
+
+        for key, value in d.items():
+
+            # print('key is ', key, 'value is ', value, ' name is ', d['name'])
+            if key != 'name':
+                df2.at[d['name'], key] = value
