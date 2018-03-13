@@ -1,13 +1,13 @@
 Institution,metrics,id_downloaded,link,type,name,uri,countryCode,region,sector,id,country,book_downloaded_2012,book_downloaded_2013,book_downloaded_2014,book_downloaded_2015,book_downloaded_2016,patent_downloaded_2012,patent_downloaded_2013,patent_downloaded_2014,patent_downloaded_2015,patent_downloaded_2016
-Harvard University,1.0,1.0,https://api.elsevier.com/metrics/institution/508076,application/json,Harvard University,Institution/508076,usa,NAM,academic,508076.0,United States,1.0,1.0,1.0,1.0,1.0,,,1.0,1.0,1.0
-Institute of Geographical Sciences and Natural Resources Research Chinese Academy of Sciences,1.0,1.0,https://api.elsevier.com/metrics/institution/700734,application/json,Institute of Geographical Sciences and Natural Resources Research Chinese Academy of Sciences,Institution/700734,chn,APAC,academic,700734.0,China,1.0,1.0,1.0,1.0,1.0,,,-1.0,1.0,1.0
-Institute of Computing Technology Chinese Academy of Sciences,1.0,1.0,https://api.elsevier.com/metrics/institution/700731,application/json,Institute of Computing Technology Chinese Academy of Sciences,Institution/700731,chn,APAC,academic,700731.0,China,1.0,1.0,1.0,1.0,1.0,,,-1.0,1.0,-1.0
-Kunming Institute of Botany Chinese Academy of Sciences,1.0,1.0,https://api.elsevier.com/metrics/institution/700713,application/json,Kunming Institute of Botany Chinese Academy of Sciences,Institution/700713,chn,APAC,academic,700713.0,China,1.0,1.0,1.0,1.0,1.0,,,1.0,1.0,-1.0
-Institute of Genetics and Developmental Biology Chinese Academy of Sciences,1.0,1.0,https://api.elsevier.com/metrics/institution/700706,application/json,Institute of Genetics and Developmental Biology Chinese Academy of Sciences,Institution/700706,chn,APAC,academic,700706.0,China,1.0,1.0,1.0,1.0,1.0,,,1.0,1.0,-1.0
-Xi'an Institute of Optics and Precision Mechanics Chinese Academy of Sciences,1.0,1.0,https://api.elsevier.com/metrics/institution/700721,application/json,Xi'an Institute of Optics and Precision Mechanics Chinese Academy of Sciences,Institution/700721,chn,APAC,academic,700721.0,China,1.0,1.0,1.0,1.0,1.0,,,1.0,1.0,-1.0
-"Institute of Hydrobiology, Chinese Academy of Sciences",1.0,1.0,https://api.elsevier.com/metrics/institution/700718,application/json,"Institute of Hydrobiology, Chinese Academy of Sciences",Institution/700718,chn,APAC,academic,700718.0,China,1.0,1.0,1.0,1.0,1.0,,,1.0,1.0,-1.0
-Wuhan Institute of Physics and Mathematics Chinese Academy of Sciences,1.0,1.0,https://api.elsevier.com/metrics/institution/700715,application/json,Wuhan Institute of Physics and Mathematics Chinese Academy of Sciences,Institution/700715,chn,APAC,academic,700715.0,China,1.0,1.0,1.0,1.0,1.0,,,1.0,1.0,1.0
-Shenyang Institute of Automation Chinese Academy of Sciences,1.0,1.0,https://api.elsevier.com/metrics/institution/700717,application/json,Shenyang Institute of Automation Chinese Academy of Sciences,Institution/700717,chn,APAC,academic,700717.0,China,1.0,1.0,1.0,1.0,1.0,,,1.0,1.0,1.0
+Harvard University,1.0,1.0,https://api.elsevier.com/metrics/institution/508076,application/json,Harvard University,Institution/508076,usa,NAM,academic,508076.0,United States,1.0,1.0,1.0,1.0,1.0,,-1.0,1.0,1.0,1.0
+Institute of Geographical Sciences and Natural Resources Research Chinese Academy of Sciences,1.0,1.0,https://api.elsevier.com/metrics/institution/700734,application/json,Institute of Geographical Sciences and Natural Resources Research Chinese Academy of Sciences,Institution/700734,chn,APAC,academic,700734.0,China,1.0,1.0,1.0,1.0,1.0,,-1.0,-1.0,1.0,1.0
+Institute of Computing Technology Chinese Academy of Sciences,1.0,1.0,https://api.elsevier.com/metrics/institution/700731,application/json,Institute of Computing Technology Chinese Academy of Sciences,Institution/700731,chn,APAC,academic,700731.0,China,1.0,1.0,1.0,1.0,1.0,,-1.0,-1.0,1.0,-1.0
+Kunming Institute of Botany Chinese Academy of Sciences,1.0,1.0,https://api.elsevier.com/metrics/institution/700713,application/json,Kunming Institute of Botany Chinese Academy of Sciences,Institution/700713,chn,APAC,academic,700713.0,China,1.0,1.0,1.0,1.0,1.0,,-1.0,1.0,1.0,-1.0
+Institute of Genetics and Developmental Biology Chinese Academy of Sciences,1.0,1.0,https://api.elsevier.com/metrics/institution/700706,application/json,Institute of Genetics and Developmental Biology Chinese Academy of Sciences,Institution/700706,chn,APAC,academic,700706.0,China,1.0,1.0,1.0,1.0,1.0,,-1.0,1.0,1.0,-1.0
+Xi'an Institute of Optics and Precision Mechanics Chinese Academy of Sciences,1.0,1.0,https://api.elsevier.com/metrics/institution/700721,application/json,Xi'an Institute of Optics and Precision Mechanics Chinese Academy of Sciences,Institution/700721,chn,APAC,academic,700721.0,China,1.0,1.0,1.0,1.0,1.0,,-1.0,1.0,1.0,-1.0
+"Institute of Hydrobiology, Chinese Academy of Sciences",1.0,1.0,https://api.elsevier.com/metrics/institution/700718,application/json,"Institute of Hydrobiology, Chinese Academy of Sciences",Institution/700718,chn,APAC,academic,700718.0,China,1.0,1.0,1.0,1.0,1.0,,1.0,1.0,1.0,-1.0
+Wuhan Institute of Physics and Mathematics Chinese Academy of Sciences,1.0,1.0,https://api.elsevier.com/metrics/institution/700715,application/json,Wuhan Institute of Physics and Mathematics Chinese Academy of Sciences,Institution/700715,chn,APAC,academic,700715.0,China,1.0,1.0,1.0,1.0,1.0,,1.0,1.0,1.0,1.0
+Shenyang Institute of Automation Chinese Academy of Sciences,1.0,1.0,https://api.elsevier.com/metrics/institution/700717,application/json,Shenyang Institute of Automation Chinese Academy of Sciences,Institution/700717,chn,APAC,academic,700717.0,China,1.0,1.0,1.0,1.0,1.0,,-1.0,1.0,1.0,1.0
 Nanjing Institute of Geology and Palaeontology Chinese Academy of Sciences,1.0,1.0,https://api.elsevier.com/metrics/institution/700703,application/json,Nanjing Institute of Geology and Palaeontology Chinese Academy of Sciences,Institution/700703,chn,APAC,academic,700703.0,China,1.0,1.0,1.0,1.0,1.0,,,-1.0,1.0,1.0
 Hefei Institutes of Physical Sciences Chinese Academy of Sciences,1.0,1.0,https://api.elsevier.com/metrics/institution/700695,application/json,Hefei Institutes of Physical Sciences Chinese Academy of Sciences,Institution/700695,chn,APAC,academic,700695.0,China,1.0,1.0,1.0,1.0,1.0,,,-1.0,1.0,1.0
 Wuhan Institute of Virology Chinese Academy of Sciences,1.0,1.0,https://api.elsevier.com/metrics/institution/700727,application/json,Wuhan Institute of Virology Chinese Academy of Sciences,Institution/700727,chn,APAC,academic,700727.0,China,1.0,1.0,1.0,1.0,1.0,,,1.0,1.0,1.0
@@ -7214,12 +7214,12 @@ National Research Institute of Brewing,,,,,,,,,,,,,,,,,,,-1.0,,
 Dr. Ram Manohar Lohia Avadh University,,,,,,,,,,,,,,,,,,,-1.0,,
 Ranbaxy Research Laboratories,,,,,,,,,,,,,,,,,,,-1.0,,
 Northeastern Ohio Universities College of Medicine,,,,,,,,,,,,,,,,,,,-1.0,,
-Universidad de San Buenaventura,,,,,,,,,,,,,,,,,,,,,
-Taisei,,,,,,,,,,,,,,,,,,,,,
-Turk Havacilik ve Uzay Sanayii AS (Turkish Aerospace Industries),,,,,,,,,,,,,,,,,,,,,
-Tosoh Corporation,,,,,,,,,,,,,,,,,,,,,
-Calderdale Royal Hospital,,,,,,,,,,,,,,,,,,,,,
-University of Sebha,,,,,,,,,,,,,,,,,,,,,
+Universidad de San Buenaventura,,,,,,,,,,,,,,,,,,,-1.0,,
+Taisei,,,,,,,,,,,,,,,,,,,1.0,,
+Turk Havacilik ve Uzay Sanayii AS (Turkish Aerospace Industries),,,,,,,,,,,,,,,,,,,1.0,,
+Tosoh Corporation,,,,,,,,,,,,,,,,,,,1.0,,
+Calderdale Royal Hospital,,,,,,,,,,,,,,,,,,,-1.0,,
+University of Sebha,,,,,,,,,,,,,,,,,,,-1.0,,
 Universidad Sergio Arboleda,,,,,,,,,,,,,,,,,,,,,
 Royal Central School of Speech and Drama University of London,,1.0,https://api.elsevier.com/metrics/institution/705464,application/json,Royal Central School of Speech and Drama University of London,Institution/705464,gbr,EUR,academic,705464.0,United Kingdom,,,,,,,,,,
 National Veterinary Institute Norway,,,,,,,,,,,,,,,,,,,,,

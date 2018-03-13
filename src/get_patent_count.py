@@ -234,7 +234,18 @@ def get_patent_count(driver, query):
         assert 'something happened'
 
 
-# if __name__=="__main__":
+'''
+if __name__=="__main__":
+
+    n = 3
+
+    year = 2013
+
+    fname_df = os.path.join('data', 'universities_table.csv')
+    fname_res = os.path.join('data', 'patent_count.csv')
+'''
+
+
 def main(n, year, fname_df, fname_res):
 
     slink = 'https://www.scopus.com/results/results.uri?sort=plf-f&src=s&sid=9cf773e35f9165af3488aaee575fd58a&sot=a&sdt=a&sl=49&s=affil%28%22University+of+Toronto%22%29+AND+pubyear+%3d+2016&origin=searchadvanced&editSaveSearch=&txGid=7bfd7d6ce111fb51284b6d3d7d6149ee'
@@ -315,7 +326,7 @@ def main(n, year, fname_df, fname_res):
     
     
         logger.debug('creating the resultant DataFrame')
-        cur_df = pd.DataFrame(curd)
+        cur_df = pd.DataFrame(curd).set_index('name')
         res = pd.concat([res.reset_index(), cur_df.reset_index()], ignore_index=True).set_index('name')
     
         logger.debug('saving the results')
@@ -334,13 +345,13 @@ if __name__ == "__main__":
     # fname_df = 
     # fname_res = 
 
-    n = 15
+    n = 3
     year = 2014
 
     fname_df = os.path.join('data', 'universities_table.csv')
     fname_res = os.path.join('data', 'patent_count.csv')
 
-
-    for i in range(350):
+    for i in range(1):
         main(n=n, year=year, fname_df=fname_df, fname_res=fname_res)
         time.sleep(5)
+
