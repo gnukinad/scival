@@ -100,24 +100,22 @@ def append_book_count(res_name, year):
     df = pd.concat([df, df_old])
 
     df.to_csv(res_name, index=False)
+    return df
 
 
 if __name__ == "__main__":
 
-    fname_long_book = '../data/long_book_count.csv'
-    fname_long_patent  = '../data/long_patent_count.csv'
+    """
 
-    '''
     years = [2012, 2013, 2014, 2015, 2016]
+    # years = [2012]
     for x in years:
-        append_book_count(fname_long_book, x)
-    '''
+        df = append_book_count(fname_long_book, x)
 
 
-    '''
     fname_book = '../data/patent_count.csv'
-    get_patent_count(fname_book, fname_long_patent)
-    '''
+    # get_patent_count(fname_book, fname_long_patent)
+    """
 
     dname_metric = os.path.join("..", "data", "metric_response")
 
@@ -126,13 +124,16 @@ if __name__ == "__main__":
 
     all_fnames = glob.glob(os.path.join(dname_metric, "*.csv"))
 
+
     df_list = [pd.DataFrame(pd.read_csv(x)) for x in all_fnames]
     df_metric = pd.concat(df_list)
 
+    fname_long_book = '../data/long_book_count.csv'
+    fname_long_patent  = '../data/long_patent_count.csv'
 
     df_patent = pd.read_csv(fname_long_book)
     df_book   = pd.read_csv(fname_long_patent)
 
     df = pd.concat([df_metric, df_patent, df_book], ignore_index=True)
 
-    df.to_csv('../data/long_all_metrics.csv', index=False)
+    df.to_csv('../data/long_all_metrics2.csv', index=False)

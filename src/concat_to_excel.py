@@ -192,7 +192,7 @@ if __name__ == "__main__":
     # where all data is stored
 
     drop_cols = ['uri', 'type', 'link']
-    excel_fname = "all_affiliations.xlsx"    # soon be renamed into all_metrics.xlsx
+    excel_fname = "all_affiliations2.xlsx"    # soon be renamed into all_metrics.xlsx
 
     '''
     all_fnames = glob.glob(os.path.join(dname, "*.csv"))
@@ -204,7 +204,7 @@ if __name__ == "__main__":
     '''
 
     # if all data are concatenated into a single one
-    df = pd.read_csv('data/long_all_metrics.csv')
+    df = pd.read_csv('data/long_all_metrics2.csv').drop(columns=drop_cols)
     # a = transform_pd(df)
 
     a = df.copy().set_index('name')
