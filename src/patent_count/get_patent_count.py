@@ -203,7 +203,6 @@ def get_patent_count(driver, query):
         driver.find_element_by_id('searchfield').click()
 
 
-
     # fill the textfield and send the request
     element = driver.find_element_by_id('searchfield')
 
@@ -370,7 +369,7 @@ if __name__ == "__main__":
     n = 15
     year = 2014
 
-    fname_df = os.path.join('data', 'universities_table2.csv')
+    fname_df = os.path.join('data', 'universities_table.csv')
     fname_res = os.path.join('data', 'patent_count.csv')
 
     for i in range(1):
