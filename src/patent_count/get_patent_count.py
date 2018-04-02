@@ -367,7 +367,7 @@ if __name__ == "__main__":
     # fname_res = 
 
     n = 15
-    year = 2014
+    year = 2013
 
     fname_df = os.path.join('data', 'universities_table.csv')
     fname_res = os.path.join('data', 'patent_count.csv')
