@@ -54,6 +54,29 @@ logger.addHandler(fh)
 logger.addHandler(ch)
 
 
+def extract_integer_(patent_value):
+
+    a = 0
+
+    try:
+        logger.debug('extracting integer from patent_value')
+        a  = extract_integer(patent_value)
+    except:
+        logger.debug('error during integer extraction')
+        a = 0
+
+    return a
+
+
+def driver_has_element_by_xpath(driver, xpath):
+
+    try:
+        driver.find_element_by_xpath(xpath)
+        return True
+    except:
+        return False
+
+
 def close_pop_up_window(driver):
 
     try:
@@ -75,28 +98,30 @@ def get_valid_ids(df, key, n, valid_values=None, bad_values=None):
     valid_inds = []
 
     inds = df.index.tolist()
-    print(inds[:10])
 
     i = 0
     j = 0
 
     while(True):
 
+        if j > df.shape[0]:
+            break
+
+        if i == n:
+            break
+
         # coutns only nans
         if np.isnan(df.loc[inds[j], key]):
             valid_inds.append(inds[j])
             i = i+1
 
-        if i == n:
-            break
-
-        if j > df.shape[0]:
-            break
-
         if i % 10 == 0 and i != 0:
             logger.debug('getting valid inds, i is {}'.format(i))
 
         j = j + 1
+
+    print('valid inds are ')
+    print(valid_inds)
 
     return valid_inds
 
@@ -167,11 +192,13 @@ def open_scopus_link(driver):
     time.sleep(t)
     # driver.implicitly_wait(10) # seconds
 
+    close_pop_up_window(driver)
+
     return driver
 
 
 def extract_integer(a):
-    n = [np.int(x) for x in a.split() if x.isdigit()] or 0
+    n = [np.int(x) for x in a.split() if x.isdigit()] or [0]
     return n[0]
 
 
@@ -196,12 +223,13 @@ def get_patent_count(driver, query):
 
     # click to activate the textField
     # sometimes we need to click 'contentEditLabel', sometimes 'searchfield'
-    logger.debug('clicking on contentEditLabel')
+    logger.debug('clicking on search input field')
     try:
+        logger.debug('clicking on contentEditLabel')
         driver.find_element_by_id('contentEditLabel').click()
     except Exception as e:
+        logger.debug('clicking on searchfield')
         driver.find_element_by_id('searchfield').click()
-
 
     # fill the textfield and send the request
     element = driver.find_element_by_id('searchfield')
@@ -226,43 +254,51 @@ def get_patent_count(driver, query):
     t = 4 + runi(0, 1)
     time.sleep(t)
 
-    try:
-        logger.debug('retrieving patent.count')
-        patent_hidden_element = driver.find_element_by_id('hubLinksContainer')
-        if patent_hidden_element.get_attribute('class') == 'hidden':
-            patent_value = 0
-        else:
-            patent_element = driver.find_element_by_id('patentLink')
-            patent_value = patent_element.text
-
-        logger.debug('patent_value is {}'.format(patent_value))
-
-        if patent_value != 0:
-            try:
-                logger.debug('extracting integer from patent_value')
-                a  = extract_integer(patent_value)
-            except:
-                logger.debug('error during integer extraction')
-                a = 0
-        else:
-            a = 0
-
-        logger.debug('extracted integer is {}'.format(a))
-
-        t = 2 + runi(0, 1)
-        time.sleep(t)
-
-        driver.find_element_by_id('editAuthSearch').click()
-
-        t = 2 + runi(0, 1)
-        time.sleep(t)
-
+    if driver_has_element_by_xpath(driver, '//div[@class="alert alert-danger"]/a[@class="close"]'):
+        logger.debug('no document found for here')
+        a = 0
         return a
-    except:
-        driver.find_element_by_xpath("//button[@title='Edit search query']").click()
-        assert 'something happened'
+    else:
 
+        a = 0
 
+        try:
+            logger.debug('retrieving patent_count')
+            patent_hidden_element = driver.find_element_by_id('hubLinksContainer')
+            if patent_hidden_element.get_attribute('class') == 'hidden':
+                logger.debug('no patent elements were found')
+                patent_value = 0
+            else:
+                patent_element = driver.find_element_by_id('patentLink')
+                patent_value = patent_element.text
+
+        except:
+            driver.find_element_by_xpath("//button[@title='Edit search query']").click()
+            assert 'something happened'
+
+        else:
+
+            logger.debug('patent_value is {}'.format(patent_value))
+
+            a = extract_integer_(patent_value)
+
+            logger.debug('extracted integer is {}'.format(a))
+
+            t = 2 + runi(0, 1)
+            time.sleep(t)
+
+            try:
+                logger.debug('clicking on editAuthSearch')
+                driver.find_element_by_id('editAuthSearch').click()
+            except:
+                logger.debug('error during clicking on editAuthSearch')
+                logger.debug('instead find "Edit search query" field by force')
+                driver.find_element_by_xpath("//button[@title='Edit search query']").click()
+
+            t = 2 + runi(0, 1)
+            time.sleep(t)
+
+            return a
 
 def main(n, year, fname_df, fname_res):
 
@@ -273,18 +309,14 @@ def main(n, year, fname_df, fname_res):
     # n = 15
     # year = 2015
 
-    # fname_res = os.path.join('data', 'patent_count.csv')
-
-    res_ind_name = 'name'
-    res_col_name = 'patent_count_{}'.format(year)
-    res = pd.read_csv(fname_res).set_index(res_ind_name)
     logger.debug('downloaded results table')
 
 
     # fname_df = os.path.join('data', 'universities_table.csv')
     # fname_res = os.path.join('data', 'patent_count.csv')
     logger.debug('loading df with acknowledgements')
-    df = pd.read_csv(fname_df).set_index('Institution')
+    df = pd.read_csv(fname_df).set_index('Institution').sort_values(by=['order'])
+    # df = pd.read_excel(fname_df).set_index('Institution').sort_values(by=['order'])
 
 
     key = 'patent_downloaded_{}'.format(year)
@@ -300,18 +332,19 @@ def main(n, year, fname_df, fname_res):
     driver = webdriver.Firefox(firefox_binary=binary)
     driver.set_page_load_timeout(timeout) # error if timeout has passed
 
+
     try:
         driver = open_scopus_link(driver)
+        cur_res = []
 
-        curd = {res_ind_name: [],
-            res_col_name: []}
 
         logger.debug('doing search')
     except:
         logger.warning('error has occured during opening browser')
+
     else:
 
-        # for i in range(n):
+
         for x in valid_aff_names:
             aff_name = x
             # aff_name = valid_aff_names[i]
@@ -325,15 +358,8 @@ def main(n, year, fname_df, fname_res):
                 logger.debug('getting patent_count for {}'.format(aff_name))
                 patent_count = get_patent_count(driver, query)
 
-                logger.debug('number of patents for {} is {}'.format(aff_name, patent_count))
-                logger.debug('updating acknowledgment df at [{}, {}]'.format(aff_name, key))
-                df.at[aff_name, key] = 1
-
-                logger.debug('updating the resultant dictionary')
-                curd[res_ind_name].append(aff_name)
-                curd[res_col_name].append(patent_count)
-
             except TimeoutException as e:
+                logger.warning('timeout error')
                 break
 
             except Exception as e:
@@ -342,14 +368,27 @@ def main(n, year, fname_df, fname_res):
                 df.at[aff_name, key] = -1
                 break
 
+            else:
+
+                logger.debug('number of patents has been retrieved succesfully')
+                logger.debug('number of patents for {} is {}'.format(aff_name, patent_count))
+                logger.debug('updating acknowledgment df at [{}, {}]'.format(aff_name, key))
+                df.at[aff_name, key] = 1
+
+                logger.debug('storing results')
+                cur_res.append({'aff_name': aff_name,
+                                'year': year,
+                                'metricType': 'patentCount',
+                                'valueByYear': patent_count})
+
 
         logger.debug('creating the resultant DataFrame')
-        cur_df = pd.DataFrame(curd).set_index('name')
-        res = pd.concat([res.reset_index(), cur_df.reset_index()], ignore_index=True).set_index('name')
+        res = pd.concat([pd.DataFrame(cur_res), pd.read_excel(fname_res)])
 
         logger.debug('saving the results')
-        res.to_csv(fname_res)
+        res.to_excel(fname_res, index=False)
         df.to_csv(fname_df)
+
 
     finally:
         driver.quit()
@@ -367,12 +406,16 @@ if __name__ == "__main__":
     # fname_res = 
 
     n = 15
-    year = 2013
+
+    year = 2012
+    years = [2012, 2013, 2014, 2015, 2016]
+    # years = [2012]
 
     fname_df = os.path.join('data', 'universities_table.csv')
-    fname_res = os.path.join('data', 'patent_count.csv')
+    fname_res = os.path.join('data', 'patent_count.xlsx')
 
-    for i in range(1):
-        driver = main(n=n, year=year, fname_df=fname_df, fname_res=fname_res)
-        time.sleep(5)
+    for i in range(50):
+        for year in years:
 
+            driver = main(n=n, year=year, fname_df=fname_df, fname_res=fname_res)
+            time.sleep(5)
