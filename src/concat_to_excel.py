@@ -209,7 +209,11 @@ if __name__ == "__main__":
     '''
 
     # if all data are concatenated into a single one
+<<<<<<< HEAD
     df = pd.read_csv('data/long_all_metrics.csv').drop(columns=drop_cols)
+=======
+    df = pd.read_csv('data/long_all_metrics3.csv').drop(columns=drop_cols)
+>>>>>>> 0f1daa2... changed file datanames and some field names
     # a = transform_pd(df)
 
     a = df.copy().set_index('name')
