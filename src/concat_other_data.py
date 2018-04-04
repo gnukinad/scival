@@ -38,7 +38,7 @@ def get_patent_count(fname_book, fname_res):
                 if not np.isnan(svalue):
 
                     df.at[index, 'name'] = row['name']
-                    df.at[index, 'metricType'] = 'PatentCount'
+                    df.at[index, 'metricType'] = 'patentCount'
                     splitted = sindex.split('_')
                     year = splitted[-1]
                     df.at[index, 'valueByYear'] = svalue
@@ -136,4 +136,4 @@ if __name__ == "__main__":
 
     df = pd.concat([df_metric, df_patent, df_book], ignore_index=True)
 
-    df.to_csv('../data/long_all_metrics2.csv', index=False)
+    df.to_csv('../data/long_all_metrics3.csv', index=False)

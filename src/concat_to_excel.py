@@ -51,7 +51,7 @@ mscholar_output = "ScholarlyOutput"
 mtjp = "PublicationsInTopJournalPercentiles"   # tjp - top journal percentiles
 mocp = "OutputsInTopCitationPercentiles"       # ocp - outputs in citation percentiles
 mbc = "BookCount"
-mpc = "PatentCount"
+mpc = "patentCount"
 
 
 metrics = [mfwci, mcol, mcol_impact, mcit, mcit_pubs, mcit_per_pub, mscholar_output, mtjp, mocp, mbc, mpc]
@@ -204,7 +204,7 @@ if __name__ == "__main__":
     '''
 
     # if all data are concatenated into a single one
-    df = pd.read_csv('data/long_all_metrics2.csv').drop(columns=drop_cols)
+    df = pd.read_csv('data/long_all_metrics3.csv').drop(columns=drop_cols)
     # a = transform_pd(df)
 
     a = df.copy().set_index('name')
