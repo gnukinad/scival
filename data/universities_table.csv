@@ -1,6 +1,7 @@
 Institution,order,metrics,id_downloaded,link,type,name,uri,countryCode,region,sector,id,country,book_downloaded_2012,book_downloaded_2013,book_downloaded_2014,book_downloaded_2015,book_downloaded_2016,patent_downloaded_2012,patent_downloaded_2013,patent_downloaded_2014,patent_downloaded_2015,patent_downloaded_2016
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Harvard University,0,1.0,1.0,https://api.elsevier.com/metrics/institution/508076,application/json,Harvard University,Institution/508076,usa,NAM,academic,508076.0,United States,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
 Stanford University,1,1.0,1.0,https://api.elsevier.com/metrics/institution/508219,application/json,Stanford University,Institution/508219,usa,NAM,academic,508219.0,United States,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
 University of Cambridge,2,1.0,1.0,https://api.elsevier.com/metrics/institution/315068,application/json,University of Cambridge,Institution/315068,gbr,EUR,academic,315068.0,United Kingdom,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
@@ -7014,6 +7015,8 @@ ASPCA Animal Poison Control Center,7010,,,,,,,,,,,,,,1.0,,,,,,,
 =======
 =======
 >>>>>>> 0f1daa2... changed file datanames and some field names
+=======
+>>>>>>> 0f1daa2638e7fa516ffe431d1c3f82b048d3870f
 Harvard University,0,1,1,https://api.elsevier.com/metrics/institution/508076,application/json,Harvard University,Institution/508076,usa,NAM,academic,508076,United States,1,1,1,1,1,1,1,1,1,1
 Stanford University,1,1,1,https://api.elsevier.com/metrics/institution/508219,application/json,Stanford University,Institution/508219,usa,NAM,academic,508219,United States,1,1,1,1,1,1,1,1,1,1
 University of Cambridge,2,1,1,https://api.elsevier.com/metrics/institution/315068,application/json,University of Cambridge,Institution/315068,gbr,EUR,academic,315068,United Kingdom,1,1,1,1,1,1,1,1,1,1
@@ -14025,9 +14028,12 @@ NASA Armstrong Flight Center,7008,,,,,,,,,,,,,,1,,,,,,,
 National Hospital of Sri Lanka,7009,,,,,,,,,,,,,,1,,,,,,,
 ASPCA Animal Poison Control Center,7010,,,,,,,,,,,,,,1,,,,,,,
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 0f1daa2638e7fa516ffe431d1c3f82b048d3870f
 =======
 >>>>>>> 0f1daa2... changed file datanames and some field names
+=======
+>>>>>>> 0f1daa2638e7fa516ffe431d1c3f82b048d3870f
 Midlands State University Zimbabwe,7011,,,,,,,,,,,,,,,,,,,,,
 Bank of Finland,7012,,,,,,,,,,,,,,,,,,,,,
 Capital University,7013,,,,,,,,,,,,,,,,,,,,,
@@ -14111,6 +14117,7 @@ Abadan University of Medical Sciences,7090,,,,,,,,,,,,,,,,,,,,,
 Tunku Abdul Rahman University College,7091,,,,,,,,,,,,,,,,,,,,,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Hokkaido University of Education,7092,,1.0,https://api.elsevier.com/metrics/institution/706003,application/json,Hokkaido University of Education,Institution/706003,jpn,APAC,academic,706003.0,Japan,,,,,,,,,,
 =======
 Hokkaido University of Education,7092,,1,https://api.elsevier.com/metrics/institution/706003,application/json,Hokkaido University of Education,Institution/706003,jpn,APAC,academic,706003,Japan,,,,,,,,,,
@@ -14118,6 +14125,9 @@ Hokkaido University of Education,7092,,1,https://api.elsevier.com/metrics/instit
 =======
 Hokkaido University of Education,7092,,1,https://api.elsevier.com/metrics/institution/706003,application/json,Hokkaido University of Education,Institution/706003,jpn,APAC,academic,706003,Japan,,,,,,,,,,
 >>>>>>> 0f1daa2... changed file datanames and some field names
+=======
+Hokkaido University of Education,7092,,1,https://api.elsevier.com/metrics/institution/706003,application/json,Hokkaido University of Education,Institution/706003,jpn,APAC,academic,706003,Japan,,,,,,,,,,
+>>>>>>> 0f1daa2638e7fa516ffe431d1c3f82b048d3870f
 Niroo Research Institute Tehran,7093,,,,,,,,,,,,,,,,,,,,,
 Solihull Hospital,7094,,,,,,,,,,,,,,,,,,,,,
 Fachhochschule Dortmund - University of Applied Science Dortmund,7095,,,,,,,,,,,,,,,,,,,,,
@@ -14139,6 +14149,7 @@ Rajasthan Agricultural University,7110,,,,,,,,,,,,,,,,,,,,,
 Saint Savas Hospital,7111,,,,,,,,,,,,,,,,,,,,,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Royal Cornwall Hospitals NHS Trust,7112,,1.0,https://api.elsevier.com/metrics/institution/701718,application/json,Royal Cornwall Hospitals NHS Trust,Institution/701718,gbr,EUR,medical,701718.0,United Kingdom,,,,,,,,,,
 =======
 Royal Cornwall Hospitals NHS Trust,7112,,1,https://api.elsevier.com/metrics/institution/701718,application/json,Royal Cornwall Hospitals NHS Trust,Institution/701718,gbr,EUR,medical,701718,United Kingdom,,,,,,,,,,
@@ -14146,6 +14157,9 @@ Royal Cornwall Hospitals NHS Trust,7112,,1,https://api.elsevier.com/metrics/inst
 =======
 Royal Cornwall Hospitals NHS Trust,7112,,1,https://api.elsevier.com/metrics/institution/701718,application/json,Royal Cornwall Hospitals NHS Trust,Institution/701718,gbr,EUR,medical,701718,United Kingdom,,,,,,,,,,
 >>>>>>> 0f1daa2... changed file datanames and some field names
+=======
+Royal Cornwall Hospitals NHS Trust,7112,,1,https://api.elsevier.com/metrics/institution/701718,application/json,Royal Cornwall Hospitals NHS Trust,Institution/701718,gbr,EUR,medical,701718,United Kingdom,,,,,,,,,,
+>>>>>>> 0f1daa2638e7fa516ffe431d1c3f82b048d3870f
 Burton Hospitals NHS Foundation Trust,7113,,,,,,,,,,,,,,,,,,,,,
 Basildon Hospital,7114,,,,,,,,,,,,,,,,,,,,,
 Poriya Medical Center,7115,,,,,,,,,,,,,,,,,,,,,
@@ -14188,6 +14202,7 @@ Yugra State University,7151,,,,,,,,,,,,,,,,,,,,,
 Realtek Semiconductor Corp,7152,,,,,,,,,,,,,,,,,,,,,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Institute of Microbiology and Virology, National Academy of Sciences of Ukraine",7153,,1.0,https://api.elsevier.com/metrics/institution/703877,application/json,"Institute of Microbiology and Virology, National Academy of Sciences of Ukraine",Institution/703877,ukr,EUR,academic,703877.0,Ukraine,,,,,,,,,,
 =======
 "Institute of Microbiology and Virology, National Academy of Sciences of Ukraine",7153,,1,https://api.elsevier.com/metrics/institution/703877,application/json,"Institute of Microbiology and Virology, National Academy of Sciences of Ukraine",Institution/703877,ukr,EUR,academic,703877,Ukraine,,,,,,,,,,
@@ -14195,6 +14210,9 @@ Realtek Semiconductor Corp,7152,,,,,,,,,,,,,,,,,,,,,
 =======
 "Institute of Microbiology and Virology, National Academy of Sciences of Ukraine",7153,,1,https://api.elsevier.com/metrics/institution/703877,application/json,"Institute of Microbiology and Virology, National Academy of Sciences of Ukraine",Institution/703877,ukr,EUR,academic,703877,Ukraine,,,,,,,,,,
 >>>>>>> 0f1daa2... changed file datanames and some field names
+=======
+"Institute of Microbiology and Virology, National Academy of Sciences of Ukraine",7153,,1,https://api.elsevier.com/metrics/institution/703877,application/json,"Institute of Microbiology and Virology, National Academy of Sciences of Ukraine",Institution/703877,ukr,EUR,academic,703877,Ukraine,,,,,,,,,,
+>>>>>>> 0f1daa2638e7fa516ffe431d1c3f82b048d3870f
 Vale S.A.,7154,,,,,,,,,,,,,,,,,,,,,
 National University Corporation Tsukuba University of Technology,7155,,,,,,,,,,,,,,,,,,,,,
 Universidade Agostinho Neto,7156,,,,,,,,,,,,,,,,,,,,,
@@ -14221,6 +14239,7 @@ October 6 University,7176,,,,,,,,,,,,,,,,,,,,,
 Universite de Marne-La-Vallee,7177,,,,,,,,,,,,,,,,,,,,,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Royal Alexandra Hospital, Paisley",7178,,1.0,https://api.elsevier.com/metrics/institution/704616,application/json,"Royal Alexandra Hospital, Paisley",Institution/704616,gbr,EUR,medical,704616.0,United Kingdom,,,,,,,,,,
 =======
 "Royal Alexandra Hospital, Paisley",7178,,1,https://api.elsevier.com/metrics/institution/704616,application/json,"Royal Alexandra Hospital, Paisley",Institution/704616,gbr,EUR,medical,704616,United Kingdom,,,,,,,,,,
@@ -14228,11 +14247,15 @@ Universite de Marne-La-Vallee,7177,,,,,,,,,,,,,,,,,,,,,
 =======
 "Royal Alexandra Hospital, Paisley",7178,,1,https://api.elsevier.com/metrics/institution/704616,application/json,"Royal Alexandra Hospital, Paisley",Institution/704616,gbr,EUR,medical,704616,United Kingdom,,,,,,,,,,
 >>>>>>> 0f1daa2... changed file datanames and some field names
+=======
+"Royal Alexandra Hospital, Paisley",7178,,1,https://api.elsevier.com/metrics/institution/704616,application/json,"Royal Alexandra Hospital, Paisley",Institution/704616,gbr,EUR,medical,704616,United Kingdom,,,,,,,,,,
+>>>>>>> 0f1daa2638e7fa516ffe431d1c3f82b048d3870f
 Royal Albert Edward Infirmary,7179,,,,,,,,,,,,,,,,,,,,,
 Ecole nationale polytechnique d'Oran,7180,,,,,,,,,,,,,,,,,,,,,
 Fraunhofer Institute for Embedded Systems and Communication Technologies ESK,7181,,,,,,,,,,,,,,,,,,,,,
 CA Technologies,7182,,,,,,,,,,,,,,,,,,,,,
 ASUSTeK Computer Inc,7183,,,,,,,,,,,,,,,,,,,,,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 Heriot-Watt University Malaysia Campus,7184,,1.0,https://api.elsevier.com/metrics/institution/706643,application/json,Heriot-Watt University Malaysia Campus,Institution/706643,mys,APAC,academic,706643.0,Malaysia,,,,,,,,,,
@@ -14242,10 +14265,14 @@ Heriot-Watt University Malaysia Campus,7184,,1,https://api.elsevier.com/metrics/
 =======
 Heriot-Watt University Malaysia Campus,7184,,1,https://api.elsevier.com/metrics/institution/706643,application/json,Heriot-Watt University Malaysia Campus,Institution/706643,mys,APAC,academic,706643,Malaysia,,,,,,,,,,
 >>>>>>> 0f1daa2... changed file datanames and some field names
+=======
+Heriot-Watt University Malaysia Campus,7184,,1,https://api.elsevier.com/metrics/institution/706643,application/json,Heriot-Watt University Malaysia Campus,Institution/706643,mys,APAC,academic,706643,Malaysia,,,,,,,,,,
+>>>>>>> 0f1daa2638e7fa516ffe431d1c3f82b048d3870f
 Science Foundation Ireland,7185,,,,,,,,,,,,,,,,,,,,,
 Kinneret College on the Sea of Galilee,7186,,,,,,,,,,,,,,,,,,,,,
 Central University of Himachal Pradesh,7187,,,,,,,,,,,,,,,,,,,,,
 University Hospital of North Durham,7188,,,,,,,,,,,,,,,,,,,,,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 Bursa Orhan Gazi University,7189,,1.0,https://api.elsevier.com/metrics/institution/705106,application/json,Bursa Orhan Gazi University,Institution/705106,tur,MEA,academic,705106.0,Turkey,,,,,,,,,,
@@ -14255,6 +14282,9 @@ Bursa Orhan Gazi University,7189,,1,https://api.elsevier.com/metrics/institution
 =======
 Bursa Orhan Gazi University,7189,,1,https://api.elsevier.com/metrics/institution/705106,application/json,Bursa Orhan Gazi University,Institution/705106,tur,MEA,academic,705106,Turkey,,,,,,,,,,
 >>>>>>> 0f1daa2... changed file datanames and some field names
+=======
+Bursa Orhan Gazi University,7189,,1,https://api.elsevier.com/metrics/institution/705106,application/json,Bursa Orhan Gazi University,Institution/705106,tur,MEA,academic,705106,Turkey,,,,,,,,,,
+>>>>>>> 0f1daa2638e7fa516ffe431d1c3f82b048d3870f
 Halic University,7190,,,,,,,,,,,,,,,,,,,,,
 Industrial Chemistry Research Institute,7191,,,,,,,,,,,,,,,,,,,,,
 African University of Science and Technology,7192,,,,,,,,,,,,,,,,,,,,,
@@ -14264,6 +14294,7 @@ Iran Telecommunication Research Center,7195,,,,,,,,,,,,,,,,,,,,,
 American University of Armenia,7196,,,,,,,,,,,,,,,,,,,,,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Kyushu University of Health and Welfare,7197,,1.0,https://api.elsevier.com/metrics/institution/706987,application/json,Kyushu University of Health and Welfare,Institution/706987,jpn,APAC,academic,706987.0,Japan,,,,,,,,,,
 =======
 Kyushu University of Health and Welfare,7197,,1,https://api.elsevier.com/metrics/institution/706987,application/json,Kyushu University of Health and Welfare,Institution/706987,jpn,APAC,academic,706987,Japan,,,,,,,,,,
@@ -14271,6 +14302,9 @@ Kyushu University of Health and Welfare,7197,,1,https://api.elsevier.com/metrics
 =======
 Kyushu University of Health and Welfare,7197,,1,https://api.elsevier.com/metrics/institution/706987,application/json,Kyushu University of Health and Welfare,Institution/706987,jpn,APAC,academic,706987,Japan,,,,,,,,,,
 >>>>>>> 0f1daa2... changed file datanames and some field names
+=======
+Kyushu University of Health and Welfare,7197,,1,https://api.elsevier.com/metrics/institution/706987,application/json,Kyushu University of Health and Welfare,Institution/706987,jpn,APAC,academic,706987,Japan,,,,,,,,,,
+>>>>>>> 0f1daa2638e7fa516ffe431d1c3f82b048d3870f
 Afton Chemical,7198,,,,,,,,,,,,,,,,,,,,,
 Hokkaido Institute of Technology,7199,,,,,,,,,,,,,,,,,,,,,
 Food Research Institute Slovakia,7200,,,,,,,,,,,,,,,,,,,,,
@@ -14298,6 +14332,7 @@ University of Sebha,7221,,,,,,,,,,,,,,,,,,,,,
 Universidad Sergio Arboleda,7222,,,,,,,,,,,,,,,,,,,,,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Royal Central School of Speech and Drama University of London,7223,,1.0,https://api.elsevier.com/metrics/institution/705464,application/json,Royal Central School of Speech and Drama University of London,Institution/705464,gbr,EUR,academic,705464.0,United Kingdom,,,,,,,,,,
 National Veterinary Institute Norway,7224,,,,,,,,,,,,,,,,,,,,,
 Institute of Electron Physics National Academy of Sciences of Ukraine,7225,,1.0,https://api.elsevier.com/metrics/institution/703859,application/json,Institute of Electron Physics National Academy of Sciences of Ukraine,Institution/703859,ukr,EUR,academic,703859.0,Ukraine,,,,,,,,,,
@@ -14311,6 +14346,11 @@ Royal Central School of Speech and Drama University of London,7223,,1,https://ap
 National Veterinary Institute Norway,7224,,,,,,,,,,,,,,,,,,,,,
 Institute of Electron Physics National Academy of Sciences of Ukraine,7225,,1,https://api.elsevier.com/metrics/institution/703859,application/json,Institute of Electron Physics National Academy of Sciences of Ukraine,Institution/703859,ukr,EUR,academic,703859,Ukraine,,,,,,,,,,
 >>>>>>> 0f1daa2... changed file datanames and some field names
+=======
+Royal Central School of Speech and Drama University of London,7223,,1,https://api.elsevier.com/metrics/institution/705464,application/json,Royal Central School of Speech and Drama University of London,Institution/705464,gbr,EUR,academic,705464,United Kingdom,,,,,,,,,,
+National Veterinary Institute Norway,7224,,,,,,,,,,,,,,,,,,,,,
+Institute of Electron Physics National Academy of Sciences of Ukraine,7225,,1,https://api.elsevier.com/metrics/institution/703859,application/json,Institute of Electron Physics National Academy of Sciences of Ukraine,Institution/703859,ukr,EUR,academic,703859,Ukraine,,,,,,,,,,
+>>>>>>> 0f1daa2638e7fa516ffe431d1c3f82b048d3870f
 Cabot Corporation,7226,,,,,,,,,,,,,,,,,,,,,
 Hochschule f?r angewandte Wissenschaften Augsburg - University of Applied Sciences Augsburg,7227,,,,,,,,,,,,,,,,,,,,,
 Hochschule RheinMain Wiesbaden Russelsheim - University of Applied Sciences RheinMain,7228,,,,,,,,,,,,,,,,,,,,,
@@ -14328,6 +14368,7 @@ University of Rousse,7240,,,,,,,,,,,,,,,,,,,,,
 Exempla Saint Joseph Hospital,7241,,,,,,,,,,,,,,,,,,,,,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Institute of Macromolecular Chemistry of the National Academy of Sciences of Ukraine,7242,,1.0,https://api.elsevier.com/metrics/institution/703850,application/json,Institute of Macromolecular Chemistry of the National Academy of Sciences of Ukraine,Institution/703850,ukr,EUR,academic,703850.0,Ukraine,,,,,,,,,,
 DIU - Dresden International University,7243,,,,,,,,,,,,,,,,,,,,,
 Japan National Institute for Land and Infrastructure Management,7244,,1.0,https://api.elsevier.com/metrics/institution/701383,application/json,Japan National Institute for Land and Infrastructure Management,Institution/701383,jpn,APAC,government,701383.0,Japan,,,,,,,,,,
@@ -14341,6 +14382,11 @@ Institute of Macromolecular Chemistry of the National Academy of Sciences of Ukr
 DIU - Dresden International University,7243,,,,,,,,,,,,,,,,,,,,,
 Japan National Institute for Land and Infrastructure Management,7244,,1,https://api.elsevier.com/metrics/institution/701383,application/json,Japan National Institute for Land and Infrastructure Management,Institution/701383,jpn,APAC,government,701383,Japan,,,,,,,,,,
 >>>>>>> 0f1daa2... changed file datanames and some field names
+=======
+Institute of Macromolecular Chemistry of the National Academy of Sciences of Ukraine,7242,,1,https://api.elsevier.com/metrics/institution/703850,application/json,Institute of Macromolecular Chemistry of the National Academy of Sciences of Ukraine,Institution/703850,ukr,EUR,academic,703850,Ukraine,,,,,,,,,,
+DIU - Dresden International University,7243,,,,,,,,,,,,,,,,,,,,,
+Japan National Institute for Land and Infrastructure Management,7244,,1,https://api.elsevier.com/metrics/institution/701383,application/json,Japan National Institute for Land and Infrastructure Management,Institution/701383,jpn,APAC,government,701383,Japan,,,,,,,,,,
+>>>>>>> 0f1daa2638e7fa516ffe431d1c3f82b048d3870f
 "Imo State University, Owerri",7245,,,,,,,,,,,,,,,,,,,,,
 Open University of Sri Lanka,7246,,,,,,,,,,,,,,,,,,,,,
 Hanscom AFB,7247,,,,,,,,,,,,,,,,,,,,,
@@ -14353,6 +14399,7 @@ Instituto Maua de Tecnologia (IMT),7253,,,,,,,,,,,,,,,,,,,,,
 Sabaragamuwa University of Sri Lanka,7254,,,,,,,,,,,,,,,,,,,,,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Tianjin University of Sport,7255,,1.0,https://api.elsevier.com/metrics/institution/707528,application/json,Tianjin University of Sport,Institution/707528,chn,APAC,academic,707528.0,China,,,,,,,,,,
 =======
 Tianjin University of Sport,7255,,1,https://api.elsevier.com/metrics/institution/707528,application/json,Tianjin University of Sport,Institution/707528,chn,APAC,academic,707528,China,,,,,,,,,,
@@ -14360,6 +14407,9 @@ Tianjin University of Sport,7255,,1,https://api.elsevier.com/metrics/institution
 =======
 Tianjin University of Sport,7255,,1,https://api.elsevier.com/metrics/institution/707528,application/json,Tianjin University of Sport,Institution/707528,chn,APAC,academic,707528,China,,,,,,,,,,
 >>>>>>> 0f1daa2... changed file datanames and some field names
+=======
+Tianjin University of Sport,7255,,1,https://api.elsevier.com/metrics/institution/707528,application/json,Tianjin University of Sport,Institution/707528,chn,APAC,academic,707528,China,,,,,,,,,,
+>>>>>>> 0f1daa2638e7fa516ffe431d1c3f82b048d3870f
 Wondo Genet College of Forestry,7256,,,,,,,,,,,,,,,,,,,,,
 Kio University,7257,,,,,,,,,,,,,,,,,,,,,
 Kumamoto National College of Technology,7258,,,,,,,,,,,,,,,,,,,,,
