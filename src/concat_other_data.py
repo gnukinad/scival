@@ -136,4 +136,5 @@ if __name__ == "__main__":
 
     df = pd.concat([df_metric, df_patent, df_book], ignore_index=True)
 
+<<<<<<< HEAD
     df.to_csv('../data/long_all_metrics.csv', index=False)
