@@ -136,9 +136,4 @@ if __name__ == "__main__":
 
     df = pd.concat([df_metric, df_patent, df_book], ignore_index=True)
 
-<<<<<<< HEAD
-<<<<<<< variant A
     df.to_csv('../data/long_all_metrics.csv', index=False)
->>>>>>> variant B
-    df.to_csv('../data/long_all_metrics3.csv', index=False)
-======= end
