@@ -15,7 +15,7 @@ if __name__ == "__main__":
     fname_df_order = os.path.join('data', 'universities_order.xlsx')
     fname_df_aff   = os.path.join('data', 'universities_table.csv')
 
-    df_order = pd.read_excel(fname_df_order, 'Sheet5').set_index('name').replace(np.nan, '')
+    df_order = pd.read_excel(fname_df_order).set_index('name').replace(np.nan, '')
     df_aff = pd.read_csv(fname_df_aff).set_index("Institution")
 
     df_order = df_order.assign(order=range(df_order.shape[0]))

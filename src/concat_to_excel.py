@@ -192,7 +192,12 @@ if __name__ == "__main__":
     # where all data is stored
 
     drop_cols = ['uri', 'type', 'link']
-    excel_fname = "all_affiliations2.xlsx"    # soon be renamed into all_metrics.xlsx
+    excel_fname = "all_affiliations5.xlsx"    # soon be renamed into all_metrics.xlsx
+
+    fname_order = os.path.join('data', 'universities_order.xlsx')
+
+    df_order = pd.read_excel(fname_order).set_index('name')
+    df_order_affs = df_order.index.tolist()
 
     '''
     all_fnames = glob.glob(os.path.join(dname, "*.csv"))
@@ -204,7 +209,7 @@ if __name__ == "__main__":
     '''
 
     # if all data are concatenated into a single one
-    df = pd.read_csv('data/long_all_metrics3.csv').drop(columns=drop_cols)
+    df = pd.read_csv('data/long_all_metrics.csv').drop(columns=drop_cols)
     # a = transform_pd(df)
 
     a = df.copy().set_index('name')
@@ -213,11 +218,18 @@ if __name__ == "__main__":
 
     df2 = pd.DataFrame({'name': aff_names}).set_index('name')
 
+
     # for index, row in a.iloc[:2000, :].iterrows():
     for index, row in a.iterrows():
         # print(index)
 
-        d = {'name': index}
+        if index in df_order_affs:
+            order = df_order.at[index, 'order']
+        else:
+            order = np.nan
+
+        d = {'name': index,
+             'order': order}
 
         for sindex, svalue in row.iteritems():
 
@@ -243,13 +255,13 @@ if __name__ == "__main__":
 
                 d[tval] = val
                 d[tpcent] = pval
-                
+
             elif m in [mfwci, mscholar_output, mcit, mcit_pubs, mcit_per_pub, mbc, mpc]:
-                
+
                 val = row[cval]
-                
+
                 t = "{}_{}".format(m, y)
-                
+
                 d[t] = val
 
 
@@ -258,3 +270,6 @@ if __name__ == "__main__":
             # print('key is ', key, 'value is ', value, ' name is ', d['name'])
             if key != 'name':
                 df2.at[d['name'], key] = value
+
+
+    df2.reset_index().to_excel('temp.xlsx', index=False)

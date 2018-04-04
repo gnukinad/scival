@@ -414,7 +414,7 @@ if __name__ == "__main__":
     fname_df = os.path.join('data', 'universities_table.csv')
     fname_res = os.path.join('data', 'patent_count.xlsx')
 
-    for i in range(50):
+    for i in range(40):
         for year in years:
 
             driver = main(n=n, year=year, fname_df=fname_df, fname_res=fname_res)
