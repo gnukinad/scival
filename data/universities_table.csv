@@ -14,249 +14,249 @@ Yale University,11,1.0,1.0,https://api.elsevier.com/metrics/institution/508383,a
 University of Pennsylvania,12,1.0,1.0,https://api.elsevier.com/metrics/institution/508331,application/json,University of Pennsylvania,Institution/508331,usa,NAM,academic,508331.0,United States,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
 University of Washington,13,1.0,1.0,https://api.elsevier.com/metrics/institution/508358,application/json,University of Washington,Institution/508358,usa,NAM,academic,508358.0,United States,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
 Cornell University,14,1.0,1.0,https://api.elsevier.com/metrics/institution/508047,application/json,Cornell University,Institution/508047,usa,NAM,academic,508047.0,United States,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-University College London,15,1.0,1.0,https://api.elsevier.com/metrics/institution/315061,application/json,University College London,Institution/315061,gbr,EUR,academic,315061.0,United Kingdom,1.0,1.0,1,1.0,1.0,1.0,,,,
+University College London,15,1.0,1.0,https://api.elsevier.com/metrics/institution/315061,application/json,University College London,Institution/315061,gbr,EUR,academic,315061.0,United Kingdom,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
 University of Michigan,15,1.0,1.0,https://api.elsevier.com/metrics/institution/508303,application/json,University of Michigan,Institution/508303,usa,NAM,academic,508303.0,United States,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
 University of California at San Diego,16,1.0,1.0,https://api.elsevier.com/metrics/institution/508264,application/json,University of California at San Diego,Institution/508264,usa,NAM,academic,508264.0,United States,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-Ecole Polytechnique Federale de Lausanne (EPFL),16,-1.0,1.0,https://api.elsevier.com/metrics/institution/306002,application/json,Ecole Polytechnique Federale de Lausanne (EPFL),Institution/306002,che,EUR,academic,306002.0,Switzerland,1.0,1.0,1,1.0,1.0,1.0,,,,
-University of California at Los Angeles,17,1.0,1.0,https://api.elsevier.com/metrics/institution/508262,application/json,University of California at Los Angeles,Institution/508262,usa,NAM,academic,508262.0,United States,1.0,1.0,1,1.0,1.0,1.0,,,,
+Ecole Polytechnique Federale de Lausanne (EPFL),16,-1.0,1.0,https://api.elsevier.com/metrics/institution/306002,application/json,Ecole Polytechnique Federale de Lausanne (EPFL),Institution/306002,che,EUR,academic,306002.0,Switzerland,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+University of California at Los Angeles,17,1.0,1.0,https://api.elsevier.com/metrics/institution/508262,application/json,University of California at Los Angeles,Institution/508262,usa,NAM,academic,508262.0,United States,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
 University of California at San Francisco,17,1.0,1.0,https://api.elsevier.com/metrics/institution/508265,application/json,University of California at San Francisco,Institution/508265,usa,NAM,academic,508265.0,United States,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-University of Exeter,18,-1.0,1.0,https://api.elsevier.com/metrics/institution/315076,application/json,University of Exeter,Institution/315076,gbr,EUR,academic,315076.0,United Kingdom,1.0,1.0,1,1.0,1.0,1.0,,,,
+University of Exeter,18,-1.0,1.0,https://api.elsevier.com/metrics/institution/315076,application/json,University of Exeter,Institution/315076,gbr,EUR,academic,315076.0,United Kingdom,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
 Imperial College London,18,1.0,1.0,https://api.elsevier.com/metrics/institution/315018,application/json,Imperial College London,Institution/315018,gbr,EUR,academic,315018.0,United Kingdom,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-University of Kansas,19,-1.0,1.0,https://api.elsevier.com/metrics/institution/508287,application/json,University of Kansas,Institution/508287,usa,NAM,academic,508287.0,United States,1.0,1.0,1,1.0,1.0,1.0,,,,
+University of Kansas,19,-1.0,1.0,https://api.elsevier.com/metrics/institution/508287,application/json,University of Kansas,Institution/508287,usa,NAM,academic,508287.0,United States,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
 California Institute of Technology,19,1.0,1.0,https://api.elsevier.com/metrics/institution/508021,application/json,California Institute of Technology,Institution/508021,usa,NAM,academic,508021.0,United States,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Georgia State University,20,,-1.0,,,,,,,,,,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
 Duke University,20,1.0,1.0,https://api.elsevier.com/metrics/institution/508053,application/json,Duke University,Institution/508053,usa,NAM,academic,508053.0,United States,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-Georgia State University,20,,-1.0,,,,,,,,,,1.0,1.0,1,1.0,1.0,1.0,,,,
-Griffith University Queensland,21,-1.0,1.0,https://api.elsevier.com/metrics/institution/201011,application/json,Griffith University Queensland,Institution/201011,aus,APAC,academic,201011.0,Australia,1.0,1.0,1,1.0,1.0,1.0,,,,
+Griffith University Queensland,21,-1.0,1.0,https://api.elsevier.com/metrics/institution/201011,application/json,Griffith University Queensland,Institution/201011,aus,APAC,academic,201011.0,Australia,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
 Universite Paris-Sud,21,1.0,1.0,https://api.elsevier.com/metrics/institution/314094,application/json,Universite Paris-Sud,Institution/314094,fra,EUR,academic,314094.0,France,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-City University of Hong Kong,22,-1.0,1.0,https://api.elsevier.com/metrics/institution/205002,application/json,City University of Hong Kong,Institution/205002,hkg,APAC,academic,205002.0,Hong Kong,1.0,1.0,1,1.0,1.0,1.0,,,,
-University of Antwerp,23,-1.0,1.0,https://api.elsevier.com/metrics/institution/303011,application/json,University of Antwerp,Institution/303011,bel,EUR,academic,303011.0,Belgium,1.0,1.0,1,1.0,1.0,1.0,,,,
+City University of Hong Kong,22,-1.0,1.0,https://api.elsevier.com/metrics/institution/205002,application/json,City University of Hong Kong,Institution/205002,hkg,APAC,academic,205002.0,Hong Kong,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+University of Antwerp,23,-1.0,1.0,https://api.elsevier.com/metrics/institution/303011,application/json,University of Antwerp,Institution/303011,bel,EUR,academic,303011.0,Belgium,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
 ETH Zurich,23,1.0,1.0,https://api.elsevier.com/metrics/institution/306003,application/json,ETH Zurich,Institution/306003,che,EUR,academic,306003.0,Switzerland,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-Hong Kong Polytechnic University,24,-1.0,1.0,https://api.elsevier.com/metrics/institution/205004,application/json,Hong Kong Polytechnic University,Institution/205004,hkg,APAC,academic,205004.0,Hong Kong,1.0,1.0,1,1.0,1.0,1.0,,,,
+Hong Kong Polytechnic University,24,-1.0,1.0,https://api.elsevier.com/metrics/institution/205004,application/json,Hong Kong Polytechnic University,Institution/205004,hkg,APAC,academic,205004.0,Hong Kong,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
 University of Texas at Austin,24,1.0,1.0,https://api.elsevier.com/metrics/institution/508345,application/json,University of Texas at Austin,Institution/508345,usa,NAM,academic,508345.0,United States,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-University College Dublin,25,-1.0,1.0,https://api.elsevier.com/metrics/institution/319008,application/json,University College Dublin,Institution/319008,irl,EUR,academic,319008.0,Ireland,1.0,1.0,1,1.0,1.0,1.0,,,,
+University College Dublin,25,-1.0,1.0,https://api.elsevier.com/metrics/institution/319008,application/json,University College Dublin,Institution/319008,irl,EUR,academic,319008.0,Ireland,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
 Northwestern University,25,1.0,1.0,https://api.elsevier.com/metrics/institution/508175,application/json,Northwestern University,Institution/508175,usa,NAM,academic,508175.0,United States,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-University of Canterbury,26,,-1.0,,,,,,,,,,1.0,1.0,1,1.0,1.0,1.0,,,,
+University of Canterbury,26,,-1.0,,,,,,,,,,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
 University of Tokyo,26,1.0,1.0,https://api.elsevier.com/metrics/institution/208180,application/json,University of Tokyo,Institution/208180,jpn,APAC,academic,208180.0,Japan,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Boston College,27,,,,,,,,,,,,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
 New York University,27,1.0,1.0,https://api.elsevier.com/metrics/institution/508166,application/json,New York University,Institution/508166,usa,NAM,academic,508166.0,United States,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-Boston College,27,,,,,,,,,,,,1.0,1.0,1,1.0,1.0,1.0,,,,
-Universite Laval,28,-1.0,1.0,https://api.elsevier.com/metrics/institution/501034,application/json,Universite Laval,Institution/501034,can,NAM,academic,501034.0,Canada,1.0,1.0,1,1.0,1.0,1.0,,,,
+Universite Laval,28,-1.0,1.0,https://api.elsevier.com/metrics/institution/501034,application/json,Universite Laval,Institution/501034,can,NAM,academic,501034.0,Canada,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
 University of Southern California,28,1.0,1.0,https://api.elsevier.com/metrics/institution/508341,application/json,University of Southern California,Institution/508341,usa,NAM,academic,508341.0,United States,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-Jadavpur University,29,,,,,,,,,,,,1.0,1.0,1,1.0,1.0,1.0,,,,
+Jadavpur University,29,,,,,,,,,,,,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
 University of Illinois at Urbana-Champaign,29,1.0,1.0,https://api.elsevier.com/metrics/institution/508285,application/json,University of Illinois at Urbana-Champaign,Institution/508285,usa,NAM,academic,508285.0,United States,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
 McGill University,30,1.0,1.0,https://api.elsevier.com/metrics/institution/501016,application/json,McGill University,Institution/501016,can,NAM,academic,501016.0,Canada,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-Moscow State University,30,-1.0,1.0,https://api.elsevier.com/metrics/institution/331011,application/json,Moscow State University,Institution/331011,rus,EUR,academic,331011.0,Russian Federation,1.0,1.0,1,1.0,1.0,-1.0,,,,
-University of Cyprus,31,,,,,,,,,,,,1.0,1.0,1,1.0,1.0,1.0,,,,
+Moscow State University,30,-1.0,1.0,https://api.elsevier.com/metrics/institution/331011,application/json,Moscow State University,Institution/331011,rus,EUR,academic,331011.0,Russian Federation,1.0,1.0,1,1.0,1.0,-1.0,1.0,1.0,1.0,1.0
+University of Cyprus,31,,,,,,,,,,,,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
 University of Manchester,31,1.0,1.0,https://api.elsevier.com/metrics/institution/315088,application/json,University of Manchester,Institution/315088,gbr,EUR,academic,315088.0,United Kingdom,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
 University of British Columbia,32,1.0,1.0,https://api.elsevier.com/metrics/institution/501036,application/json,University of British Columbia,Institution/501036,can,NAM,academic,501036.0,Canada,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-Clemson University,32,,-1.0,,,,,,,,,,1.0,1.0,1,1.0,1.0,1.0,,,,
+Clemson University,32,,-1.0,,,,,,,,,,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
 University of North Carolina,33,1.0,1.0,https://api.elsevier.com/metrics/institution/508320,application/json,University of North Carolina,Institution/508320,usa,NAM,academic,508320.0,United States,1.0,1.0,1,1.0,1.0,-1.0,1.0,1.0,1.0,1.0
-Kent State University,33,,,,,,,,,,,,1.0,1.0,1,1.0,1.0,1.0,,,,
+Kent State University,33,,,,,,,,,,,,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+University of Malaya,34,-1.0,1.0,https://api.elsevier.com/metrics/institution/211009,application/json,University of Malaya,Institution/211009,mys,APAC,academic,211009.0,Malaysia,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
 University of Edinburgh,34,1.0,1.0,https://api.elsevier.com/metrics/institution/315074,application/json,University of Edinburgh,Institution/315074,gbr,EUR,academic,315074.0,United Kingdom,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-University of Malaya,34,-1.0,1.0,https://api.elsevier.com/metrics/institution/211009,application/json,University of Malaya,Institution/211009,mys,APAC,academic,211009.0,Malaysia,1.0,1.0,1,1.0,1.0,,,,,
-Saint Louis University,35,,-1.0,,,,,,,,,,1.0,1.0,1,1.0,1.0,,,,,
+Saint Louis University,35,,-1.0,,,,,,,,,,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
 University of Wisconsin,35,1.0,1.0,https://api.elsevier.com/metrics/institution/508359,application/json,University of Wisconsin,Institution/508359,usa,NAM,academic,508359.0,United States,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
 University of Minnesota,36,1.0,1.0,https://api.elsevier.com/metrics/institution/508305,application/json,University of Minnesota,Institution/508305,usa,NAM,academic,508305.0,United States,1.0,1.0,1,1.0,1.0,-1.0,1.0,1.0,1.0,1.0
-Beihang University,36,-1.0,1.0,https://api.elsevier.com/metrics/institution/203008,application/json,Beihang University,Institution/203008,chn,APAC,academic,203008.0,China,1.0,1.0,1,1.0,1.0,,,,,
-Justus-Liebig-University,37,-1.0,1.0,,,,,,,,,,1.0,1.0,1,1.0,1.0,,,,,
+Beihang University,36,-1.0,1.0,https://api.elsevier.com/metrics/institution/203008,application/json,Beihang University,Institution/203008,chn,APAC,academic,203008.0,China,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Justus-Liebig-University,37,-1.0,1.0,,,,,,,,,,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
 University of Copenhagen,37,1.0,1.0,https://api.elsevier.com/metrics/institution/310011,application/json,University of Copenhagen,Institution/310011,dnk,EUR,academic,310011.0,Denmark,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-University of Tartu,38,,-1.0,,,,,,,,,,1.0,1.0,1,1.0,1.0,,,,,
+University of Tartu,38,,-1.0,,,,,,,,,,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
 Utrecht University,38,1.0,1.0,https://api.elsevier.com/metrics/institution/325015,application/json,Utrecht University,Institution/325015,nld,EUR,academic,325015.0,Netherlands,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-University of Regina,39,-1.0,1.0,,,,,,,,,,1.0,1.0,1,1.0,1.0,,,,,
+University of Regina,39,-1.0,1.0,,,,,,,,,,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
 University of Colorado Boulder,39,1.0,1.0,https://api.elsevier.com/metrics/institution/508272,application/json,University of Colorado Boulder,Institution/508272,usa,NAM,academic,508272.0,United States,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
 University of Pittsburgh,40,1.0,1.0,https://api.elsevier.com/metrics/institution/508332,application/json,University of Pittsburgh,Institution/508332,usa,NAM,academic,508332.0,United States,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-University of Texas at San Antonio,40,,-1.0,,,,,,,,,,1.0,1.0,1,1.0,1.0,,,,,
+University of Texas at San Antonio,40,,-1.0,,,,,,,,,,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Hacettepe University,41,,-1.0,,,,,,,,,,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
 Kyoto University,41,1.0,1.0,https://api.elsevier.com/metrics/institution/208081,application/json,Kyoto University,Institution/208081,jpn,APAC,academic,208081.0,Japan,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,-1.0,1.0
-Hacettepe University,41,,-1.0,,,,,,,,,,1.0,1.0,1,1.0,1.0,,,,,
 Vanderbilt University,42,1.0,1.0,https://api.elsevier.com/metrics/institution/508363,application/json,Vanderbilt University,Institution/508363,usa,NAM,academic,508363.0,United States,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-St. Petersburg State University,42,,-1.0,,,,,,,,,,1.0,1.0,1,1.0,1.0,,,,,
+St. Petersburg State University,42,,-1.0,,,,,,,,,,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
 Washington University St. Louis,43,1.0,1.0,https://api.elsevier.com/metrics/institution/508370,application/json,Washington University St. Louis,Institution/508370,usa,NAM,academic,508370.0,United States,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-University of Texas at Arlington,43,,-1.0,,,,,,,,,,1.0,1.0,1,1.0,1.0,,,,,
-Warsaw University of Technology,44,,-1.0,,,,,,,,,,1.0,1.0,1,1.0,1.0,,,,,
+University of Texas at Arlington,43,,-1.0,,,,,,,,,,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Warsaw University of Technology,44,,-1.0,,,,,,,,,,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
 Technische Universitat Munchen,44,1.0,1.0,https://api.elsevier.com/metrics/institution/309054,application/json,Technische Universitat Munchen,Institution/309054,deu,EUR,academic,309054.0,Germany,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-Kanazawa University,45,,,,,,,,,,,,1.0,1.0,1,1.0,1.0,,,,,
+Kanazawa University,45,,,,,,,,,,,,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
 Karolinska Institutet,45,1.0,1.0,https://api.elsevier.com/metrics/institution/332004,application/json,Karolinska Institutet,Institution/332004,swe,EUR,academic,332004.0,Sweden,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-King Saud University,46,-1.0,1.0,https://api.elsevier.com/metrics/institution/409005,application/json,King Saud University,Institution/409005,sau,MEA,academic,409005.0,Saudi Arabia,1.0,1.0,1,1.0,1.0,,,,,
+King Saud University,46,-1.0,1.0,https://api.elsevier.com/metrics/institution/409005,application/json,King Saud University,Institution/409005,sau,MEA,academic,409005.0,Saudi Arabia,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
 King's College London,46,1.0,1.0,https://api.elsevier.com/metrics/institution/315026,application/json,King's College London,Institution/315026,gbr,EUR,academic,315026.0,United Kingdom,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-Masaryk University,47,,-1.0,,,,,,,,,,1.0,1.0,1,1.0,1.0,,,,,
 The Ohio State University,47,1.0,1.0,https://api.elsevier.com/metrics/institution/508179,application/json,The Ohio State University,Institution/508179,usa,NAM,academic,508179.0,United States,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-Universiti Teknologi Petronas,48,-1.0,1.0,,,,,,,,,,1.0,1.0,1,1.0,1.0,,,,,
+Masaryk University,47,,-1.0,,,,,,,,,,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
 Tsinghua University,48,1.0,1.0,https://api.elsevier.com/metrics/institution/203209,application/json,Tsinghua University,Institution/203209,chn,APAC,academic,203209.0,China,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Universiti Teknologi Petronas,48,-1.0,1.0,,,,,,,,,,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
 University of California at Santa Barbara,49,1.0,1.0,https://api.elsevier.com/metrics/institution/508266,application/json,University of California at Santa Barbara,Institution/508266,usa,NAM,academic,508266.0,United States,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-Ain Shams University,49,,,,,,,,,,,,1.0,1.0,1,1.0,1.0,,,,,
-Okayama University,50,,-1.0,,,,,,,,,,1.0,1.0,1,1.0,1.0,,,,,
+Ain Shams University,49,,,,,,,,,,,,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Okayama University,50,,-1.0,,,,,,,,,,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
 University of Geneva,50,1.0,1.0,https://api.elsevier.com/metrics/institution/306014,application/json,University of Geneva,Institution/306014,che,EUR,academic,306014.0,Switzerland,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-Shenzhen University,51,-1.0,1.0,,,,,,,,,,1.0,1.0,1,1.0,1.0,,,,,
+Shenzhen University,51,-1.0,1.0,,,,,,,,,,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
 University of California at Irvine,51,1.0,1.0,https://api.elsevier.com/metrics/institution/508261,application/json,University of California at Irvine,Institution/508261,usa,NAM,academic,508261.0,United States,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
 University of Groningen,52,1.0,1.0,https://api.elsevier.com/metrics/institution/325013,application/json,University of Groningen,Institution/325013,nld,EUR,academic,325013.0,Netherlands,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-Tokyo University of Agriculture and Technology,52,-1.0,1.0,https://api.elsevier.com/metrics/institution/208161,application/json,Tokyo University of Agriculture and Technology,Institution/208161,jpn,APAC,academic,208161.0,Japan,1.0,1.0,1,1.0,1.0,,,,,
-Universidad de Castilla-La Mancha,53,,,,,,,,,,,,1.0,1.0,1,1.0,1.0,,,,,
+Tokyo University of Agriculture and Technology,52,-1.0,1.0,https://api.elsevier.com/metrics/institution/208161,application/json,Tokyo University of Agriculture and Technology,Institution/208161,jpn,APAC,academic,208161.0,Japan,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Universidad de Castilla-La Mancha,53,,,,,,,,,,,,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
 Technion-Israel Institute of Technology,53,1.0,1.0,https://api.elsevier.com/metrics/institution/403005,application/json,Technion-Israel Institute of Technology,Institution/403005,isr,MEA,academic,403005.0,Israel,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+University of Lubeck,54,,,,,,,,,,,,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
 University of Melbourne,54,1.0,1.0,https://api.elsevier.com/metrics/institution/201025,application/json,University of Melbourne,Institution/201025,aus,APAC,academic,201025.0,Australia,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-University of Lubeck,54,,,,,,,,,,,,1.0,1.0,1,1.0,1.0,,,,,
 Aarhus University,55,1.0,1.0,https://api.elsevier.com/metrics/institution/310010,application/json,Aarhus University,Institution/310010,dnk,EUR,academic,310010.0,Denmark,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-AgroParisTech,55,-1.0,1.0,https://api.elsevier.com/metrics/institution/314099,application/json,AgroParisTech,Institution/314099,fra,EUR,academic,314099.0,France,1.0,1.0,1,1.0,1.0,,,,,
+AgroParisTech,55,-1.0,1.0,https://api.elsevier.com/metrics/institution/314099,application/json,AgroParisTech,Institution/314099,fra,EUR,academic,314099.0,France,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
 Carnegie Mellon University,56,1.0,1.0,https://api.elsevier.com/metrics/institution/508031,application/json,Carnegie Mellon University,Institution/508031,usa,NAM,academic,508031.0,United States,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-Curtin University of Technology,56,-1.0,1.0,https://api.elsevier.com/metrics/institution/201006,application/json,Curtin University of Technology,Institution/201006,aus,APAC,academic,201006.0,Australia,1.0,1.0,1,1.0,1.0,,,,,
-Hadassah University Medical Centre,57,,,,,,,,,,,,1.0,1.0,1,1.0,1.0,,,,,
+Curtin University of Technology,56,-1.0,1.0,https://api.elsevier.com/metrics/institution/201006,application/json,Curtin University of Technology,Institution/201006,aus,APAC,academic,201006.0,Australia,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Hadassah University Medical Centre,57,,,,,,,,,,,,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
 Purdue University,57,1.0,1.0,https://api.elsevier.com/metrics/institution/508192,application/json,Purdue University,Institution/508192,usa,NAM,academic,508192.0,United States,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
 University of Zurich,58,1.0,1.0,https://api.elsevier.com/metrics/institution/306016,application/json,University of Zurich,Institution/306016,che,EUR,academic,306016.0,Switzerland,1.0,1.0,1,1.0,1.0,1.0,1.0,-1.0,1.0,1.0
-Jiangsu University,59,,-1.0,,,,,,,,,,1.0,1.0,1,1.0,1.0,,,,,
+Jiangsu University,59,,-1.0,,,,,,,,,,1.0,1.0,1,1.0,1.0,-1.0,1.0,-1.0,1.0,-1.0
 Ludwig-Maximilians-University Munchen,59,1.0,1.0,https://api.elsevier.com/metrics/institution/309086,application/json,Ludwig-Maximilians-University Munchen,Institution/309086,deu,EUR,academic,309086.0,Germany,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-Johannes Kepler University of Linz,60,,,,,,,,,,,,1.0,1.0,1,1.0,1.0,,,,,
+Johannes Kepler University of Linz,60,,,,,,,,,,,,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
 Rockefeller University,60,1.0,1.0,https://api.elsevier.com/metrics/institution/508196,application/json,Rockefeller University,Institution/508196,usa,NAM,academic,508196.0,United States,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Kangwon National University,61,,,,,,,,,,,,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
 Hebrew University of Jerusalem,61,1.0,1.0,https://api.elsevier.com/metrics/institution/403004,application/json,Hebrew University of Jerusalem,Institution/403004,isr,MEA,academic,403004.0,Israel,1.0,1.0,1,1.0,1.0,1.0,-1.0,1.0,1.0,1.0
-Kangwon National University,61,,,,,,,,,,,,1.0,1.0,1,1.0,1.0,,,,,
 University of Oslo,62,1.0,1.0,https://api.elsevier.com/metrics/institution/326007,application/json,University of Oslo,Institution/326007,nor,EUR,academic,326007.0,Norway,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,-1.0
+Universita Politecnica delle Marche,63,,-1.0,,,,,,,,,,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
 Shanghai Jiao Tong University,63,1.0,1.0,https://api.elsevier.com/metrics/institution/203168,application/json,Shanghai Jiao Tong University,Institution/203168,chn,APAC,academic,203168.0,China,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-Universita Politecnica delle Marche,63,,-1.0,,,,,,,,,,1.0,1.0,1,1.0,1.0,,,,,
-Universita del Piemonte Orientale,64,,,,,,,,,,,,1.0,1.0,1,1.0,1.0,,,,,
+Universita del Piemonte Orientale,64,,,,,,,,,,,,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
 University of Maryland,64,1.0,1.0,https://api.elsevier.com/metrics/institution/508292,application/json,University of Maryland,Institution/508292,usa,NAM,academic,508292.0,United States,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
 University of Western Australia,65,1.0,1.0,https://api.elsevier.com/metrics/institution/201035,application/json,University of Western Australia,Institution/201035,aus,APAC,academic,201035.0,Australia,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-Universite de Nice-Sophia Antipolis,65,,-1.0,,,,,,,,,,1.0,1.0,1,1.0,1.0,,,,,
-Universite de Strasbourg,66,-1.0,1.0,https://api.elsevier.com/metrics/institution/314083,application/json,Universite de Strasbourg,Institution/314083,fra,EUR,academic,314083.0,France,1.0,1.0,1,1.0,1.0,,,,,
+Universite de Nice-Sophia Antipolis,65,,-1.0,,,,,,,,,,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Universite de Strasbourg,66,-1.0,1.0,https://api.elsevier.com/metrics/institution/314083,application/json,Universite de Strasbourg,Institution/314083,fra,EUR,academic,314083.0,France,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
 National University of Singapore,66,1.0,1.0,https://api.elsevier.com/metrics/institution/215004,application/json,National University of Singapore,Institution/215004,sgp,APAC,academic,215004.0,Singapore,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
 Zhejiang University,67,1.0,1.0,https://api.elsevier.com/metrics/institution/203243,application/json,Zhejiang University,Institution/203243,chn,APAC,academic,203243.0,China,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-University Medical Center Hamburg-Eppendorf,67,-1.0,1.0,,,,,,,,,,1.0,1.0,1,1.0,1.0,,,,,
-Wroclaw Medical University,68,-1.0,1.0,,,,,,,,,,1.0,1.0,1,1.0,1.0,,,,,
+University Medical Center Hamburg-Eppendorf,67,-1.0,1.0,,,,,,,,,,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Wroclaw Medical University,68,-1.0,1.0,,,,,,,,,,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
 Peking University,68,1.0,1.0,https://api.elsevier.com/metrics/institution/203152,application/json,Peking University,Institution/203152,chn,APAC,academic,203152.0,China,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-Nanyang Polytechnic,69,,,,,,,,,,,,,1.0,1,1.0,,,,,,
 University of Sydney,69,1.0,1.0,https://api.elsevier.com/metrics/institution/201032,application/json,University of Sydney,Institution/201032,aus,APAC,academic,201032.0,Australia,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-Far East University,70,,,,,,,,,,,,,1.0,1,1.0,,,,,,
+Nanyang Polytechnic,69,,,,,,,,,,,,,1.0,1,1.0,,1.0,1.0,1.0,1.0,1.0
+Far East University,70,,,,,,,,,,,,,1.0,1,1.0,,1.0,1.0,1.0,1.0,1.0
 University of Nottingham,70,1.0,1.0,https://api.elsevier.com/metrics/institution/315090,application/json,University of Nottingham,Institution/315090,gbr,EUR,academic,315090.0,United Kingdom,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-Universidad Militar Nueva Granada,71,,,,,,,,,,,,,,1,1.0,,,,,,
+Universidad Militar Nueva Granada,71,,,,,,,,,,,,,,1,1.0,,1.0,1.0,1.0,1.0,1.0
 "Rutgers - The State University of New Jersey, New Brunswick",71,1.0,1.0,https://api.elsevier.com/metrics/institution/508201,application/json,"Rutgers - The State University of New Jersey, New Brunswick",Institution/508201,usa,NAM,academic,508201.0,United States,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-Universidad Pontificia Bolivariana,72,,,,,,,,,,,,,1.0,1,1.0,,,,,,
+Universidad Pontificia Bolivariana,72,,,,,,,,,,,,,1.0,1,1.0,,1.0,1.0,1.0,1.0,1.0
 University of Heidelberg,72,1.0,1.0,https://api.elsevier.com/metrics/institution/309076,application/json,University of Heidelberg,Institution/309076,deu,EUR,academic,309076.0,Germany,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-University of the Ryukyus,73,,,,,,,,,,,,1.0,1.0,1,1.0,1.0,,,,,
+University of the Ryukyus,73,,,,,,,,,,,,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
 University of Queensland,73,1.0,1.0,https://api.elsevier.com/metrics/institution/201029,application/json,University of Queensland,Institution/201029,aus,APAC,academic,201029.0,Australia,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-Nelson Mandela Metropolitan University,74,-1.0,1.0,,,,,,,,,,1.0,1.0,1,1.0,1.0,,,,,
+Nelson Mandela Metropolitan University,74,-1.0,1.0,,,,,,,,,,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
 University of Utah,74,1.0,1.0,https://api.elsevier.com/metrics/institution/508355,application/json,University of Utah,Institution/508355,usa,NAM,academic,508355.0,United States,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-University of Alaska Anchorage,75,,,,,,,,,,,,1.0,1.0,1,1.0,1.0,,,,,
+University of Alaska Anchorage,75,,,,,,,,,,,,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
 KU Leuven,75,1.0,1.0,https://api.elsevier.com/metrics/institution/303008,application/json,KU Leuven,Institution/303008,bel,EUR,academic,303008.0,Belgium,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+China University of Petroleum (East China),76,,-1.0,,,,,,,,,,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
 Nanyang Technological University,76,1.0,1.0,https://api.elsevier.com/metrics/institution/215003,application/json,Nanyang Technological University,Institution/215003,sgp,APAC,academic,215003.0,Singapore,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-China University of Petroleum (East China),76,,-1.0,,,,,,,,,,1.0,1.0,1,1.0,1.0,,,,,
-Fukushima University,77,,,,,,,,,,,,,1.0,1,1.0,,,,,,
+Fukushima University,77,,,,,,,,,,,,,1.0,1,1.0,,1.0,1.0,1.0,1.0,1.0
 University of Warwick,77,1.0,1.0,https://api.elsevier.com/metrics/institution/315110,application/json,University of Warwick,Institution/315110,gbr,EUR,academic,315110.0,United Kingdom,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-Hanbat National University,78,,,,,,,,,,,,1.0,1.0,1,1.0,1.0,,,,,
+Hanbat National University,78,,,,,,,,,,,,1.0,1.0,1,1.0,1.0,1.0,-1.0,1.0,1.0,1.0
 Chinese University of Hong Kong,78,1.0,1.0,https://api.elsevier.com/metrics/institution/205001,application/json,Chinese University of Hong Kong,Institution/205001,hkg,APAC,academic,205001.0,Hong Kong,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-Hefei University,79,,,,,,,,,,,,,1.0,1,1.0,,,,,,
+Hefei University,79,,,,,,,,,,,,,1.0,1,1.0,,1.0,1.0,1.0,1.0,1.0
 McMaster University,79,1.0,1.0,https://api.elsevier.com/metrics/institution/501017,application/json,McMaster University,Institution/501017,can,NAM,academic,501017.0,Canada,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
 Universite Libre de Bruxelles,80,1.0,1.0,https://api.elsevier.com/metrics/institution/303010,application/json,Universite Libre de Bruxelles,Institution/303010,bel,EUR,academic,303010.0,Belgium,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-Mercer University,80,,,,,,,,,,,,1.0,1.0,1,1.0,1.0,,,,,
+Mercer University,80,,,,,,,,,,,,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
 University of Basel,81,1.0,1.0,https://api.elsevier.com/metrics/institution/306011,application/json,University of Basel,Institution/306011,che,EUR,academic,306011.0,Switzerland,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-North Carolina Central University,81,,,,,,,,,,,,,1.0,1,1.0,,,,,,
-Osaka Electro-Communication University,82,,,,,,,,,,,,,1.0,1,1.0,,,,,,
+North Carolina Central University,81,,,,,,,,,,,,,1.0,1,1.0,,1.0,1.0,1.0,1.0,1.0
 Pennsylvania State University,82,1.0,1.0,https://api.elsevier.com/metrics/institution/508186,application/json,Pennsylvania State University,Institution/508186,usa,NAM,academic,508186.0,United States,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Osaka Electro-Communication University,82,,,,,,,,,,,,,1.0,1,1.0,,1.0,1.0,1.0,1.0,1.0
+Korea University of Technology and Education,83,,1.0,https://api.elsevier.com/metrics/institution/209107,application/json,Korea University of Technology and Education,Institution/209107,kor,APAC,academic,209107.0,South Korea,,1.0,1,1.0,,1.0,1.0,1.0,1.0,1.0
 Radboud University Nijmegen,83,1.0,1.0,https://api.elsevier.com/metrics/institution/325010,application/json,Radboud University Nijmegen,Institution/325010,nld,EUR,academic,325010.0,Netherlands,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-Korea University of Technology and Education,83,,1.0,https://api.elsevier.com/metrics/institution/209107,application/json,Korea University of Technology and Education,Institution/209107,kor,APAC,academic,209107.0,South Korea,,1.0,1,1.0,,,,,,
 Seoul National University,84,1.0,1.0,https://api.elsevier.com/metrics/institution/209063,application/json,Seoul National University,Institution/209063,kor,APAC,academic,209063.0,South Korea,1.0,1.0,1,1.0,1.0,1.0,-1.0,1.0,1.0,1.0
-CPE Lyon,84,,,,,,,,,,,,,1.0,1,1.0,,,,,,
+CPE Lyon,84,,,,,,,,,,,,,1.0,1,1.0,,1.0,1.0,1.0,1.0,1.0
 Universidade de Sao Paulo,85,1.0,1.0,https://api.elsevier.com/metrics/institution/602049,application/json,Universidade de Sao Paulo,Institution/602049,bra,SAM,academic,602049.0,Brazil,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-Temasek Polytechnic,85,,,,,,,,,,,,,,1,1.0,,,,,,
-Universite des Antilles et de la Guyane,86,,,,,,,,,,,,,1.0,1,1.0,,,,,,
+Temasek Polytechnic,85,,,,,,,,,,,,,,1,1.0,,1.0,1.0,1.0,1.0,1.0
+Universite des Antilles et de la Guyane,86,,,,,,,,,,,,,1.0,1,1.0,,1.0,1.0,1.0,1.0,1.0
 Erasmus University Rotterdam,86,1.0,1.0,https://api.elsevier.com/metrics/institution/325003,application/json,Erasmus University Rotterdam,Institution/325003,nld,EUR,academic,325003.0,Netherlands,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-Wakayama University,87,,,,,,,,,,,,,1.0,1,1.0,,,,,,
+Wakayama University,87,,,,,,,,,,,,,1.0,1,1.0,,1.0,1.0,1.0,1.0,1.0
 Lund University,87,1.0,1.0,https://api.elsevier.com/metrics/institution/332007,application/json,Lund University,Institution/332007,swe,EUR,academic,332007.0,Sweden,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
 Case Western Reserve University,88,1.0,1.0,https://api.elsevier.com/metrics/institution/508032,application/json,Case Western Reserve University,Institution/508032,usa,NAM,academic,508032.0,United States,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-Hanseo University,88,,,,,,,,,,,,,1.0,1,1.0,,,,,,
+Hanseo University,88,,,,,,,,,,,,,1.0,1,1.0,,1.0,1.0,1.0,1.0,1.0
+Jeonju University,89,,,,,,,,,,,,,1.0,1,1.0,,1.0,1.0,1.0,1.0,1.0
 Arizona State University,89,1.0,1.0,https://api.elsevier.com/metrics/institution/508006,application/json,Arizona State University,Institution/508006,usa,NAM,academic,508006.0,United States,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-Jeonju University,89,,,,,,,,,,,,,1.0,1,1.0,,,,,,
+Kanazawa Institute of Technology,90,,,,,,,,,,,,,1.0,1,1.0,,1.0,1.0,1.0,1.0,1.0
 Uppsala University,90,1.0,1.0,https://api.elsevier.com/metrics/institution/332018,application/json,Uppsala University,Institution/332018,swe,EUR,academic,332018.0,Sweden,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-Kanazawa Institute of Technology,90,,,,,,,,,,,,,1.0,1,1.0,,,,,,
 Nagoya University,91,1.0,1.0,https://api.elsevier.com/metrics/institution/208093,application/json,Nagoya University,Institution/208093,jpn,APAC,academic,208093.0,Japan,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-Korea Maritime University,91,,,,,,,,,,,,,1.0,1,1.0,,,,,,
-Pontificia Universidad Catolica del Peru,92,,,,,,,,,,,,1.0,1.0,1,1.0,1.0,,,,,
+Korea Maritime University,91,,,,,,,,,,,,,1.0,1,1.0,,1.0,1.0,1.0,1.0,1.0
+Pontificia Universidad Catolica del Peru,92,,,,,,,,,,,,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
 Monash University,92,1.0,1.0,https://api.elsevier.com/metrics/institution/201015,application/json,Monash University,Institution/201015,aus,APAC,academic,201015.0,Australia,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-Tuskegee University,93,,,,,,,,,,,,,1.0,1,1.0,,,,,,
+Tuskegee University,93,,,,,,,,,,,,,1.0,1,1.0,,-1.0,1.0,1.0,1.0,-1.0
 University of Amsterdam,93,1.0,1.0,https://api.elsevier.com/metrics/institution/325012,application/json,University of Amsterdam,Institution/325012,nld,EUR,academic,325012.0,Netherlands,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
 University of New South Wales,94,1.0,1.0,https://api.elsevier.com/metrics/institution/201027,application/json,University of New South Wales,Institution/201027,aus,APAC,academic,201027.0,Australia,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-Universidad de Antioquia,94,,,,,,,,,,,,1.0,1.0,1,1.0,1.0,,,,,
-Chengdu University,95,,,,,,,,,,,,,1.0,1,1.0,,,,,,
+Universidad de Antioquia,94,,,,,,,,,,,,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Chengdu University,95,,,,,,,,,,,,,1.0,1,1.0,,1.0,1.0,1.0,1.0,1.0
 Goethe University Frankfurt,95,1.0,1.0,https://api.elsevier.com/metrics/institution/309071,application/json,Goethe University Frankfurt,Institution/309071,deu,EUR,academic,309071.0,Germany,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-Dongseo University,96,,,,,,,,,,,,,1.0,1,1.0,,,,,,
 University of Tubingen,96,1.0,1.0,https://api.elsevier.com/metrics/institution/309094,application/json,University of Tubingen,Institution/309094,deu,EUR,academic,309094.0,Germany,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-Hannam University,97,,,,,,,,,,,,,1.0,1,1.0,,,,,,
+Dongseo University,96,,,,,,,,,,,,,1.0,1,1.0,,1.0,1.0,1.0,1.0,1.0
+Hannam University,97,,,,,,,,,,,,,1.0,1,1.0,,1.0,1.0,1.0,1.0,1.0
 Boston University,97,1.0,1.0,https://api.elsevier.com/metrics/institution/508013,application/json,Boston University,Institution/508013,usa,NAM,academic,508013.0,United States,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-Institut Pasteur Korea,98,,,,,,,,,,,,,,1,1.0,,,,,,
+Institut Pasteur Korea,98,,,,,,,,,,,,,,1,1.0,,1.0,1.0,1.0,1.0,-1.0
 University of California at Davis,98,1.0,1.0,https://api.elsevier.com/metrics/institution/508260,application/json,University of California at Davis,Institution/508260,usa,NAM,academic,508260.0,United States,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
 Norwegian University of Science and Technology,99,1.0,1.0,https://api.elsevier.com/metrics/institution/326005,application/json,Norwegian University of Science and Technology,Institution/326005,nor,EUR,academic,326005.0,Norway,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-Thiagarajar College of Engineering,99,,,,,,,,,,,,,1.0,1,1.0,,,,,,
+Thiagarajar College of Engineering,99,,,,,,,,,,,,,1.0,1,1.0,,1.0,1.0,1.0,1.0,1.0
 University of Sheffield,100,1.0,1.0,https://api.elsevier.com/metrics/institution/315096,application/json,University of Sheffield,Institution/315096,gbr,EUR,academic,315096.0,United Kingdom,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-Universidad Nacional de Quilmes,100,,,,,,,,,,,,,1.0,1,1.0,,,,,,
+Universidad Nacional de Quilmes,100,,,,,,,,,,,,,1.0,1,1.0,,1.0,1.0,1.0,1.0,1.0
 Tokyo Institute of Technology,101,1.0,1.0,https://api.elsevier.com/metrics/institution/208154,application/json,Tokyo Institute of Technology,Institution/208154,jpn,APAC,academic,208154.0,Japan,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-Bradley University,101,,,,,,,,,,,,,1.0,1,1.0,,,,,,
+Bradley University,101,,,,,,,,,,,,,1.0,1,1.0,,1.0,1.0,1.0,1.0,1.0
 Emory University,102,1.0,1.0,https://api.elsevier.com/metrics/institution/508059,application/json,Emory University,Institution/508059,usa,NAM,academic,508059.0,United States,1.0,1.0,1,1.0,1.0,1.0,-1.0,1.0,1.0,1.0
-Carl Zeiss SMT AG,102,,,,,,,,,,,,,1.0,1,1.0,,,,,,
+Carl Zeiss SMT AG,102,,,,,,,,,,,,,1.0,1,1.0,,1.0,1.0,1.0,1.0,1.0
+Hiroshima City University,103,,,,,,,,,,,,,1.0,1,1.0,,-1.0,1.0,1.0,-1.0,-1.0
 Brown University,103,1.0,1.0,https://api.elsevier.com/metrics/institution/508018,application/json,Brown University,Institution/508018,usa,NAM,academic,508018.0,United States,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-Hiroshima City University,103,,,,,,,,,,,,,1.0,1,1.0,,,,,,
 Ghent University,104,1.0,1.0,https://api.elsevier.com/metrics/institution/303004,application/json,Ghent University,Institution/303004,bel,EUR,academic,303004.0,Belgium,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-Kyungnam University,104,,,,,,,,,,,,,1.0,1,1.0,,,,,,
+Kyungnam University,104,,,,,,,,,,,,,1.0,1,1.0,,1.0,1.0,1.0,1.0,1.0
 University of Alberta,105,1.0,1.0,https://api.elsevier.com/metrics/institution/501035,application/json,University of Alberta,Institution/501035,can,NAM,academic,501035.0,Canada,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,-1.0,1.0
-Philadelphia University,105,,,,,,,,,,,,,,1,1.0,,,,,,
-Texas Southern University,106,,,,,,,,,,,,,1.0,1,1.0,,,,,,
+Philadelphia University,105,,,,,,,,,,,,,,1,1.0,,1.0,1.0,1.0,1.0,1.0
+Texas Southern University,106,,,,,,,,,,,,,1.0,1,1.0,,1.0,1.0,1.0,1.0,1.0
 University of Florida,106,1.0,1.0,https://api.elsevier.com/metrics/institution/508279,application/json,University of Florida,Institution/508279,usa,NAM,academic,508279.0,United States,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-Xavier University of Louisiana,107,,,,,,,,,,,,,1.0,1,1.0,,,,,,
+Xavier University of Louisiana,107,,,,,,,,,,,,,1.0,1,1.0,,1.0,1.0,1.0,1.0,1.0
 Leiden University,107,1.0,1.0,https://api.elsevier.com/metrics/institution/325005,application/json,Leiden University,Institution/325005,nld,EUR,academic,325005.0,Netherlands,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-Cheongju University,108,,,,,,,,,,,,,1.0,1,1.0,,,,,,
+Cheongju University,108,,,,,,,,,,,,,1.0,1,1.0,,1.0,1.0,1.0,1.0,1.0
 Georgia Institute of Technology,108,1.0,1.0,https://api.elsevier.com/metrics/institution/508072,application/json,Georgia Institute of Technology,Institution/508072,usa,NAM,academic,508072.0,United States,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Hochschule fur Technik und Wirtschaft Dresden,109,,,,,,,,,,,,,,1,1.0,,1.0,1.0,1.0,1.0,1.0
 Australian National University,109,1.0,1.0,https://api.elsevier.com/metrics/institution/201001,application/json,Australian National University,Institution/201001,aus,APAC,academic,201001.0,Australia,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-Hochschule fur Technik und Wirtschaft Dresden,109,,,,,,,,,,,,,,1,1.0,,,,,,
-Jerusalem College of Technology,110,,,,,,,,,,,,,,1,1.0,,,,,,
 University of Bonn,110,1.0,1.0,https://api.elsevier.com/metrics/institution/309066,application/json,University of Bonn,Institution/309066,deu,EUR,academic,309066.0,Germany,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-Josai University,111,,,,,,,,,,,,,1.0,1,1.0,,,,,,
+Jerusalem College of Technology,110,,,,,,,,,,,,,,1,1.0,,1.0,1.0,1.0,1.0,1.0
+Josai University,111,,,,,,,,,,,,,1.0,1,1.0,,1.0,1.0,1.0,1.0,1.0
 University of Texas Southwestern Medical Center,111,1.0,1.0,https://api.elsevier.com/metrics/institution/508803,application/json,University of Texas Southwestern Medical Center,Institution/508803,usa,NAM,academic,508803.0,United States,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
 University of Gottingen,112,1.0,1.0,https://api.elsevier.com/metrics/institution/309073,application/json,University of Gottingen,Institution/309073,deu,EUR,academic,309073.0,Germany,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-Milwaukee School of Engineering,112,,,,,,,,,,,,,,1,1.0,,,,,,
-Nippon Dental University,113,,,,,,,,,,,,,1.0,1,1.0,,,,,,
+Milwaukee School of Engineering,112,,,,,,,,,,,,,,1,1.0,,1.0,1.0,1.0,1.0,1.0
+Nippon Dental University,113,,,,,,,,,,,,,1.0,1,1.0,,1.0,1.0,1.0,1.0,1.0
 University of Rome La Sapienza,113,1.0,1.0,https://api.elsevier.com/metrics/institution/321063,application/json,University of Rome La Sapienza,Institution/321063,ita,EUR,academic,321063.0,Italy,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-Paichai University,114,,,,,,,,,,,,,1.0,1,1.0,,,,,,
+Paichai University,114,,,,,,,,,,,,,1.0,1,1.0,,1.0,1.0,1.0,1.0,1.0
 Tufts University,114,1.0,1.0,https://api.elsevier.com/metrics/institution/508238,application/json,Tufts University,Institution/508238,usa,NAM,academic,508238.0,United States,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-Tohoku Institute of Technology,115,,,,,,,,,,,,,,1,1.0,,,,,,
+Tohoku Institute of Technology,115,,,,,,,,,,,,,,1,1.0,,1.0,1.0,1.0,1.0,1.0
 Huazhong University of Science and Technology,115,1.0,1.0,https://api.elsevier.com/metrics/institution/203099,application/json,Huazhong University of Science and Technology,Institution/203099,chn,APAC,academic,203099.0,China,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-Universidad de Valparaiso,116,-1.0,1.0,,,,,,,,,,1.0,1.0,1,1.0,1.0,,,,,
+Universidad de Valparaiso,116,-1.0,1.0,,,,,,,,,,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
 Universite Pierre et Marie Curie,116,1.0,1.0,https://api.elsevier.com/metrics/institution/314089,application/json,Universite Pierre et Marie Curie,Institution/314089,fra,EUR,academic,314089.0,France,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-Universidad del Norte,117,,,,,,,,,,,,,1.0,1,1.0,,,,,,
 Fudan University,117,1.0,1.0,https://api.elsevier.com/metrics/institution/203060,application/json,Fudan University,Institution/203060,chn,APAC,academic,203060.0,China,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Universidad del Norte,117,,,,,,,,,,,,,1.0,1,1.0,,1.0,1.0,1.0,1.0,1.0
+University of Northern Iowa,118,,,,,,,,,,,,,1.0,1,1.0,,1.0,1.0,1.0,1.0,1.0
 Universidad Complutense,118,1.0,1.0,https://api.elsevier.com/metrics/institution/312012,application/json,Universidad Complutense,Institution/312012,esp,EUR,academic,312012.0,Spain,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-University of Northern Iowa,118,,,,,,,,,,,,,1.0,1,1.0,,,,,,
-Woosuk University,119,,,,,,,,,,,,,1.0,1,1.0,,,,,,
+Woosuk University,119,,,,,,,,,,,,,1.0,1,1.0,,1.0,1.0,1.0,1.0,1.0
 University of Rochester,119,1.0,1.0,https://api.elsevier.com/metrics/institution/508335,application/json,University of Rochester,Institution/508335,usa,NAM,academic,508335.0,United States,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
 University of Helsinki,120,1.0,1.0,https://api.elsevier.com/metrics/institution/313007,application/json,University of Helsinki,Institution/313007,fin,EUR,academic,313007.0,Finland,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-Xavier University,120,,,,,,,,,,,,,1.0,1,1.0,,,,,,
+Xavier University,120,,,,,,,,,,,,,1.0,1,1.0,,1.0,1.0,1.0,1.0,1.0
 Stockholm University,121,1.0,1.0,https://api.elsevier.com/metrics/institution/332014,application/json,Stockholm University,Institution/332014,swe,EUR,academic,332014.0,Sweden,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-Kyoto Prefectural University,121,,,,,,,,,,,,,1.0,1,1.0,,,,,,
-Maebashi Institute of Technology,122,,,,,,,,,,,,,,1,1.0,,,,,,
+Kyoto Prefectural University,121,,,,,,,,,,,,,1.0,1,1.0,,1.0,1.0,1.0,1.0,1.0
+Maebashi Institute of Technology,122,,,,,,,,,,,,,,1,1.0,,1.0,1.0,1.0,1.0,1.0
 Michigan State University,122,1.0,1.0,https://api.elsevier.com/metrics/institution/508122,application/json,Michigan State University,Institution/508122,usa,NAM,academic,508122.0,United States,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
 Cardiff University,123,1.0,1.0,https://api.elsevier.com/metrics/institution/315006,application/json,Cardiff University,Institution/315006,gbr,EUR,academic,315006.0,United Kingdom,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-Ohio Northern University,123,,,,,,,,,,,,,1.0,1,1.0,,,,,,
-Perm National Research Polytechnic University,124,,,,,,,,,,,,,1.0,1,1.0,,,,,,
+Ohio Northern University,123,,,,,,,,,,,,,1.0,1,1.0,,1.0,1.0,1.0,1.0,1.0
+Perm National Research Polytechnic University,124,,,,,,,,,,,,,1.0,1,1.0,,-1.0,1.0,1.0,1.0,1.0
 Texas A and M University,124,1.0,1.0,https://api.elsevier.com/metrics/institution/508230,application/json,Texas A and M University,Institution/508230,usa,NAM,academic,508230.0,United States,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-Singapore Polytechnic,125,,,,,,,,,,,,,,1,1.0,,,,,,
 Queen Mary University of London,125,1.0,1.0,https://api.elsevier.com/metrics/institution/315047,application/json,Queen Mary University of London,Institution/315047,gbr,EUR,academic,315047.0,United Kingdom,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Singapore Polytechnic,125,,,,,,,,,,,,,,1,1.0,,1.0,1.0,1.0,1.0,1.0
 University of Gothenburg,126,1.0,1.0,https://api.elsevier.com/metrics/institution/332002,application/json,University of Gothenburg,Institution/332002,swe,EUR,academic,332002.0,Sweden,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-Teikyo Heisei University,126,,,,,,,,,,,,,,1,1.0,,,,,,
-Toyama Prefectural University,127,,,,,,,,,,,,,1.0,1,1.0,,,,,,
+Teikyo Heisei University,126,,,,,,,,,,,,,,1,1.0,,1.0,1.0,1.0,1.0,1.0
+Toyama Prefectural University,127,,,,,,,,,,,,,1.0,1,1.0,,1.0,1.0,1.0,1.0,1.0
 Delft University of Technology,127,1.0,1.0,https://api.elsevier.com/metrics/institution/325001,application/json,Delft University of Technology,Institution/325001,nld,EUR,academic,325001.0,Netherlands,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-Trinity Western University,128,,1.0,https://api.elsevier.com/metrics/institution/705308,application/json,Trinity Western University,Institution/705308,can,NAM,academic,705308.0,Canada,,,1,1.0,,,,,,
+Trinity Western University,128,,1.0,https://api.elsevier.com/metrics/institution/705308,application/json,Trinity Western University,Institution/705308,can,NAM,academic,705308.0,Canada,,,1,1.0,,1.0,1.0,1.0,1.0,1.0
 University of Bristol,128,1.0,1.0,https://api.elsevier.com/metrics/institution/315067,application/json,University of Bristol,Institution/315067,gbr,EUR,academic,315067.0,United Kingdom,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-UNIVERSIDAD TECNICA PARTICULAR DE LOJA,129,,,,,,,,,,,,,1.0,1,1.0,,,,,,
+UNIVERSIDAD TECNICA PARTICULAR DE LOJA,129,,,,,,,,,,,,,1.0,1,1.0,,1.0,1.0,1.0,1.0,1.0
 University of Massachusetts,129,1.0,1.0,https://api.elsevier.com/metrics/institution/508295,application/json,University of Massachusetts,Institution/508295,usa,NAM,academic,508295.0,United States,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-Union College,130,,,,,,,,,,,,,1.0,1,1.0,,,,,,
+Union College,130,,,,,,,,,,,,,1.0,1,1.0,,1.0,1.0,1.0,1.0,1.0
 University of Milan,130,1.0,1.0,https://api.elsevier.com/metrics/institution/321055,application/json,University of Milan,Institution/321055,ita,EUR,academic,321055.0,Italy,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-Universidade Estadual de Ponta Grossa,131,,,,,,,,,,,,1.0,1.0,1,1.0,1.0,,,,,
 University of Birmingham,131,1.0,1.0,https://api.elsevier.com/metrics/institution/315064,application/json,University of Birmingham,Institution/315064,gbr,EUR,academic,315064.0,United Kingdom,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-University of Shiga Prefecture,132,,,,,,,,,,,,,1.0,1,1.0,,,,,,
+Universidade Estadual de Ponta Grossa,131,,,,,,,,,,,,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
 Vrije Universiteit,132,1.0,1.0,https://api.elsevier.com/metrics/institution/325016,application/json,Vrije Universiteit,Institution/325016,nld,EUR,academic,325016.0,Netherlands,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+University of Shiga Prefecture,132,,,,,,,,,,,,,1.0,1,1.0,,1.0,1.0,1.0,1.0,1.0
 Rice University,133,1.0,1.0,https://api.elsevier.com/metrics/institution/508194,application/json,Rice University,Institution/508194,usa,NAM,academic,508194.0,United States,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-University of Zululand,133,,,,,,,,,,,,,1.0,1,1.0,,,,,,
-Wuhan Textile University,134,,,,,,,,,,,,1.0,1.0,1,1.0,1.0,,,,,
+University of Zululand,133,,,,,,,,,,,,,1.0,1,1.0,,1.0,1.0,1.0,1.0,1.0
+Wuhan Textile University,134,,,,,,,,,,,,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
 University of Lausanne,134,1.0,1.0,https://api.elsevier.com/metrics/institution/306015,application/json,University of Lausanne,Institution/306015,che,EUR,academic,306015.0,Switzerland,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-Yunnan Minzu University,135,,1.0,https://api.elsevier.com/metrics/institution/707521,application/json,Yunnan Minzu University,Institution/707521,chn,APAC,academic,707521.0,China,,1.0,1,1.0,,,,,,
+Yunnan Minzu University,135,,1.0,https://api.elsevier.com/metrics/institution/707521,application/json,Yunnan Minzu University,Institution/707521,chn,APAC,academic,707521.0,China,,1.0,1,1.0,,1.0,1.0,1.0,1.0,1.0
 Nanjing University,135,1.0,1.0,https://api.elsevier.com/metrics/institution/203129,application/json,Nanjing University,Institution/203129,chn,APAC,academic,203129.0,China,1.0,1.0,1,1.0,1.0,-1.0,1.0,1.0,1.0,1.0
 Harbin Institute of Technology,136,1.0,1.0,https://api.elsevier.com/metrics/institution/203076,application/json,Harbin Institute of Technology,Institution/203076,chn,APAC,academic,203076.0,China,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-Abu Dhabi University,136,,,,,,,,,,,,,1.0,1,1.0,,,,,,
-Alabama State University,137,,,,,,,,,,,,,,1,1.0,,,,,,
-Andong National University,138,,,,,,,,,,,,,1.0,1,1.0,,,,,,
+Abu Dhabi University,136,,,,,,,,,,,,,1.0,1,1.0,,-1.0,-1.0,1.0,1.0,1.0
+Alabama State University,137,,,,,,,,,,,,,,1,1.0,,1.0,1.0,1.0,1.0,1.0
+Andong National University,138,,,,,,,,,,,,,1.0,1,1.0,,1.0,1.0,1.0,1.0,1.0
 Queen's University Kingston,139,1.0,1.0,https://api.elsevier.com/metrics/institution/501020,application/json,Queen's University Kingston,Institution/501020,can,NAM,academic,501020.0,Canada,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
 Sun Yat-Sen University,140,1.0,1.0,https://api.elsevier.com/metrics/institution/203198,application/json,Sun Yat-Sen University,Institution/203198,chn,APAC,academic,203198.0,China,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
 University of Science and Technology of China,141,1.0,1.0,https://api.elsevier.com/metrics/institution/203213,application/json,University of Science and Technology of China,Institution/203213,chn,APAC,academic,203213.0,China,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
@@ -920,291 +920,291 @@ Alexandria University,798,1.0,1.0,https://api.elsevier.com/metrics/institution/1
 Royal North Shore Hospital,799,1.0,1.0,https://api.elsevier.com/metrics/institution/201078,application/json,Royal North Shore Hospital,Institution/201078,aus,APAC,medical,201078.0,Australia,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
 SUNY Upstate Medical University,800,1.0,1.0,https://api.elsevier.com/metrics/institution/508226,application/json,SUNY Upstate Medical University,Institution/508226,usa,NAM,academic,508226.0,United States,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
 Institut Universitaire de France,801,1.0,1.0,https://api.elsevier.com/metrics/institution/314271,application/json,Institut Universitaire de France,Institution/314271,fra,EUR,government,314271.0,France,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-Birkbeck University of London,802,1.0,1.0,https://api.elsevier.com/metrics/institution/315002,application/json,Birkbeck University of London,Institution/315002,gbr,EUR,academic,315002.0,United Kingdom,1.0,1.0,1,1.0,1.0,,,,,
-Florida Atlantic University,803,1.0,1.0,https://api.elsevier.com/metrics/institution/508062,application/json,Florida Atlantic University,Institution/508062,usa,NAM,academic,508062.0,United States,1.0,1.0,1,1.0,1.0,,,,,
-RAS - Saint Petersburg Nuclear Physics Institute,804,1.0,1.0,https://api.elsevier.com/metrics/institution/331086,application/json,RAS - Saint Petersburg Nuclear Physics Institute,Institution/331086,rus,EUR,academic,331086.0,Russian Federation,1.0,1.0,1,1.0,1.0,,,,,
-Northern Illinois University,805,1.0,1.0,https://api.elsevier.com/metrics/institution/508174,application/json,Northern Illinois University,Institution/508174,usa,NAM,academic,508174.0,United States,1.0,1.0,1,1.0,1.0,,,,,
-Hofstra University,806,1.0,1.0,https://api.elsevier.com/metrics/institution/508077,application/json,Hofstra University,Institution/508077,usa,NAM,academic,508077.0,United States,1.0,1.0,1,1.0,1.0,,,,,
-Mansoura University,807,1.0,1.0,https://api.elsevier.com/metrics/institution/104008,application/json,Mansoura University,Institution/104008,egy,AFR,academic,104008.0,Egypt,1.0,1.0,1,1.0,1.0,,,,,
-Tehran University of Medical Sciences,808,1.0,1.0,https://api.elsevier.com/metrics/institution/404024,application/json,Tehran University of Medical Sciences,Institution/404024,irn,MEA,academic,404024.0,Iran,1.0,1.0,1,1.0,1.0,,,,,
-Panjab University,809,1.0,1.0,https://api.elsevier.com/metrics/institution/207056,application/json,Panjab University,Institution/207056,ind,APAC,academic,207056.0,India,1.0,1.0,1,1.0,1.0,,,,,
-Auckland University of Technology,810,1.0,1.0,https://api.elsevier.com/metrics/institution/212001,application/json,Auckland University of Technology,Institution/212001,nzl,APAC,academic,212001.0,New Zealand,1.0,1.0,1,1.0,1.0,,,,,
-Rochester Institute of Technology,811,1.0,1.0,https://api.elsevier.com/metrics/institution/508195,application/json,Rochester Institute of Technology,Institution/508195,usa,NAM,academic,508195.0,United States,1.0,1.0,1,1.0,1.0,,,,,
-Universidad de Valladolid,812,1.0,1.0,https://api.elsevier.com/metrics/institution/312033,application/json,Universidad de Valladolid,Institution/312033,esp,EUR,academic,312033.0,Spain,1.0,1.0,1,1.0,1.0,,,,,
-University of New Brunswick,813,1.0,1.0,https://api.elsevier.com/metrics/institution/501041,application/json,University of New Brunswick,Institution/501041,can,NAM,academic,501041.0,Canada,1.0,1.0,1,1.0,1.0,,,,,
-University of Montana,814,1.0,1.0,https://api.elsevier.com/metrics/institution/508312,application/json,University of Montana,Institution/508312,usa,NAM,academic,508312.0,United States,1.0,1.0,1,1.0,1.0,,,,,
-TELECOM Paris,815,1.0,1.0,https://api.elsevier.com/metrics/institution/314297,application/json,TELECOM Paris,Institution/314297,fra,EUR,academic,314297.0,France,1.0,1.0,1,1.0,1.0,,,,,
-Scuola Superiore Sant'Anna di Studi Universitari e di Perfezionamento,816,1.0,1.0,https://api.elsevier.com/metrics/institution/321022,application/json,Scuola Superiore Sant'Anna di Studi Universitari e di Perfezionamento,Institution/321022,ita,EUR,academic,321022.0,Italy,1.0,1.0,1,1.0,1.0,,,,,
-University of Memphis,817,1.0,1.0,https://api.elsevier.com/metrics/institution/508301,application/json,University of Memphis,Institution/508301,usa,NAM,academic,508301.0,United States,1.0,1.0,1,1.0,1.0,,,,,
-INSA de Lyon,818,1.0,1.0,https://api.elsevier.com/metrics/institution/314026,application/json,INSA de Lyon,Institution/314026,fra,EUR,academic,314026.0,France,1.0,1.0,1,1.0,1.0,,,,,
-University of Szeged,819,1.0,1.0,https://api.elsevier.com/metrics/institution/318007,application/json,University of Szeged,Institution/318007,hun,EUR,academic,318007.0,Hungary,1.0,1.0,1,1.0,1.0,,,,,
-Universite de Mons,820,1.0,1.0,https://api.elsevier.com/metrics/institution/303013,application/json,Universite de Mons,Institution/303013,bel,EUR,academic,303013.0,Belgium,1.0,1.0,1,1.0,1.0,,,,,
-Kunming University of Science and Technology,821,1.0,1.0,https://api.elsevier.com/metrics/institution/203114,application/json,Kunming University of Science and Technology,Institution/203114,chn,APAC,academic,203114.0,China,1.0,1.0,1,1.0,1.0,,,,,
-University of Nevada Las Vegas,822,1.0,1.0,https://api.elsevier.com/metrics/institution/508316,application/json,University of Nevada Las Vegas,Institution/508316,usa,NAM,academic,508316.0,United States,1.0,1.0,1,1.0,1.0,,,,,
-COMSATS Institute of Information Technology,823,1.0,1.0,https://api.elsevier.com/metrics/institution/214009,application/json,COMSATS Institute of Information Technology,Institution/214009,pak,APAC,academic,214009.0,Pakistan,1.0,1.0,1,1.0,1.0,,,,,
-Universidade de Brasilia,824,1.0,1.0,https://api.elsevier.com/metrics/institution/602012,application/json,Universidade de Brasilia,Institution/602012,bra,SAM,academic,602012.0,Brazil,1.0,1.0,1,1.0,1.0,,,,,
-University of Greifswald,825,1.0,1.0,https://api.elsevier.com/metrics/institution/309074,application/json,University of Greifswald,Institution/309074,deu,EUR,academic,309074.0,Germany,1.0,1.0,1,1.0,1.0,,,,,
-Bristol-Myers Squibb,826,1.0,1.0,https://api.elsevier.com/metrics/institution/508423,application/json,Bristol-Myers Squibb,Institution/508423,usa,NAM,corporate,508423.0,United States,1.0,1.0,1,1.0,1.0,,,,,
-Juntendo University,827,1.0,1.0,https://api.elsevier.com/metrics/institution/208053,application/json,Juntendo University,Institution/208053,jpn,APAC,academic,208053.0,Japan,1.0,1.0,1,1.0,1.0,,,,,
-Sogang University,828,1.0,1.0,https://api.elsevier.com/metrics/institution/209065,application/json,Sogang University,Institution/209065,kor,APAC,academic,209065.0,South Korea,1.0,1.0,1,1.0,1.0,,,,,
-Tianjin Polytechnic University,829,1.0,1.0,https://api.elsevier.com/metrics/institution/203205,application/json,Tianjin Polytechnic University,Institution/203205,chn,APAC,academic,203205.0,China,1.0,1.0,1,1.0,1.0,,,,,
-Kindai University,830,1.0,1.0,https://api.elsevier.com/metrics/institution/208065,application/json,Kindai University,Institution/208065,jpn,APAC,academic,208065.0,Japan,1.0,1.0,1,1.0,1.0,,,,,
-Universidade do Estado do Rio de Janeiro,831,1.0,1.0,https://api.elsevier.com/metrics/institution/602013,application/json,Universidade do Estado do Rio de Janeiro,Institution/602013,bra,SAM,academic,602013.0,Brazil,1.0,1.0,1,1.0,1.0,,,,,
-Nihon University,832,1.0,1.0,https://api.elsevier.com/metrics/institution/208112,application/json,Nihon University,Institution/208112,jpn,APAC,academic,208112.0,Japan,1.0,1.0,1,1.0,1.0,,,,,
-Osaka Prefecture University,833,1.0,1.0,https://api.elsevier.com/metrics/institution/208125,application/json,Osaka Prefecture University,Institution/208125,jpn,APAC,academic,208125.0,Japan,1.0,1.0,1,1.0,1.0,,,,,
-University of Paderborn,834,1.0,1.0,https://api.elsevier.com/metrics/institution/309089,application/json,University of Paderborn,Institution/309089,deu,EUR,academic,309089.0,Germany,1.0,1.0,1,1.0,1.0,,,,,
-Ege University,835,1.0,1.0,https://api.elsevier.com/metrics/institution/410018,application/json,Ege University,Institution/410018,tur,MEA,academic,410018.0,Turkey,1.0,1.0,1,1.0,1.0,,,,,
-Ankara University,836,1.0,1.0,https://api.elsevier.com/metrics/institution/410006,application/json,Ankara University,Institution/410006,tur,MEA,academic,410006.0,Turkey,1.0,1.0,1,1.0,1.0,,,,,
-Institute of Research into the Fundamental Laws of the Universe,837,1.0,1.0,https://api.elsevier.com/metrics/institution/706352,application/json,Institute of Research into the Fundamental Laws of the Universe,Institution/706352,fra,EUR,academic,706352.0,France,1.0,1.0,1,1.0,1.0,,,,,
-Universidad de la Republica,838,1.0,1.0,https://api.elsevier.com/metrics/institution/606001,application/json,Universidad de la Republica,Institution/606001,ury,SAM,academic,606001.0,Uruguay,1.0,1.0,1,1.0,1.0,,,,,
-Japan Atomic Energy Agency,839,1.0,1.0,https://api.elsevier.com/metrics/institution/208046,application/json,Japan Atomic Energy Agency,Institution/208046,jpn,APAC,government,208046.0,Japan,1.0,1.0,1,1.0,1.0,,,,,
-Bulgarian Academy of Sciences,840,1.0,1.0,https://api.elsevier.com/metrics/institution/304005,application/json,Bulgarian Academy of Sciences,Institution/304005,bgr,EUR,academic,304005.0,Bulgaria,1.0,1.0,1,1.0,1.0,,,,,
-University of A Coruna,841,1.0,1.0,https://api.elsevier.com/metrics/institution/312054,application/json,University of A Coruna,Institution/312054,esp,EUR,academic,312054.0,Spain,1.0,1.0,1,1.0,1.0,,,,,
-Texas A and M University at Qatar,842,1.0,1.0,https://api.elsevier.com/metrics/institution/702874,application/json,Texas A and M University at Qatar,Institution/702874,qat,MEA,academic,702874.0,Qatar,1.0,1.0,1,1.0,1.0,,,,,
-National Taiwan Normal University,843,1.0,1.0,https://api.elsevier.com/metrics/institution/217043,application/json,National Taiwan Normal University,Institution/217043,twn,APAC,academic,217043.0,Taiwan,1.0,1.0,1,1.0,1.0,,,,,
-NASA Ames Research Center,844,1.0,1.0,https://api.elsevier.com/metrics/institution/508131,application/json,NASA Ames Research Center,Institution/508131,usa,NAM,government,508131.0,United States,1.0,1.0,1,1.0,1.0,,,,,
-Makerere University,845,1.0,1.0,https://api.elsevier.com/metrics/institution/114001,application/json,Makerere University,Institution/114001,uga,AFR,academic,114001.0,Uganda,1.0,1.0,1,1.0,1.0,,,,,
-University of Maribor,846,1.0,1.0,https://api.elsevier.com/metrics/institution/333003,application/json,University of Maribor,Institution/333003,svn,EUR,academic,333003.0,Slovenia,1.0,1.0,1,1.0,1.0,,,,,
-Dokuz Eylul University,847,1.0,1.0,https://api.elsevier.com/metrics/institution/410017,application/json,Dokuz Eylul University,Institution/410017,tur,MEA,academic,410017.0,Turkey,1.0,1.0,1,1.0,1.0,,,,,
-University of Wuppertal,848,1.0,1.0,https://api.elsevier.com/metrics/institution/309098,application/json,University of Wuppertal,Institution/309098,deu,EUR,academic,309098.0,Germany,1.0,1.0,1,1.0,1.0,,,,,
-Brno University of Technology,849,1.0,1.0,https://api.elsevier.com/metrics/institution/308001,application/json,Brno University of Technology,Institution/308001,cze,EUR,academic,308001.0,Czech Republic,1.0,1.0,1,1.0,1.0,,,,,
-All India Institute of Medical Sciences,850,1.0,1.0,https://api.elsevier.com/metrics/institution/207002,application/json,All India Institute of Medical Sciences,Institution/207002,ind,APAC,government,207002.0,India,1.0,1.0,1,1.0,1.0,,,,,
-Capital Normal University,851,1.0,1.0,https://api.elsevier.com/metrics/institution/203019,application/json,Capital Normal University,Institution/203019,chn,APAC,academic,203019.0,China,1.0,1.0,1,1.0,1.0,,,,,
-Universidad Rey Juan Carlos,852,1.0,1.0,https://api.elsevier.com/metrics/institution/312044,application/json,Universidad Rey Juan Carlos,Institution/312044,esp,EUR,academic,312044.0,Spain,1.0,1.0,1,1.0,1.0,,,,,
-Poznan University of Technology,853,1.0,1.0,https://api.elsevier.com/metrics/institution/327021,application/json,Poznan University of Technology,Institution/327021,pol,EUR,academic,327021.0,Poland,1.0,1.0,1,1.0,1.0,,,,,
-Comenius University,854,1.0,1.0,https://api.elsevier.com/metrics/institution/334001,application/json,Comenius University,Institution/334001,svk,EUR,academic,334001.0,Slovakia,1.0,1.0,1,1.0,1.0,,,,,
-IMEC,855,1.0,1.0,https://api.elsevier.com/metrics/institution/303006,application/json,IMEC,Institution/303006,bel,EUR,other,303006.0,Belgium,1.0,1.0,1,1.0,1.0,,,,,
-University of Chieti,856,1.0,1.0,https://api.elsevier.com/metrics/institution/321047,application/json,University of Chieti,Institution/321047,ita,EUR,academic,321047.0,Italy,1.0,1.0,1,1.0,1.0,,,,,
-General Hospital of People's Liberation Army,857,1.0,1.0,https://api.elsevier.com/metrics/institution/203347,application/json,General Hospital of People's Liberation Army,Institution/203347,chn,APAC,medical,203347.0,China,1.0,1.0,1,1.0,1.0,,,,,
-University of Split,858,1.0,1.0,https://api.elsevier.com/metrics/institution/317004,application/json,University of Split,Institution/317004,hrv,EUR,academic,317004.0,Croatia,1.0,1.0,1,1.0,1.0,,,,,
-Gunma University,859,1.0,1.0,https://api.elsevier.com/metrics/institution/208026,application/json,Gunma University,Institution/208026,jpn,APAC,academic,208026.0,Japan,1.0,1.0,1,1.0,1.0,,,,,
-Universidad Tecnica Federico Santa Maria,860,1.0,1.0,https://api.elsevier.com/metrics/institution/603007,application/json,Universidad Tecnica Federico Santa Maria,Institution/603007,chl,SAM,academic,603007.0,Chile,1.0,1.0,1,1.0,1.0,,,,,
-Universidade Federal do Ceara,861,1.0,1.0,https://api.elsevier.com/metrics/institution/602037,application/json,Universidade Federal do Ceara,Institution/602037,bra,SAM,academic,602037.0,Brazil,1.0,1.0,1,1.0,1.0,,,,,
-"High Energy Accelerator Research Organization, Tsukuba",862,1.0,1.0,https://api.elsevier.com/metrics/institution/208029,application/json,"High Energy Accelerator Research Organization, Tsukuba",Institution/208029,jpn,APAC,government,208029.0,Japan,1.0,1.0,1,1.0,1.0,,,,,
-Wright State University,863,1.0,1.0,https://api.elsevier.com/metrics/institution/508381,application/json,Wright State University,Institution/508381,usa,NAM,academic,508381.0,United States,1.0,1.0,1,1.0,1.0,,,,,
-Centre Hospitalier Universitaire de Rennes,864,1.0,1.0,https://api.elsevier.com/metrics/institution/314125,application/json,Centre Hospitalier Universitaire de Rennes,Institution/314125,fra,EUR,medical,314125.0,France,1.0,1.0,1,1.0,1.0,,,,,
-Universita degli Studi di Napoli Parthenope,865,1.0,1.0,https://api.elsevier.com/metrics/institution/321151,application/json,Universita degli Studi di Napoli Parthenope,Institution/321151,ita,EUR,academic,321151.0,Italy,1.0,1.0,1,1.0,1.0,,,,,
-University of Texas at El Paso,866,1.0,1.0,https://api.elsevier.com/metrics/institution/508347,application/json,University of Texas at El Paso,Institution/508347,usa,NAM,academic,508347.0,United States,1.0,1.0,1,1.0,1.0,,,,,
-National Aeronautics and Space Administration,867,1.0,1.0,https://api.elsevier.com/metrics/institution/705945,application/json,National Aeronautics and Space Administration,Institution/705945,usa,NAM,government,705945.0,United States,1.0,1.0,1,1.0,1.0,,,,,
-Bordeaux INP,868,1.0,1.0,https://api.elsevier.com/metrics/institution/706328,application/json,Bordeaux INP,Institution/706328,fra,EUR,academic,706328.0,France,1.0,1.0,1,1.0,1.0,,,,,
-Pukyong National University,869,1.0,1.0,https://api.elsevier.com/metrics/institution/209060,application/json,Pukyong National University,Institution/209060,kor,APAC,academic,209060.0,South Korea,1.0,1.0,1,1.0,1.0,,,,,
-Zhejiang Sci-Tech University,870,1.0,1.0,https://api.elsevier.com/metrics/institution/203242,application/json,Zhejiang Sci-Tech University,Institution/203242,chn,APAC,academic,203242.0,China,1.0,1.0,1,1.0,1.0,,,,,
-Universitat de Lleida,871,1.0,1.0,https://api.elsevier.com/metrics/institution/312048,application/json,Universitat de Lleida,Institution/312048,esp,EUR,academic,312048.0,Spain,1.0,1.0,1,1.0,1.0,,,,,
-Istituto Superiore di Sanita,872,1.0,1.0,https://api.elsevier.com/metrics/institution/321014,application/json,Istituto Superiore di Sanita,Institution/321014,ita,EUR,government,321014.0,Italy,1.0,1.0,1,1.0,1.0,,,,,
-Universidade Federal do Rio Grande do Norte,873,1.0,1.0,https://api.elsevier.com/metrics/institution/602042,application/json,Universidade Federal do Rio Grande do Norte,Institution/602042,bra,SAM,academic,602042.0,Brazil,1.0,1.0,1,1.0,1.0,,,,,
-Chiang Mai University,874,1.0,1.0,https://api.elsevier.com/metrics/institution/216002,application/json,Chiang Mai University,Institution/216002,tha,APAC,academic,216002.0,Thailand,1.0,1.0,1,1.0,1.0,,,,,
-Universidade Federal de Santa Maria,875,1.0,1.0,https://api.elsevier.com/metrics/institution/602032,application/json,Universidade Federal de Santa Maria,Institution/602032,bra,SAM,academic,602032.0,Brazil,1.0,1.0,1,1.0,1.0,,,,,
-New York Medical College,876,1.0,1.0,https://api.elsevier.com/metrics/institution/508165,application/json,New York Medical College,Institution/508165,usa,NAM,academic,508165.0,United States,1.0,1.0,1,1.0,1.0,,,,,
-Chemnitz University of Technology,877,1.0,1.0,https://api.elsevier.com/metrics/institution/309002,application/json,Chemnitz University of Technology,Institution/309002,deu,EUR,academic,309002.0,Germany,1.0,1.0,1,1.0,1.0,,,,,
-Inje University,878,1.0,1.0,https://api.elsevier.com/metrics/institution/209030,application/json,Inje University,Institution/209030,kor,APAC,academic,209030.0,South Korea,1.0,1.0,1,1.0,1.0,,,,,
-University Politehnica of Bucharest,879,1.0,1.0,https://api.elsevier.com/metrics/institution/329010,application/json,University Politehnica of Bucharest,Institution/329010,rou,EUR,academic,329010.0,Romania,1.0,1.0,1,1.0,1.0,,,,,
-Tomsk State University,880,1.0,1.0,https://api.elsevier.com/metrics/institution/331022,application/json,Tomsk State University,Institution/331022,rus,EUR,academic,331022.0,Russian Federation,1.0,1.0,1,1.0,1.0,,,,,
-Hallym University,881,1.0,1.0,https://api.elsevier.com/metrics/institution/209022,application/json,Hallym University,Institution/209022,kor,APAC,academic,209022.0,South Korea,1.0,1.0,1,1.0,1.0,,,,,
-Democritus University of Thrace,882,1.0,1.0,https://api.elsevier.com/metrics/institution/316004,application/json,Democritus University of Thrace,Institution/316004,grc,EUR,academic,316004.0,Greece,1.0,1.0,1,1.0,1.0,,,,,
-University of Waikato,883,1.0,1.0,https://api.elsevier.com/metrics/institution/212008,application/json,University of Waikato,Institution/212008,nzl,APAC,academic,212008.0,New Zealand,1.0,1.0,1,1.0,1.0,,,,,
-Universidad de Cadiz,884,1.0,1.0,https://api.elsevier.com/metrics/institution/312016,application/json,Universidad de Cadiz,Institution/312016,esp,EUR,academic,312016.0,Spain,1.0,1.0,1,1.0,1.0,,,,,
-Azienda Ospedaliera Careggi,885,1.0,1.0,https://api.elsevier.com/metrics/institution/321080,application/json,Azienda Ospedaliera Careggi,Institution/321080,ita,EUR,medical,321080.0,Italy,1.0,1.0,1,1.0,1.0,,,,,
-Loma Linda University,886,1.0,1.0,https://api.elsevier.com/metrics/institution/508102,application/json,Loma Linda University,Institution/508102,usa,NAM,academic,508102.0,United States,1.0,1.0,1,1.0,1.0,,,,,
-Postgraduate Institute of Medical Education and Research,887,1.0,1.0,https://api.elsevier.com/metrics/institution/207058,application/json,Postgraduate Institute of Medical Education and Research,Institution/207058,ind,APAC,academic,207058.0,India,1.0,1.0,1,1.0,1.0,,,,,
-St. Petersburg State Polytechnical University,888,1.0,1.0,https://api.elsevier.com/metrics/institution/331116,application/json,St. Petersburg State Polytechnical University,Institution/331116,rus,EUR,academic,331116.0,Russian Federation,1.0,1.0,1,1.0,1.0,,,,,
-Miami University,889,1.0,1.0,https://api.elsevier.com/metrics/institution/508121,application/json,Miami University,Institution/508121,usa,NAM,academic,508121.0,United States,1.0,1.0,1,1.0,1.0,,,,,
-University of Silesia,890,1.0,1.0,https://api.elsevier.com/metrics/institution/327031,application/json,University of Silesia,Institution/327031,pol,EUR,academic,327031.0,Poland,1.0,1.0,1,1.0,1.0,,,,,
-University of Kassel,891,1.0,1.0,https://api.elsevier.com/metrics/institution/309079,application/json,University of Kassel,Institution/309079,deu,EUR,academic,309079.0,Germany,1.0,1.0,1,1.0,1.0,,,,,
-Bambino Gesu Children's Hospital,892,1.0,1.0,https://api.elsevier.com/metrics/institution/321086,application/json,Bambino Gesu Children's Hospital,Institution/321086,ita,EUR,medical,321086.0,Italy,1.0,1.0,1,1.0,1.0,,,,,
-Universidad de Concepcion,893,1.0,1.0,https://api.elsevier.com/metrics/institution/603005,application/json,Universidad de Concepcion,Institution/603005,chl,SAM,academic,603005.0,Chile,1.0,1.0,1,1.0,1.0,,,,,
-North West University,894,1.0,1.0,https://api.elsevier.com/metrics/institution/115001,application/json,North West University,Institution/115001,zaf,AFR,academic,115001.0,South Africa,1.0,1.0,1,1.0,1.0,,,,,
-Scuola Internazionale Superiore di Studi Avanzati,895,1.0,1.0,https://api.elsevier.com/metrics/institution/321020,application/json,Scuola Internazionale Superiore di Studi Avanzati,Institution/321020,ita,EUR,academic,321020.0,Italy,1.0,1.0,1,1.0,1.0,,,,,
-Shenzhen Institute of Advanced Technology,896,1.0,1.0,https://api.elsevier.com/metrics/institution/700742,application/json,Shenzhen Institute of Advanced Technology,Institution/700742,chn,APAC,academic,700742.0,China,1.0,1.0,1,1.0,1.0,,,,,
-University of Salzburg,897,1.0,1.0,https://api.elsevier.com/metrics/institution/301011,application/json,University of Salzburg,Institution/301011,aut,EUR,academic,301011.0,Austria,1.0,1.0,1,1.0,1.0,,,,,
-University of Beira Interior,898,1.0,1.0,https://api.elsevier.com/metrics/institution/328010,application/json,University of Beira Interior,Institution/328010,prt,EUR,academic,328010.0,Portugal,1.0,1.0,1,1.0,1.0,,,,,
-Quaid-I-Azam University,899,1.0,1.0,https://api.elsevier.com/metrics/institution/214004,application/json,Quaid-I-Azam University,Institution/214004,pak,APAC,academic,214004.0,Pakistan,1.0,1.0,1,1.0,1.0,,,,,
-Ecole de Technologie Superieure,900,1.0,1.0,https://api.elsevier.com/metrics/institution/501008,application/json,Ecole de Technologie Superieure,Institution/501008,can,NAM,academic,501008.0,Canada,1.0,1.0,1,1.0,1.0,,,,,
-Aga Khan University,901,1.0,1.0,https://api.elsevier.com/metrics/institution/214001,application/json,Aga Khan University,Institution/214001,pak,APAC,academic,214001.0,Pakistan,1.0,1.0,1,1.0,1.0,,,,,
-University of Canberra,902,1.0,1.0,https://api.elsevier.com/metrics/institution/201024,application/json,University of Canberra,Institution/201024,aus,APAC,academic,201024.0,Australia,1.0,1.0,1,1.0,1.0,,,,,
-Marmara University,903,1.0,1.0,https://api.elsevier.com/metrics/institution/410038,application/json,Marmara University,Institution/410038,tur,MEA,academic,410038.0,Turkey,1.0,1.0,1,1.0,1.0,,,,,
-Chungbuk National University,904,1.0,1.0,https://api.elsevier.com/metrics/institution/209011,application/json,Chungbuk National University,Institution/209011,kor,APAC,academic,209011.0,South Korea,1.0,1.0,1,1.0,1.0,,,,,
-Edith Cowan University,905,1.0,1.0,https://api.elsevier.com/metrics/institution/201008,application/json,Edith Cowan University,Institution/201008,aus,APAC,academic,201008.0,Australia,1.0,1.0,1,1.0,1.0,,,,,
-Hamburg University of Technology,906,1.0,1.0,https://api.elsevier.com/metrics/institution/309017,application/json,Hamburg University of Technology,Institution/309017,deu,EUR,academic,309017.0,Germany,1.0,1.0,1,1.0,1.0,,,,,
-Bournemouth University,907,1.0,1.0,https://api.elsevier.com/metrics/institution/315003,application/json,Bournemouth University,Institution/315003,gbr,EUR,academic,315003.0,United Kingdom,1.0,1.0,1,1.0,1.0,,,,,
-Universidade Federal Fluminense,908,1.0,1.0,https://api.elsevier.com/metrics/institution/602044,application/json,Universidade Federal Fluminense,Institution/602044,bra,SAM,academic,602044.0,Brazil,1.0,1.0,1,1.0,1.0,,,,,
-Coventry University,909,1.0,1.0,https://api.elsevier.com/metrics/institution/315009,application/json,Coventry University,Institution/315009,gbr,EUR,academic,315009.0,United Kingdom,1.0,1.0,1,1.0,1.0,,,,,
-University of Ontario Institute of Technology,910,1.0,1.0,https://api.elsevier.com/metrics/institution/501043,application/json,University of Ontario Institute of Technology,Institution/501043,can,NAM,academic,501043.0,Canada,1.0,1.0,1,1.0,1.0,,,,,
-Abo Akademi University,911,1.0,1.0,https://api.elsevier.com/metrics/institution/313001,application/json,Abo Akademi University,Institution/313001,fin,EUR,academic,313001.0,Finland,1.0,1.0,1,1.0,1.0,,,,,
-University of the West of England,912,1.0,1.0,https://api.elsevier.com/metrics/institution/315105,application/json,University of the West of England,Institution/315105,gbr,EUR,academic,315105.0,United Kingdom,1.0,1.0,1,1.0,1.0,,,,,
-Manchester Metropolitan University,913,1.0,1.0,https://api.elsevier.com/metrics/institution/315037,application/json,Manchester Metropolitan University,Institution/315037,gbr,EUR,academic,315037.0,United Kingdom,1.0,1.0,1,1.0,1.0,,,,,
-RAS - Pn Lebedev Physics Institute,914,1.0,1.0,https://api.elsevier.com/metrics/institution/331082,application/json,RAS - Pn Lebedev Physics Institute,Institution/331082,rus,EUR,academic,331082.0,Russian Federation,1.0,1.0,1,1.0,1.0,,,,,
-Universite de Rouen,915,1.0,1.0,https://api.elsevier.com/metrics/institution/314066,application/json,Universite de Rouen,Institution/314066,fra,EUR,academic,314066.0,France,1.0,1.0,1,1.0,1.0,,,,,
-Universidade Federal da Bahia,916,1.0,1.0,https://api.elsevier.com/metrics/institution/602019,application/json,Universidade Federal da Bahia,Institution/602019,bra,SAM,academic,602019.0,Brazil,1.0,1.0,1,1.0,1.0,,,,,
-University of Puerto Rico,917,1.0,1.0,https://api.elsevier.com/metrics/institution/506001,application/json,University of Puerto Rico,Institution/506001,pri,NAM,academic,506001.0,Puerto Rico,1.0,1.0,1,1.0,1.0,,,,,
-Universidad Nacional de Cordoba,918,1.0,1.0,https://api.elsevier.com/metrics/institution/601005,application/json,Universidad Nacional de Cordoba,Institution/601005,arg,SAM,academic,601005.0,Argentina,1.0,1.0,1,1.0,1.0,,,,,
-Ruder Boskovic Institute,919,1.0,1.0,https://api.elsevier.com/metrics/institution/317002,application/json,Ruder Boskovic Institute,Institution/317002,hrv,EUR,government,317002.0,Croatia,1.0,1.0,1,1.0,1.0,,,,,
-Tokyo Women's Medical University,920,1.0,1.0,https://api.elsevier.com/metrics/institution/208166,application/json,Tokyo Women's Medical University,Institution/208166,jpn,APAC,academic,208166.0,Japan,1.0,1.0,1,1.0,1.0,,,,,
-University of Brighton,921,1.0,1.0,https://api.elsevier.com/metrics/institution/315066,application/json,University of Brighton,Institution/315066,gbr,EUR,academic,315066.0,United Kingdom,1.0,1.0,1,1.0,1.0,,,,,
-University of North Carolina at Greensboro,922,1.0,1.0,https://api.elsevier.com/metrics/institution/508322,application/json,University of North Carolina at Greensboro,Institution/508322,usa,NAM,academic,508322.0,United States,1.0,1.0,1,1.0,1.0,,,,,
-University of North Dakota,923,1.0,1.0,https://api.elsevier.com/metrics/institution/508324,application/json,University of North Dakota,Institution/508324,usa,NAM,academic,508324.0,United States,1.0,1.0,1,1.0,1.0,,,,,
-Hangzhou Normal University,924,1.0,1.0,https://api.elsevier.com/metrics/institution/203359,application/json,Hangzhou Normal University,Institution/203359,chn,APAC,academic,203359.0,China,1.0,1.0,1,1.0,1.0,,,,,
-Fordham University,925,1.0,1.0,https://api.elsevier.com/metrics/institution/508066,application/json,Fordham University,Institution/508066,usa,NAM,academic,508066.0,United States,1.0,1.0,1,1.0,1.0,,,,,
-United Arab Emirates University,926,1.0,1.0,https://api.elsevier.com/metrics/institution/401002,application/json,United Arab Emirates University,Institution/401002,are,MEA,academic,401002.0,United Arab Emirates,1.0,1.0,1,1.0,1.0,,,,,
-Nippon Medical School,927,1.0,1.0,https://api.elsevier.com/metrics/institution/208115,application/json,Nippon Medical School,Institution/208115,jpn,APAC,academic,208115.0,Japan,1.0,1.0,1,1.0,1.0,,,,,
-South African Medical Research Council,928,1.0,1.0,https://api.elsevier.com/metrics/institution/115021,application/json,South African Medical Research Council,Institution/115021,zaf,AFR,government,115021.0,South Africa,1.0,1.0,1,1.0,1.0,,,,,
-Gruppo Ospedaliero San Donato,929,1.0,1.0,https://api.elsevier.com/metrics/institution/321098,application/json,Gruppo Ospedaliero San Donato,Institution/321098,ita,EUR,medical,321098.0,Italy,1.0,1.0,1,1.0,1.0,,,,,
-Ecole Normale Superieure de Cachan,930,1.0,1.0,https://api.elsevier.com/metrics/institution/314015,application/json,Ecole Normale Superieure de Cachan,Institution/314015,fra,EUR,academic,314015.0,France,1.0,1.0,1,1.0,1.0,,,,,
-Yamagata University,931,1.0,1.0,https://api.elsevier.com/metrics/institution/208188,application/json,Yamagata University,Institution/208188,jpn,APAC,academic,208188.0,Japan,1.0,1.0,1,1.0,1.0,,,,,
-Brock University,932,1.0,1.0,https://api.elsevier.com/metrics/institution/501004,application/json,Brock University,Institution/501004,can,NAM,academic,501004.0,Canada,1.0,1.0,1,1.0,1.0,,,,,
-CAS - Institute of Process Engineering,933,1.0,1.0,https://api.elsevier.com/metrics/institution/203286,application/json,CAS - Institute of Process Engineering,Institution/203286,chn,APAC,academic,203286.0,China,1.0,1.0,1,1.0,1.0,,,,,
-Tokai University,934,1.0,1.0,https://api.elsevier.com/metrics/institution/208149,application/json,Tokai University,Institution/208149,jpn,APAC,academic,208149.0,Japan,1.0,1.0,1,1.0,1.0,,,,,
-Japan Agency for Marine-Earth Science and Technology,935,1.0,1.0,https://api.elsevier.com/metrics/institution/208045,application/json,Japan Agency for Marine-Earth Science and Technology,Institution/208045,jpn,APAC,government,208045.0,Japan,1.0,1.0,1,1.0,1.0,,,,,
-Oakland University,936,1.0,1.0,https://api.elsevier.com/metrics/institution/508178,application/json,Oakland University,Institution/508178,usa,NAM,academic,508178.0,United States,1.0,1.0,1,1.0,1.0,,,,,
-University of Huddersfield,937,1.0,1.0,https://api.elsevier.com/metrics/institution/315081,application/json,University of Huddersfield,Institution/315081,gbr,EUR,academic,315081.0,United Kingdom,1.0,1.0,1,1.0,1.0,,,,,
-CAS - Shanghai Institute of Organic Chemistry,938,1.0,1.0,https://api.elsevier.com/metrics/institution/203302,application/json,CAS - Shanghai Institute of Organic Chemistry,Institution/203302,chn,APAC,academic,203302.0,China,1.0,1.0,1,1.0,1.0,,,,,
-Middlesex University,939,1.0,1.0,https://api.elsevier.com/metrics/institution/315039,application/json,Middlesex University,Institution/315039,gbr,EUR,academic,315039.0,United Kingdom,1.0,1.0,1,1.0,1.0,,,,,
-Marquette University,940,1.0,1.0,https://api.elsevier.com/metrics/institution/508110,application/json,Marquette University,Institution/508110,usa,NAM,academic,508110.0,United States,1.0,1.0,1,1.0,1.0,,,,,
-University of Hertfordshire,941,1.0,1.0,https://api.elsevier.com/metrics/institution/315080,application/json,University of Hertfordshire,Institution/315080,gbr,EUR,academic,315080.0,United Kingdom,1.0,1.0,1,1.0,1.0,,,,,
-IFREMER,942,1.0,1.0,https://api.elsevier.com/metrics/institution/314242,application/json,IFREMER,Institution/314242,fra,EUR,government,314242.0,France,1.0,1.0,1,1.0,1.0,,,,,
-University of Massachusetts Lowell,943,1.0,1.0,https://api.elsevier.com/metrics/institution/508298,application/json,University of Massachusetts Lowell,Institution/508298,usa,NAM,academic,508298.0,United States,1.0,1.0,1,1.0,1.0,,,,,
-Nottingham Trent University,944,1.0,1.0,https://api.elsevier.com/metrics/institution/315043,application/json,Nottingham Trent University,Institution/315043,gbr,EUR,academic,315043.0,United Kingdom,1.0,1.0,1,1.0,1.0,,,,,
-Universidade Federal de Pelotas,945,1.0,1.0,https://api.elsevier.com/metrics/institution/602029,application/json,Universidade Federal de Pelotas,Institution/602029,bra,SAM,academic,602029.0,Brazil,1.0,1.0,1,1.0,1.0,,,,,
-Hospital Universitario Virgen del Rocio,946,1.0,1.0,https://api.elsevier.com/metrics/institution/312124,application/json,Hospital Universitario Virgen del Rocio,Institution/312124,esp,EUR,medical,312124.0,Spain,1.0,1.0,1,1.0,1.0,,,,,
-Tallinn University of Technology,947,1.0,1.0,https://api.elsevier.com/metrics/institution/311001,application/json,Tallinn University of Technology,Institution/311001,est,EUR,academic,311001.0,Estonia,1.0,1.0,1,1.0,1.0,,,,,
-Koc University,948,1.0,1.0,https://api.elsevier.com/metrics/institution/410036,application/json,Koc University,Institution/410036,tur,MEA,academic,410036.0,Turkey,1.0,1.0,1,1.0,1.0,,,,,
-Ritsumeikan University,949,1.0,1.0,https://api.elsevier.com/metrics/institution/208130,application/json,Ritsumeikan University,Institution/208130,jpn,APAC,academic,208130.0,Japan,1.0,1.0,1,1.0,1.0,,,,,
-Instituto de Telecomunicacoes,950,1.0,1.0,https://api.elsevier.com/metrics/institution/328020,application/json,Instituto de Telecomunicacoes,Institution/328020,prt,EUR,other,328020.0,Portugal,1.0,1.0,1,1.0,1.0,,,,,
-University of the Philippines,951,1.0,1.0,https://api.elsevier.com/metrics/institution/213001,application/json,University of the Philippines,Institution/213001,phl,APAC,academic,213001.0,Philippines,1.0,1.0,1,1.0,1.0,,,,,
-Graduate University for Advanced Studies,952,1.0,1.0,https://api.elsevier.com/metrics/institution/208025,application/json,Graduate University for Advanced Studies,Institution/208025,jpn,APAC,academic,208025.0,Japan,1.0,1.0,1,1.0,1.0,,,,,
-Sultan Qaboos University,953,1.0,1.0,https://api.elsevier.com/metrics/institution/408001,application/json,Sultan Qaboos University,Institution/408001,omn,MEA,academic,408001.0,Oman,1.0,1.0,1,1.0,1.0,,,,,
-Kuwait University,954,1.0,1.0,https://api.elsevier.com/metrics/institution/406001,application/json,Kuwait University,Institution/406001,kwt,MEA,academic,406001.0,Kuwait,1.0,1.0,1,1.0,1.0,,,,,
-University of Central Lancashire,955,1.0,1.0,https://api.elsevier.com/metrics/institution/315069,application/json,University of Central Lancashire,Institution/315069,gbr,EUR,academic,315069.0,United Kingdom,1.0,1.0,1,1.0,1.0,,,,,
-Slovak University of Technology,956,1.0,1.0,https://api.elsevier.com/metrics/institution/334003,application/json,Slovak University of Technology,Institution/334003,svk,EUR,academic,334003.0,Slovakia,1.0,1.0,1,1.0,1.0,,,,,
-Universidade Federal de Vicosa,957,1.0,1.0,https://api.elsevier.com/metrics/institution/602036,application/json,Universidade Federal de Vicosa,Institution/602036,bra,SAM,academic,602036.0,Brazil,1.0,1.0,1,1.0,1.0,,,,,
-University of Salford,958,1.0,1.0,https://api.elsevier.com/metrics/institution/315095,application/json,University of Salford,Institution/315095,gbr,EUR,academic,315095.0,United Kingdom,1.0,1.0,1,1.0,1.0,,,,,
-Pontificia Universidade Catolica do Rio de Janeiro,959,1.0,1.0,https://api.elsevier.com/metrics/institution/602009,application/json,Pontificia Universidade Catolica do Rio de Janeiro,Institution/602009,bra,SAM,academic,602009.0,Brazil,1.0,1.0,1,1.0,1.0,,,,,
-Texas State University,960,1.0,1.0,https://api.elsevier.com/metrics/institution/508232,application/json,Texas State University,Institution/508232,usa,NAM,academic,508232.0,United States,1.0,1.0,1,1.0,1.0,,,,,
-Universidad Nacional de Educacion a Distancia,961,1.0,1.0,https://api.elsevier.com/metrics/institution/312038,application/json,Universidad Nacional de Educacion a Distancia,Institution/312038,esp,EUR,academic,312038.0,Spain,1.0,1.0,1,1.0,1.0,,,,,
-Jichi Medical University,962,1.0,1.0,https://api.elsevier.com/metrics/institution/208051,application/json,Jichi Medical University,Institution/208051,jpn,APAC,academic,208051.0,Japan,1.0,1.0,1,1.0,1.0,,,,,
-Technische Universitat Ilmenau,963,1.0,1.0,https://api.elsevier.com/metrics/institution/309053,application/json,Technische Universitat Ilmenau,Institution/309053,deu,EUR,academic,309053.0,Germany,1.0,1.0,1,1.0,1.0,,,,,
-Henan University,964,1.0,1.0,https://api.elsevier.com/metrics/institution/203092,application/json,Henan University,Institution/203092,chn,APAC,academic,203092.0,China,1.0,1.0,1,1.0,1.0,,,,,
-University of Calcutta,965,1.0,1.0,https://api.elsevier.com/metrics/institution/207072,application/json,University of Calcutta,Institution/207072,ind,APAC,academic,207072.0,India,1.0,1.0,1,1.0,1.0,,,,,
-Indian Statistical Institute,966,1.0,1.0,https://api.elsevier.com/metrics/institution/207037,application/json,Indian Statistical Institute,Institution/207037,ind,APAC,academic,207037.0,India,1.0,1.0,1,1.0,1.0,,,,,
-Hong Kong Institute of Education,967,1.0,1.0,https://api.elsevier.com/metrics/institution/704843,application/json,Hong Kong Institute of Education,Institution/704843,hkg,APAC,academic,704843.0,Hong Kong,1.0,1.0,1,1.0,1.0,,,,,
-Kyoto Prefectural University of Medicine,968,1.0,1.0,https://api.elsevier.com/metrics/institution/208080,application/json,Kyoto Prefectural University of Medicine,Institution/208080,jpn,APAC,academic,208080.0,Japan,1.0,1.0,1,1.0,1.0,,,,,
-China Electric Power Research Institute,969,1.0,1.0,https://api.elsevier.com/metrics/institution/203320,application/json,China Electric Power Research Institute,Institution/203320,chn,APAC,corporate,203320.0,China,1.0,1.0,1,1.0,1.0,,,,,
-Yamaguchi University,970,1.0,1.0,https://api.elsevier.com/metrics/institution/208189,application/json,Yamaguchi University,Institution/208189,jpn,APAC,academic,208189.0,Japan,1.0,1.0,1,1.0,1.0,,,,,
-Semnan University,971,1.0,1.0,https://api.elsevier.com/metrics/institution/704930,application/json,Semnan University,Institution/704930,irn,MEA,academic,704930.0,Iran,1.0,1.0,1,1.0,1.0,,,,,
-Universidad Autonoma Metropolitana,972,1.0,1.0,https://api.elsevier.com/metrics/institution/505017,application/json,Universidad Autonoma Metropolitana,Institution/505017,mex,NAM,academic,505017.0,Mexico,1.0,1.0,1,1.0,1.0,,,,,
-Czech University of Life Sciences Prague,973,1.0,1.0,https://api.elsevier.com/metrics/institution/308016,application/json,Czech University of Life Sciences Prague,Institution/308016,cze,EUR,academic,308016.0,Czech Republic,1.0,1.0,1,1.0,1.0,,,,,
-Dalian Maritime University,974,1.0,1.0,https://api.elsevier.com/metrics/institution/203051,application/json,Dalian Maritime University,Institution/203051,chn,APAC,academic,203051.0,China,1.0,1.0,1,1.0,1.0,,,,,
-Kasetsart University,975,1.0,1.0,https://api.elsevier.com/metrics/institution/216004,application/json,Kasetsart University,Institution/216004,tha,APAC,academic,216004.0,Thailand,1.0,1.0,1,1.0,1.0,,,,,
-Western Michigan University,976,1.0,1.0,https://api.elsevier.com/metrics/institution/508375,application/json,Western Michigan University,Institution/508375,usa,NAM,academic,508375.0,United States,1.0,1.0,1,1.0,1.0,,,,,
-Gifu University,977,1.0,1.0,https://api.elsevier.com/metrics/institution/208024,application/json,Gifu University,Institution/208024,jpn,APAC,academic,208024.0,Japan,1.0,1.0,1,1.0,1.0,,,,,
-Shandong Agricultural University,978,1.0,1.0,https://api.elsevier.com/metrics/institution/203163,application/json,Shandong Agricultural University,Institution/203163,chn,APAC,academic,203163.0,China,1.0,1.0,1,1.0,1.0,,,,,
-Khon Kaen University,979,1.0,1.0,https://api.elsevier.com/metrics/institution/216005,application/json,Khon Kaen University,Institution/216005,tha,APAC,academic,216005.0,Thailand,1.0,1.0,1,1.0,1.0,,,,,
-Sheffield Hallam University,980,1.0,1.0,https://api.elsevier.com/metrics/institution/315057,application/json,Sheffield Hallam University,Institution/315057,gbr,EUR,academic,315057.0,United Kingdom,1.0,1.0,1,1.0,1.0,,,,,
-Soonchunhyang University,981,1.0,1.0,https://api.elsevier.com/metrics/institution/209067,application/json,Soonchunhyang University,Institution/209067,kor,APAC,academic,209067.0,South Korea,1.0,1.0,1,1.0,1.0,,,,,
-Henan Normal University,982,1.0,1.0,https://api.elsevier.com/metrics/institution/203090,application/json,Henan Normal University,Institution/203090,chn,APAC,academic,203090.0,China,1.0,1.0,1,1.0,1.0,,,,,
-Tokyo Medical University,983,1.0,1.0,https://api.elsevier.com/metrics/institution/208156,application/json,Tokyo Medical University,Institution/208156,jpn,APAC,academic,208156.0,Japan,1.0,1.0,1,1.0,1.0,,,,,
-University of Electro-Communications,984,1.0,1.0,https://api.elsevier.com/metrics/institution/208173,application/json,University of Electro-Communications,Institution/208173,jpn,APAC,academic,208173.0,Japan,1.0,1.0,1,1.0,1.0,,,,,
-Mie University,985,1.0,1.0,https://api.elsevier.com/metrics/institution/208086,application/json,Mie University,Institution/208086,jpn,APAC,academic,208086.0,Japan,1.0,1.0,1,1.0,1.0,,,,,
-University of Toyama,986,1.0,1.0,https://api.elsevier.com/metrics/institution/208181,application/json,University of Toyama,Institution/208181,jpn,APAC,academic,208181.0,Japan,1.0,1.0,1,1.0,1.0,,,,,
-Babes-Bolyai University,987,1.0,1.0,https://api.elsevier.com/metrics/institution/329002,application/json,Babes-Bolyai University,Institution/329002,rou,EUR,academic,329002.0,Romania,1.0,1.0,1,1.0,1.0,,,,,
-Medical University of Warsaw,988,1.0,1.0,https://api.elsevier.com/metrics/institution/327017,application/json,Medical University of Warsaw,Institution/327017,pol,EUR,academic,327017.0,Poland,1.0,1.0,1,1.0,1.0,,,,,
-Nara Institute of Science and Technology,989,1.0,1.0,https://api.elsevier.com/metrics/institution/208094,application/json,Nara Institute of Science and Technology,Institution/208094,jpn,APAC,academic,208094.0,Japan,1.0,1.0,1,1.0,1.0,,,,,
-Xi'an University of Technology,990,1.0,1.0,https://api.elsevier.com/metrics/institution/203226,application/json,Xi'an University of Technology,Institution/203226,chn,APAC,academic,203226.0,China,1.0,1.0,1,1.0,1.0,,,,,
-National Chung Cheng University,991,1.0,1.0,https://api.elsevier.com/metrics/institution/217029,application/json,National Chung Cheng University,Institution/217029,twn,APAC,academic,217029.0,Taiwan,1.0,1.0,1,1.0,1.0,,,,,
-Shandong University of Science and Technology,992,1.0,1.0,https://api.elsevier.com/metrics/institution/203166,application/json,Shandong University of Science and Technology,Institution/203166,chn,APAC,academic,203166.0,China,1.0,1.0,1,1.0,1.0,,,,,
-University of Witten/Herdecke,993,1.0,1.0,https://api.elsevier.com/metrics/institution/309097,application/json,University of Witten/Herdecke,Institution/309097,deu,EUR,academic,309097.0,Germany,-1.0,-1.0,-1,-1.0,-1.0,,,,,
-U.S. Air Force Academy,994,1.0,1.0,https://api.elsevier.com/metrics/institution/508241,application/json,U.S. Air Force Academy,Institution/508241,usa,NAM,government,508241.0,United States,1.0,1.0,1,1.0,1.0,,,,,
-University of Ghana,995,1.0,1.0,https://api.elsevier.com/metrics/institution/106001,application/json,University of Ghana,Institution/106001,gha,AFR,academic,106001.0,Ghana,1.0,1.0,1,1.0,1.0,,,,,
-Yokohama National University,996,1.0,1.0,https://api.elsevier.com/metrics/institution/208191,application/json,Yokohama National University,Institution/208191,jpn,APAC,academic,208191.0,Japan,1.0,1.0,1,1.0,1.0,,,,,
-Jikei University,997,1.0,1.0,https://api.elsevier.com/metrics/institution/208052,application/json,Jikei University,Institution/208052,jpn,APAC,academic,208052.0,Japan,1.0,1.0,1,1.0,1.0,,,,,
-Saitama Medical University,998,1.0,1.0,https://api.elsevier.com/metrics/institution/208133,application/json,Saitama Medical University,Institution/208133,jpn,APAC,academic,208133.0,Japan,1.0,1.0,1,1.0,1.0,,,,,
-Cracow University of Technology,999,1.0,1.0,https://api.elsevier.com/metrics/institution/327006,application/json,Cracow University of Technology,Institution/327006,pol,EUR,academic,327006.0,Poland,1.0,1.0,1,1.0,1.0,,,,,
-Universidad Autonoma de San Luis Potosi,1000,1.0,1.0,https://api.elsevier.com/metrics/institution/505014,application/json,Universidad Autonoma de San Luis Potosi,Institution/505014,mex,NAM,academic,505014.0,Mexico,1.0,1.0,1,1.0,1.0,,,,,
-Chang'an University,1001,1.0,1.0,https://api.elsevier.com/metrics/institution/203023,application/json,Chang'an University,Institution/203023,chn,APAC,academic,203023.0,China,1.0,1.0,1,1.0,1.0,,,,,
-Nagoya Institute of Technology,1002,1.0,1.0,https://api.elsevier.com/metrics/institution/208092,application/json,Nagoya Institute of Technology,Institution/208092,jpn,APAC,academic,208092.0,Japan,1.0,1.0,1,1.0,1.0,,,,,
-Universidade Federal de Juiz de Fora,1003,1.0,1.0,https://api.elsevier.com/metrics/institution/602024,application/json,Universidade Federal de Juiz de Fora,Institution/602024,bra,SAM,academic,602024.0,Brazil,1.0,1.0,1,1.0,1.0,,,,,
-University of Pecs,1004,1.0,1.0,https://api.elsevier.com/metrics/institution/318006,application/json,University of Pecs,Institution/318006,hun,EUR,academic,318006.0,Hungary,1.0,1.0,1,1.0,1.0,,,,,
-University of South Bohemia,1005,1.0,1.0,https://api.elsevier.com/metrics/institution/308011,application/json,University of South Bohemia,Institution/308011,cze,EUR,academic,308011.0,Czech Republic,1.0,1.0,1,1.0,1.0,,,,,
-Charles Sturt University,1006,1.0,1.0,https://api.elsevier.com/metrics/institution/201004,application/json,Charles Sturt University,Institution/201004,aus,APAC,academic,201004.0,Australia,1.0,1.0,1,1.0,1.0,,,,,
-Toho University,1007,1.0,1.0,https://api.elsevier.com/metrics/institution/208145,application/json,Toho University,Institution/208145,jpn,APAC,academic,208145.0,Japan,1.0,1.0,1,1.0,1.0,,,,,
-University of Sofia,1008,1.0,1.0,https://api.elsevier.com/metrics/institution/304004,application/json,University of Sofia,Institution/304004,bgr,EUR,academic,304004.0,Bulgaria,1.0,1.0,1,1.0,1.0,,,,,
-Erciyes University,1009,1.0,1.0,https://api.elsevier.com/metrics/institution/410019,application/json,Erciyes University,Institution/410019,tur,MEA,academic,410019.0,Turkey,1.0,1.0,1,1.0,1.0,,,,,
-University of the Western Cape,1010,1.0,1.0,https://api.elsevier.com/metrics/institution/115010,application/json,University of the Western Cape,Institution/115010,zaf,AFR,academic,115010.0,South Africa,1.0,1.0,1,1.0,1.0,,,,,
-Research Institute of Petroleum Exploration and Development,1011,1.0,1.0,https://api.elsevier.com/metrics/institution/203415,application/json,Research Institute of Petroleum Exploration and Development,Institution/203415,chn,APAC,corporate,203415.0,China,1.0,1.0,1,1.0,1.0,,,,,
-Nantong University,1012,1.0,1.0,https://api.elsevier.com/metrics/institution/203136,application/json,Nantong University,Institution/203136,chn,APAC,academic,203136.0,China,1.0,1.0,1,1.0,1.0,,,,,
-Medical University of Gdansk,1013,1.0,1.0,https://api.elsevier.com/metrics/institution/327013,application/json,Medical University of Gdansk,Institution/327013,pol,EUR,academic,327013.0,Poland,1.0,1.0,1,1.0,1.0,,,,,
-Jiangsu Normal University,1014,1.0,1.0,https://api.elsevier.com/metrics/institution/203231,application/json,Jiangsu Normal University,Institution/203231,chn,APAC,academic,203231.0,China,1.0,1.0,1,1.0,1.0,,,,,
-Nicolaus Copernicus University,1015,1.0,1.0,https://api.elsevier.com/metrics/institution/327019,application/json,Nicolaus Copernicus University,Institution/327019,pol,EUR,academic,327019.0,Poland,1.0,1.0,1,1.0,1.0,,,,,
-Saga University,1016,1.0,1.0,https://api.elsevier.com/metrics/institution/208132,application/json,Saga University,Institution/208132,jpn,APAC,academic,208132.0,Japan,1.0,1.0,1,1.0,1.0,,,,,
-Universiti Teknologi MARA,1017,1.0,1.0,https://api.elsevier.com/metrics/institution/211008,application/json,Universiti Teknologi MARA,Institution/211008,mys,APAC,academic,211008.0,Malaysia,1.0,1.0,1,1.0,1.0,,,,,
-Teikyo University,1018,1.0,1.0,https://api.elsevier.com/metrics/institution/208144,application/json,Teikyo University,Institution/208144,jpn,APAC,academic,208144.0,Japan,1.0,1.0,1,1.0,1.0,,,,,
-Tomsk Polytechnic University,1019,1.0,1.0,https://api.elsevier.com/metrics/institution/331021,application/json,Tomsk Polytechnic University,Institution/331021,rus,EUR,academic,331021.0,Russian Federation,1.0,1.0,1,1.0,1.0,,,,,
-Universidad Autonoma de Nuevo Leon,1020,1.0,1.0,https://api.elsevier.com/metrics/institution/505013,application/json,Universidad Autonoma de Nuevo Leon,Institution/505013,mex,NAM,academic,505013.0,Mexico,1.0,1.0,1,1.0,1.0,,,,,
-University of Ibadan,1021,1.0,1.0,https://api.elsevier.com/metrics/institution/110004,application/json,University of Ibadan,Institution/110004,nga,AFR,academic,110004.0,Nigeria,1.0,1.0,1,1.0,1.0,,,,,
-Northeast Forestry University,1022,1.0,1.0,https://api.elsevier.com/metrics/institution/203143,application/json,Northeast Forestry University,Institution/203143,chn,APAC,academic,203143.0,China,1.0,1.0,1,1.0,1.0,,,,,
-Shahid Bahonar University of Kerman,1023,1.0,1.0,https://api.elsevier.com/metrics/institution/404016,application/json,Shahid Bahonar University of Kerman,Institution/404016,irn,MEA,academic,404016.0,Iran,1.0,1.0,1,1.0,1.0,,,,,
-University Magna Graecia,1024,1.0,1.0,https://api.elsevier.com/metrics/institution/321037,application/json,University Magna Graecia,Institution/321037,ita,EUR,academic,321037.0,Italy,1.0,1.0,1,1.0,1.0,,,,,
-Hebei University,1025,1.0,1.0,https://api.elsevier.com/metrics/institution/203083,application/json,Hebei University,Institution/203083,chn,APAC,academic,203083.0,China,1.0,1.0,1,1.0,1.0,,,,,
-Addis Ababa University,1026,1.0,1.0,https://api.elsevier.com/metrics/institution/105001,application/json,Addis Ababa University,Institution/105001,eth,AFR,academic,105001.0,Ethiopia,1.0,1.0,1,1.0,1.0,,,,,
-University of The Free State,1027,1.0,1.0,https://api.elsevier.com/metrics/institution/115009,application/json,University of The Free State,Institution/115009,zaf,AFR,academic,115009.0,South Africa,1.0,1.0,1,1.0,1.0,,,,,
-Romanian Academy,1028,1.0,1.0,https://api.elsevier.com/metrics/institution/329019,application/json,Romanian Academy,Institution/329019,rou,EUR,academic,329019.0,Romania,1.0,1.0,1,1.0,1.0,,,,,
-International Islamic University Malaysia,1029,1.0,1.0,https://api.elsevier.com/metrics/institution/211001,application/json,International Islamic University Malaysia,Institution/211001,mys,APAC,academic,211001.0,Malaysia,1.0,1.0,1,1.0,1.0,,,,,
-Shizuoka University,1030,1.0,1.0,https://api.elsevier.com/metrics/institution/208140,application/json,Shizuoka University,Institution/208140,jpn,APAC,academic,208140.0,Japan,1.0,1.0,1,1.0,1.0,,,,,
-Guilan University,1031,1.0,1.0,https://api.elsevier.com/metrics/institution/404005,application/json,Guilan University,Institution/404005,irn,MEA,academic,404005.0,Iran,1.0,1.0,1,1.0,1.0,,,,,
-University of Hyderabad,1032,1.0,1.0,https://api.elsevier.com/metrics/institution/207074,application/json,University of Hyderabad,Institution/207074,ind,APAC,academic,207074.0,India,1.0,1.0,1,1.0,1.0,,,,,
-Tanta University,1033,1.0,1.0,https://api.elsevier.com/metrics/institution/104013,application/json,Tanta University,Institution/104013,egy,AFR,academic,104013.0,Egypt,1.0,1.0,1,1.0,1.0,,,,,
-Pontificia Universidade Catolica do Rio Grande do Sul,1034,1.0,1.0,https://api.elsevier.com/metrics/institution/602010,application/json,Pontificia Universidade Catolica do Rio Grande do Sul,Institution/602010,bra,SAM,academic,602010.0,Brazil,1.0,1.0,1,1.0,1.0,,,,,
-Hitachi,1035,1.0,1.0,https://api.elsevier.com/metrics/institution/208217,application/json,Hitachi,Institution/208217,jpn,APAC,corporate,208217.0,Japan,1.0,1.0,1,1.0,1.0,,,,,
-Shenyang Pharmaceutical University,1036,1.0,1.0,https://api.elsevier.com/metrics/institution/203180,application/json,Shenyang Pharmaceutical University,Institution/203180,chn,APAC,academic,203180.0,China,1.0,1.0,1,1.0,1.0,,,,,
-China Meteorological Administration,1037,1.0,1.0,https://api.elsevier.com/metrics/institution/203324,application/json,China Meteorological Administration,Institution/203324,chn,APAC,government,203324.0,China,1.0,1.0,1,1.0,1.0,,,,,
-Jordan University of Science and Technology,1038,1.0,1.0,https://api.elsevier.com/metrics/institution/405003,application/json,Jordan University of Science and Technology,Institution/405003,jor,MEA,academic,405003.0,Jordan,1.0,1.0,1,1.0,1.0,,,,,
-Harbin University of Science and Technology,1039,1.0,1.0,https://api.elsevier.com/metrics/institution/203079,application/json,Harbin University of Science and Technology,Institution/203079,chn,APAC,academic,203079.0,China,1.0,1.0,1,1.0,1.0,,,,,
-Universidade Estadual de Maringa,1040,1.0,1.0,https://api.elsevier.com/metrics/institution/602016,application/json,Universidade Estadual de Maringa,Institution/602016,bra,SAM,academic,602016.0,Brazil,1.0,1.0,1,1.0,1.0,,,,,
-University of South Africa,1041,1.0,1.0,https://api.elsevier.com/metrics/institution/115024,application/json,University of South Africa,Institution/115024,zaf,AFR,academic,115024.0,South Africa,1.0,1.0,1,1.0,1.0,,,,,
-Xinjiang University,1042,1.0,1.0,https://api.elsevier.com/metrics/institution/203230,application/json,Xinjiang University,Institution/203230,chn,APAC,academic,203230.0,China,1.0,1.0,1,1.0,1.0,,,,,
-University of Lodz,1043,1.0,1.0,https://api.elsevier.com/metrics/institution/327028,application/json,University of Lodz,Institution/327028,pol,EUR,academic,327028.0,Poland,1.0,1.0,1,1.0,1.0,,,,,
-Aligarh Muslim University,1044,1.0,1.0,https://api.elsevier.com/metrics/institution/207001,application/json,Aligarh Muslim University,Institution/207001,ind,APAC,academic,207001.0,India,1.0,1.0,1,1.0,1.0,,,,,
-Belarus Academy of Sciences,1045,1.0,1.0,https://api.elsevier.com/metrics/institution/305002,application/json,Belarus Academy of Sciences,Institution/305002,blr,EUR,academic,305002.0,Belarus,1.0,1.0,1,1.0,1.0,,,,,
-Ural Federal University,1046,1.0,1.0,https://api.elsevier.com/metrics/institution/331023,application/json,Ural Federal University,Institution/331023,rus,EUR,academic,331023.0,Russian Federation,1.0,1.0,1,1.0,1.0,,,,,
-University of Sciences and Technology Houari Boumediene,1047,1.0,1.0,https://api.elsevier.com/metrics/institution/103003,application/json,University of Sciences and Technology Houari Boumediene,Institution/103003,dza,AFR,academic,103003.0,Algeria,1.0,1.0,1,1.0,1.0,,,,,
-Bharathiar University,1048,1.0,1.0,https://api.elsevier.com/metrics/institution/207010,application/json,Bharathiar University,Institution/207010,ind,APAC,academic,207010.0,India,1.0,1.0,1,1.0,1.0,,,,,
-University of Warmia and Mazury,1049,1.0,1.0,https://api.elsevier.com/metrics/institution/327033,application/json,University of Warmia and Mazury,Institution/327033,pol,EUR,academic,327033.0,Poland,1.0,1.0,1,1.0,1.0,,,,,
-Guangxi Medical University,1050,1.0,1.0,https://api.elsevier.com/metrics/institution/203067,application/json,Guangxi Medical University,Institution/203067,chn,APAC,academic,203067.0,China,1.0,1.0,1,1.0,1.0,,,,,
-Akdeniz University,1051,1.0,1.0,https://api.elsevier.com/metrics/institution/410004,application/json,Akdeniz University,Institution/410004,tur,MEA,academic,410004.0,Turkey,1.0,1.0,1,1.0,1.0,,,,,
-Rhodes University,1052,1.0,1.0,https://api.elsevier.com/metrics/institution/115002,application/json,Rhodes University,Institution/115002,zaf,AFR,academic,115002.0,South Africa,1.0,1.0,1,1.0,1.0,,,,,
-RAS - Ioffe Physico Technical Institute,1053,1.0,1.0,https://api.elsevier.com/metrics/institution/331072,application/json,RAS - Ioffe Physico Technical Institute,Institution/331072,rus,EUR,academic,331072.0,Russian Federation,1.0,1.0,1,1.0,1.0,,,,,
-China Earthquake Administration,1054,1.0,1.0,https://api.elsevier.com/metrics/institution/203029,application/json,China Earthquake Administration,Institution/203029,chn,APAC,government,203029.0,China,1.0,1.0,1,1.0,1.0,,,,,
-Universidad Javeriana,1055,1.0,1.0,https://api.elsevier.com/metrics/institution/604006,application/json,Universidad Javeriana,Institution/604006,col,SAM,academic,604006.0,Colombia,1.0,1.0,1,1.0,1.0,,,,,
-AMITY UNIVERSITY,1056,1.0,1.0,https://api.elsevier.com/metrics/institution/700340,application/json,AMITY UNIVERSITY,Institution/700340,ind,APAC,academic,700340.0,India,1.0,1.0,1,1.0,1.0,,,,,
-Mashhad University of Medical Sciences,1057,1.0,1.0,https://api.elsevier.com/metrics/institution/404013,application/json,Mashhad University of Medical Sciences,Institution/404013,irn,MEA,academic,404013.0,Iran,1.0,1.0,1,1.0,1.0,,,,,
-Vietnamese Academy of Science and Technology,1058,1.0,1.0,https://api.elsevier.com/metrics/institution/704699,application/json,Vietnamese Academy of Science and Technology,Institution/704699,vnm,APAC,academic,704699.0,Viet Nam,1.0,1.0,1,1.0,1.0,,,,,
-University of South China,1059,1.0,1.0,https://api.elsevier.com/metrics/institution/203215,application/json,University of South China,Institution/203215,chn,APAC,academic,203215.0,China,1.0,1.0,1,1.0,1.0,,,,,
-Changchun University of Science and Technology,1060,1.0,1.0,https://api.elsevier.com/metrics/institution/203460,application/json,Changchun University of Science and Technology,Institution/203460,chn,APAC,academic,203460.0,China,1.0,1.0,1,1.0,1.0,,,,,
-Mendel University of Agriculture and Forestry,1061,1.0,1.0,https://api.elsevier.com/metrics/institution/308007,application/json,Mendel University of Agriculture and Forestry,Institution/308007,cze,EUR,academic,308007.0,Czech Republic,1.0,1.0,1,1.0,1.0,,,,,
-Al-Azhar University,1062,1.0,1.0,https://api.elsevier.com/metrics/institution/104002,application/json,Al-Azhar University,Institution/104002,egy,AFR,academic,104002.0,Egypt,1.0,1.0,1,1.0,1.0,,,,,
-Peoples' Friendship University of Russia,1063,1.0,1.0,https://api.elsevier.com/metrics/institution/331018,application/json,Peoples' Friendship University of Russia,Institution/331018,rus,EUR,academic,331018.0,Russian Federation,1.0,1.0,1,1.0,1.0,,,,,
-Iran University of Medical Sciences,1064,1.0,1.0,https://api.elsevier.com/metrics/institution/404007,application/json,Iran University of Medical Sciences,Institution/404007,irn,MEA,academic,404007.0,Iran,1.0,1.0,1,1.0,1.0,,,,,
-Nanjing University of Information Science & Technology,1065,1.0,1.0,https://api.elsevier.com/metrics/institution/203131,application/json,Nanjing University of Information Science & Technology,Institution/203131,chn,APAC,academic,203131.0,China,1.0,1.0,1,1.0,1.0,,,,,
-Isfahan University of Technology,1066,1.0,1.0,https://api.elsevier.com/metrics/institution/404010,application/json,Isfahan University of Technology,Institution/404010,irn,MEA,academic,404010.0,Iran,1.0,1.0,1,1.0,1.0,,,,,
-Southampton University Hospitals NHS Trust,1067,1.0,1.0,https://api.elsevier.com/metrics/institution/701988,application/json,Southampton University Hospitals NHS Trust,Institution/701988,gbr,EUR,medical,701988.0,United Kingdom,1.0,1.0,1,1.0,1.0,,,,,
-Museum National d'Histoire Naturelle,1068,1.0,1.0,https://api.elsevier.com/metrics/institution/314036,application/json,Museum National d'Histoire Naturelle,Institution/314036,fra,EUR,other,314036.0,France,1.0,1.0,1,1.0,1.0,,,,,
-CAS - Institute of High Energy Physics,1069,1.0,1.0,https://api.elsevier.com/metrics/institution/203278,application/json,CAS - Institute of High Energy Physics,Institution/203278,chn,APAC,academic,203278.0,China,1.0,1.0,1,1.0,1.0,,,,,
-J. Stefan Institute,1070,1.0,1.0,https://api.elsevier.com/metrics/institution/333001,application/json,J. Stefan Institute,Institution/333001,svn,EUR,government,333001.0,Slovenia,1.0,1.0,1,1.0,1.0,,,,,
-Northwest Agriculture and Forestry University,1071,1.0,1.0,https://api.elsevier.com/metrics/institution/203146,application/json,Northwest Agriculture and Forestry University,Institution/203146,chn,APAC,academic,203146.0,China,1.0,1.0,1,1.0,1.0,,,,,
-INSA Rennes,1072,1.0,1.0,https://api.elsevier.com/metrics/institution/314252,application/json,INSA Rennes,Institution/314252,fra,EUR,academic,314252.0,France,1.0,1.0,1,1.0,1.0,,,,,
-Christie Hospital NHS Foundation Trust,1073,1.0,1.0,https://api.elsevier.com/metrics/institution/315134,application/json,Christie Hospital NHS Foundation Trust,Institution/315134,gbr,EUR,medical,315134.0,United Kingdom,1.0,1.0,1,1.0,1.0,,,,,
-Universidad de Vigo,1074,1.0,1.0,https://api.elsevier.com/metrics/institution/312034,application/json,Universidad de Vigo,Institution/312034,esp,EUR,academic,312034.0,Spain,1.0,1.0,1,1.0,1.0,,,,,
-North Shore-Long Island Jewish Health System,1075,1.0,1.0,https://api.elsevier.com/metrics/institution/508618,application/json,North Shore-Long Island Jewish Health System,Institution/508618,usa,NAM,medical,508618.0,United States,1.0,1.0,1,1.0,1.0,,,,,
-Children's Hospital Columbus,1076,1.0,1.0,https://api.elsevier.com/metrics/institution/508448,application/json,Children's Hospital Columbus,Institution/508448,usa,NAM,medical,508448.0,United States,1.0,1.0,1,1.0,1.0,,,,,
-CSIR - Engineering,1077,1.0,1.0,https://api.elsevier.com/metrics/institution/207017,application/json,CSIR - Engineering,Institution/207017,ind,APAC,government,207017.0,India,1.0,1.0,1,1.0,1.0,,,,,
-AgriFood Canada,1078,1.0,1.0,https://api.elsevier.com/metrics/institution/501002,application/json,AgriFood Canada,Institution/501002,can,NAM,academic,501002.0,Canada,1.0,1.0,1,1.0,1.0,,,,,
-Beijing University of Technology,1079,1.0,1.0,https://api.elsevier.com/metrics/institution/203018,application/json,Beijing University of Technology,Institution/203018,chn,APAC,academic,203018.0,China,1.0,1.0,1,1.0,1.0,,,,,
-University of L'Aquila,1080,1.0,1.0,https://api.elsevier.com/metrics/institution/321052,application/json,University of L'Aquila,Institution/321052,ita,EUR,academic,321052.0,Italy,1.0,1.0,1,1.0,1.0,,,,,
-Illinois Institute of Technology,1081,1.0,1.0,https://api.elsevier.com/metrics/institution/508082,application/json,Illinois Institute of Technology,Institution/508082,usa,NAM,academic,508082.0,United States,1.0,1.0,1,1.0,1.0,,,,,
-Alikhanov Institute for Theoretical and Experimental Physics,1082,1.0,1.0,https://api.elsevier.com/metrics/institution/331026,application/json,Alikhanov Institute for Theoretical and Experimental Physics,Institution/331026,rus,EUR,government,331026.0,Russian Federation,1.0,1.0,1,1.0,1.0,,,,,
-"National Hospital Organization, Japan",1083,1.0,1.0,https://api.elsevier.com/metrics/institution/208272,application/json,"National Hospital Organization, Japan",Institution/208272,jpn,APAC,medical,208272.0,Japan,1.0,1.0,1,1.0,1.0,,,,,
-CIEMAT,1084,1.0,1.0,https://api.elsevier.com/metrics/institution/312003,application/json,CIEMAT,Institution/312003,esp,EUR,government,312003.0,Spain,1.0,1.0,1,1.0,1.0,,,,,
-CAS - Institute of Metal Research,1085,1.0,1.0,https://api.elsevier.com/metrics/institution/203279,application/json,CAS - Institute of Metal Research,Institution/203279,chn,APAC,academic,203279.0,China,1.0,1.0,1,1.0,1.0,,,,,
-Nanchang University,1086,1.0,1.0,https://api.elsevier.com/metrics/institution/203124,application/json,Nanchang University,Institution/203124,chn,APAC,academic,203124.0,China,1.0,1.0,1,1.0,1.0,,,,,
+Birkbeck University of London,802,1.0,1.0,https://api.elsevier.com/metrics/institution/315002,application/json,Birkbeck University of London,Institution/315002,gbr,EUR,academic,315002.0,United Kingdom,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Florida Atlantic University,803,1.0,1.0,https://api.elsevier.com/metrics/institution/508062,application/json,Florida Atlantic University,Institution/508062,usa,NAM,academic,508062.0,United States,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+RAS - Saint Petersburg Nuclear Physics Institute,804,1.0,1.0,https://api.elsevier.com/metrics/institution/331086,application/json,RAS - Saint Petersburg Nuclear Physics Institute,Institution/331086,rus,EUR,academic,331086.0,Russian Federation,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Northern Illinois University,805,1.0,1.0,https://api.elsevier.com/metrics/institution/508174,application/json,Northern Illinois University,Institution/508174,usa,NAM,academic,508174.0,United States,1.0,1.0,1,1.0,1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Hofstra University,806,1.0,1.0,https://api.elsevier.com/metrics/institution/508077,application/json,Hofstra University,Institution/508077,usa,NAM,academic,508077.0,United States,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Mansoura University,807,1.0,1.0,https://api.elsevier.com/metrics/institution/104008,application/json,Mansoura University,Institution/104008,egy,AFR,academic,104008.0,Egypt,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Tehran University of Medical Sciences,808,1.0,1.0,https://api.elsevier.com/metrics/institution/404024,application/json,Tehran University of Medical Sciences,Institution/404024,irn,MEA,academic,404024.0,Iran,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Panjab University,809,1.0,1.0,https://api.elsevier.com/metrics/institution/207056,application/json,Panjab University,Institution/207056,ind,APAC,academic,207056.0,India,1.0,1.0,1,1.0,1.0,1.0,1.0,-1.0,1.0,1.0
+Auckland University of Technology,810,1.0,1.0,https://api.elsevier.com/metrics/institution/212001,application/json,Auckland University of Technology,Institution/212001,nzl,APAC,academic,212001.0,New Zealand,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Rochester Institute of Technology,811,1.0,1.0,https://api.elsevier.com/metrics/institution/508195,application/json,Rochester Institute of Technology,Institution/508195,usa,NAM,academic,508195.0,United States,1.0,1.0,1,1.0,1.0,-1.0,1.0,1.0,1.0,1.0
+Universidad de Valladolid,812,1.0,1.0,https://api.elsevier.com/metrics/institution/312033,application/json,Universidad de Valladolid,Institution/312033,esp,EUR,academic,312033.0,Spain,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+University of New Brunswick,813,1.0,1.0,https://api.elsevier.com/metrics/institution/501041,application/json,University of New Brunswick,Institution/501041,can,NAM,academic,501041.0,Canada,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+University of Montana,814,1.0,1.0,https://api.elsevier.com/metrics/institution/508312,application/json,University of Montana,Institution/508312,usa,NAM,academic,508312.0,United States,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+TELECOM Paris,815,1.0,1.0,https://api.elsevier.com/metrics/institution/314297,application/json,TELECOM Paris,Institution/314297,fra,EUR,academic,314297.0,France,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Scuola Superiore Sant'Anna di Studi Universitari e di Perfezionamento,816,1.0,1.0,https://api.elsevier.com/metrics/institution/321022,application/json,Scuola Superiore Sant'Anna di Studi Universitari e di Perfezionamento,Institution/321022,ita,EUR,academic,321022.0,Italy,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+University of Memphis,817,1.0,1.0,https://api.elsevier.com/metrics/institution/508301,application/json,University of Memphis,Institution/508301,usa,NAM,academic,508301.0,United States,1.0,1.0,1,1.0,1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+INSA de Lyon,818,1.0,1.0,https://api.elsevier.com/metrics/institution/314026,application/json,INSA de Lyon,Institution/314026,fra,EUR,academic,314026.0,France,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+University of Szeged,819,1.0,1.0,https://api.elsevier.com/metrics/institution/318007,application/json,University of Szeged,Institution/318007,hun,EUR,academic,318007.0,Hungary,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Universite de Mons,820,1.0,1.0,https://api.elsevier.com/metrics/institution/303013,application/json,Universite de Mons,Institution/303013,bel,EUR,academic,303013.0,Belgium,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Kunming University of Science and Technology,821,1.0,1.0,https://api.elsevier.com/metrics/institution/203114,application/json,Kunming University of Science and Technology,Institution/203114,chn,APAC,academic,203114.0,China,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+University of Nevada Las Vegas,822,1.0,1.0,https://api.elsevier.com/metrics/institution/508316,application/json,University of Nevada Las Vegas,Institution/508316,usa,NAM,academic,508316.0,United States,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+COMSATS Institute of Information Technology,823,1.0,1.0,https://api.elsevier.com/metrics/institution/214009,application/json,COMSATS Institute of Information Technology,Institution/214009,pak,APAC,academic,214009.0,Pakistan,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Universidade de Brasilia,824,1.0,1.0,https://api.elsevier.com/metrics/institution/602012,application/json,Universidade de Brasilia,Institution/602012,bra,SAM,academic,602012.0,Brazil,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+University of Greifswald,825,1.0,1.0,https://api.elsevier.com/metrics/institution/309074,application/json,University of Greifswald,Institution/309074,deu,EUR,academic,309074.0,Germany,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Bristol-Myers Squibb,826,1.0,1.0,https://api.elsevier.com/metrics/institution/508423,application/json,Bristol-Myers Squibb,Institution/508423,usa,NAM,corporate,508423.0,United States,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Juntendo University,827,1.0,1.0,https://api.elsevier.com/metrics/institution/208053,application/json,Juntendo University,Institution/208053,jpn,APAC,academic,208053.0,Japan,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Sogang University,828,1.0,1.0,https://api.elsevier.com/metrics/institution/209065,application/json,Sogang University,Institution/209065,kor,APAC,academic,209065.0,South Korea,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Tianjin Polytechnic University,829,1.0,1.0,https://api.elsevier.com/metrics/institution/203205,application/json,Tianjin Polytechnic University,Institution/203205,chn,APAC,academic,203205.0,China,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Kindai University,830,1.0,1.0,https://api.elsevier.com/metrics/institution/208065,application/json,Kindai University,Institution/208065,jpn,APAC,academic,208065.0,Japan,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,-1.0
+Universidade do Estado do Rio de Janeiro,831,1.0,1.0,https://api.elsevier.com/metrics/institution/602013,application/json,Universidade do Estado do Rio de Janeiro,Institution/602013,bra,SAM,academic,602013.0,Brazil,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Nihon University,832,1.0,1.0,https://api.elsevier.com/metrics/institution/208112,application/json,Nihon University,Institution/208112,jpn,APAC,academic,208112.0,Japan,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Osaka Prefecture University,833,1.0,1.0,https://api.elsevier.com/metrics/institution/208125,application/json,Osaka Prefecture University,Institution/208125,jpn,APAC,academic,208125.0,Japan,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+University of Paderborn,834,1.0,1.0,https://api.elsevier.com/metrics/institution/309089,application/json,University of Paderborn,Institution/309089,deu,EUR,academic,309089.0,Germany,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Ege University,835,1.0,1.0,https://api.elsevier.com/metrics/institution/410018,application/json,Ege University,Institution/410018,tur,MEA,academic,410018.0,Turkey,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Ankara University,836,1.0,1.0,https://api.elsevier.com/metrics/institution/410006,application/json,Ankara University,Institution/410006,tur,MEA,academic,410006.0,Turkey,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Institute of Research into the Fundamental Laws of the Universe,837,1.0,1.0,https://api.elsevier.com/metrics/institution/706352,application/json,Institute of Research into the Fundamental Laws of the Universe,Institution/706352,fra,EUR,academic,706352.0,France,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Universidad de la Republica,838,1.0,1.0,https://api.elsevier.com/metrics/institution/606001,application/json,Universidad de la Republica,Institution/606001,ury,SAM,academic,606001.0,Uruguay,1.0,1.0,1,1.0,1.0,-1.0,-1.0,-1.0,1.0,1.0
+Japan Atomic Energy Agency,839,1.0,1.0,https://api.elsevier.com/metrics/institution/208046,application/json,Japan Atomic Energy Agency,Institution/208046,jpn,APAC,government,208046.0,Japan,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Bulgarian Academy of Sciences,840,1.0,1.0,https://api.elsevier.com/metrics/institution/304005,application/json,Bulgarian Academy of Sciences,Institution/304005,bgr,EUR,academic,304005.0,Bulgaria,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+University of A Coruna,841,1.0,1.0,https://api.elsevier.com/metrics/institution/312054,application/json,University of A Coruna,Institution/312054,esp,EUR,academic,312054.0,Spain,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Texas A and M University at Qatar,842,1.0,1.0,https://api.elsevier.com/metrics/institution/702874,application/json,Texas A and M University at Qatar,Institution/702874,qat,MEA,academic,702874.0,Qatar,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+National Taiwan Normal University,843,1.0,1.0,https://api.elsevier.com/metrics/institution/217043,application/json,National Taiwan Normal University,Institution/217043,twn,APAC,academic,217043.0,Taiwan,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+NASA Ames Research Center,844,1.0,1.0,https://api.elsevier.com/metrics/institution/508131,application/json,NASA Ames Research Center,Institution/508131,usa,NAM,government,508131.0,United States,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Makerere University,845,1.0,1.0,https://api.elsevier.com/metrics/institution/114001,application/json,Makerere University,Institution/114001,uga,AFR,academic,114001.0,Uganda,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+University of Maribor,846,1.0,1.0,https://api.elsevier.com/metrics/institution/333003,application/json,University of Maribor,Institution/333003,svn,EUR,academic,333003.0,Slovenia,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Dokuz Eylul University,847,1.0,1.0,https://api.elsevier.com/metrics/institution/410017,application/json,Dokuz Eylul University,Institution/410017,tur,MEA,academic,410017.0,Turkey,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+University of Wuppertal,848,1.0,1.0,https://api.elsevier.com/metrics/institution/309098,application/json,University of Wuppertal,Institution/309098,deu,EUR,academic,309098.0,Germany,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Brno University of Technology,849,1.0,1.0,https://api.elsevier.com/metrics/institution/308001,application/json,Brno University of Technology,Institution/308001,cze,EUR,academic,308001.0,Czech Republic,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+All India Institute of Medical Sciences,850,1.0,1.0,https://api.elsevier.com/metrics/institution/207002,application/json,All India Institute of Medical Sciences,Institution/207002,ind,APAC,government,207002.0,India,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Capital Normal University,851,1.0,1.0,https://api.elsevier.com/metrics/institution/203019,application/json,Capital Normal University,Institution/203019,chn,APAC,academic,203019.0,China,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Universidad Rey Juan Carlos,852,1.0,1.0,https://api.elsevier.com/metrics/institution/312044,application/json,Universidad Rey Juan Carlos,Institution/312044,esp,EUR,academic,312044.0,Spain,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Poznan University of Technology,853,1.0,1.0,https://api.elsevier.com/metrics/institution/327021,application/json,Poznan University of Technology,Institution/327021,pol,EUR,academic,327021.0,Poland,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Comenius University,854,1.0,1.0,https://api.elsevier.com/metrics/institution/334001,application/json,Comenius University,Institution/334001,svk,EUR,academic,334001.0,Slovakia,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+IMEC,855,1.0,1.0,https://api.elsevier.com/metrics/institution/303006,application/json,IMEC,Institution/303006,bel,EUR,other,303006.0,Belgium,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+University of Chieti,856,1.0,1.0,https://api.elsevier.com/metrics/institution/321047,application/json,University of Chieti,Institution/321047,ita,EUR,academic,321047.0,Italy,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+General Hospital of People's Liberation Army,857,1.0,1.0,https://api.elsevier.com/metrics/institution/203347,application/json,General Hospital of People's Liberation Army,Institution/203347,chn,APAC,medical,203347.0,China,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+University of Split,858,1.0,1.0,https://api.elsevier.com/metrics/institution/317004,application/json,University of Split,Institution/317004,hrv,EUR,academic,317004.0,Croatia,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Gunma University,859,1.0,1.0,https://api.elsevier.com/metrics/institution/208026,application/json,Gunma University,Institution/208026,jpn,APAC,academic,208026.0,Japan,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Universidad Tecnica Federico Santa Maria,860,1.0,1.0,https://api.elsevier.com/metrics/institution/603007,application/json,Universidad Tecnica Federico Santa Maria,Institution/603007,chl,SAM,academic,603007.0,Chile,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Universidade Federal do Ceara,861,1.0,1.0,https://api.elsevier.com/metrics/institution/602037,application/json,Universidade Federal do Ceara,Institution/602037,bra,SAM,academic,602037.0,Brazil,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+"High Energy Accelerator Research Organization, Tsukuba",862,1.0,1.0,https://api.elsevier.com/metrics/institution/208029,application/json,"High Energy Accelerator Research Organization, Tsukuba",Institution/208029,jpn,APAC,government,208029.0,Japan,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Wright State University,863,1.0,1.0,https://api.elsevier.com/metrics/institution/508381,application/json,Wright State University,Institution/508381,usa,NAM,academic,508381.0,United States,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Centre Hospitalier Universitaire de Rennes,864,1.0,1.0,https://api.elsevier.com/metrics/institution/314125,application/json,Centre Hospitalier Universitaire de Rennes,Institution/314125,fra,EUR,medical,314125.0,France,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Universita degli Studi di Napoli Parthenope,865,1.0,1.0,https://api.elsevier.com/metrics/institution/321151,application/json,Universita degli Studi di Napoli Parthenope,Institution/321151,ita,EUR,academic,321151.0,Italy,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,-1.0
+University of Texas at El Paso,866,1.0,1.0,https://api.elsevier.com/metrics/institution/508347,application/json,University of Texas at El Paso,Institution/508347,usa,NAM,academic,508347.0,United States,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+National Aeronautics and Space Administration,867,1.0,1.0,https://api.elsevier.com/metrics/institution/705945,application/json,National Aeronautics and Space Administration,Institution/705945,usa,NAM,government,705945.0,United States,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Bordeaux INP,868,1.0,1.0,https://api.elsevier.com/metrics/institution/706328,application/json,Bordeaux INP,Institution/706328,fra,EUR,academic,706328.0,France,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Pukyong National University,869,1.0,1.0,https://api.elsevier.com/metrics/institution/209060,application/json,Pukyong National University,Institution/209060,kor,APAC,academic,209060.0,South Korea,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Zhejiang Sci-Tech University,870,1.0,1.0,https://api.elsevier.com/metrics/institution/203242,application/json,Zhejiang Sci-Tech University,Institution/203242,chn,APAC,academic,203242.0,China,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Universitat de Lleida,871,1.0,1.0,https://api.elsevier.com/metrics/institution/312048,application/json,Universitat de Lleida,Institution/312048,esp,EUR,academic,312048.0,Spain,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Istituto Superiore di Sanita,872,1.0,1.0,https://api.elsevier.com/metrics/institution/321014,application/json,Istituto Superiore di Sanita,Institution/321014,ita,EUR,government,321014.0,Italy,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Universidade Federal do Rio Grande do Norte,873,1.0,1.0,https://api.elsevier.com/metrics/institution/602042,application/json,Universidade Federal do Rio Grande do Norte,Institution/602042,bra,SAM,academic,602042.0,Brazil,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Chiang Mai University,874,1.0,1.0,https://api.elsevier.com/metrics/institution/216002,application/json,Chiang Mai University,Institution/216002,tha,APAC,academic,216002.0,Thailand,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Universidade Federal de Santa Maria,875,1.0,1.0,https://api.elsevier.com/metrics/institution/602032,application/json,Universidade Federal de Santa Maria,Institution/602032,bra,SAM,academic,602032.0,Brazil,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+New York Medical College,876,1.0,1.0,https://api.elsevier.com/metrics/institution/508165,application/json,New York Medical College,Institution/508165,usa,NAM,academic,508165.0,United States,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Chemnitz University of Technology,877,1.0,1.0,https://api.elsevier.com/metrics/institution/309002,application/json,Chemnitz University of Technology,Institution/309002,deu,EUR,academic,309002.0,Germany,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Inje University,878,1.0,1.0,https://api.elsevier.com/metrics/institution/209030,application/json,Inje University,Institution/209030,kor,APAC,academic,209030.0,South Korea,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+University Politehnica of Bucharest,879,1.0,1.0,https://api.elsevier.com/metrics/institution/329010,application/json,University Politehnica of Bucharest,Institution/329010,rou,EUR,academic,329010.0,Romania,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Tomsk State University,880,1.0,1.0,https://api.elsevier.com/metrics/institution/331022,application/json,Tomsk State University,Institution/331022,rus,EUR,academic,331022.0,Russian Federation,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Hallym University,881,1.0,1.0,https://api.elsevier.com/metrics/institution/209022,application/json,Hallym University,Institution/209022,kor,APAC,academic,209022.0,South Korea,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Democritus University of Thrace,882,1.0,1.0,https://api.elsevier.com/metrics/institution/316004,application/json,Democritus University of Thrace,Institution/316004,grc,EUR,academic,316004.0,Greece,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+University of Waikato,883,1.0,1.0,https://api.elsevier.com/metrics/institution/212008,application/json,University of Waikato,Institution/212008,nzl,APAC,academic,212008.0,New Zealand,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Universidad de Cadiz,884,1.0,1.0,https://api.elsevier.com/metrics/institution/312016,application/json,Universidad de Cadiz,Institution/312016,esp,EUR,academic,312016.0,Spain,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Azienda Ospedaliera Careggi,885,1.0,1.0,https://api.elsevier.com/metrics/institution/321080,application/json,Azienda Ospedaliera Careggi,Institution/321080,ita,EUR,medical,321080.0,Italy,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Loma Linda University,886,1.0,1.0,https://api.elsevier.com/metrics/institution/508102,application/json,Loma Linda University,Institution/508102,usa,NAM,academic,508102.0,United States,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Postgraduate Institute of Medical Education and Research,887,1.0,1.0,https://api.elsevier.com/metrics/institution/207058,application/json,Postgraduate Institute of Medical Education and Research,Institution/207058,ind,APAC,academic,207058.0,India,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+St. Petersburg State Polytechnical University,888,1.0,1.0,https://api.elsevier.com/metrics/institution/331116,application/json,St. Petersburg State Polytechnical University,Institution/331116,rus,EUR,academic,331116.0,Russian Federation,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Miami University,889,1.0,1.0,https://api.elsevier.com/metrics/institution/508121,application/json,Miami University,Institution/508121,usa,NAM,academic,508121.0,United States,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+University of Silesia,890,1.0,1.0,https://api.elsevier.com/metrics/institution/327031,application/json,University of Silesia,Institution/327031,pol,EUR,academic,327031.0,Poland,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+University of Kassel,891,1.0,1.0,https://api.elsevier.com/metrics/institution/309079,application/json,University of Kassel,Institution/309079,deu,EUR,academic,309079.0,Germany,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Bambino Gesu Children's Hospital,892,1.0,1.0,https://api.elsevier.com/metrics/institution/321086,application/json,Bambino Gesu Children's Hospital,Institution/321086,ita,EUR,medical,321086.0,Italy,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Universidad de Concepcion,893,1.0,1.0,https://api.elsevier.com/metrics/institution/603005,application/json,Universidad de Concepcion,Institution/603005,chl,SAM,academic,603005.0,Chile,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+North West University,894,1.0,1.0,https://api.elsevier.com/metrics/institution/115001,application/json,North West University,Institution/115001,zaf,AFR,academic,115001.0,South Africa,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Scuola Internazionale Superiore di Studi Avanzati,895,1.0,1.0,https://api.elsevier.com/metrics/institution/321020,application/json,Scuola Internazionale Superiore di Studi Avanzati,Institution/321020,ita,EUR,academic,321020.0,Italy,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Shenzhen Institute of Advanced Technology,896,1.0,1.0,https://api.elsevier.com/metrics/institution/700742,application/json,Shenzhen Institute of Advanced Technology,Institution/700742,chn,APAC,academic,700742.0,China,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+University of Salzburg,897,1.0,1.0,https://api.elsevier.com/metrics/institution/301011,application/json,University of Salzburg,Institution/301011,aut,EUR,academic,301011.0,Austria,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+University of Beira Interior,898,1.0,1.0,https://api.elsevier.com/metrics/institution/328010,application/json,University of Beira Interior,Institution/328010,prt,EUR,academic,328010.0,Portugal,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Quaid-I-Azam University,899,1.0,1.0,https://api.elsevier.com/metrics/institution/214004,application/json,Quaid-I-Azam University,Institution/214004,pak,APAC,academic,214004.0,Pakistan,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Ecole de Technologie Superieure,900,1.0,1.0,https://api.elsevier.com/metrics/institution/501008,application/json,Ecole de Technologie Superieure,Institution/501008,can,NAM,academic,501008.0,Canada,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Aga Khan University,901,1.0,1.0,https://api.elsevier.com/metrics/institution/214001,application/json,Aga Khan University,Institution/214001,pak,APAC,academic,214001.0,Pakistan,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+University of Canberra,902,1.0,1.0,https://api.elsevier.com/metrics/institution/201024,application/json,University of Canberra,Institution/201024,aus,APAC,academic,201024.0,Australia,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Marmara University,903,1.0,1.0,https://api.elsevier.com/metrics/institution/410038,application/json,Marmara University,Institution/410038,tur,MEA,academic,410038.0,Turkey,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Chungbuk National University,904,1.0,1.0,https://api.elsevier.com/metrics/institution/209011,application/json,Chungbuk National University,Institution/209011,kor,APAC,academic,209011.0,South Korea,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Edith Cowan University,905,1.0,1.0,https://api.elsevier.com/metrics/institution/201008,application/json,Edith Cowan University,Institution/201008,aus,APAC,academic,201008.0,Australia,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Hamburg University of Technology,906,1.0,1.0,https://api.elsevier.com/metrics/institution/309017,application/json,Hamburg University of Technology,Institution/309017,deu,EUR,academic,309017.0,Germany,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Bournemouth University,907,1.0,1.0,https://api.elsevier.com/metrics/institution/315003,application/json,Bournemouth University,Institution/315003,gbr,EUR,academic,315003.0,United Kingdom,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Universidade Federal Fluminense,908,1.0,1.0,https://api.elsevier.com/metrics/institution/602044,application/json,Universidade Federal Fluminense,Institution/602044,bra,SAM,academic,602044.0,Brazil,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Coventry University,909,1.0,1.0,https://api.elsevier.com/metrics/institution/315009,application/json,Coventry University,Institution/315009,gbr,EUR,academic,315009.0,United Kingdom,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+University of Ontario Institute of Technology,910,1.0,1.0,https://api.elsevier.com/metrics/institution/501043,application/json,University of Ontario Institute of Technology,Institution/501043,can,NAM,academic,501043.0,Canada,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Abo Akademi University,911,1.0,1.0,https://api.elsevier.com/metrics/institution/313001,application/json,Abo Akademi University,Institution/313001,fin,EUR,academic,313001.0,Finland,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+University of the West of England,912,1.0,1.0,https://api.elsevier.com/metrics/institution/315105,application/json,University of the West of England,Institution/315105,gbr,EUR,academic,315105.0,United Kingdom,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Manchester Metropolitan University,913,1.0,1.0,https://api.elsevier.com/metrics/institution/315037,application/json,Manchester Metropolitan University,Institution/315037,gbr,EUR,academic,315037.0,United Kingdom,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+RAS - Pn Lebedev Physics Institute,914,1.0,1.0,https://api.elsevier.com/metrics/institution/331082,application/json,RAS - Pn Lebedev Physics Institute,Institution/331082,rus,EUR,academic,331082.0,Russian Federation,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Universite de Rouen,915,1.0,1.0,https://api.elsevier.com/metrics/institution/314066,application/json,Universite de Rouen,Institution/314066,fra,EUR,academic,314066.0,France,1.0,1.0,1,1.0,1.0,-1.0,-1.0,-1.0,-1.0,-1.0
+Universidade Federal da Bahia,916,1.0,1.0,https://api.elsevier.com/metrics/institution/602019,application/json,Universidade Federal da Bahia,Institution/602019,bra,SAM,academic,602019.0,Brazil,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+University of Puerto Rico,917,1.0,1.0,https://api.elsevier.com/metrics/institution/506001,application/json,University of Puerto Rico,Institution/506001,pri,NAM,academic,506001.0,Puerto Rico,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Universidad Nacional de Cordoba,918,1.0,1.0,https://api.elsevier.com/metrics/institution/601005,application/json,Universidad Nacional de Cordoba,Institution/601005,arg,SAM,academic,601005.0,Argentina,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Ruder Boskovic Institute,919,1.0,1.0,https://api.elsevier.com/metrics/institution/317002,application/json,Ruder Boskovic Institute,Institution/317002,hrv,EUR,government,317002.0,Croatia,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Tokyo Women's Medical University,920,1.0,1.0,https://api.elsevier.com/metrics/institution/208166,application/json,Tokyo Women's Medical University,Institution/208166,jpn,APAC,academic,208166.0,Japan,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+University of Brighton,921,1.0,1.0,https://api.elsevier.com/metrics/institution/315066,application/json,University of Brighton,Institution/315066,gbr,EUR,academic,315066.0,United Kingdom,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+University of North Carolina at Greensboro,922,1.0,1.0,https://api.elsevier.com/metrics/institution/508322,application/json,University of North Carolina at Greensboro,Institution/508322,usa,NAM,academic,508322.0,United States,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+University of North Dakota,923,1.0,1.0,https://api.elsevier.com/metrics/institution/508324,application/json,University of North Dakota,Institution/508324,usa,NAM,academic,508324.0,United States,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Hangzhou Normal University,924,1.0,1.0,https://api.elsevier.com/metrics/institution/203359,application/json,Hangzhou Normal University,Institution/203359,chn,APAC,academic,203359.0,China,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Fordham University,925,1.0,1.0,https://api.elsevier.com/metrics/institution/508066,application/json,Fordham University,Institution/508066,usa,NAM,academic,508066.0,United States,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+United Arab Emirates University,926,1.0,1.0,https://api.elsevier.com/metrics/institution/401002,application/json,United Arab Emirates University,Institution/401002,are,MEA,academic,401002.0,United Arab Emirates,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Nippon Medical School,927,1.0,1.0,https://api.elsevier.com/metrics/institution/208115,application/json,Nippon Medical School,Institution/208115,jpn,APAC,academic,208115.0,Japan,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+South African Medical Research Council,928,1.0,1.0,https://api.elsevier.com/metrics/institution/115021,application/json,South African Medical Research Council,Institution/115021,zaf,AFR,government,115021.0,South Africa,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Gruppo Ospedaliero San Donato,929,1.0,1.0,https://api.elsevier.com/metrics/institution/321098,application/json,Gruppo Ospedaliero San Donato,Institution/321098,ita,EUR,medical,321098.0,Italy,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Ecole Normale Superieure de Cachan,930,1.0,1.0,https://api.elsevier.com/metrics/institution/314015,application/json,Ecole Normale Superieure de Cachan,Institution/314015,fra,EUR,academic,314015.0,France,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Yamagata University,931,1.0,1.0,https://api.elsevier.com/metrics/institution/208188,application/json,Yamagata University,Institution/208188,jpn,APAC,academic,208188.0,Japan,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Brock University,932,1.0,1.0,https://api.elsevier.com/metrics/institution/501004,application/json,Brock University,Institution/501004,can,NAM,academic,501004.0,Canada,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+CAS - Institute of Process Engineering,933,1.0,1.0,https://api.elsevier.com/metrics/institution/203286,application/json,CAS - Institute of Process Engineering,Institution/203286,chn,APAC,academic,203286.0,China,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Tokai University,934,1.0,1.0,https://api.elsevier.com/metrics/institution/208149,application/json,Tokai University,Institution/208149,jpn,APAC,academic,208149.0,Japan,1.0,1.0,1,1.0,1.0,-1.0,-1.0,-1.0,1.0,-1.0
+Japan Agency for Marine-Earth Science and Technology,935,1.0,1.0,https://api.elsevier.com/metrics/institution/208045,application/json,Japan Agency for Marine-Earth Science and Technology,Institution/208045,jpn,APAC,government,208045.0,Japan,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Oakland University,936,1.0,1.0,https://api.elsevier.com/metrics/institution/508178,application/json,Oakland University,Institution/508178,usa,NAM,academic,508178.0,United States,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+University of Huddersfield,937,1.0,1.0,https://api.elsevier.com/metrics/institution/315081,application/json,University of Huddersfield,Institution/315081,gbr,EUR,academic,315081.0,United Kingdom,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+CAS - Shanghai Institute of Organic Chemistry,938,1.0,1.0,https://api.elsevier.com/metrics/institution/203302,application/json,CAS - Shanghai Institute of Organic Chemistry,Institution/203302,chn,APAC,academic,203302.0,China,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Middlesex University,939,1.0,1.0,https://api.elsevier.com/metrics/institution/315039,application/json,Middlesex University,Institution/315039,gbr,EUR,academic,315039.0,United Kingdom,1.0,1.0,1,1.0,1.0,-1.0,-1.0,-1.0,1.0,-1.0
+Marquette University,940,1.0,1.0,https://api.elsevier.com/metrics/institution/508110,application/json,Marquette University,Institution/508110,usa,NAM,academic,508110.0,United States,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+University of Hertfordshire,941,1.0,1.0,https://api.elsevier.com/metrics/institution/315080,application/json,University of Hertfordshire,Institution/315080,gbr,EUR,academic,315080.0,United Kingdom,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+IFREMER,942,1.0,1.0,https://api.elsevier.com/metrics/institution/314242,application/json,IFREMER,Institution/314242,fra,EUR,government,314242.0,France,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+University of Massachusetts Lowell,943,1.0,1.0,https://api.elsevier.com/metrics/institution/508298,application/json,University of Massachusetts Lowell,Institution/508298,usa,NAM,academic,508298.0,United States,1.0,1.0,1,1.0,1.0,-1.0,1.0,1.0,1.0,1.0
+Nottingham Trent University,944,1.0,1.0,https://api.elsevier.com/metrics/institution/315043,application/json,Nottingham Trent University,Institution/315043,gbr,EUR,academic,315043.0,United Kingdom,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Universidade Federal de Pelotas,945,1.0,1.0,https://api.elsevier.com/metrics/institution/602029,application/json,Universidade Federal de Pelotas,Institution/602029,bra,SAM,academic,602029.0,Brazil,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Hospital Universitario Virgen del Rocio,946,1.0,1.0,https://api.elsevier.com/metrics/institution/312124,application/json,Hospital Universitario Virgen del Rocio,Institution/312124,esp,EUR,medical,312124.0,Spain,1.0,1.0,1,1.0,1.0,1.0,-1.0,1.0,1.0,1.0
+Tallinn University of Technology,947,1.0,1.0,https://api.elsevier.com/metrics/institution/311001,application/json,Tallinn University of Technology,Institution/311001,est,EUR,academic,311001.0,Estonia,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Koc University,948,1.0,1.0,https://api.elsevier.com/metrics/institution/410036,application/json,Koc University,Institution/410036,tur,MEA,academic,410036.0,Turkey,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Ritsumeikan University,949,1.0,1.0,https://api.elsevier.com/metrics/institution/208130,application/json,Ritsumeikan University,Institution/208130,jpn,APAC,academic,208130.0,Japan,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Instituto de Telecomunicacoes,950,1.0,1.0,https://api.elsevier.com/metrics/institution/328020,application/json,Instituto de Telecomunicacoes,Institution/328020,prt,EUR,other,328020.0,Portugal,1.0,1.0,1,1.0,1.0,1.0,-1.0,-1.0,1.0,1.0
+University of the Philippines,951,1.0,1.0,https://api.elsevier.com/metrics/institution/213001,application/json,University of the Philippines,Institution/213001,phl,APAC,academic,213001.0,Philippines,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Graduate University for Advanced Studies,952,1.0,1.0,https://api.elsevier.com/metrics/institution/208025,application/json,Graduate University for Advanced Studies,Institution/208025,jpn,APAC,academic,208025.0,Japan,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Sultan Qaboos University,953,1.0,1.0,https://api.elsevier.com/metrics/institution/408001,application/json,Sultan Qaboos University,Institution/408001,omn,MEA,academic,408001.0,Oman,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Kuwait University,954,1.0,1.0,https://api.elsevier.com/metrics/institution/406001,application/json,Kuwait University,Institution/406001,kwt,MEA,academic,406001.0,Kuwait,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+University of Central Lancashire,955,1.0,1.0,https://api.elsevier.com/metrics/institution/315069,application/json,University of Central Lancashire,Institution/315069,gbr,EUR,academic,315069.0,United Kingdom,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Slovak University of Technology,956,1.0,1.0,https://api.elsevier.com/metrics/institution/334003,application/json,Slovak University of Technology,Institution/334003,svk,EUR,academic,334003.0,Slovakia,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Universidade Federal de Vicosa,957,1.0,1.0,https://api.elsevier.com/metrics/institution/602036,application/json,Universidade Federal de Vicosa,Institution/602036,bra,SAM,academic,602036.0,Brazil,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+University of Salford,958,1.0,1.0,https://api.elsevier.com/metrics/institution/315095,application/json,University of Salford,Institution/315095,gbr,EUR,academic,315095.0,United Kingdom,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Pontificia Universidade Catolica do Rio de Janeiro,959,1.0,1.0,https://api.elsevier.com/metrics/institution/602009,application/json,Pontificia Universidade Catolica do Rio de Janeiro,Institution/602009,bra,SAM,academic,602009.0,Brazil,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Texas State University,960,1.0,1.0,https://api.elsevier.com/metrics/institution/508232,application/json,Texas State University,Institution/508232,usa,NAM,academic,508232.0,United States,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Universidad Nacional de Educacion a Distancia,961,1.0,1.0,https://api.elsevier.com/metrics/institution/312038,application/json,Universidad Nacional de Educacion a Distancia,Institution/312038,esp,EUR,academic,312038.0,Spain,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Jichi Medical University,962,1.0,1.0,https://api.elsevier.com/metrics/institution/208051,application/json,Jichi Medical University,Institution/208051,jpn,APAC,academic,208051.0,Japan,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Technische Universitat Ilmenau,963,1.0,1.0,https://api.elsevier.com/metrics/institution/309053,application/json,Technische Universitat Ilmenau,Institution/309053,deu,EUR,academic,309053.0,Germany,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Henan University,964,1.0,1.0,https://api.elsevier.com/metrics/institution/203092,application/json,Henan University,Institution/203092,chn,APAC,academic,203092.0,China,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,-1.0
+University of Calcutta,965,1.0,1.0,https://api.elsevier.com/metrics/institution/207072,application/json,University of Calcutta,Institution/207072,ind,APAC,academic,207072.0,India,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Indian Statistical Institute,966,1.0,1.0,https://api.elsevier.com/metrics/institution/207037,application/json,Indian Statistical Institute,Institution/207037,ind,APAC,academic,207037.0,India,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Hong Kong Institute of Education,967,1.0,1.0,https://api.elsevier.com/metrics/institution/704843,application/json,Hong Kong Institute of Education,Institution/704843,hkg,APAC,academic,704843.0,Hong Kong,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Kyoto Prefectural University of Medicine,968,1.0,1.0,https://api.elsevier.com/metrics/institution/208080,application/json,Kyoto Prefectural University of Medicine,Institution/208080,jpn,APAC,academic,208080.0,Japan,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+China Electric Power Research Institute,969,1.0,1.0,https://api.elsevier.com/metrics/institution/203320,application/json,China Electric Power Research Institute,Institution/203320,chn,APAC,corporate,203320.0,China,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Yamaguchi University,970,1.0,1.0,https://api.elsevier.com/metrics/institution/208189,application/json,Yamaguchi University,Institution/208189,jpn,APAC,academic,208189.0,Japan,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Semnan University,971,1.0,1.0,https://api.elsevier.com/metrics/institution/704930,application/json,Semnan University,Institution/704930,irn,MEA,academic,704930.0,Iran,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Universidad Autonoma Metropolitana,972,1.0,1.0,https://api.elsevier.com/metrics/institution/505017,application/json,Universidad Autonoma Metropolitana,Institution/505017,mex,NAM,academic,505017.0,Mexico,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Czech University of Life Sciences Prague,973,1.0,1.0,https://api.elsevier.com/metrics/institution/308016,application/json,Czech University of Life Sciences Prague,Institution/308016,cze,EUR,academic,308016.0,Czech Republic,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Dalian Maritime University,974,1.0,1.0,https://api.elsevier.com/metrics/institution/203051,application/json,Dalian Maritime University,Institution/203051,chn,APAC,academic,203051.0,China,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Kasetsart University,975,1.0,1.0,https://api.elsevier.com/metrics/institution/216004,application/json,Kasetsart University,Institution/216004,tha,APAC,academic,216004.0,Thailand,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Western Michigan University,976,1.0,1.0,https://api.elsevier.com/metrics/institution/508375,application/json,Western Michigan University,Institution/508375,usa,NAM,academic,508375.0,United States,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Gifu University,977,1.0,1.0,https://api.elsevier.com/metrics/institution/208024,application/json,Gifu University,Institution/208024,jpn,APAC,academic,208024.0,Japan,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Shandong Agricultural University,978,1.0,1.0,https://api.elsevier.com/metrics/institution/203163,application/json,Shandong Agricultural University,Institution/203163,chn,APAC,academic,203163.0,China,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Khon Kaen University,979,1.0,1.0,https://api.elsevier.com/metrics/institution/216005,application/json,Khon Kaen University,Institution/216005,tha,APAC,academic,216005.0,Thailand,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Sheffield Hallam University,980,1.0,1.0,https://api.elsevier.com/metrics/institution/315057,application/json,Sheffield Hallam University,Institution/315057,gbr,EUR,academic,315057.0,United Kingdom,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Soonchunhyang University,981,1.0,1.0,https://api.elsevier.com/metrics/institution/209067,application/json,Soonchunhyang University,Institution/209067,kor,APAC,academic,209067.0,South Korea,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Henan Normal University,982,1.0,1.0,https://api.elsevier.com/metrics/institution/203090,application/json,Henan Normal University,Institution/203090,chn,APAC,academic,203090.0,China,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Tokyo Medical University,983,1.0,1.0,https://api.elsevier.com/metrics/institution/208156,application/json,Tokyo Medical University,Institution/208156,jpn,APAC,academic,208156.0,Japan,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+University of Electro-Communications,984,1.0,1.0,https://api.elsevier.com/metrics/institution/208173,application/json,University of Electro-Communications,Institution/208173,jpn,APAC,academic,208173.0,Japan,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Mie University,985,1.0,1.0,https://api.elsevier.com/metrics/institution/208086,application/json,Mie University,Institution/208086,jpn,APAC,academic,208086.0,Japan,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+University of Toyama,986,1.0,1.0,https://api.elsevier.com/metrics/institution/208181,application/json,University of Toyama,Institution/208181,jpn,APAC,academic,208181.0,Japan,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Babes-Bolyai University,987,1.0,1.0,https://api.elsevier.com/metrics/institution/329002,application/json,Babes-Bolyai University,Institution/329002,rou,EUR,academic,329002.0,Romania,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Medical University of Warsaw,988,1.0,1.0,https://api.elsevier.com/metrics/institution/327017,application/json,Medical University of Warsaw,Institution/327017,pol,EUR,academic,327017.0,Poland,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Nara Institute of Science and Technology,989,1.0,1.0,https://api.elsevier.com/metrics/institution/208094,application/json,Nara Institute of Science and Technology,Institution/208094,jpn,APAC,academic,208094.0,Japan,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Xi'an University of Technology,990,1.0,1.0,https://api.elsevier.com/metrics/institution/203226,application/json,Xi'an University of Technology,Institution/203226,chn,APAC,academic,203226.0,China,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+National Chung Cheng University,991,1.0,1.0,https://api.elsevier.com/metrics/institution/217029,application/json,National Chung Cheng University,Institution/217029,twn,APAC,academic,217029.0,Taiwan,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Shandong University of Science and Technology,992,1.0,1.0,https://api.elsevier.com/metrics/institution/203166,application/json,Shandong University of Science and Technology,Institution/203166,chn,APAC,academic,203166.0,China,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+University of Witten/Herdecke,993,1.0,1.0,https://api.elsevier.com/metrics/institution/309097,application/json,University of Witten/Herdecke,Institution/309097,deu,EUR,academic,309097.0,Germany,-1.0,-1.0,-1,-1.0,-1.0,1.0,1.0,1.0,1.0,1.0
+U.S. Air Force Academy,994,1.0,1.0,https://api.elsevier.com/metrics/institution/508241,application/json,U.S. Air Force Academy,Institution/508241,usa,NAM,government,508241.0,United States,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+University of Ghana,995,1.0,1.0,https://api.elsevier.com/metrics/institution/106001,application/json,University of Ghana,Institution/106001,gha,AFR,academic,106001.0,Ghana,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Yokohama National University,996,1.0,1.0,https://api.elsevier.com/metrics/institution/208191,application/json,Yokohama National University,Institution/208191,jpn,APAC,academic,208191.0,Japan,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Jikei University,997,1.0,1.0,https://api.elsevier.com/metrics/institution/208052,application/json,Jikei University,Institution/208052,jpn,APAC,academic,208052.0,Japan,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Saitama Medical University,998,1.0,1.0,https://api.elsevier.com/metrics/institution/208133,application/json,Saitama Medical University,Institution/208133,jpn,APAC,academic,208133.0,Japan,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Cracow University of Technology,999,1.0,1.0,https://api.elsevier.com/metrics/institution/327006,application/json,Cracow University of Technology,Institution/327006,pol,EUR,academic,327006.0,Poland,1.0,1.0,1,1.0,1.0,1.0,-1.0,1.0,1.0,1.0
+Universidad Autonoma de San Luis Potosi,1000,1.0,1.0,https://api.elsevier.com/metrics/institution/505014,application/json,Universidad Autonoma de San Luis Potosi,Institution/505014,mex,NAM,academic,505014.0,Mexico,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Chang'an University,1001,1.0,1.0,https://api.elsevier.com/metrics/institution/203023,application/json,Chang'an University,Institution/203023,chn,APAC,academic,203023.0,China,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Nagoya Institute of Technology,1002,1.0,1.0,https://api.elsevier.com/metrics/institution/208092,application/json,Nagoya Institute of Technology,Institution/208092,jpn,APAC,academic,208092.0,Japan,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Universidade Federal de Juiz de Fora,1003,1.0,1.0,https://api.elsevier.com/metrics/institution/602024,application/json,Universidade Federal de Juiz de Fora,Institution/602024,bra,SAM,academic,602024.0,Brazil,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+University of Pecs,1004,1.0,1.0,https://api.elsevier.com/metrics/institution/318006,application/json,University of Pecs,Institution/318006,hun,EUR,academic,318006.0,Hungary,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+University of South Bohemia,1005,1.0,1.0,https://api.elsevier.com/metrics/institution/308011,application/json,University of South Bohemia,Institution/308011,cze,EUR,academic,308011.0,Czech Republic,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Charles Sturt University,1006,1.0,1.0,https://api.elsevier.com/metrics/institution/201004,application/json,Charles Sturt University,Institution/201004,aus,APAC,academic,201004.0,Australia,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Toho University,1007,1.0,1.0,https://api.elsevier.com/metrics/institution/208145,application/json,Toho University,Institution/208145,jpn,APAC,academic,208145.0,Japan,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+University of Sofia,1008,1.0,1.0,https://api.elsevier.com/metrics/institution/304004,application/json,University of Sofia,Institution/304004,bgr,EUR,academic,304004.0,Bulgaria,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Erciyes University,1009,1.0,1.0,https://api.elsevier.com/metrics/institution/410019,application/json,Erciyes University,Institution/410019,tur,MEA,academic,410019.0,Turkey,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,-1.0
+University of the Western Cape,1010,1.0,1.0,https://api.elsevier.com/metrics/institution/115010,application/json,University of the Western Cape,Institution/115010,zaf,AFR,academic,115010.0,South Africa,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Research Institute of Petroleum Exploration and Development,1011,1.0,1.0,https://api.elsevier.com/metrics/institution/203415,application/json,Research Institute of Petroleum Exploration and Development,Institution/203415,chn,APAC,corporate,203415.0,China,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Nantong University,1012,1.0,1.0,https://api.elsevier.com/metrics/institution/203136,application/json,Nantong University,Institution/203136,chn,APAC,academic,203136.0,China,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Medical University of Gdansk,1013,1.0,1.0,https://api.elsevier.com/metrics/institution/327013,application/json,Medical University of Gdansk,Institution/327013,pol,EUR,academic,327013.0,Poland,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Jiangsu Normal University,1014,1.0,1.0,https://api.elsevier.com/metrics/institution/203231,application/json,Jiangsu Normal University,Institution/203231,chn,APAC,academic,203231.0,China,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Nicolaus Copernicus University,1015,1.0,1.0,https://api.elsevier.com/metrics/institution/327019,application/json,Nicolaus Copernicus University,Institution/327019,pol,EUR,academic,327019.0,Poland,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Saga University,1016,1.0,1.0,https://api.elsevier.com/metrics/institution/208132,application/json,Saga University,Institution/208132,jpn,APAC,academic,208132.0,Japan,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Universiti Teknologi MARA,1017,1.0,1.0,https://api.elsevier.com/metrics/institution/211008,application/json,Universiti Teknologi MARA,Institution/211008,mys,APAC,academic,211008.0,Malaysia,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Teikyo University,1018,1.0,1.0,https://api.elsevier.com/metrics/institution/208144,application/json,Teikyo University,Institution/208144,jpn,APAC,academic,208144.0,Japan,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Tomsk Polytechnic University,1019,1.0,1.0,https://api.elsevier.com/metrics/institution/331021,application/json,Tomsk Polytechnic University,Institution/331021,rus,EUR,academic,331021.0,Russian Federation,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Universidad Autonoma de Nuevo Leon,1020,1.0,1.0,https://api.elsevier.com/metrics/institution/505013,application/json,Universidad Autonoma de Nuevo Leon,Institution/505013,mex,NAM,academic,505013.0,Mexico,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+University of Ibadan,1021,1.0,1.0,https://api.elsevier.com/metrics/institution/110004,application/json,University of Ibadan,Institution/110004,nga,AFR,academic,110004.0,Nigeria,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Northeast Forestry University,1022,1.0,1.0,https://api.elsevier.com/metrics/institution/203143,application/json,Northeast Forestry University,Institution/203143,chn,APAC,academic,203143.0,China,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Shahid Bahonar University of Kerman,1023,1.0,1.0,https://api.elsevier.com/metrics/institution/404016,application/json,Shahid Bahonar University of Kerman,Institution/404016,irn,MEA,academic,404016.0,Iran,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+University Magna Graecia,1024,1.0,1.0,https://api.elsevier.com/metrics/institution/321037,application/json,University Magna Graecia,Institution/321037,ita,EUR,academic,321037.0,Italy,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Hebei University,1025,1.0,1.0,https://api.elsevier.com/metrics/institution/203083,application/json,Hebei University,Institution/203083,chn,APAC,academic,203083.0,China,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Addis Ababa University,1026,1.0,1.0,https://api.elsevier.com/metrics/institution/105001,application/json,Addis Ababa University,Institution/105001,eth,AFR,academic,105001.0,Ethiopia,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+University of The Free State,1027,1.0,1.0,https://api.elsevier.com/metrics/institution/115009,application/json,University of The Free State,Institution/115009,zaf,AFR,academic,115009.0,South Africa,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Romanian Academy,1028,1.0,1.0,https://api.elsevier.com/metrics/institution/329019,application/json,Romanian Academy,Institution/329019,rou,EUR,academic,329019.0,Romania,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+International Islamic University Malaysia,1029,1.0,1.0,https://api.elsevier.com/metrics/institution/211001,application/json,International Islamic University Malaysia,Institution/211001,mys,APAC,academic,211001.0,Malaysia,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Shizuoka University,1030,1.0,1.0,https://api.elsevier.com/metrics/institution/208140,application/json,Shizuoka University,Institution/208140,jpn,APAC,academic,208140.0,Japan,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Guilan University,1031,1.0,1.0,https://api.elsevier.com/metrics/institution/404005,application/json,Guilan University,Institution/404005,irn,MEA,academic,404005.0,Iran,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+University of Hyderabad,1032,1.0,1.0,https://api.elsevier.com/metrics/institution/207074,application/json,University of Hyderabad,Institution/207074,ind,APAC,academic,207074.0,India,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Tanta University,1033,1.0,1.0,https://api.elsevier.com/metrics/institution/104013,application/json,Tanta University,Institution/104013,egy,AFR,academic,104013.0,Egypt,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Pontificia Universidade Catolica do Rio Grande do Sul,1034,1.0,1.0,https://api.elsevier.com/metrics/institution/602010,application/json,Pontificia Universidade Catolica do Rio Grande do Sul,Institution/602010,bra,SAM,academic,602010.0,Brazil,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Hitachi,1035,1.0,1.0,https://api.elsevier.com/metrics/institution/208217,application/json,Hitachi,Institution/208217,jpn,APAC,corporate,208217.0,Japan,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Shenyang Pharmaceutical University,1036,1.0,1.0,https://api.elsevier.com/metrics/institution/203180,application/json,Shenyang Pharmaceutical University,Institution/203180,chn,APAC,academic,203180.0,China,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+China Meteorological Administration,1037,1.0,1.0,https://api.elsevier.com/metrics/institution/203324,application/json,China Meteorological Administration,Institution/203324,chn,APAC,government,203324.0,China,1.0,1.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Jordan University of Science and Technology,1038,1.0,1.0,https://api.elsevier.com/metrics/institution/405003,application/json,Jordan University of Science and Technology,Institution/405003,jor,MEA,academic,405003.0,Jordan,1.0,1.0,1,1.0,1.0,,1.0,1.0,1.0,1.0
+Harbin University of Science and Technology,1039,1.0,1.0,https://api.elsevier.com/metrics/institution/203079,application/json,Harbin University of Science and Technology,Institution/203079,chn,APAC,academic,203079.0,China,1.0,1.0,1,1.0,1.0,,1.0,1.0,1.0,1.0
+Universidade Estadual de Maringa,1040,1.0,1.0,https://api.elsevier.com/metrics/institution/602016,application/json,Universidade Estadual de Maringa,Institution/602016,bra,SAM,academic,602016.0,Brazil,1.0,1.0,1,1.0,1.0,,1.0,1.0,1.0,1.0
+University of South Africa,1041,1.0,1.0,https://api.elsevier.com/metrics/institution/115024,application/json,University of South Africa,Institution/115024,zaf,AFR,academic,115024.0,South Africa,1.0,1.0,1,1.0,1.0,,1.0,1.0,1.0,1.0
+Xinjiang University,1042,1.0,1.0,https://api.elsevier.com/metrics/institution/203230,application/json,Xinjiang University,Institution/203230,chn,APAC,academic,203230.0,China,1.0,1.0,1,1.0,1.0,,1.0,1.0,1.0,1.0
+University of Lodz,1043,1.0,1.0,https://api.elsevier.com/metrics/institution/327028,application/json,University of Lodz,Institution/327028,pol,EUR,academic,327028.0,Poland,1.0,1.0,1,1.0,1.0,,1.0,1.0,1.0,
+Aligarh Muslim University,1044,1.0,1.0,https://api.elsevier.com/metrics/institution/207001,application/json,Aligarh Muslim University,Institution/207001,ind,APAC,academic,207001.0,India,1.0,1.0,1,1.0,1.0,,1.0,1.0,1.0,
+Belarus Academy of Sciences,1045,1.0,1.0,https://api.elsevier.com/metrics/institution/305002,application/json,Belarus Academy of Sciences,Institution/305002,blr,EUR,academic,305002.0,Belarus,1.0,1.0,1,1.0,1.0,,1.0,1.0,1.0,
+Ural Federal University,1046,1.0,1.0,https://api.elsevier.com/metrics/institution/331023,application/json,Ural Federal University,Institution/331023,rus,EUR,academic,331023.0,Russian Federation,1.0,1.0,1,1.0,1.0,,1.0,1.0,1.0,
+University of Sciences and Technology Houari Boumediene,1047,1.0,1.0,https://api.elsevier.com/metrics/institution/103003,application/json,University of Sciences and Technology Houari Boumediene,Institution/103003,dza,AFR,academic,103003.0,Algeria,1.0,1.0,1,1.0,1.0,,1.0,1.0,1.0,
+Bharathiar University,1048,1.0,1.0,https://api.elsevier.com/metrics/institution/207010,application/json,Bharathiar University,Institution/207010,ind,APAC,academic,207010.0,India,1.0,1.0,1,1.0,1.0,,1.0,1.0,1.0,
+University of Warmia and Mazury,1049,1.0,1.0,https://api.elsevier.com/metrics/institution/327033,application/json,University of Warmia and Mazury,Institution/327033,pol,EUR,academic,327033.0,Poland,1.0,1.0,1,1.0,1.0,,1.0,1.0,1.0,
+Guangxi Medical University,1050,1.0,1.0,https://api.elsevier.com/metrics/institution/203067,application/json,Guangxi Medical University,Institution/203067,chn,APAC,academic,203067.0,China,1.0,1.0,1,1.0,1.0,,1.0,1.0,1.0,
+Akdeniz University,1051,1.0,1.0,https://api.elsevier.com/metrics/institution/410004,application/json,Akdeniz University,Institution/410004,tur,MEA,academic,410004.0,Turkey,1.0,1.0,1,1.0,1.0,,1.0,1.0,1.0,
+Rhodes University,1052,1.0,1.0,https://api.elsevier.com/metrics/institution/115002,application/json,Rhodes University,Institution/115002,zaf,AFR,academic,115002.0,South Africa,1.0,1.0,1,1.0,1.0,,1.0,1.0,1.0,
+RAS - Ioffe Physico Technical Institute,1053,1.0,1.0,https://api.elsevier.com/metrics/institution/331072,application/json,RAS - Ioffe Physico Technical Institute,Institution/331072,rus,EUR,academic,331072.0,Russian Federation,1.0,1.0,1,1.0,1.0,,1.0,1.0,1.0,
+China Earthquake Administration,1054,1.0,1.0,https://api.elsevier.com/metrics/institution/203029,application/json,China Earthquake Administration,Institution/203029,chn,APAC,government,203029.0,China,1.0,1.0,1,1.0,1.0,,-1.0,-1.0,-1.0,
+Universidad Javeriana,1055,1.0,1.0,https://api.elsevier.com/metrics/institution/604006,application/json,Universidad Javeriana,Institution/604006,col,SAM,academic,604006.0,Colombia,1.0,1.0,1,1.0,1.0,,1.0,1.0,1.0,
+AMITY UNIVERSITY,1056,1.0,1.0,https://api.elsevier.com/metrics/institution/700340,application/json,AMITY UNIVERSITY,Institution/700340,ind,APAC,academic,700340.0,India,1.0,1.0,1,1.0,1.0,,1.0,1.0,1.0,
+Mashhad University of Medical Sciences,1057,1.0,1.0,https://api.elsevier.com/metrics/institution/404013,application/json,Mashhad University of Medical Sciences,Institution/404013,irn,MEA,academic,404013.0,Iran,1.0,1.0,1,1.0,1.0,,1.0,1.0,1.0,
+Vietnamese Academy of Science and Technology,1058,1.0,1.0,https://api.elsevier.com/metrics/institution/704699,application/json,Vietnamese Academy of Science and Technology,Institution/704699,vnm,APAC,academic,704699.0,Viet Nam,1.0,1.0,1,1.0,1.0,,1.0,1.0,1.0,
+University of South China,1059,1.0,1.0,https://api.elsevier.com/metrics/institution/203215,application/json,University of South China,Institution/203215,chn,APAC,academic,203215.0,China,1.0,1.0,1,1.0,1.0,,1.0,1.0,1.0,
+Changchun University of Science and Technology,1060,1.0,1.0,https://api.elsevier.com/metrics/institution/203460,application/json,Changchun University of Science and Technology,Institution/203460,chn,APAC,academic,203460.0,China,1.0,1.0,1,1.0,1.0,,1.0,1.0,1.0,
+Mendel University of Agriculture and Forestry,1061,1.0,1.0,https://api.elsevier.com/metrics/institution/308007,application/json,Mendel University of Agriculture and Forestry,Institution/308007,cze,EUR,academic,308007.0,Czech Republic,1.0,1.0,1,1.0,1.0,,1.0,1.0,1.0,
+Al-Azhar University,1062,1.0,1.0,https://api.elsevier.com/metrics/institution/104002,application/json,Al-Azhar University,Institution/104002,egy,AFR,academic,104002.0,Egypt,1.0,1.0,1,1.0,1.0,,1.0,1.0,1.0,
+Peoples' Friendship University of Russia,1063,1.0,1.0,https://api.elsevier.com/metrics/institution/331018,application/json,Peoples' Friendship University of Russia,Institution/331018,rus,EUR,academic,331018.0,Russian Federation,1.0,1.0,1,1.0,1.0,,1.0,1.0,1.0,
+Iran University of Medical Sciences,1064,1.0,1.0,https://api.elsevier.com/metrics/institution/404007,application/json,Iran University of Medical Sciences,Institution/404007,irn,MEA,academic,404007.0,Iran,1.0,1.0,1,1.0,1.0,,1.0,1.0,1.0,
+Nanjing University of Information Science & Technology,1065,1.0,1.0,https://api.elsevier.com/metrics/institution/203131,application/json,Nanjing University of Information Science & Technology,Institution/203131,chn,APAC,academic,203131.0,China,1.0,1.0,1,1.0,1.0,,1.0,1.0,1.0,
+Isfahan University of Technology,1066,1.0,1.0,https://api.elsevier.com/metrics/institution/404010,application/json,Isfahan University of Technology,Institution/404010,irn,MEA,academic,404010.0,Iran,1.0,1.0,1,1.0,1.0,,1.0,1.0,1.0,
+Southampton University Hospitals NHS Trust,1067,1.0,1.0,https://api.elsevier.com/metrics/institution/701988,application/json,Southampton University Hospitals NHS Trust,Institution/701988,gbr,EUR,medical,701988.0,United Kingdom,1.0,1.0,1,1.0,1.0,,1.0,1.0,1.0,
+Museum National d'Histoire Naturelle,1068,1.0,1.0,https://api.elsevier.com/metrics/institution/314036,application/json,Museum National d'Histoire Naturelle,Institution/314036,fra,EUR,other,314036.0,France,1.0,1.0,1,1.0,1.0,,1.0,1.0,1.0,
+CAS - Institute of High Energy Physics,1069,1.0,1.0,https://api.elsevier.com/metrics/institution/203278,application/json,CAS - Institute of High Energy Physics,Institution/203278,chn,APAC,academic,203278.0,China,1.0,1.0,1,1.0,1.0,,1.0,1.0,1.0,
+J. Stefan Institute,1070,1.0,1.0,https://api.elsevier.com/metrics/institution/333001,application/json,J. Stefan Institute,Institution/333001,svn,EUR,government,333001.0,Slovenia,1.0,1.0,1,1.0,1.0,,1.0,,1.0,
+Northwest Agriculture and Forestry University,1071,1.0,1.0,https://api.elsevier.com/metrics/institution/203146,application/json,Northwest Agriculture and Forestry University,Institution/203146,chn,APAC,academic,203146.0,China,1.0,1.0,1,1.0,1.0,,1.0,,1.0,
+INSA Rennes,1072,1.0,1.0,https://api.elsevier.com/metrics/institution/314252,application/json,INSA Rennes,Institution/314252,fra,EUR,academic,314252.0,France,1.0,1.0,1,1.0,1.0,,1.0,,1.0,
+Christie Hospital NHS Foundation Trust,1073,1.0,1.0,https://api.elsevier.com/metrics/institution/315134,application/json,Christie Hospital NHS Foundation Trust,Institution/315134,gbr,EUR,medical,315134.0,United Kingdom,1.0,1.0,1,1.0,1.0,,1.0,,1.0,
+Universidad de Vigo,1074,1.0,1.0,https://api.elsevier.com/metrics/institution/312034,application/json,Universidad de Vigo,Institution/312034,esp,EUR,academic,312034.0,Spain,1.0,1.0,1,1.0,1.0,,1.0,,1.0,
+North Shore-Long Island Jewish Health System,1075,1.0,1.0,https://api.elsevier.com/metrics/institution/508618,application/json,North Shore-Long Island Jewish Health System,Institution/508618,usa,NAM,medical,508618.0,United States,1.0,1.0,1,1.0,1.0,,1.0,,1.0,
+Children's Hospital Columbus,1076,1.0,1.0,https://api.elsevier.com/metrics/institution/508448,application/json,Children's Hospital Columbus,Institution/508448,usa,NAM,medical,508448.0,United States,1.0,1.0,1,1.0,1.0,,1.0,,1.0,
+CSIR - Engineering,1077,1.0,1.0,https://api.elsevier.com/metrics/institution/207017,application/json,CSIR - Engineering,Institution/207017,ind,APAC,government,207017.0,India,1.0,1.0,1,1.0,1.0,,1.0,,1.0,
+AgriFood Canada,1078,1.0,1.0,https://api.elsevier.com/metrics/institution/501002,application/json,AgriFood Canada,Institution/501002,can,NAM,academic,501002.0,Canada,1.0,1.0,1,1.0,1.0,,-1.0,,-1.0,
+Beijing University of Technology,1079,1.0,1.0,https://api.elsevier.com/metrics/institution/203018,application/json,Beijing University of Technology,Institution/203018,chn,APAC,academic,203018.0,China,1.0,1.0,1,1.0,1.0,,1.0,,1.0,
+University of L'Aquila,1080,1.0,1.0,https://api.elsevier.com/metrics/institution/321052,application/json,University of L'Aquila,Institution/321052,ita,EUR,academic,321052.0,Italy,1.0,1.0,1,1.0,1.0,,1.0,,1.0,
+Illinois Institute of Technology,1081,1.0,1.0,https://api.elsevier.com/metrics/institution/508082,application/json,Illinois Institute of Technology,Institution/508082,usa,NAM,academic,508082.0,United States,1.0,1.0,1,1.0,1.0,,1.0,,1.0,
+Alikhanov Institute for Theoretical and Experimental Physics,1082,1.0,1.0,https://api.elsevier.com/metrics/institution/331026,application/json,Alikhanov Institute for Theoretical and Experimental Physics,Institution/331026,rus,EUR,government,331026.0,Russian Federation,1.0,1.0,1,1.0,1.0,,1.0,,1.0,
+"National Hospital Organization, Japan",1083,1.0,1.0,https://api.elsevier.com/metrics/institution/208272,application/json,"National Hospital Organization, Japan",Institution/208272,jpn,APAC,medical,208272.0,Japan,1.0,1.0,1,1.0,1.0,,1.0,,1.0,
+CIEMAT,1084,1.0,1.0,https://api.elsevier.com/metrics/institution/312003,application/json,CIEMAT,Institution/312003,esp,EUR,government,312003.0,Spain,1.0,1.0,1,1.0,1.0,,1.0,,1.0,
+CAS - Institute of Metal Research,1085,1.0,1.0,https://api.elsevier.com/metrics/institution/203279,application/json,CAS - Institute of Metal Research,Institution/203279,chn,APAC,academic,203279.0,China,1.0,1.0,1,1.0,1.0,,1.0,,1.0,
+Nanchang University,1086,1.0,1.0,https://api.elsevier.com/metrics/institution/203124,application/json,Nanchang University,Institution/203124,chn,APAC,academic,203124.0,China,1.0,1.0,1,1.0,1.0,,-1.0,,-1.0,
 Royal Brisbane and Women's Hospital,1087,1.0,1.0,https://api.elsevier.com/metrics/institution/201074,application/json,Royal Brisbane and Women's Hospital,Institution/201074,aus,APAC,medical,201074.0,Australia,1.0,1.0,1,1.0,1.0,,,,,
 Veterans General Hospital-Taipei,1088,1.0,1.0,https://api.elsevier.com/metrics/institution/217110,application/json,Veterans General Hospital-Taipei,Institution/217110,twn,APAC,medical,217110.0,Taiwan,1.0,1.0,1,1.0,1.0,,,,,
 Central China Normal University,1089,1.0,1.0,https://api.elsevier.com/metrics/institution/203021,application/json,Central China Normal University,Institution/203021,chn,APAC,academic,203021.0,China,1.0,1.0,1,1.0,1.0,,,,,
