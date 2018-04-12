@@ -8,7 +8,7 @@ import logging
 from urllib import parse, request
 # from urllib.error import HTTPError
 from func import get_InstitutionSearch, get_aff_id
-from my_scival2 import InstitutionSearch, MetricSearch
+from my_scival import InstitutionSearch, MetricSearch
 
 import pickle as pk
 from pprint import pprint as pp
