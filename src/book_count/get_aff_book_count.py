@@ -243,7 +243,7 @@ if __name__ == "__main__":
 
     MY_API_KEY = "e53785aedfc1c54942ba237f8ec0f891"
 
-    n = 500
+    n = 50
 
     year = 2016
     doctype = "bk"
@@ -256,6 +256,14 @@ if __name__ == "__main__":
                 2014: "book_downloaded_2014",
                 2015: "book_downloaded_2015",
                 2016: "book_downloaded_2016"}
+
+
+    fname_long_book = 'data/long_book_count.csv'
+
+    try:
+        df_old = pd.read_csv(fname_long_book)
+    except:
+        df_old = pd.DataFrame(columns=['name', 'metricType', 'year', 'valueByYear'])
 
 
     for i in range(n):
@@ -275,7 +283,17 @@ if __name__ == "__main__":
 
         try:
             res = my_scopus_search(query=query, apiKey=MY_API_KEY)
+
             s = res.get_search_object()
+
+            q = {'name': aff_name,
+                 'metricType': 'BookCount',
+                 'year': year,
+                 'valueByYear': s['search-results']['opensearch:totalResults']}
+
+            df_old = df_old.append(q, ignore_index=True)
+
+
             logger.debug("respond received sucessfuly")
 
             logger.debug('saving the response to {}'.format(fname_jres))
@@ -308,3 +326,5 @@ if __name__ == "__main__":
     except Exception as e:
         logger.warn("saving updated talbe has failed, please, save the table manually")
 
+
+    df_old.to_csv(fname_long_book, index=False)
