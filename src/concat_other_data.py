@@ -129,10 +129,10 @@ if __name__ == "__main__":
     df_metric = pd.concat(df_list)
 
     fname_long_book = '../data/long_book_count.csv'
-    fname_long_patent  = '../data/long_patent_count.csv'
+    fname_long_patent  = '../data/patent_count.xlsx'
 
     df_patent = pd.read_csv(fname_long_book)
-    df_book   = pd.read_csv(fname_long_patent)
+    df_book   = pd.read_excel(fname_long_patent)
 
     df = pd.concat([df_metric, df_patent, df_book], ignore_index=True)
 
