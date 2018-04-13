@@ -23,8 +23,7 @@ class ids(object):
 
     def to_dict(self):
 
-        return dict(((x, getattr(self, x)) for x in self.allowed_keys if not callable(getattr(self,x))))
-
+        return dict(((x, getattr(self, x)) for x in self.allowed_keys if ((not callable(getattr(self,x))) and getattr(self, x))))
 
     def set_items(self, **kwargs):
 
