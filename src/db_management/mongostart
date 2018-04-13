@@ -1,0 +1,3 @@
+#!/bin/bash
+
+mongod --dbpath ../../db --directoryperdb --logpath ../../logs/mongo.log --logappend --fork
