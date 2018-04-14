@@ -2,7 +2,7 @@ import pymongo
 import pandas as pd
 from pprint import pprint as pp
 import numpy as np
-from .model import ids
+from model import ids
 import re
 
 
