@@ -1,5 +1,25 @@
+class base_model:
 
-class ids(object):
+    def __init__(self):
+
+        pass
+
+
+    def is_member(self, field):
+
+        return (not callable(getattr(self, field))) and getattr(self, field) and ('__' not in field)
+
+    def to_dict(self):
+
+        return dict((x, getattr(self, x)) for x in dir(self) if self.is_member(x))
+
+    def set_items(self, **kwargs):
+
+        self.__dict__.update((k, v) for k, v in kwargs.items() if k in dir(self) and not callable(getattr(self, k)))
+
+
+
+class ids(base_model):
 
     def __init__(self, **kwargs):
 
@@ -16,15 +36,19 @@ class ids(object):
         self.sector = ''
         self.parent_id = []
 
-        self.allowed_keys = [x for x in dir(self) if '__' not in x]
-
         self.set_items(**kwargs)
 
 
-    def to_dict(self):
+class scopus_metrics(base_model):
 
-        return dict(((x, getattr(self, x)) for x in self.allowed_keys if ((not callable(getattr(self,x))) and getattr(self, x))))
+    def __init__(self, **kwargs):
 
-    def set_items(self, **kwargs):
+        self.id = 0
+        self.scopus_id = 0
+        self.scival_id = 0
+        self.year = 0
+        self.name = ''
+        self.value = 0
+        self.metricType = '' # either book_count or patent_count
 
-        self.__dict__.update((k, v) for k, v in kwargs.items() if k in self.allowed_keys)
+        self.set_items(**kwargs)
