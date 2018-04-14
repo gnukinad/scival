@@ -13,6 +13,8 @@ from func import get_InstitutionSearch, get_aff_id, get_aff_metrics
 import pickle as pk
 from pprint import pprint as pp
 
+from func import read_credentials
+
 BASE_DIR = os.path.abspath(os.path.realpath(__file__))
 BASE_DIR = os.path.join(os.path.dirname(BASE_DIR), '..')
 os.chdir(BASE_DIR)
@@ -118,9 +120,9 @@ def get_valid_aff_names(df_iter, n):
         # get university names
         try:
             aff_id, aff_name = df_iter.get_next_id()
-            
+
             aff_id = np.int(aff_id)
-            
+
             aff_ids.append(aff_id)
             aff_names.append(aff_name)
         except:
@@ -141,7 +143,8 @@ if __name__ == "__main__":
     get metric responses for each affiliation id and write to csv
     """
 
-    MY_API_KEY = "e53785aedfc1c54942ba237f8ec0f891"
+    MY_API_KEY = read_credentials("MY_API_KEY")
+    # MY_API_KEY = "e53785aedfc1c54942ba237f8ec0f891"
     # MY_API_KEY = "7f59af901d2d86f78a1fd60c1bf9426a"
 
     logger.debug('loading university names')

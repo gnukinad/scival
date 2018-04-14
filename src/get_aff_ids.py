@@ -7,7 +7,7 @@ import logging
 
 from urllib import parse, request
 # from urllib.error import HTTPError
-from func import get_InstitutionSearch, get_aff_id
+from func import get_InstitutionSearch, get_aff_id, read_credentials
 from my_scival import InstitutionSearch, MetricSearch
 
 import pickle as pk
@@ -125,7 +125,8 @@ if __name__=="__main__":
     get the InstitutionSearch output for every affiliation that was not already downloaded
     """
 
-    MY_API_KEY = "e53785aedfc1c54942ba237f8ec0f891"
+    MY_API_KEY = read_credentials("MY_API_KEY")
+    # MY_API_KEY = "e53785aedfc1c54942ba237f8ec0f891"
     # MY_API_KEY = "7f59af901d2d86f78a1fd60c1bf9426a"
 
     logger.debug('loading university names')
