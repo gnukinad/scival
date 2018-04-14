@@ -2,17 +2,17 @@ import pymongo
 import pandas as pd
 from pprint import pprint as pp
 import numpy as np
-from model import ids
+from .model import ids
 import re
 
 
 
-class MyMongo:
+class mongo_ids:
 
     def __init__(self):
 
         self.client = pymongo.MongoClient('localhost', 27017)
-        self.db = self.client['demo']
+        self.db = self.client['ids']
         self.aff_ids = self.db['name_ids']
 
 
@@ -38,7 +38,6 @@ class MyMongo:
         # insert a bulk of affiliations
 
         return [self.insert_affiliation(x) for x in affs]
-
 
 
     def partial_insert(self, item, index_field, new_item):

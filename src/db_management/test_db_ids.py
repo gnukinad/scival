@@ -1,6 +1,6 @@
 import pandas as pd
 from model import ids
-from db_ids import MyMongo
+from db_ids import mongo_ids
 import re
 import numpy as np
 
@@ -9,7 +9,7 @@ import numpy as np
 # if __name__ == "__main__":
 def transer_ids_from_institution():
 
-    db_ids = MyMongo()
+    db_ids = mongo_ids()
 
     fname_main = '../../data/universities_table.csv'
 
@@ -42,7 +42,7 @@ def transer_ids_from_institution():
 def try_insert():
 
     # inserting item should be a dictionary
-    db_ids = MyMongo()
+    db_ids = mongo_ids()
 
     a = ids(name='Harvard University', country='USA', city='Cambridge')
 
@@ -52,7 +52,7 @@ def try_insert():
 # if __name__ == "__main__":
 def try_insert_child_ids():
 
-    db_ids = MyMongo()
+    db_ids = mongo_ids()
 
     df = pd.read_excel('aaa.xlsx').rename({'Affiliation ID': 'scopus_id', 'Name': 'name'}, axis=1)
 
@@ -71,7 +71,7 @@ def try_insert_child_ids():
 def try_partial_input():
 # if __name__ == "__main__":
 
-    db_ids = MyMongo()
+    db_ids = mongo_ids()
 
     old_item = {'scival_id': 508076}
     new_item = {'city': 'Change to something'}
