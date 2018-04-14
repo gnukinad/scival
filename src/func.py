@@ -167,7 +167,7 @@ def get_aff_metrics(res):
         df_list.append(tmp)
 
     df = pd.concat(df_list)
-    
+
     return df
 
 
@@ -180,3 +180,22 @@ def find_dict_cols(df):
 
     a = [x for x in cols if isinstance((df.loc[:, x][0]), dict)]
     return a
+
+
+def read_credentials(var):
+
+    # the file should look like
+    # MY_API_KEY = "_____"
+    # password = "_____"
+
+    # possible vars: "MY_API_KEY" and "password"
+
+    fname = 'src/.settings.txt'
+
+    with open(fname, 'r') as f:
+        all_lines = f.readlines()
+
+    all_lines = [x.strip() for x in all_lines]
+
+    return [x.strip().split('=')[1].strip().strip('"').strip("'") for x in all_lines if var.lower() in x.lower()]
+
