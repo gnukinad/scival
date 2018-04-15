@@ -1,7 +1,6 @@
 
 
 
-
 mfwci = "FieldWeightedCitationImpact"
 mcol_impact = "CollaborationImpact"
 mcol = "Collaboration"

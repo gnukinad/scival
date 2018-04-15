@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 import pymongo
 
-from model import scopus_metrics
+from db_management.model import scopus_metrics
 
 
 class mongo_scopus_metrics:
@@ -10,7 +10,7 @@ class mongo_scopus_metrics:
     def __init__(self):
 
         self.client = pymongo.MongoClient('localhost', 27017)
-        self.db = self.client['test_metrics']
+        self.db = self.client['scopus_metrics']
         self.metrics = self.db['metrics']
 
         '''

@@ -1,9 +1,14 @@
+import sys
+print(sys.path)
+
+
 import pymongo
 import pandas as pd
 from pprint import pprint as pp
 import numpy as np
-from model import metric_ack_model
-from db_ids import mongo_ids
+from db_management.model import metric_ack_model
+# import model.metric_ack_model as metric_ack_model
+from db_management.db_ids import mongo_ids
 import re
 
 
@@ -24,22 +29,23 @@ class mongo_metric_ack():
 
     def isValid(self, item):
 
-        assert isinstance(item, metric_ack), 'only metricAck is accepted'
+        assert isinstance(item, metric_ack_model), 'only metric_ack_model is accepted'
 
 
     def update_item_by_year(self, **kwargs):
 
         # i need to preserve the document structure
-        self.isValid(metric_ack(**kwargs))
+        self.isValid(metric_ack_model(**kwargs))
 
         self.aff_acks.update_one({ 'affiliation.scopus_id': kwargs['scopus_id'],
-                                    'acknowledge.metricType': kwargs['metricType']
+                                    'ack.metricType': kwargs['metricType']
                                   },
                                 {'$set': {
-                                    'acknowledge.value.{}'.format(kwargs['year']): int(kwargs['ack'])
+                                    'ack.value.{}'.format(kwargs['year']): int(kwargs['ack'])
                                 }},
                                 upsert=True
         )
+        print('finished writing')
 
     def find_item(self, scopus_id, metricType, year, ack):
 
@@ -47,8 +53,8 @@ class mongo_metric_ack():
         # self.isValid(metric_ack(scopus_id=scopus_idkwargs))
 
         a = self.aff_acks.find_one({ 'affiliation.scopus_id': scopus_id,
-                                'acknowledge.metricType': metricType,
-                                'acknowledge.value.{}'.format(year): ack
+                                'ack.metricType': metricType,
+                                'ack.value.{}'.format(year): ack
         })
 
         if a:
@@ -67,8 +73,8 @@ class mongo_metric_ack():
 
         for aff_id in all_scopus_ids:
 
-            print(aff_id)
-            print('find_item(aff_id) is ', self.find_item(aff_id['scopus_id'], 'BookCount', '2012', 1))
+            # print(aff_id)
+            # print('find_item(aff_id) is ', self.find_item(aff_id['scopus_id'], 'BookCount', '2012', 1))
 
             if i == n:
                 break
