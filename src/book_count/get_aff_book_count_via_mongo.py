@@ -258,9 +258,14 @@ if __name__ == "__main__":
     # MY_API_KEY = "e53785aedfc1c54942ba237f8ec0f891"
     MY_API_KEY = read_credentials("MY_API_KEY")[0]
 
-    n = 1000
+    # n = 6000
 
-    year = 2016
+    # year = 2014
+
+    _, year, n = sys.argv
+    year = int(year)
+    n = int(n)
+
     doctype = "bk"
 
     # where to save the results
