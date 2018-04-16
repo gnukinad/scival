@@ -73,15 +73,11 @@ class mongo_metric_ack():
 
         for aff_id in all_scopus_ids:
 
-            # print(aff_id)
-            # print('find_item(aff_id) is ', self.find_item(aff_id['scopus_id'], 'BookCount', '2012', 1))
-
             if i == n:
                 break
 
-            if self.find_item(aff_id['scopus_id'], 'BookCount', '2012', 1):
+            if self.find_item(aff_id['scopus_id'], metricType, year, 1):
                 valid_ids.append(aff_id['scopus_id'])
                 i = i + 1
-
 
         return valid_ids
