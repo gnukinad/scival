@@ -4,6 +4,7 @@ import numpy as np
 import pandas as pd
 from pprint import pprint as pp
 import logging
+import sys
 
 
 from db_management.metric_ack import mongo_metric_ack
@@ -306,11 +307,7 @@ def get_patent_count(driver, query):
             return a
 
 
-def main(n, year, fname_df, fname_res):
-
-    slink = 'https://www.scopus.com/results/results.uri?sort=plf-f&src=s&sid=9cf773e35f9165af3488aaee575fd58a&sot=a&sdt=a&sl=49&s=affil%28%22University+of+Toronto%22%29+AND+pubyear+%3d+2016&origin=searchadvanced&editSaveSearch=&txGid=7bfd7d6ce111fb51284b6d3d7d6149ee'
-
-    plink = 'https://www.scopus.com/results/results.uri?src=p&sort=plf-f&sid=9cf773e35f9165af3488aaee575fd58a&sot=a&sdt=a&sl=49&s=affil%28%22University+of+Toronto%22%29+AND+pubyear+%3d+2016&cl=t&offset=1&ss=plf-f&ws=r-f&ps=r-f&cs=r-f&origin=resultslist&zone=queryBar'
+def main(n, year, metricType):
 
 
     logger.debug('downloaded results table')
@@ -321,7 +318,8 @@ def main(n, year, fname_df, fname_res):
 
     # n = 15
     # year = 2016
-    valid_ids = coll_ack.find_valid_ids('BookCount', str(year), n)
+    valid_ids = coll_ack.find_valid_ids(metricType, str(year), n)
+    print('valid_ids')
 
     logger.debug('opening browser with scopus advanced search link')
 
@@ -403,22 +401,23 @@ def main(n, year, fname_df, fname_res):
 
 if __name__ == "__main__":
 
+    _, year, n, rep = sys.argv
+
+    year = int(year)
+    n = int(n)
+    rep = int(rep)
+
     # n = 15
-    # year = 2015
-    # fname_df = 
-    # fname_res = 
 
-    n = 15
-
-    year = 2012
-    years = [2012, 2013, 2014, 2015, 2016]
+    # year = 2012
+    # years = [2012, 2013, 2014, 2015, 2016]
     # years = [2012]
 
-    fname_df = os.path.join('data', 'universities_table.csv')
-    fname_res = os.path.join('data', 'patent_count.xlsx')
+    metricType = 'PatentCount'
 
-    for i in range(5):
-        for year in years:
+    for i in range(rep):
 
-            driver = main(n=n, year=year, fname_df=fname_df, fname_res=fname_res)
-            time.sleep(5)
+        print('year {}\nn is {}\rep is {}'.format(year, n, rep))
+
+        driver = main(n=n, year=year, metricType=metricType)
+        time.sleep(5)
