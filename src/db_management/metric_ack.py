@@ -93,7 +93,7 @@ class mongo_metric_ack:
         return valid_ids
 
 
-    def find_valid_parent_ids(self, metricType, year, n, index_field=None, child_field=None):
+    def find_valid_parent_ids(self, metricType, year, n, index_field=None, child_field=None, child_id_field=None):
         # this method searches for ids by scopus, i.e. each one separately
 
         if index_field is None:
@@ -101,6 +101,9 @@ class mongo_metric_ack:
 
         if child_field is None:
             child_field = 'scopus_id'
+
+        if child_id_field is None:
+            child_id_field = 'child_id'
 
         all_aff_ids = self.db_ids.aff_ids.find({index_field: {'$exists': True}})
 
@@ -114,7 +117,7 @@ class mongo_metric_ack:
                 break
 
             if self.find_item(aff_id[index_field], metricType, year, 1):
-                valid_ids.append([x[child_field] for x in aff_id['child_id']])
+                valid_ids.append([x[child_field] for x in aff_id[child_id_field]])
                 i = i + 1
 
         return valid_ids
