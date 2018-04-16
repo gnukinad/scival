@@ -11,15 +11,27 @@ import re
 
 
 
-class mongo_metric_ack():
+class mongo_metric_ack:
 
     # write acknowledgement here
 
-    def __init__ (self):
+    def __init__ (self, db_name=None, coll_name=None, address=None, port=None):
 
-        self.client = pymongo.MongoClient('localhost', 27017)
-        self.db = self.client['acknowledgements']
-        self.aff_acks = self.db['acks']
+        if db_name is None:
+            db_name = 'acknowledgements'
+
+        if coll_name is None:
+            coll_name = 'acks'
+
+        if address is None:
+            address = 'localhost'
+
+        if port is None:
+            port = 27017
+
+        self.client = pymongo.MongoClient(address, port)
+        self.db = self.client[db_name]
+        self.aff_acks = self.db[coll_name]
 
         self.db_ids = mongo_ids()
 
