@@ -1,7 +1,4 @@
 import sys
-print(sys.path)
-
-
 import pymongo
 import pandas as pd
 from pprint import pprint as pp
@@ -64,6 +61,7 @@ class mongo_metric_ack():
 
 
     def find_valid_ids(self, metricType, year, n):
+        # this method searches for ids by scopus, i.e. each one separately
 
         all_scopus_ids = self.db_ids.aff_ids.find({'scopus_id': {'$exists': True}})
 
@@ -78,6 +76,33 @@ class mongo_metric_ack():
 
             if self.find_item(aff_id['scopus_id'], metricType, year, 1):
                 valid_ids.append(aff_id['scopus_id'])
+                i = i + 1
+
+        return valid_ids
+
+
+    def find_valid_parent_ids(self, metricType, year, n, index_field=None, child_field=None):
+        # this method searches for ids by scopus, i.e. each one separately
+
+        if index_field is None:
+            index_field = 'scival_id'
+
+        if child_field is None:
+            child_field = 'scopus_id'
+
+        all_aff_ids = self.db_ids.aff_ids.find({index_field: {'$exists': True}})
+
+        valid_ids = []
+
+        i = 0
+
+        for aff_id in all_aff_ids[:n]:
+
+            if i == n:
+                break
+
+            if self.find_item(aff_id[index_field], metricType, year, 1):
+                valid_ids.append([x[child_field] for x in aff_id['child_id']])
                 i = i + 1
 
         return valid_ids
