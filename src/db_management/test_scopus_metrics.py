@@ -1,9 +1,9 @@
 
 import pymongo
-from model import scopus_metrics, metric_ack_model
+from db_management.model import scopus_metrics, metric_ack_model
 
-from scopus_metrics import mongo_scopus_metrics
-from metric_ack import mongo_metric_ack
+from db_management.scopus_metrics import mongo_scopus_metrics
+from db_management.metric_ack import mongo_metric_ack
 
 
 # if __name__ == "__main__":
@@ -23,8 +23,8 @@ def test_patent_count():
     coll.update_item_by_year(**item2)
 
 
-# def test_acknowledgment_writing():
-if __name__ == "__main__":
+def test_acknowledgment_writing():
+# if __name__ == "__main__":
 
     print('test_acknoledgement_writing')
 
@@ -53,7 +53,10 @@ def test_acknowledgement():
 
     coll = mongo_metric_ack()
 
-    q = coll.find_valid_ids('BookCount', '2012', 20)
+    metricType = 'PatentCount'
+    year = '2012'
+    n = 20
+
+    q = coll.find_valid_parent_ids(metricType, str(year), n)
 
 
-    return q, coll
