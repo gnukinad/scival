@@ -252,12 +252,12 @@ def get_patent_count(driver, query):
 
     logger.debug('waiting for page to be downloaded')
     # get amount of patents
-    el = wait(driver, 5).until(EC.presence_of_element_located((By.ID, "searchResFormId")))
+    el = wait(driver, 60).until(EC.presence_of_element_located((By.ID, "searchResFormId")))
 
     current_url = driver.current_url
     driver.get(current_url)
 
-    t = 4 + runi(0, 1)
+    t = 10 + runi(0, 1)
     time.sleep(t)
 
     if driver_has_element_by_xpath(driver, '//div[@class="alert alert-danger"]/a[@class="close"]'):
@@ -309,30 +309,45 @@ def get_patent_count(driver, query):
 
 def main(n, year, metricType):
 
+    adv_search_link = 'https://www.scopus.com/search/form.uri?display=advanced&clear=t&origin=searchbasic&txGid=fc476bc6f6c3a112a577edd9f6f26e14'
 
     logger.debug('downloaded results table')
 
-    coll_ack = mongo_metric_ack()
-    coll_metrics = mongo_scopus_metrics()
+
+    db_name_ack = 'acknowledgements'
+    coll_name_ack = 'acks_by_scival'
+
+    db_name_metrics = 'scopus_metrics'
+    coll_name_metrics = 'metrics_by_scival'
+
+    parent_field = 'scival_id'
+    child_field = 'scopus_id'
+    child_id_field = 'child_id'
+
+    coll_ack = mongo_metric_ack(db_name=db_name_ack, coll_name=coll_name_ack)
+    coll_metrics = mongo_scopus_metrics(db_name=db_name_metrics, coll_name=coll_name_metrics)
 
 
-    # n = 15
-    # year = 2016
-    valid_ids = coll_ack.find_valid_ids(metricType, str(year), n)
-    print('valid_ids')
+    # valid_ids = coll_ack.find_valid_parent_ids(metricType, str(year), n)
+    valid_dicts = coll_ack.find_valid_parent_ids(metricType, str(year), n)
 
     logger.debug('opening browser with scopus advanced search link')
 
-    timeout = 30
+    timeout = 60
+
+    fp = webdriver.FirefoxProfile()
+    fp.set_preference("http.response.timeout", timeout)
+    fp.set_preference("dom.max_script_run_time", timeout)
 
     binary = FirefoxBinary('/usr/lib/firefox/firefox')
-    driver = webdriver.Firefox(firefox_binary=binary)
-    driver.set_page_load_timeout(timeout) # error if timeout has passed
+    driver = webdriver.Firefox(firefox_binary=binary, firefox_profile=fp)
+    # driver.set_page_load_timeout(timeout) # error if timeout has passed
 
 
     try:
-        driver = open_scopus_link(driver)
-        cur_res = []
+        # driver = open_scopus_link(driver)
+        driver.get(adv_search_link)
+        time.sleep(5)
 
         logger.debug('doing search')
     except:
@@ -341,17 +356,28 @@ def main(n, year, metricType):
     else:
 
 
-        for aff_id in valid_ids:
+        for valid_dict in valid_dicts:
+
+
+            driver.get('https://www.scopus.com/search/form.uri?display=advanced&clear=t&origin=searchbasic&txGid=fc476bc6f6c3a112a577edd9f6f26e14')
+            time.sleep(5+runi(-1, 1))
+
+            close_pop_up_window(driver)
 
             patent_count = 0
 
+            parent_id = valid_dict[parent_field]
+            aff_id = valid_dict[child_id_field]
+
             logger.debug('creating query for search')
-            query = 'af-id({}) AND pubyear = {}'.format(aff_id, year)
+            # query = 'af-id({}) AND pubyear = {}'.format(aff_id, year)
+            query = '( ' + ' or '.join(['af-id({})'.format(x) for x in aff_id]) + ' )'
+            query = '{} AND pubyear = {}'.format(query, year)
             logger.debug('query is {}'.format(query))
 
 
-            q = {'scopus_id': aff_id,
-                 'metricType': 'PatentCount',
+            q = {parent_field: parent_id,
+                 'metricType': metricType,
                  'year': year}
 
             metric_response = q.copy()
@@ -364,14 +390,15 @@ def main(n, year, metricType):
 
             except TimeoutException as e:
                 logger.warning('timeout error')
+                print(e)
                 break
 
             except Exception as e:
                 logger.warning('error has occured')
+                logger.warning(e)
 
-                logger.warning('updating errorous af-id')
                 ack_response['ack'] = -1
-                coll_ack.update_item_by_year(**ack_response)
+                coll_ack.update_item_by_year(parent_field, **ack_response)
 
                 break
 
@@ -381,14 +408,15 @@ def main(n, year, metricType):
                 metric_response['value'] = patent_count
                 ack_response['ack'] = 1
 
-
                 logger.debug('number of patents has been retrieved succesfully')
-                logger.debug('number of patents for {} is {}'.format(aff_id, patent_count))
-
+                logger.debug('number of patents for {} is {}'.format(parent_id, patent_count))
 
                 logger.debug("updating metrics and ack dbs")
-                coll_metrics.update_item_by_year(**metric_response)
-                coll_ack.update_item_by_year(**ack_response)
+                coll_metrics.update_item_by_year(parent_field, **metric_response)
+                coll_ack.update_item_by_year(parent_field, **ack_response)
+                logger.debug("updating metrics and ack dbs finished")
+
+            print(ack_response)
 
 
     finally:
@@ -412,7 +440,6 @@ if __name__ == "__main__":
     # year = 2012
     # years = [2012, 2013, 2014, 2015, 2016]
     # years = [2012]
-
     metricType = 'PatentCount'
 
     for i in range(rep):
