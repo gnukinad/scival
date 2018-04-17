@@ -10,7 +10,6 @@ import re
 
 
 
-
 class mongo_metric_ack:
 
     # write acknowledgement here
@@ -41,12 +40,12 @@ class mongo_metric_ack:
         assert isinstance(item, metric_ack_model), 'only metric_ack_model is accepted'
 
 
-    def update_item_by_year(self, **kwargs):
+    def update_item_by_year(self, parent_field, **kwargs):
 
         # i need to preserve the document structure
         self.isValid(metric_ack_model(**kwargs))
 
-        self.aff_acks.update_one({ 'affiliation.scopus_id': kwargs['scopus_id'],
+        self.aff_acks.update_one({ 'affiliation.{}'.format(parent_field): kwargs[parent_field],
                                     'ack.metricType': kwargs['metricType']
                                   },
                                 {'$set': {
@@ -54,14 +53,14 @@ class mongo_metric_ack:
                                 }},
                                 upsert=True
         )
-        print('finished writing')
 
-    def find_item(self, scopus_id, metricType, year, ack):
+
+    def find_item(self, parent_field, item_id, metricType, year, ack):
 
         # find item by metrics
         # self.isValid(metric_ack(scopus_id=scopus_idkwargs))
 
-        a = self.aff_acks.find_one({ 'affiliation.scopus_id': scopus_id,
+        a = self.aff_acks.find_one({ 'affiliation.{}'.format(parent_field): item_id,
                                 'ack.metricType': metricType,
                                 'ack.value.{}'.format(year): ack
         })
@@ -111,13 +110,25 @@ class mongo_metric_ack:
 
         i = 0
 
-        for aff_id in all_aff_ids[:n]:
+        res = []
+
+        for aff_id in all_aff_ids:
 
             if i == n:
                 break
 
-            if self.find_item(aff_id[index_field], metricType, year, 1):
-                valid_ids.append([x[child_field] for x in aff_id[child_id_field]])
+            if self.find_item(index_field, aff_id[index_field], metricType, year, 1):
+                valid_ids = [x[child_field] for x in aff_id[child_id_field]]
+                parent_id = aff_id[index_field]
+
+                a = {index_field: aff_id[index_field],
+                     child_id_field: valid_ids}
+
+                res.append(a)
+
+                # print(aff_id)
+                # print(aff_id[index_field])
                 i = i + 1
 
-        return valid_ids
+
+        return res
