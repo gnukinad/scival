@@ -9,7 +9,6 @@ import json
 from pprint import pprint as pp
 
 import sys
-print(sys.path)
 
 from db_management.metric_ack import mongo_metric_ack
 from db_management.scopus_metrics import mongo_scopus_metrics
@@ -143,45 +142,6 @@ class my_scopus_search():
 
 
 
-class my_df():
-
-    def __init__(self, df, logger=None):
-
-        self.logger = logger or logging.getLogger(__name__)
-        self.df = df.copy()
-        self.i = 0
-        self.n_rows = df.shape[0]
-        self.inds = df.index.tolist()
-
-        self.logger.debug("class was initialized")
-
-
-    def next_row(self):
-
-        if self.i < self.n_rows:
-
-            row = self.df.loc[self.inds[self.i], :]
-            self.i = self.i + 1
-            return row
-
-        else:
-            self.logger.warn("reached the end of the file")
-            raise("the end of df reached")
-
-
-    def next_aff(self, col_name):
-
-        isfree = 0
-
-        while isfree == 0:
-            row = self.next_row()
-
-            if np.isnan(row[col_name]):
-                isfree = 1
-
-        return row.name
-
-
 class scopus_query:
 
     """in this class I define those keys I need to use to extract number of books for each university
@@ -230,6 +190,15 @@ class scopus_query:
         return self
 
 
+    def encode_many(self):
+        # encode many ids via OR operator
+        self.q['doctype'] = "doctype({})".format(self.doctype)
+        self.q['year']    = "pubyear = {}".format(self.year)
+        self.q['afid']    = '( ' + ' or '.join(['af-id({})'.format(x) for x in self.afid]) + ' )'
+
+        return self
+
+
     def set_query(self):
 
         self.query = " AND ".join([self.q[key] for key in self.q.keys()])
@@ -244,23 +213,21 @@ class scopus_query:
 
 if __name__ == "__main__":
 
+    db_name_ack = 'acknowledgements'
+    coll_name_ack = 'acks_by_scival'
 
-    aff_fname = "universities_table.csv"
-    fname_aff_book_count = os.path.join(BASE_DIR, "data", aff_fname)
+    db_name_metrics = 'scopus_metrics'
+    coll_name_metrics = 'metrics_by_scival'
 
-    df_af = pd.read_csv(fname_aff_book_count).set_index("Institution")
+    parent_field = 'scival_id'
+    child_field = 'scopus_id'
+    child_id_field = 'child_id'
 
-    df_aff = my_df(df_af, logger=logger)
-
-    coll_ack = mongo_metric_ack()
-    coll_metrics = mongo_scopus_metrics()
+    coll_ack = mongo_metric_ack(db_name=db_name_ack, coll_name=coll_name_ack)
+    coll_metrics = mongo_scopus_metrics(db_name=db_name_metrics, coll_name=coll_name_metrics)
 
     # MY_API_KEY = "e53785aedfc1c54942ba237f8ec0f891"
     MY_API_KEY = read_credentials("MY_API_KEY")[0]
-
-    # n = 6000
-
-    # year = 2014
 
     _, year, n = sys.argv
     year = int(year)
@@ -278,36 +245,30 @@ if __name__ == "__main__":
                 2016: "book_downloaded_2016"}
 
 
-    fname_long_book = 'data/long_book_count.csv'
+    metricType = 'BookCount'
 
-    try:
-        df_old = pd.read_csv(fname_long_book)
-    except:
-        df_old = pd.DataFrame(columns=['name', 'metricType', 'year', 'valueByYear'])
-
-    valid_ids = coll_ack.find_valid_ids('BookCount', str(year), n)
-    print(valid_ids)
-    print('length is ', len(valid_ids))
+    valid_dicts = coll_ack.find_valid_parent_ids(metricType, str(year), n)
+    # print(valid_ids)
+    # print('length is ', len(valid_ids))
 
     for i in range(n):
 
         logger.debug("getting univerity name")
-        aff_id = valid_ids[i]
+        parent_id = valid_dicts[i][parent_field]
+        aff_id = valid_dicts[i][child_id_field]
         logger.debug("affiliation id is {}".format(aff_id))
 
         logger.debug("creating query")
-        query = scopus_query(year=year, doctype=doctype, afid='{}'.format(aff_id)).encode().set_query().get_query()
+        query = scopus_query(year=year, doctype=doctype, afid=aff_id).encode_many().set_query().get_query()
 
         logger.debug("query is {}".format(query))
 
         logger.debug("sending the request")
 
-        fname_jres = os.path.join(dname_book_count, "{}_year_{}.json".format(aff_id, year))
+        fname_jres = os.path.join(dname_book_count, "{}_year_{}.json".format(parent_id, year))
 
-        # res2 = my_scopus_search(query=query, apiKey=MY_API_KEY)
-
-        q = {'scopus_id': aff_id,
-            'metricType': 'BookCount',
+        q = {parent_field: parent_id,
+            'metricType': metricType,
             'year': year}
 
         metric_response = q.copy()
@@ -326,8 +287,8 @@ if __name__ == "__main__":
 
 
             logger.debug("updating metrics and ack dbs")
-            coll_metrics.update_item_by_year(**metric_response)
-            coll_ack.update_item_by_year(**ack_response)
+            coll_metrics.update_item_by_year(parent_field, **metric_response)
+            coll_ack.update_item_by_year(parent_field, **ack_response)
 
 
             logger.debug('saving the response to {}'.format(fname_jres))
@@ -349,9 +310,9 @@ if __name__ == "__main__":
 
                 logger.warning('updating the ack db')
                 ack_response['ack'] = -1
-                coll_ack.update_item_by_year(**ack_response)
+                coll_ack.update_item_by_year(parent_field, **ack_response)
 
-            logger.warn('respond has failed, error is ', e)
+            logger.warning('respond has failed, error is ', e)
 
     try:
         logger.debug("saving the updated table")
