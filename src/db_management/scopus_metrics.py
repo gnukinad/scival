@@ -7,11 +7,23 @@ from db_management.model import scopus_metrics
 
 class mongo_scopus_metrics:
 
-    def __init__(self):
+    def __init__ (self, db_name=None, coll_name=None, address=None, port=None):
 
-        self.client = pymongo.MongoClient('localhost', 27017)
-        self.db = self.client['scopus_metrics']
-        self.metrics = self.db['metrics']
+        if db_name is None:
+            db_name = 'scopus_metrics'
+
+        if coll_name is None:
+            coll_name = 'metrics'
+
+        if address is None:
+            address = 'localhost'
+
+        if port is None:
+            port = 27017
+
+        self.client = pymongo.MongoClient(address, port)
+        self.db = self.client[db_name]
+        self.metrics = self.db[coll_name]
 
         '''
         'scopus_id': <int>,
@@ -31,26 +43,14 @@ class mongo_scopus_metrics:
 
         assert isinstance(item, scopus_metrics), 'only "metrics" class is accepted'
 
-    def update_item_by_year(self, scopus_id, metricType, year, value):
 
-        # i need to preserve the document structure
-        # self.isValid()
-
-        self.metrics.update_one({ 'affiliation.scopus_id': scopus_id, 'results.metricType': metricType },
-                                {'$set': {
-                                    'results.value.{}'.format(year): int(value)
-                                }},
-                                upsert=True
-        )
-
-
-    def update_item_by_year2(self, **kwargs):
+    def update_item_by_year(self, parent_field,  **kwargs):
 
         # i need to preserve the document structure
         self.isValid(scopus_metrics(**kwargs))
 
-        self.metrics.update_one({ 'affiliation.scopus_id': kwargs['scopus_id'],
-                                    'results.metricType': kwargs['metricType']
+        self.metrics.update_one({ 'affiliation.{}'.format(parent_field): kwargs['{}'.format(parent_field)],
+                                  'results.metricType': kwargs['metricType']
                                   },
                                 {'$set': {
                                     'results.value.{}'.format(kwargs['year']): int(kwargs['value'])
