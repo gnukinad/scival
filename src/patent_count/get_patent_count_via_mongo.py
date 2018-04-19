@@ -4,11 +4,8 @@ import numpy as np
 import pandas as pd
 from pprint import pprint as pp
 import logging
+import logging.handlers
 import sys
-
-
-from db_management.metric_ack import mongo_metric_ack
-from db_management.scopus_metrics import mongo_scopus_metrics
 
 
 import selenium
@@ -23,6 +20,10 @@ from selenium.webdriver.support.ui import WebDriverWait as wait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 from selenium.common.exceptions import TimeoutException
+
+from db_management.metric_ack import mongo_metric_ack
+from db_management.scopus_metrics import mongo_scopus_metrics
+
 
 
 BASE_DIR = os.path.abspath(os.path.realpath(__file__))
@@ -41,7 +42,8 @@ logger = logging.getLogger(__name__)
 logger.setLevel(logging.DEBUG)
 
 # create file handler which logs info messages
-fh = logging.FileHandler(os.path.join(BASE_DIR, 'logs', 'logs.txt'), 'w', 'utf-8')
+fh = logging.handlers.RotatingFileHandler(os.path.join(BASE_DIR, 'logs', 'logs.txt'), 'a', 1024, 0, 'utf-8')
+# fh = logging.handlers.RotatingFileHandler('mptest.log', 'a', 300, 10)
 fh.setLevel(logging.DEBUG)
 
 # create console handler with a debug log level
@@ -58,6 +60,16 @@ ch.setFormatter(formatter)
 # add the handlers to the logger
 logger.addHandler(fh)
 logger.addHandler(ch)
+
+
+def create_query_with_filter(coll, index_field, aff_ids, filter):
+
+    # create a query and filter out some of them
+
+    query = '( ' + ' or '.join(['af-id({})'.format(x) for x in aff_ids]) + ' )'
+    query = '{} AND pubyear = {}'.format(query, year)
+
+
 
 
 def extract_integer_(patent_value):
@@ -92,74 +104,6 @@ def close_pop_up_window(driver):
     except:
         pass
 
-
-def get_valid_ids(df, key, n, valid_values=None, bad_values=None):
-    '''this function gets the valid indices'''
-
-    valid_values = [np.nan] or valid_values
-    bad_values = [-1] or bad_values
-
-    # a = df.loc[:, key]
-
-    valid_inds = []
-
-    inds = df.index.tolist()
-
-    i = 0
-    j = 0
-
-    while(True):
-
-        if j > df.shape[0]:
-            break
-
-        if i == n:
-            break
-
-        # coutns only nans
-        if np.isnan(df.loc[inds[j], key]):
-            valid_inds.append(inds[j])
-            i = i+1
-
-        if i % 10 == 0 and i != 0:
-            logger.debug('getting valid inds, i is {}'.format(i))
-
-        j = j + 1
-
-    print('valid inds are ')
-    print(valid_inds)
-
-    return valid_inds
-
-
-
-
-class my_df(pd.DataFrame):
-
-    def __init__(self):
-
-        super().__init__(self)
-        self.i = 0
-
-    def my_iterrows(self):
-        a = self.iterrows()
-        self.i = self.i + 1
-        return a
-
-    def get_valid_id(self, key=None):
-
-        q = 0
-
-        while(True):
-            
-            a = next(self.iterrows())
-
-            print(a)
-            q = q + 1
-
-            if q % 5 == 0:
-                break
-            
 
 def open_scopus_link(driver):
     '''
@@ -208,22 +152,6 @@ def extract_integer(a):
     return n[0]
 
 
-def unparse(l):
-    main_link, query = l.split('?')
-
-    a = query.split('&')
-
-    b = [x.split('=') for x in a]
-    params = dict(zip([x[0] for x in b], [x[1] for x in b]))
-
-    q = params['s'].split('AND')
-    qparams = [urlp.unquote_plus(x).strip() for x in q]
-
-    params['q'] = qparams
-    params['main_link'] = main_link
-
-    return params
-
 
 def get_patent_count(driver, query):
 
@@ -260,23 +188,35 @@ def get_patent_count(driver, query):
     t = 10 + runi(0, 1)
     time.sleep(t)
 
+    # no documents found
     if driver_has_element_by_xpath(driver, '//div[@class="alert alert-danger"]/a[@class="close"]'):
         logger.debug('no document found for here')
         a = 0
         return a
     else:
 
+        # if documents found
         a = 0
 
         try:
-            logger.debug('retrieving patent_count')
-            patent_hidden_element = driver.find_element_by_id('hubLinksContainer')
-            if patent_hidden_element.get_attribute('class') == 'hidden':
-                logger.debug('no patent elements were found')
-                patent_value = 0
-            else:
-                patent_element = driver.find_element_by_id('patentLink')
-                patent_value = patent_element.text
+
+            to_wait = -5 
+
+            while to_wait < 0:
+
+                logger.debug('retrieving patent_count')
+                patent_hidden_element = driver.find_element_by_id('hubLinksContainer')
+                if patent_hidden_element.get_attribute('class') == 'hidden':
+                    logger.debug('no patent elements were found')
+                    patent_value = 0
+                    to_wait = 5
+                elif driver.find_element_by_id('patentLink').is_displayed():
+                    logger.debug('getting #patentLink once more')
+                    patent_element = driver.find_element_by_id('patentLink')
+                    patent_value = patent_element.text
+                    time.sleep(1)
+                    to_wait = to_wait + 1
+
 
         except:
             driver.find_element_by_xpath("//button[@title='Edit search query']").click()
@@ -307,18 +247,25 @@ def get_patent_count(driver, query):
             return a
 
 
-def main(n, year, metricType):
+def main(n, year, metricType, ack_params, metrics_params):
 
     adv_search_link = 'https://www.scopus.com/search/form.uri?display=advanced&clear=t&origin=searchbasic&txGid=fc476bc6f6c3a112a577edd9f6f26e14'
 
     logger.debug('downloaded results table')
 
 
-    db_name_ack = 'acknowledgements'
-    coll_name_ack = 'acks_by_scival'
+    # db_name_ack = 'acknowledgements'
+    # coll_name_ack = 'acks_by_scival_Apr19'
 
-    db_name_metrics = 'scopus_metrics'
-    coll_name_metrics = 'metrics_by_scival'
+    # db_name_metrics = 'scopus_metrics'
+    # coll_name_metrics = 'metrics_by_scival'
+
+
+    db_name_ack = ack_params['db_name']
+    coll_name_ack = ack_params['coll_name']
+
+    db_name_metrics = metrics_params['db_name']
+    coll_name_metrics = metrics_params['coll_name']
 
     parent_field = 'scival_id'
     child_field = 'scopus_id'
@@ -341,7 +288,6 @@ def main(n, year, metricType):
 
     binary = FirefoxBinary('/usr/lib/firefox/firefox')
     driver = webdriver.Firefox(firefox_binary=binary, firefox_profile=fp)
-    # driver.set_page_load_timeout(timeout) # error if timeout has passed
 
 
     try:
@@ -359,7 +305,8 @@ def main(n, year, metricType):
         for valid_dict in valid_dicts:
 
 
-            driver.get('https://www.scopus.com/search/form.uri?display=advanced&clear=t&origin=searchbasic&txGid=fc476bc6f6c3a112a577edd9f6f26e14')
+            logger.debug('opening advanced search link')
+            driver.get(adv_search_link)
             time.sleep(5+runi(-1, 1))
 
             close_pop_up_window(driver)
@@ -426,25 +373,3 @@ def main(n, year, metricType):
     return driver
 
 
-
-if __name__ == "__main__":
-
-    _, year, n, rep = sys.argv
-
-    year = int(year)
-    n = int(n)
-    rep = int(rep)
-
-    # n = 15
-
-    # year = 2012
-    # years = [2012, 2013, 2014, 2015, 2016]
-    # years = [2012]
-    metricType = 'PatentCount'
-
-    for i in range(rep):
-
-        print('year {}\nn is {}\rep is {}'.format(year, n, rep))
-
-        driver = main(n=n, year=year, metricType=metricType)
-        time.sleep(5)
