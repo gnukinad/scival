@@ -67,3 +67,11 @@ class mongo_ids:
 
         # add a list of append_values alltogether
         self.aff_ids.find_one_and_update({index_field: parent_aff.to_dict()[index_field]}, {'$addToSet': {append_field: {'$each': append_values}}})
+
+
+    def filter_children_by_name(self, parent_field, parent_id, filter_field, filter_name):
+
+        # filter child ids by name
+        return self.aff_ids.find({parent_field: parent_id, filter_field: {'$regex': filter_name, '$options': 'i'}})
+
+

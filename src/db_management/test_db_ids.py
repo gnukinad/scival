@@ -1,6 +1,6 @@
 import pandas as pd
-from model import ids
-from db_ids import mongo_ids
+from db_management.model import ids
+from db_management.db_ids import mongo_ids
 import re
 import numpy as np
 
@@ -80,3 +80,14 @@ def try_partial_input():
     b = ids(**new_item)
 
     db_ids.partial_insert(a, 'scopus_id', b)
+
+
+
+def try_find_and_filter():
+
+    coll = mongo_ids()
+
+    a = coll.filter_children_by_name('parent_id', [{'scival_id': 508076}], 'name', 'harvard')
+
+
+    return a

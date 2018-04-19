@@ -54,9 +54,12 @@ def test_acknowledgement():
     coll = mongo_metric_ack()
 
     metricType = 'PatentCount'
-    year = '2012'
+    year = '2016'
     n = 20
 
+
+
     q = coll.find_valid_parent_ids(metricType, str(year), n)
+    return q
 
 
