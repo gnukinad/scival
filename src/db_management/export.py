@@ -72,6 +72,8 @@ def restore():
 
     command = 'mongoexport --db {} --collection {} --out {}'
 
+    assert len(colls_names) == len(fnames)
+
     a = [command.format(db_name, colls[i], fnames[i]) for i, x in enumerate(colls)]
     print(a)
 
@@ -79,13 +81,18 @@ def restore():
 
 
 
-# if __name__ == "__main__":
-def main():
+if __name__ == "__main__":
+# def main():
+
+
 
     cmd = sys.argv[1]
 
+    print(cmd)
+
 
     if cmd == 'dump':
+        print('doing dump')
         dump()
     elif cmd == 'restore':
         restore()
