@@ -12,12 +12,20 @@ if __name__ == "__main__":
     rep = int(rep)
 
     metricType = 'PatentCount'
+    queryTypes = ["by_id", "by_name"]
+    queryType = queryTypes[1]
 
-    ack_params = {'db_name': 'acknowledgments',
-                  'coll_name': 'acks_apr19'}
+    db_name = 'patent_count_may17'
 
-    metrics_params = {'db_name': 'scopus_metrics',
-                      'coll_name': 'metrics_apr19'}
+    ack_params = {'db_name': db_name,
+                  'coll_name': 'acks_by_name',
+                  'query_type': queryType}
+
+
+    metrics_params = {'db_name': db_name,
+                      'coll_name': 'metrics_by_name',
+                      'query_type': queryType}
+
 
     for i in range(rep):
 

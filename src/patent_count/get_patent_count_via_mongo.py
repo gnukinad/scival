@@ -65,9 +65,25 @@ logger.addHandler(ch)
 def create_query_with_filter(coll, index_field, aff_ids, filter):
 
     # create a query and filter out some of them
+    # this is a prototype that probably will not be used
 
     query = '( ' + ' or '.join(['af-id({})'.format(x) for x in aff_ids]) + ' )'
     query = '{} AND pubyear = {}'.format(query, year)
+
+
+def create_query(aff_ids, aff_name, query_type, year):
+
+    # create a query and filter out some of them
+
+    if query_type == "by_id":
+        query = '( ' + ' or '.join(['af-id({})'.format(x) for x in aff_ids]) + ' )'
+
+    elif query_type == "by_name":
+        query = ' AFFILORG( "{}" ) '.format(aff_name)
+
+    query = '{} AND pubyear = {}'.format(query, year)
+
+    return query
 
 
 
@@ -315,11 +331,15 @@ def main(n, year, metricType, ack_params, metrics_params):
 
             parent_id = valid_dict[parent_field]
             aff_id = valid_dict[child_id_field]
+            aff_name = valid_dict['name']
 
             logger.debug('creating query for search')
-            # query = 'af-id({}) AND pubyear = {}'.format(aff_id, year)
-            query = '( ' + ' or '.join(['af-id({})'.format(x) for x in aff_id]) + ' )'
-            query = '{} AND pubyear = {}'.format(query, year)
+            # # query = 'af-id({}) AND pubyear = {}'.format(aff_id, year)
+            # query = '( ' + ' or '.join(['af-id({})'.format(x) for x in aff_id]) + ' )'
+            # query = '{} AND pubyear = {}'.format(query, year)
+
+            # created a query with variable query_type
+            query = create_query(aff_id, aff_name, ack_params['query_type'], year)
             logger.debug('query is {}'.format(query))
 
 

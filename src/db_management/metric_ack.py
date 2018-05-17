@@ -121,8 +121,10 @@ class mongo_metric_ack:
                 valid_ids = [x[child_field] for x in aff_id[child_id_field]]
                 parent_id = aff_id[index_field]
 
+
                 a = {index_field: aff_id[index_field],
-                     child_id_field: valid_ids}
+                     child_id_field: valid_ids,
+                     'name': aff_id['name']}
 
                 res.append(a)
 
