@@ -17,13 +17,14 @@ if __name__ == "__main__":
 
     db_name = 'patent_count_may17'
 
+
     ack_params = {'db_name': db_name,
-                  'coll_name': 'acks_by_name',
+                  'coll_name': 'acks_{}'.format(queryType),
                   'query_type': queryType}
 
 
     metrics_params = {'db_name': db_name,
-                      'coll_name': 'metrics_by_name',
+                      'coll_name': 'metrics_{}'.format(queryType),
                       'query_type': queryType}
 
 
