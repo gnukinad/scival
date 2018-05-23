@@ -10,6 +10,7 @@ import numpy as np
 def transer_ids_from_institution():
 
     db_ids = mongo_ids()
+    n = 100
 
     fname_main = '../../data/universities_table.csv'
 
@@ -34,6 +35,8 @@ def transer_ids_from_institution():
         print('index is ', index)
         # print('row is ', row)
         item = ids(**row.to_dict())
+        print('inserting item')
+        print(item)
         db_ids.insert_affiliation(item)
 
 
@@ -91,3 +94,49 @@ def try_find_and_filter():
 
 
     return a
+
+
+if __name__ == "__main__":
+# def transer_table_to_db():
+
+    db_name = "ids"
+    coll_name = "name_ids_updated5"
+
+    db_ids = mongo_ids(db_name=db_name, coll_name=coll_name)
+    # n = 100
+
+    fname_main = '../data/universities_table.csv'
+
+    drop_cols = ['order', 'metrics', 'id_downloaded', 'link', 'type', 'name', 'uri']
+    # drop_cols = ['order', 'metrics', 'id_downloaded', 'link', 'type', 'name', 'uri', 'countryCode', 'country']
+
+    df = pd.read_csv(fname_main)
+
+    cols = df.columns.tolist()
+
+    # df = df.set_index("Institution")
+
+    drop_cols.extend([x for x in cols if re.search(r'downloaded', x, re.I)])
+    drop_cols = np.unique(drop_cols)
+
+    df = df.drop(drop_cols, axis=1).rename({'id': 'scival_id', 'Institution': 'name'}, axis=1)
+    df = df.replace(np.nan, '')
+
+    cols = df.columns.tolist()
+
+    index_field = 'scival_id'
+
+    for index, row in df.iterrows(): 
+    # for index, row in df.iloc[-10:, :].iterrows(): 
+
+        if row[index_field]:
+
+            print("inserting item")
+            # a = row.to_dict()
+            # print('a is ')
+            # print(a)
+
+            item = ids(**row.to_dict())
+            print(item.to_dict())
+
+            db_ids.partial_insert_by_index(row[index_field], index_field, item)
