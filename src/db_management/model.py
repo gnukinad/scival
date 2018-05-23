@@ -34,7 +34,7 @@ class base_model:
 
     def set_items(self, **kwargs):
 
-        self.__dict__.update((k, v) for k, v in kwargs.items() if k in dir(self) and not callable(getattr(self, k)))
+        self.__dict__.update((k, v) for k, v in kwargs.items() if (k in dir(self)) and (not callable(getattr(self, k))) and (v))
 
 
 
