@@ -9,11 +9,17 @@ import re
 
 class mongo_ids:
 
-    def __init__(self):
+    def __init__(self, db_name=None, coll_name=None):
+
+        if db_name is None:
+            db_name = "ids"
+
+        if coll_name is None:
+            coll_name = "name_ids_updated2"
 
         self.client = pymongo.MongoClient('localhost', 27017)
-        self.db = self.client['ids']
-        self.aff_ids = self.db['name_ids']
+        self.db = self.client[db_name]
+        self.aff_ids = self.db[coll_name]
 
 
     def isValid(self, item):
