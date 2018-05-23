@@ -346,7 +346,7 @@ if __name__ == "__main__":
                 table, extracted_name, child_count = extract_table(driver)
                 logger.debug('table extracted succesfully')
             except:
-                logger.waning('table could not be extracted')
+                logger.warning('table could not be extracted')
                 raise
 
             logger.debug('saving the child_ids of {}'.format(valid_ids[i]))
