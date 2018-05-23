@@ -58,6 +58,21 @@ class mongo_ids:
             self.aff_ids.update_one({index_field: a, key: {'$exists': True}}, {'$set': {key: value[0]}}, upsert=False)
 
 
+    def partial_insert_by_index(self, index_value, index_field, new_item):
+
+        # insert item partially, the position is selected by index_field
+        self.isValid(new_item)
+
+        # a = item.to_dict()[index_field]
+
+        for key, value in new_item.to_dict().items():
+
+
+            if key != index_field:
+                print("inserting items")
+                self.aff_ids.update_one({index_field: index_value, key: {'$exists': False}}, {'$set': {key: value}}, upsert=True)
+
+
     def append_child_aff(self, parent_aff, index_field, child_aff):
 
         # self.aff_ids.find_one_and_update({index_field: parent_aff.to_dict[index_field]}, {'$push': {"child_id", child_affs}})
