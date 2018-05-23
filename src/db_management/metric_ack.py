@@ -117,7 +117,7 @@ class mongo_metric_ack:
             if i == n:
                 break
 
-            if self.find_item(index_field, aff_id[index_field], metricType, year, 1):
+            if self.find_item(index_field, aff_id[index_field], metricType, year, 1) and child_id_field in list(aff_id.keys()):
                 valid_ids = [x[child_field] for x in aff_id[child_id_field]]
                 parent_id = aff_id[index_field]
 
