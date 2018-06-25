@@ -128,12 +128,14 @@ if __name__ == "__main__":
     df_list = [pd.DataFrame(pd.read_csv(x)) for x in all_fnames]
     df_metric = pd.concat(df_list)
 
-    fname_long_book = '../data/long_book_count.csv'
-    fname_long_patent  = '../data/patent_count.xlsx'
+    df_metric.to_csv("asdasd.csv")
 
-    df_patent = pd.read_csv(fname_long_book)
-    df_book   = pd.read_excel(fname_long_patent)
+    # fname_long_book = '../data/long_book_count.csv'
+    # fname_long_patent  = '../data/patent_count.xlsx'
 
-    df = pd.concat([df_metric, df_patent, df_book], ignore_index=True)
+    # df_patent = pd.read_csv(fname_long_book)
+    # df_book   = pd.read_excel(fname_long_patent)
 
-    df.to_csv('../data/long_all_metrics.csv', index=False)
+    # df = pd.concat([df_metric, df_patent, df_book], ignore_index=True)
+
+    # df.to_csv('../data/long_all_metrics.csv', index=False)

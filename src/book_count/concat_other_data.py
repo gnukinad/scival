@@ -139,9 +139,9 @@ def append_book_count(res_name, year):
 
 if __name__ == "__main__":
 
-    fname_long_book = 'data/long_book_count.csv'
+    fname_long_book = 'data/long_book_count2.csv'
 
-    years = [2012, 2013, 2014, 2015, 2016]
+    years = [2014, 2015, 2016]
     # years = [2012]
     for x in years:
         df = append_book_count(fname_long_book, x)

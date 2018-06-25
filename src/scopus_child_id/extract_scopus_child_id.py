@@ -347,23 +347,23 @@ if __name__ == "__main__":
                 logger.debug('table extracted succesfully')
             except:
                 logger.warning('table could not be extracted')
-                raise
 
-            logger.debug('saving the child_ids of {}'.format(valid_ids[i]))
-            table.to_excel('data/child_id/{}.xlsx'.format(valid_ids[i]), index=False)
+            else:
+                logger.debug('saving the child_ids of {}'.format(valid_ids[i]))
+                table.to_excel('data/child_id/{}.xlsx'.format(valid_ids[i]), index=False)
 
 
-            logger.debug('saving acknoledge to the table')
-            df.loc[df.id == valid_ids[i], 'scopus_id_downloaded'] = 1
-            df.to_csv(fname, index=False)
+                logger.debug('saving acknoledge to the table')
+                df.loc[df.id == valid_ids[i], 'scopus_id_downloaded'] = 1
+                df.to_csv(fname, index=False)
 
-            time.sleep(5 + runi(-1, 1))
+                time.sleep(5 + runi(-1, 1))
 
-            parent_aff = {'name': valid_names[i],
-                          'scival_id': valid_ids[i]
-            }
+                parent_aff = {'name': valid_names[i],
+                              'scival_id': valid_ids[i]
+                }
 
-            append_scopus_ids_to_parent(db_ids, table, parent_aff)
+                append_scopus_ids_to_parent(db_ids, table, parent_aff)
 
 
         logger.debug('opening link to remove all universities')

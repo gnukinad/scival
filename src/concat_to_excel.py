@@ -30,7 +30,7 @@ ch = logging.StreamHandler()
 ch.setLevel(logging.DEBUG)
 
 # creating a formatter
-formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)-8s: %(message)s')
+formatter = logging.Formatter('%(asctime)s - %(name)s - %(lineno)s - %(levelname)-8s: %(message)s')
 
 # setting handler format
 fh.setFormatter(formatter)
@@ -192,7 +192,7 @@ if __name__ == "__main__":
     # where all data is stored
 
     drop_cols = ['uri', 'type', 'link']
-    excel_fname = "all_affiliations5.xlsx"    # soon be renamed into all_metrics.xlsx
+    excel_fname = "all_affiliations6.xlsx"    # soon be renamed into all_metrics.xlsx
 
     fname_order = os.path.join('data', 'universities_order.xlsx')
 

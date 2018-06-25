@@ -143,7 +143,7 @@ if __name__ == "__main__":
     get metric responses for each affiliation id and write to csv
     """
 
-    MY_API_KEY = read_credentials("MY_API_KEY")
+    MY_API_KEY = read_credentials("MY_API_KEY")[0]
     # MY_API_KEY = "e53785aedfc1c54942ba237f8ec0f891"
     # MY_API_KEY = "7f59af901d2d86f78a1fd60c1bf9426a"
 

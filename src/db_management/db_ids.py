@@ -15,7 +15,7 @@ class mongo_ids:
             db_name = "ids"
 
         if coll_name is None:
-            coll_name = "name_ids_updated2"
+            coll_name = "name_ids"
 
         self.client = pymongo.MongoClient('localhost', 27017)
         self.db = self.client[db_name]
