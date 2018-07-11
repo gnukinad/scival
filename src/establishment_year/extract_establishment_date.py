@@ -183,6 +183,6 @@ if __name__ == "__main__":
                     df.at[index, cname_concern] = 1
 
 
-    # df.to_csv("qwewqe.csv")
-    df.to_csv(fname, index=False)
+    df.to_csv("try2000.csv", index=False)
+    # df.to_csv(fname, index=False)
 
