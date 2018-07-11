@@ -3,3 +3,5 @@ src/__pycache__
 src/*~
 foo.log
 -db
+data/
+venv/
