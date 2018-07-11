@@ -5,3 +5,6 @@ foo.log
 -db
 data/
 venv/
+**/logs/
+src/establishment_year/geckodriver.log
+src/establishment_year/logs.txt
